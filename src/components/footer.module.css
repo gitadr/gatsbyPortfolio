@@ -1,0 +1,138 @@
+/* FOOTER: */
+
+.container {
+  max-width: 1240px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  align-content: center;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 80px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer .container {
+  align-content: flex-start;
+}
+
+.footerTwitter {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #fff;
+}
+
+.footerTwitter p {
+  padding-right: 0px;
+  margin-top: 8px;
+}
+
+.tweet {
+  margin: 0 0 32px 0;
+}
+
+.footerInstagram {
+  display: grid;
+  grid-column: 1 / -1;
+  align-items: center;
+}
+
+.footerInstagram ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footerInstagram li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3% 1% 0;
+  flex-basis: 30%;
+}
+
+.footerInstagram li img {
+  width: 100%;
+}
+
+img.twitterLogo {
+  display: none;
+}
+
+img.instagramLogo {
+  width: 52px;
+  display: inline-flex;
+  align-self: center;
+}
+
+.footerImage {
+  grid-column: 1;
+  align-items: center;
+}
+
+.footerColophon {
+  grid-column: 1 / -1;
+}
+
+.footerCopyright {
+  grid-column: 1 / -1;
+}
+
+.footerKeyline {
+  grid-column: 1/-1;
+  height: 1px;
+  background: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 0 20px;
+  }
+  .footerTwitter {
+    grid-column: 1 / 7;
+  }
+  .footerInstagram {
+    grid-column: 7 / 13;
+  }
+  .footerColophon {
+    grid-column: 1 / 9;
+  }
+  .footerCopyright {
+    grid-column: 10 / 13;
+  }
+  .tweet {
+    margin-left: 48px;
+  }
+  .footerInstagram li {
+    margin-right: 3%;
+    flex-basis: 13%;
+  }
+  .footerTwitter {
+    border: none;
+  }
+  .tweet {
+    margin-left: 24px;
+  }
+  img.twitterLogo {
+    display: inline-block;
+  }
+  .footerTwitter p {
+    padding-right: 48px;
+  }
+}

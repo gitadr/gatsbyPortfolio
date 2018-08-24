@@ -1,0 +1,19 @@
+.container {
+  max-width: 1240px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  align-content: center;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #fff;
+  border-top: 8px solid #000;
+}
+
+.content {
+  grid-column: 1 / -1;
+}
