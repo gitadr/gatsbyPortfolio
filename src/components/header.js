@@ -5,7 +5,7 @@ export default () => (
   <header>
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1>Hello I’m Aaron, a British Product Designer based in Sydney.</h1>
+        <h1>Hello I’m Aaron, a British Product Designer based in London.</h1>
         <p className="intro">
           Over the past seven years i've focused on building products that help
           people understand and react to complex information. Whether that's
