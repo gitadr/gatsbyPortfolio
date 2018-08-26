@@ -12,7 +12,7 @@ export default () => (
             <h1>I’d rather be a pirate than join the navy.</h1>
           </Link>
           <div className={styles.articlePreview}>
-            <img src={require("../images/heroImage.png")} />
+            <img src={require("../images/heroImage.png")} alt="Steve Jobs" />
             <div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adi piscing elit. Nullam

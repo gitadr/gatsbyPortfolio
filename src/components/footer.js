@@ -5,11 +5,11 @@ export default () => (
   <footer>
     <div className={styles.container}>
       <div className={styles.footerTwitter}>
-        <a href="#">
+        <a href="https://twitter.com/aaroot">
           <img
             className="twitterLogo"
             src={require("../images/icons/twitterLogo.svg")}
-            alt="instagram"
+            alt="Twitter logo"
           />
         </a>
         <div className={styles.tweet}>
@@ -24,7 +24,7 @@ export default () => (
       <div className={styles.footerInstagram}>
         <ul>
           <li>
-            <a href="#">
+            <a href="https://www.instagram.com/aaroot88/">
               <img
                 className={styles.instagramLogo}
                 src={require("../images/icons/instagramLogo.svg")}
@@ -33,49 +33,39 @@ export default () => (
             </a>
           </li>
           <li>
-            <a href="#">
-              <img
-                className={styles.footerImage}
-                src={require("../images/image1.png")}
-                alt="image1"
-              />
-            </a>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image1.png")}
+              alt="image1"
+            />
           </li>
           <li>
-            <a href="#">
-              <img
-                className={styles.footerImage}
-                src={require("../images/image2.png")}
-                alt="image2"
-              />
-            </a>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image2.png")}
+              alt="image2"
+            />
           </li>
           <li>
-            <a href="#">
-              <img
-                className={styles.footerImage}
-                src={require("../images/image3.png")}
-                alt="image3"
-              />
-            </a>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image3.png")}
+              alt="image3"
+            />
           </li>
           <li>
-            <a href="#">
-              <img
-                className={styles.footerImage}
-                src={require("../images/image4.png")}
-                alt="image4"
-              />
-            </a>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image4.png")}
+              alt="image4"
+            />
           </li>
           <li>
-            <a href="#">
-              <img
-                className={styles.footerImage}
-                src={require("../images/image5.png")}
-                alt="image5"
-              />
-            </a>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image5.png")}
+              alt="image5"
+            />
           </li>
         </ul>
       </div>
@@ -83,13 +73,18 @@ export default () => (
       <div className={styles.footerColophon}>
         <p>
           This site is a work-in-progress. It's being built with{" "}
-          <a href="https://reactjs.org/">React</a> using <a href="#">VS Code</a>{" "}
-          and Framer's handsome <a href="#">syntax theme</a>. Version control is
-          handled by <a href="#">GitHub</a> and deployment by{" "}
-          <a href="#">Netfliy</a>. Type is currently set in your system font
-          because i've been too indecisive to choose another. If there is
-          anything else you would like to know please email me at{" "}
-          <a href="mailto:mail@aaronroot.net">mail@aaronroot.net</a>
+          <a href="https://www.gatsbyjs.org/">Gatsby</a>, the{" "}
+          <a href="https://reactjs.org/">React</a> static site generater. My
+          code editor of choice is{" "}
+          <a href="https://code.visualstudio.com/">VS Code</a>, paired with
+          Framer's handsome{" "}
+          <a href="https://framer.com/free-syntax-theme/">syntax theme</a>.
+          Version control is handled by{" "}
+          <a href="http://www.github.com/gitadr">GitHub</a> and deployment by{" "}
+          <a href="https://www.netlify.com/">Netfliy</a>. Type is currently set
+          in your system font because i've been too indecisive to choose
+          another. If there is anything else you would like to know please email
+          me at <a href="mailto:mail@aaronroot.net">mail@aaronroot.net</a>
         </p>
       </div>
       <div className={styles.footerCopyright}>

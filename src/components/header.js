@@ -22,7 +22,7 @@ export default () => (
           <span className="linkIcon" />
           <span className="text">Get In Touch</span>
         </a>
-        <a href="#" className="button">
+        <a href="http://aaronroot.net/cv.pdf" className="button">
           <span className="downloadIcon" />
           <span className="text">Download C.V.</span>
         </a>
