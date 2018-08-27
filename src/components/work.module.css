@@ -86,3 +86,13 @@
     background-position: left bottom;
   }
 }
+@media only screen and (min-width: 1199px) {
+  .work .container {
+    background-image: url(../images/workDesktopLarge.jpg);
+    background-size: 1203px 803px;
+  }
+  .workText {
+    grid-column: 8 / 13;
+    align-self: center;
+  }
+}

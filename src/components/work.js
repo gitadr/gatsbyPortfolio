@@ -6,6 +6,7 @@ export default () => (
   <section className={styles.work}>
     <div className={styles.container}>
       <div className={styles.workText}>
+        <p className="articleDate">RECENT PROJECTS</p>
         <h1>Designing high risk interactions.</h1>
         <p>
           Trading is hard. Designing trading applications isn't any easier.
@@ -15,7 +16,7 @@ export default () => (
         </p>
         <Link to="/caseStudy_one" className="button invert">
           <span className="linkIcon" />
-          <span className="text">View Projects</span>
+          <span className="text">View Project</span>
         </Link>
       </div>
     </div>
