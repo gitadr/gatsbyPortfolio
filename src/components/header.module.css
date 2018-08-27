@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
-  align-content: center;
+  align-items: center;
   padding: 0 20px;
 }
 
@@ -13,6 +13,40 @@ header {
   background-color: #fff;
 }
 
-.content {
+.headerIntro {
   grid-column: 1 / -1;
+  align-self: end;
+}
+
+.headerBody {
+  grid-column: 1 / -1;
+  align-self: start;
+}
+
+.block {
+  width: 80px;
+  height: 10px;
+  background-color: black;
+  margin: 32px 0 0 0;
+}
+
+@media only screen and (min-width: 1120px) {
+  .headerIntro {
+    grid-column: 1 / 8;
+    align-self: center;
+  }
+  .headerBody {
+    grid-column: 8 / 13;
+    align-self: center;
+  }
+  .block {
+    width: 80px;
+    height: 10px;
+    background-color: black;
+    margin: 40px 0 68px 0;
+  }
+  h1 span::before {
+    content: "\A";
+    white-space: pre;
+  }
 }

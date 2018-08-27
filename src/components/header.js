@@ -4,15 +4,22 @@ import styles from "./header.module.css";
 export default () => (
   <header>
     <div className={styles.container}>
-      <div className={styles.content}>
-        <h1>Hello I’m Aaron, a British Product Designer based in London.</h1>
-        <p className="intro">
-          Over the past seven years i've focused on building products that help
-          people understand and react to complex information. Whether that's
-          patient health records or financial trading data, the goal has been to
-          create applications that are simple, accessible and empowering.
+      <div className={styles.headerIntro}>
+        <h1>
+          Hello I’m Aaron,
+          <span> A Sydney based Product Designer.</span>
+        </h1>
+        <div className={styles.block} />
+      </div>
+      <div className={styles.headerBody}>
+        <p>
+          Over the past seven years I have focused on building products that
+          help people understand and react to complex information. Whether
+          that's patient health records or financial trading data, the goal has
+          been to create applications that are simple, accessible and
+          empowering.
         </p>
-        <p className="intro">
+        <p>
           I specialise in clean and well structured interfaces, user centred
           design, data driven prototypes and design systems. My experience
           leading co-located design teams has taught me the value of creating a

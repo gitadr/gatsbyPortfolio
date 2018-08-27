@@ -44,10 +44,6 @@ footer .container {
   margin: 0;
 }
 
-.tweet p.intro {
-  line-height: 28px;
-}
-
 .footerInstagram {
   grid-column: 1 / -1;
   display: flex;
@@ -132,7 +128,6 @@ img.twitterLogo {
   }
   .footerTwitter p {
     padding: 0 48px 0 0;
-    line-height: 28px;
   }
   .footerInstagram li:last-child {
     display: block;

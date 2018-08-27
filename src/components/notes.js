@@ -17,9 +17,7 @@ export default () => (
               <p>
                 Lorem ipsum dolor sit amet, consectetur adi piscing elit. Nullam
                 posuere nisl et sem congue, ac tempus nibh egestas nullam
-                tincidunt nib Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Nunc volutpat nec dolor ut luctus. Ut id felis sed nisl
-                aliquet egestas...
+                tincidunt nib Lorem ipsum dolor sit amet...
               </p>
             </div>
           </div>
