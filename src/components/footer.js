@@ -13,8 +13,7 @@ export default () => (
           />
         </a>
         <div className={styles.tweet}>
-          <h4>@aaroot</h4>
-          <p>
+          <p className="intro">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             non pretium massa. Integer pellentesque in magna ut laoreet. Aenean
             luctus tristique lacus in rutrum.
@@ -22,15 +21,46 @@ export default () => (
         </div>
       </div>
       <div className={styles.footerInstagram}>
+        <img
+          className={styles.instagramLogo}
+          src={require("../images/icons/instagramLogo.svg")}
+          alt="instagram"
+        />
         <ul>
           <li>
-            <a href="https://www.instagram.com/aaroot88/">
-              <img
-                className={styles.instagramLogo}
-                src={require("../images/icons/instagramLogo.svg")}
-                alt="instagram"
-              />
-            </a>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image1.png")}
+              alt="image1"
+            />
+          </li>
+          <li>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image2.png")}
+              alt="image2"
+            />
+          </li>
+          <li>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image3.png")}
+              alt="image3"
+            />
+          </li>
+          <li>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image4.png")}
+              alt="image4"
+            />
+          </li>
+          <li>
+            <img
+              className={styles.footerImage}
+              src={require("../images/image5.png")}
+              alt="image5"
+            />
           </li>
           <li>
             <img
@@ -72,12 +102,11 @@ export default () => (
       <div className={styles.footerKeyline} />
       <div className={styles.footerColophon}>
         <p>
-          This site is a work-in-progress. It's being built with{" "}
+          This portfolio is a work-in-progress. Built using{" "}
           <a href="https://www.gatsbyjs.org/">Gatsby</a>, the{" "}
-          <a href="https://reactjs.org/">React</a> static site generater. My
-          code editor of choice is{" "}
-          <a href="https://code.visualstudio.com/">VS Code</a>, paired with
-          Framer's handsome{" "}
+          <a href="https://reactjs.org/">React</a> static site generater. Coded
+          using <a href="https://code.visualstudio.com/">VS Code</a>, paired
+          with Framer's handsome{" "}
           <a href="https://framer.com/free-syntax-theme/">syntax theme</a>.
           Version control is handled by{" "}
           <a href="http://www.github.com/gitadr">GitHub</a> and deployment by{" "}

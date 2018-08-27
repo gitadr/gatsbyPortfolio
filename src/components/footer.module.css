@@ -14,7 +14,6 @@
 footer {
   background-color: #000;
   color: #fff;
-  padding-top: 80px;
 }
 
 footer a {
@@ -29,9 +28,11 @@ footer .container {
 .footerTwitter {
   grid-column: 1 / -1;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style: none;
   border-bottom: 1px solid #fff;
+  margin: 80px 0 32px 0;
 }
 
 .footerTwitter p {
@@ -40,31 +41,44 @@ footer .container {
 }
 
 .tweet {
-  margin: 0 0 32px 0;
+  margin: 0;
+}
+
+.tweet p.intro {
+  line-height: 28px;
 }
 
 .footerInstagram {
-  display: grid;
   grid-column: 1 / -1;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 80px 0 32px 0;
+}
+
+img.instagramLogo {
+  align-self: flex-start;
 }
 
 .footerInstagram ul {
+  flex: 1;
   display: flex;
-  align-items: center;
   list-style: none;
   padding: 0;
-  align-items: center;
+  margin: 0 0 0 24px;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .footerInstagram li {
-  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 3% 1% 0;
-  flex-basis: 30%;
+  margin: 0 0 2.4% 3.6%;
+  flex-basis: 29%;
+}
+.footerInstagram li:last-child {
+  display: none;
 }
 
 .footerInstagram li img {
@@ -73,17 +87,7 @@ footer .container {
 
 img.twitterLogo {
   display: none;
-}
-
-img.instagramLogo {
-  width: 52px;
-  display: inline-flex;
-  align-self: center;
-}
-
-.footerImage {
-  grid-column: 1;
-  align-items: center;
+  margin-top: 8px;
 }
 
 .footerColophon {
@@ -116,23 +120,21 @@ img.instagramLogo {
   .footerCopyright {
     grid-column: 10 / 13;
   }
-  .tweet {
-    margin-left: 48px;
-  }
   .footerInstagram li {
-    margin-right: 3%;
-    flex-basis: 13%;
+    flex-basis: 16%;
   }
   .footerTwitter {
     border: none;
   }
-  .tweet {
-    margin-left: 24px;
-  }
   img.twitterLogo {
     display: inline-block;
+    margin-top: 8px;
   }
   .footerTwitter p {
-    padding-right: 48px;
+    padding: 0 48px 0 0;
+    line-height: 28px;
+  }
+  .footerInstagram li:last-child {
+    display: block;
   }
 }
