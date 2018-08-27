@@ -1,0 +1,50 @@
+.blogArticle {
+  color: #000;
+}
+
+.blogArticle section p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.blogArticle p.intro {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  grid-gap: 20px;
+}
+
+.blogArticleHeader {
+  grid-column: 1 / -1;
+  height: 48px;
+  max-width: 1240px;
+  margin: 112px auto 0 auto;
+}
+
+.blogArticleFooter {
+  grid-column: 3 / 11;
+  max-width: 1240px;
+  margin: 64px auto 160px auto;
+  padding: 40px 0 40px 0;
+  border-top: 1px solid #d8d8dc;
+}
+
+.backLink {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2.4px;
+  font-weight: 700;
+}
+.backLink:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../images/icons/arrowBackwardIcon.svg) no-repeat;
+  float: left;
+  margin: 5px 12px 0 0;
+}

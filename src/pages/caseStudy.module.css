@@ -1,17 +1,31 @@
+.caseStudy {
+  color: #000;
+}
+
+.caseStudy section p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.caseStudy p.intro {
+  font-size: 24px;
+  line-height: 36px;
+}
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
   grid-gap: 20px;
 }
 
-.workHeader {
+.caseStudyHeader {
   grid-column: 1 / -1;
   height: 48px;
   max-width: 1240px;
   margin: 112px auto 0 auto;
 }
 
-.workFooter {
+.caseStudyFooter {
   grid-column: 3 / 11;
   max-width: 1240px;
   margin: 64px auto 160px auto;
@@ -49,16 +63,41 @@
   width: 100%;
 }
 
-article.lorem {
+.caseStudy article {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
   max-width: 1240px;
   margin: 0 auto;
 }
-section.diet {
+.caseStudy section {
   grid-column: 3 / 11;
 }
+
+section.mobileDesign {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #d8d8dc;
+  border-bottom: 1px solid #d8d8dc;
+  padding: 40px 0;
+  margin: 32px 0;
+}
+
+.workText {
+  flex-basis: 48%;
+  padding-right: 2%;
+  align-self: center;
+}
+
+.workImage {
+  flex-basis: 50%;
+}
+
+.workImage img {
+  width: 100%;
+  height: auto;
+}
+
 .caseStudy_LargeImage {
   width: 100%;
   grid-column: 1 / -1;

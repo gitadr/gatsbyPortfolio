@@ -8,7 +8,7 @@ export default () => (
       <div className={styles.articleHero}>
         <article className={styles.hero}>
           <p className="articleDate">Tuesday, 17 July 2018</p>
-          <Link to="/blog">
+          <Link to="/blogArticle">
             <h1>I’d rather be a pirate than join the navy.</h1>
           </Link>
           <div className={styles.articlePreview}>
@@ -28,19 +28,19 @@ export default () => (
       <div className={styles.articleList}>
         <article className={styles.list}>
           <p className="articleDate">Tuesday, 17 July 2018</p>
-          <Link to="/blog">
+          <Link to="/blogArticle">
             <h2>Lorem ipsum dolor sit amet consectetur?</h2>
           </Link>
         </article>
         <article className={styles.list}>
           <p className="articleDate">Tuesday, 17 July 2018</p>
-          <Link to="/blog">
+          <Link to="/blogArticle">
             <h2>Fusce eget massa quis neque euismod venenatis</h2>
           </Link>
         </article>
         <article className={styles.list}>
           <p className="articleDate">Tuesday, 17 July 2018</p>
-          <Link to="/blog">
+          <Link to="/blogArticle">
             <h2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
               tellus leo tempus at suscipit ut

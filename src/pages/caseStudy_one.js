@@ -4,15 +4,15 @@ import styles from "./caseStudy.module.css";
 import Footer from "../components/footer";
 
 export default () => (
-  <div>
+  <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <div className={styles.workHeader}>
+      <div className={styles.caseStudyHeader}>
         <Link to="/" className={styles.backLink}>
           Back
         </Link>
       </div>
-      <article className={styles.lorem}>
-        <section className={styles.diet}>
+      <article>
+        <section>
           <h1>Designing high risk interactions.</h1>
           <p className="intro">
             Trading is hard. Designing trading applications isn't any easier.
@@ -26,7 +26,7 @@ export default () => (
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
-        <section className={styles.diet}>
+        <section>
           <h2>Reseach process</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -49,17 +49,33 @@ export default () => (
             laoreet sit amet luctus in, ornare nec nisi. Interdum et malesuada
             fames ac ante ipsum primis
           </p>
+        </section>
+        <section className={styles.mobileDesign}>
+          <div className={styles.workText}>
+            <h2>Lorem ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              commodo est id massa porttitor ultrices. Curabitur nec lobortis
+              purus, non egestas neque. Vivamus sollicitudin consequat magna,
+              nec mattis nunc luctus eu. Cras et risus faucibus, aliquet risus
+              ut, egestas dolor.
+            </p>
+            <p>
+              Phasellus cursus nunc lacus, iaculis volutpat justo consequat id.
+              Morbi hendrerit blandit odio a suscipit. Vestibulum vulputate
+              tempor lorem. Quisque et nibh bibendum, tincidunt enim quis,
+              congue nisi.
+            </p>
+          </div>
+          <div className={styles.workImage}>
+            <img
+              src={require("../images/workPlaceholder_mobile.jpg")}
+              alt="Placeholder"
+            />
+          </div>
+        </section>
+        <section>
           <h3>Lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            commodo est id massa porttitor ultrices. Curabitur nec lobortis
-            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
-            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
-            egestas dolor. Phasellus cursus nunc lacus, iaculis volutpat justo
-            consequat id. Morbi hendrerit blandit odio a suscipit. Vestibulum
-            vulputate tempor lorem. Quisque et nibh bibendum, tincidunt enim
-            quis, congue nisi.
-          </p>
           <p>
             Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
             amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
@@ -77,7 +93,7 @@ export default () => (
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
-        <section className={styles.diet}>
+        <section>
           <h2>Reseach process</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -90,7 +106,7 @@ export default () => (
             quis, congue nisi.
           </p>
         </section>
-        <div className={styles.workFooter}>
+        <div className={styles.caseStudyFooter}>
           <div className={styles.avatar}>
             <img src={require("../images/avatar.jpg")} alt="AaronRoot" />
           </div>
