@@ -105,7 +105,7 @@ export default () => (
         <p className="caption">
           This portfolio is a work-in-progress. Built with{" "}
           <a href="https://reactjs.org/">React</a> and{" "}
-          <a href="https://www.gatsbyjs.org/">Gatsby</a>. Written using{" "}
+          <a href="https://www.gatsbyjs.org/">Gatsby</a>, written using{" "}
           <a href="https://code.visualstudio.com/">VS Code</a> and Framer's
           handsome{" "}
           <a href="https://framer.com/free-syntax-theme/">syntax theme</a>.
