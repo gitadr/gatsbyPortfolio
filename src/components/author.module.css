@@ -1,10 +1,10 @@
 .authorFooter {
-  grid-column: 3 / 11;
+  grid-column: 1 / -1;
   max-width: 1240px;
-  margin: 80px auto 360px auto;
+  margin: 40px auto 40px auto;
   padding: 40px 0 40px 0;
   border-top: 1px solid #d8d8dc;
-  border-bottom: 1px solid #d8d8dc;
+  border-bottom: 0px solid #d8d8dc;
 }
 
 .avatar {
@@ -19,4 +19,12 @@
 
 .bio {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .authorFooter {
+    grid-column: 3 / 11;
+    margin: 80px auto 360px auto;
+    border-bottom: 1px solid #d8d8dc;
+  }
 }

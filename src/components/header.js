@@ -9,6 +9,14 @@ export default () => (
           Hello I’m Aaron,
           <span> A Sydney based Product Designer.</span>
         </h1>
+        <a href="mailto:mail@aaronroot.net" className="button top">
+          <span className="linkIcon" />
+          <span className="text">Get In Touch</span>
+        </a>
+        <a href="http://aaronroot.net/cv.pdf" className="button top">
+          <span className="downloadIcon" />
+          <span className="text">Download C.V.</span>
+        </a>
         <div className={styles.block} />
       </div>
       <div className={styles.headerBody}>
@@ -25,11 +33,11 @@ export default () => (
           leading co-located design teams has taught me the value of creating a
           clear design vision and developing robust team processes.
         </p>
-        <a href="mailto:mail@aaronroot.net" className="button">
+        <a href="mailto:mail@aaronroot.net" className="button bottom">
           <span className="linkIcon" />
           <span className="text">Get In Touch</span>
         </a>
-        <a href="http://aaronroot.net/cv.pdf" className="button">
+        <a href="http://aaronroot.net/cv.pdf" className="button bottom">
           <span className="downloadIcon" />
           <span className="text">Download C.V.</span>
         </a>

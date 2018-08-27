@@ -14,10 +14,10 @@ export default () => (
         </a>
         <div className={styles.tweet}>
           <p className="intro">
-            I've been super impressed with the second @
+            Super impressed with the second @
             <a href="https://twitter.com/framer">Framer</a> X beta. The code
-            component feature has so much potential. Excited about the private
-            store functionality and more examples to learn from.
+            component feature seems to have so much potential. Excited about the
+            private store functionality and more examples to learn from.
           </p>
         </div>
       </div>
@@ -102,7 +102,7 @@ export default () => (
       </div>
       <div className={styles.footerKeyline} />
       <div className={styles.footerColophon}>
-        <p class="caption">
+        <p className="caption">
           This portfolio is a work-in-progress. Built with{" "}
           <a href="https://reactjs.org/">React</a> and{" "}
           <a href="https://www.gatsbyjs.org/">Gatsby</a>. Written using{" "}
@@ -119,8 +119,8 @@ export default () => (
       </div>
       <div className={styles.footerCopyright}>
         <div>
-          <p class="caption">
-            Made with ♥ by Aaron Root <br /> © Copyright 2018
+          <p className="caption">
+            Made with ♥ by Aaron Root <span>© Copyright 2018</span>
           </p>
         </div>
       </div>
