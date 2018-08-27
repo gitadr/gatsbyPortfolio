@@ -203,6 +203,15 @@ p.articleDate {
   transition: 0.24s all ease-out;
 }
 
+.button span.twitterIcon {
+  background: url(../images/icons/twitterLogoIcon_black.svg) no-repeat;
+  float: left;
+  width: 20px;
+  height: 16px;
+  margin-left: -32px;
+  transition: 0.24s all ease-out;
+}
+
 .button:hover {
   background-color: #000;
   color: #fff;
@@ -231,6 +240,10 @@ p.articleDate {
   margin-left: -32px;
   transform: rotate(-90deg);
 }
+.button:hover span.twitterIcon {
+  background: url(../images/icons/twitterLogoIcon_white.svg) no-repeat;
+  margin-left: -32px;
+}
 
 .button:active {
   background-color: #eee;
@@ -246,9 +259,11 @@ p.articleDate {
 .button:active span.backIcon {
   background: url(../images/icons/arrowBackwardIcon.svg) no-repeat;
 }
-
 .button:active span.downloadIcon {
   background: url(../images/icons/arrowDownIcon.svg) no-repeat;
+}
+.button:active span.twitterIcon {
+  background: url(../images/icons/twitterLogoIcon_black.svg) no-repeat;
 }
 
 @media only screen and (min-width: 768px) {

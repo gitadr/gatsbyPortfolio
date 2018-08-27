@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import styles from "./caseStudy.module.css";
 import Footer from "../components/footer";
+import Author from "../components/author";
 
 export default () => (
   <div className={styles.caseStudy}>
@@ -14,7 +15,7 @@ export default () => (
       <article>
         <section>
           <h1>Designing high risk interactions.</h1>
-          <p className="intro">
+          <p>
             Trading is hard. Designing trading applications isn't any easier.
             Executing an order at the right second can make the difference
             between a profit or a loss. As a result, quantifying the opportunity
@@ -106,26 +107,7 @@ export default () => (
             quis, congue nisi.
           </p>
         </section>
-        <div className={styles.caseStudyFooter}>
-          <div className={styles.avatar}>
-            <img src={require("../images/avatar.jpg")} alt="AaronRoot" />
-          </div>
-          <div className={styles.bio}>
-            <p className="intro">
-              Hi I’m Aaron, a British Product Designer based  in Sydney. I like
-              clean and well structured interfaces, user centred design, data
-              driven prototypes and design systems.
-            </p>
-            <a href="mailto:mail@aaronroot.net" className="button">
-              <span className="linkIcon" />
-              <span className="text">Get In Touch</span>
-            </a>
-            <a href="mailto:mail@aaronroot.net" className="button">
-              <span className="linkIcon" />
-              <span className="text">Get In Touch</span>
-            </a>
-          </div>
-        </div>
+        <Author />
       </article>
     </div>
     <Footer />

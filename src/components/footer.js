@@ -14,9 +14,10 @@ export default () => (
         </a>
         <div className={styles.tweet}>
           <p className="intro">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            non pretium massa. Integer pellentesque in magna ut laoreet. Aenean
-            luctus tristique lacus in rutrum.
+            Super impressed with the second @
+            <a href="https://twitter.com/framer">Framer</a> X beta. The code
+            component feature has so much potential. Looking forward to the
+            private store functionality and more examples to learn from.
           </p>
         </div>
       </div>
@@ -30,70 +31,70 @@ export default () => (
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image1.png")}
+              src={require("../images/instagram_01.jpg")}
               alt="image1"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image2.png")}
+              src={require("../images/instagram_02.jpg")}
               alt="image2"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image3.png")}
+              src={require("../images/instagram_03.jpg")}
               alt="image3"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image4.png")}
+              src={require("../images/instagram_04.jpg")}
               alt="image4"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image5.png")}
+              src={require("../images/instagram_05.jpg")}
               alt="image5"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image1.png")}
+              src={require("../images/instagram_06.jpg")}
               alt="image1"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image2.png")}
+              src={require("../images/instagram_07.jpg")}
               alt="image2"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image3.png")}
+              src={require("../images/instagram_08.jpg")}
               alt="image3"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image4.png")}
+              src={require("../images/instagram_09.jpg")}
               alt="image4"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/image5.png")}
+              src={require("../images/instagram_10.jpg")}
               alt="image5"
             />
           </li>
@@ -102,11 +103,11 @@ export default () => (
       <div className={styles.footerKeyline} />
       <div className={styles.footerColophon}>
         <p>
-          This portfolio is a work-in-progress. Built using{" "}
-          <a href="https://www.gatsbyjs.org/">Gatsby</a>, the{" "}
-          <a href="https://reactjs.org/">React</a> static site generater. Coded
-          using <a href="https://code.visualstudio.com/">VS Code</a>, paired
-          with Framer's handsome{" "}
+          This portfolio is a work-in-progress. Built with{" "}
+          <a href="https://reactjs.org/">React</a> and{" "}
+          <a href="https://www.gatsbyjs.org/">Gatsby</a>. Written using{" "}
+          <a href="https://code.visualstudio.com/">VS Code</a> and Framer's
+          handsome{" "}
           <a href="https://framer.com/free-syntax-theme/">syntax theme</a>.
           Version control is handled by{" "}
           <a href="http://www.github.com/gitadr">GitHub</a> and deployment by{" "}
