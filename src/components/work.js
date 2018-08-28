@@ -11,7 +11,7 @@ export default () => (
         <p>
           Trading is hard. Designing a trading application isn't any easier.
           Placing an order at the right second can make the difference between a
-          profit or a loss. As a result, knowing the opportunity cost of every
+          profit or a loss. As a result, knowing the opportunity cost of an
           interaction becomes vital.
         </p>
         <Link to="/caseStudy_one" className="button invert">
