@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.24px;
   line-height: 1.1;
@@ -85,13 +85,6 @@ p {
 p.caption {
   font-size: 15px;
   line-height: 1.5;
-}
-
-p.readingTime {
-  font-size: 20px;
-  color: #9696a3;
-  line-height: 1.2;
-  margin: 8px 0;
 }
 
 p.articleDate {
@@ -161,7 +154,7 @@ p.articleDate {
   padding: 16px 32px 16px 32px;
   font-size: 15px;
   letter-spacing: 3px;
-  font-weight: 700;
+  font-weight: 600;
   background-color: #fff;
   border: none;
   text-transform: uppercase;
@@ -175,7 +168,7 @@ p.articleDate {
   padding: 16px 32px 16px 32px;
   font-size: 15px;
   letter-spacing: 3px;
-  font-weight: 700;
+  font-weight: 600;
   background-color: #000;
   color: #fff;
   border: none;

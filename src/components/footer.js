@@ -12,12 +12,14 @@ export default () => (
             alt="Twitter logo"
           />
         </a>
+        <h2>@aaroot</h2>
         <div className={styles.tweet}>
           <p className="intro">
             Super impressed with the second @
             <a href="https://twitter.com/framer">Framer</a> X beta. The code
-            component feature seems to have so much potential. Excited about the
-            private store functionality and more examples to learn from.
+            component feature seems to have a lot of potential. Excited to try
+            the private store functionality and have more examples to learn
+            from.
           </p>
         </div>
       </div>
