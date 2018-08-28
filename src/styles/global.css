@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,600|IBM+Plex+Serif:400,600");
+
 html {
   background-color: #000;
 }
@@ -10,8 +12,9 @@ button {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   font-weight: 400;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +43,6 @@ h1 {
   line-height: 1;
   margin: 0 0 16px 0;
   padding: 0;
-  letter-spacing: -0.48px;
 }
 
 h2 {
