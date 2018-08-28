@@ -188,7 +188,7 @@ p.articleDate {
   float: left;
   width: 16px;
   height: 16px;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
 
@@ -197,7 +197,7 @@ p.articleDate {
   float: left;
   width: 16px;
   height: 16px;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
 
@@ -206,7 +206,7 @@ p.articleDate {
   float: left;
   width: 16px;
   height: 16px;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
 .button span.downloadIcon {
@@ -214,7 +214,7 @@ p.articleDate {
   float: left;
   width: 16px;
   height: 16px;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
 
@@ -223,7 +223,7 @@ p.articleDate {
   float: left;
   width: 20px;
   height: 16px;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
 
@@ -240,24 +240,24 @@ p.articleDate {
 
 .button:hover span.linkIcon {
   background: url(../images/icons/arrowForwardIcon_white.svg) no-repeat;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
 }
 .button:hover span.backIcon {
   background: url(../images/icons/arrowBackwardIcon_white.svg) no-repeat;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
 }
 .button.invert:hover span.linkIcon {
   background: url(../images/icons/arrowForwardIcon.svg) no-repeat;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
 }
 .button:hover span.downloadIcon {
   background: url(../images/icons/arrowDownIcon_white.svg) no-repeat;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
   transform: rotate(-90deg);
 }
 .button:hover span.twitterIcon {
   background: url(../images/icons/twitterLogoIcon_white.svg) no-repeat;
-  margin-left: -32px;
+  margin: 2px 0 0 -32px;
 }
 
 .button:active {
