@@ -14,11 +14,6 @@
   background: #fff;
 }
 
-.notes h1,
-.notes h2 {
-  font-family: "IBM Plex Serif";
-}
-
 .articleHero {
   grid-column: 1 / -1;
 }

@@ -8,10 +8,6 @@
   padding-right: 16px;
 }
 
-.blogArticle h1 {
-  font-family: "IBM Plex Serif", serif;
-}
-
 .blogArticle section p.intro {
   font-size: 32px;
   line-height: 40px;
