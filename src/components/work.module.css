@@ -96,3 +96,9 @@
     align-self: center;
   }
 }
+
+@media only screen and (min-height: 820px) {
+  .work .container {
+    background-position: center center;
+  }
+}
