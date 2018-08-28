@@ -8,14 +8,15 @@
 
 .container {
   max-width: 1240px;
-  height: 100vh;
+  height: auto;
+  min-height: 80vh;
   max-height: 960px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
-  align-content: center;
-  padding: 0 20px;
+  align-items: center;
+  padding: 10vh 20px;
 }
 
 .work .container {
@@ -81,6 +82,13 @@
     align-content: center;
   }
 }
+
+@media only screen and (min-height: 820px) {
+  .work .container {
+    background-position: center center;
+  }
+}
+
 @media only screen and (min-width: 1048px) {
   .work .container {
     background-position: left bottom;
@@ -94,11 +102,5 @@
   .workText {
     grid-column: 8 / 13;
     align-self: center;
-  }
-}
-
-@media only screen and (min-height: 820px) {
-  .work .container {
-    background-position: center center;
   }
 }
