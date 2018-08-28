@@ -9,10 +9,10 @@ export default () => (
         <p className="articleDate">RECENT PROJECTS</p>
         <h1>Designing high risk interactions.</h1>
         <p>
-          Trading is hard. Designing trading applications isn't any easier.
-          Executing an order at the right second can make the difference between
-          a profit or a loss. As a result, quantifying the opportunity cost of
-          interactions becomes vital.
+          Trading is hard. Designing a trading application isn't any easier.
+          Placing an order at the right second can make the difference between a
+          profit or a loss. As a result, knowing the opportunity cost of every
+          interaction becomes vital.
         </p>
         <Link to="/caseStudy_one" className="button invert">
           <span className="linkIcon" />
