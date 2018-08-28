@@ -284,6 +284,17 @@ a.button.top {
   display: none;
 }
 
+@media only screen and (min-width: 1120px) {
+  a.button.bottom {
+    display: none;
+  }
+
+  a.button.top {
+    display: inline-block;
+    margin-top: 8px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .button {
     padding: 16px 32px 16px 32px;
@@ -295,14 +306,5 @@ a.button.top {
     padding: 16px 32px 16px 32px;
     font-size: 16px;
     margin: 16px 32px 0 0;
-  }
-
-  a.button.bottom {
-    display: none;
-  }
-
-  a.button.top {
-    display: inline-block;
-    margin-top: 8px;
   }
 }
