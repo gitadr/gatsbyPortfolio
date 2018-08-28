@@ -111,10 +111,11 @@ export default () => (
           <a href="https://framer.com/free-syntax-theme/">syntax theme</a>.
           Version control is handled by{" "}
           <a href="http://www.github.com/gitadr">GitHub</a> and deployment by{" "}
-          <a href="https://www.netlify.com/">Netfliy</a>. Type is currently set
-          in your system font because i've been too indecisive to choose
-          another. If there is anything else you would like to know please email
-          me at <a href="mailto:mail@aaronroot.net">mail@aaronroot.net</a>
+          <a href="https://www.netlify.com/">Netfliy</a>. Type is set in{" "}
+          <a href="https://www.ibm.com/plex/">Plex</a>, an open source typeface
+          from <a href="https://github.com/IBM/plex">IBM</a> . If there is
+          anything else you would like to know please email me at{" "}
+          <a href="mailto:mail@aaronroot.net">mail@aaronroot.net</a>
         </p>
       </div>
       <div className={styles.footerCopyright}>
