@@ -1,7 +1,6 @@
 /* WORK: */
 
 .work {
-  min-height: 100vh;
   position: relative;
   background-color: #000;
   padding-bottom: 80px;
@@ -9,7 +8,7 @@
 
 .container {
   max-width: 1240px;
-  min-height: 100vh;
+  height: 100vh;
   max-height: 1000px;
   margin: 0 auto;
   display: grid;
