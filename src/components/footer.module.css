@@ -3,7 +3,7 @@
 .container {
   max-width: 1240px;
   height: 100vh;
-  max-height: 1000px;
+  max-height: 960px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
