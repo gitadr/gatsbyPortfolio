@@ -98,6 +98,7 @@
   .work .container {
     background-image: url(../images/workDesktopLarge.jpg);
     background-size: 1203px 803px;
+    background-position: center center;
   }
   .workText {
     grid-column: 8 / 13;
