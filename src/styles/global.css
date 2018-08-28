@@ -158,7 +158,7 @@ p.articleDate {
 .button {
   padding: 16px 32px 16px 32px;
   font-size: 15px;
-  letter-spacing: 2.4px;
+  letter-spacing: 3px;
   font-weight: 700;
   background-color: #fff;
   border: none;
@@ -172,7 +172,7 @@ p.articleDate {
 .button.invert {
   padding: 16px 32px 16px 32px;
   font-size: 15px;
-  letter-spacing: 2.4px;
+  letter-spacing: 3px;
   font-weight: 700;
   background-color: #000;
   color: #fff;
@@ -252,7 +252,7 @@ p.articleDate {
 }
 .button:hover span.downloadIcon {
   background: url(../images/icons/arrowDownIcon_white.svg) no-repeat;
-  margin: 2px 0 0 -32px;
+  mmargin: 2px 0 0 -32px;
   transform: rotate(-90deg);
 }
 .button:hover span.twitterIcon {
