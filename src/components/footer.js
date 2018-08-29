@@ -5,7 +5,11 @@ export default () => (
   <footer>
     <div className={styles.container}>
       <div className={styles.footerTwitter}>
-        <a href="https://twitter.com/aaroot">
+        <a
+          href="https://twitter.com/aaroot"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="twitterLogo"
             src={require("../images/icons/twitterLogo.svg")}
@@ -16,10 +20,16 @@ export default () => (
         <div className={styles.tweet}>
           <p className="intro">
             Super impressed with the second @
-            <a href="https://twitter.com/framer">Framer</a> X beta. The code
-            component feature seems to have a lot of potential. Excited to try
-            the private store functionality and have more examples to learn
-            from.
+            <a
+              href="https://twitter.com/framer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Framer
+            </a>{" "}
+            X beta. The code component feature seems to have a lot of potential.
+            Excited to try the private store functionality and have more
+            examples to learn from.
           </p>
         </div>
       </div>
@@ -106,17 +116,70 @@ export default () => (
       <div className={styles.footerColophon}>
         <p className="caption">
           This portfolio is a work-in-progress. Built with{" "}
-          <a href="https://reactjs.org/">React</a> and{" "}
-          <a href="https://www.gatsbyjs.org/">Gatsby</a>, written using{" "}
-          <a href="https://code.visualstudio.com/">VS Code</a> and Framer's
-          handsome{" "}
-          <a href="https://framer.com/free-syntax-theme/">syntax theme</a>.
-          Version control is handled by{" "}
-          <a href="http://www.github.com/gitadr">GitHub</a> and deployment by{" "}
-          <a href="https://www.netlify.com/">Netfliy</a>. Type is set in{" "}
-          <a href="https://www.ibm.com/plex/">Plex</a>, an open source typeface
-          from <a href="https://github.com/IBM/plex">IBM</a> . If there is
-          anything else you would like to know please email me at{" "}
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            React
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.gatsbyjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gatsby
+          </a>
+          , written using{" "}
+          <a
+            href="https://code.visualstudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            VS Code
+          </a>{" "}
+          and Framer's handsome{" "}
+          <a
+            href="https://framer.com/free-syntax-theme/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            syntax theme
+          </a>
+          . Version control is handled by{" "}
+          <a
+            href="http://www.github.com/gitadr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and deployment by{" "}
+          <a
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netfliy
+          </a>
+          . Type is set in{" "}
+          <a
+            href="https://www.ibm.com/plex/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Plex
+          </a>
+          , an open source typeface from{" "}
+          <a
+            href="https://github.com/IBM/plex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IBM
+          </a>{" "}
+          . If there is anything else you would like to know please email me at{" "}
           <a href="mailto:mail@aaronroot.net">mail@aaronroot.net</a>
         </p>
       </div>
