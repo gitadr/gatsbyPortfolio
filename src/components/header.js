@@ -13,7 +13,7 @@ export default () => (
           <span className="linkIcon" />
           <span className="text">Get In Touch</span>
         </a>
-        <a href="http://aaronroot.net/cv.pdf" className="button top">
+        <a href={require("../files/aaronroot_cv.pdf")} className="button top">
           <span className="downloadIcon" />
           <span className="text">Download C.V.</span>
         </a>
