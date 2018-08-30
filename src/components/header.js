@@ -7,7 +7,7 @@ export default () => (
       <div className={styles.headerIntro}>
         <h1>
           Hello, I’m Aaron.
-          <span> A Sydney Based Product Designer.</span>
+          <span> A Sydney-based product designer.</span>
         </h1>
         <a href="mailto:mail@aaronroot.net" className="button top">
           <span className="linkIcon" />
@@ -27,10 +27,10 @@ export default () => (
           to create applications that are simple, innovative and empowering.
         </p>
         <p>
-          I specialise in building clean and  well structured interfaces, data
-          driven prototypes and scalable design systems. My experience leading
-          co-located design teams has taught me the value of creating a clear
-          design vision and developing robust team processes.
+          I specialise in building clean and well-structured interfaces,
+          data-driven prototypes and scalable design systems. My experience
+          leading co-located design teams has taught me the value of creating a
+          clear design vision and developing robust team processes.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button bottom">
           <span className="linkIcon" />
