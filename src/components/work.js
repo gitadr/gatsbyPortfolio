@@ -1,4 +1,5 @@
 import React from "react";
+import Tabs from "../components/tabs";
 import styles from "./work.module.css";
 import { Link } from "gatsby";
 
@@ -6,7 +7,6 @@ export default () => (
   <section className={styles.work}>
     <div className={styles.container}>
       <div className={styles.workText}>
-        <p className="articleDate">RECENT PROJECTS</p>
         <h1>Designing high risk interactions.</h1>
         <p>
           Trading is hard. Designing a trading application isn't any easier.

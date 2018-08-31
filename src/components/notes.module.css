@@ -61,6 +61,12 @@ article.list {
   text-decoration: underline;
 }
 
+@media only screen and (min-height: 960px) {
+  .container {
+    min-height: 960px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .articleHero {
     grid-column: 1 / 7;

@@ -39,32 +39,39 @@
   );
 }
 
-.workTabs ul {
-  margin: 0 0 24px 0;
+.workTabs ol {
+  margin: 32px 0 24px 0;
   padding: 0;
   list-style: none;
 }
 
 .workTabs li {
   display: inline-flex;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   margin: 0 16px 0 0;
-  border-radius: 48px;
-  border: 2px solid #000;
+  border: 2px solid none;
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .workTabs li.selected {
   border: 2px solid #fff;
+  background: #fff;
+  color: #000;
 }
 
 .workTabs li a {
   color: #fff;
+}
+
+@media only screen and (min-height: 960px) {
+  .container {
+    min-height: 960px;
+  }
 }
 
 @media only screen and (min-width: 768px) {

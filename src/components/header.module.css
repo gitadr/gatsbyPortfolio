@@ -1,8 +1,7 @@
 .container {
   max-width: 1240px;
-  height: auto;
   min-height: 80vh;
-  max-height: 960px;
+  height: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -32,6 +31,12 @@ header {
 h1 span::before {
   content: "\A";
   white-space: pre;
+}
+
+@media only screen and (min-height: 960px) {
+  .container {
+    min-height: 960px;
+  }
 }
 
 @media only screen and (min-width: 500px) {

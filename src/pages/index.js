@@ -7,8 +7,6 @@ import Footer from "../components/footer";
 export default () => (
   <div>
     <Header />
-    <Work />
-    <Notes />
     <Footer />
   </div>
 );
