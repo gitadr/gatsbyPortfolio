@@ -102,3 +102,9 @@ section.mobileDesign {
     flex-direction: row;
   }
 }
+
+@media only screen and (min-width: 1240px) {
+  .caseStudyHeader {
+    padding-left: 0px;
+  }
+}
