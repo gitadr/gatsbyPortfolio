@@ -298,6 +298,20 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a href="#">
+            <img
+              src={require("../images/books/jaredDiamond_GunsGermsAndSteel.png")}
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a href="#">
+            <img
+              src={require("../images/books/johnVonNeumann_TheoryOfGamesAndEconomicBehavior.png")}
+            />
+          </a>
+        </div>
       </div>
     </section>
     <Footer />
