@@ -1,17 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
 import styles from "./caseStudy.module.css";
-import Footer from "../components/footer";
+import Header from "../components/internalHeader";
 import Author from "../components/author";
+import Footer from "../components/footer";
 
 export default () => (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <div className={styles.caseStudyHeader}>
-        <Link to="/" className={styles.backLink}>
-          Back
-        </Link>
-      </div>
+      <Header />
       <article>
         <section>
           <h1>Designing high risk interactions.</h1>

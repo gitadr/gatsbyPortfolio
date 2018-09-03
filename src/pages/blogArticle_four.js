@@ -1,17 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
 import styles from "./blogArticle.module.css";
-import Footer from "../components/footer";
 import Author from "../components/author";
+import Header from "../components/internalHeader";
+import Footer from "../components/footer";
 
 export default () => (
   <div className={styles.blogArticle}>
     <div className={styles.container}>
-      <div className={styles.blogArticleHeader}>
-        <Link to="/" className={styles.backLink}>
-          Back
-        </Link>
-      </div>
+      <Header />
       <article>
         <section>
           <h1>Lorem ipsum dolor sit amet consectetur adipiscing elit nam.</h1>
