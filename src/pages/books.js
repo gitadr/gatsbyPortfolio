@@ -13,302 +13,554 @@ export default () => (
       </div>
       <div className={styles.bookGrid}>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/book/show/38315.Fooled_by_Randomness"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nassimTaleb_FooledByRandomness.png")}
+              alt="Nassim Nicholas Taleb – Fooled By Randomness"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nassimTaleb_TheBlackSwan.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nassimTaleb_TheBedOfProcrustes.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nassimTaleb_Anti-fragile.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nassimTaleb_SkinInTheGame.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/yuvalNoahHarari_Sapiens.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/yuvalNoahHarari_Sapiens.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/yuvalNoahHarari_HomoDeus.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/annLeckie_AncillaryJustice.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/annLeckie_AncillaryMercy.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/annLeckie_AncillarySword.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/annLeckie_Provernance.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/annLeckie_Provernance.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nKJemisin_TheFifthSeason.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/nKJemisin_TheObeliskGate.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
-            <img src={require("../images/books/nKJemisin_TheStoneSky.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/nKJemisin_TheStoneSky.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/niallFergerson_TheSquareAndTheTower.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/niallFergerson_Civilization.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/walterIsaacson_SteveJobs.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/edCatmull_CreativityInc.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/edCatmull_CreativityInc.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/issacAsimov_iRobot.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/issacAsimov_iRobot.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/kevinKelly_WhatTechnologyWants.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/kevinKelly_TheInvertible.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/graysonPerry_TheDecentOfMan.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/maxTegmark_Life3.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/maxTegmark_Life3.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/malcomGladwell_Blink.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/malcomGladwell_Blink.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/naomiKlien_NoLogo.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/naomiKlien_NoLogo.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/richardDawkins_TheBlindWatchMaker.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/georgeOrwell_1984.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/georgeOrwell_1984.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/yevgenyZamyatin_We.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/yevgenyZamyatin_We.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/danielKahneman_ThinkingFastAndSlow.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/jordanBPeterson_12RulesForLife.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/gailHoneyman_EleanorOliphantIsCompletlyFine.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/christopherMcDugall_BornToRun.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/georgeRRMartin_AGameOfThrones.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/charlesDickens_ATaleOfTwoCities.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/davidAllen_GettingThingsDone.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
-            <img src={require("../images/books/edwinAAbbott_Flatland.png")} />
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/edwinAAbbott_Flatland.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/clayShirky_CognitiveSurplus.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/charlesMackay_MemoirsOfExtraorinaryPopularDelusions.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/bruceChatwin_InPatagonia.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/charlesBukowski_HamOnRye.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/hunterSThompson_TheRumDiary.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/jayMcInerney_BrightLightsBigCity.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/andreAciman_callMeByYourName.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.vertical}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/claireTomalin_SamuelPepysTheUnequalledSelf.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/jaredDiamond_GunsGermsAndSteel.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
         <div className={styles.unread}>
-          <a href="#">
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={require("../images/books/johnVonNeumann_TheoryOfGamesAndEconomicBehavior.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
         </div>
