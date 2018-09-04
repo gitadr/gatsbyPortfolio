@@ -70,7 +70,8 @@
 
 @media only screen and (min-height: 960px) {
   .container {
-    min-height: 960px;
+    min-height: 800px;
+    padding: 80px 20px;
   }
 }
 

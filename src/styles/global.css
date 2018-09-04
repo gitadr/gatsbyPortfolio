@@ -26,6 +26,25 @@ body {
   border-top: 8px solid #000;
 }
 
+.container {
+  max-width: 1240px;
+  min-height: 80vh;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  padding: 10vh 20px;
+}
+
+@media only screen and (min-height: 960px) {
+  .container {
+    min-height: 800px;
+    padding: 80px 20px;
+  }
+}
+
 ::selection {
   background: #d6e2f9;
   color: #034ada;

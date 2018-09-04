@@ -1,5 +1,4 @@
 import React from "react";
-import Tabs from "../components/tabs";
 import styles from "./work.module.css";
 import { Link } from "gatsby";
 

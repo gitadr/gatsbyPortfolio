@@ -1,15 +1,3 @@
-.container {
-  max-width: 1240px;
-  min-height: 80vh;
-  height: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-  align-items: center;
-  padding: 10vh 20px;
-}
-
 header {
   background-color: #fff;
 }
@@ -31,12 +19,6 @@ header {
 h1 span::before {
   content: "\A";
   white-space: pre;
-}
-
-@media only screen and (min-height: 960px) {
-  .container {
-    min-height: 960px;
-  }
 }
 
 @media only screen and (min-width: 500px) {

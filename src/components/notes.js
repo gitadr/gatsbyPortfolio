@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 export default () => (
   <section className={styles.notes}>
-    <div className={styles.container}>
+    <div class="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
           <p className="articleDate">Tuesday, 17 July 2018</p>

@@ -1,18 +1,5 @@
 /* FOOTER: */
 
-.container {
-  max-width: 1240px;
-  height: 100%;
-  min-height: 80vh;
-  max-height: 960px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-  align-content: center;
-  padding: 10vh 20px;
-}
-
 footer {
   background-color: #000;
   color: #fff;
@@ -104,12 +91,6 @@ img.twitterLogo {
   grid-column: 1/-1;
   height: 1px;
   background: #fff;
-}
-
-@media only screen and (min-height: 960px) {
-  .container {
-    min-height: 960px;
-  }
 }
 
 @media only screen and (min-width: 768px) {

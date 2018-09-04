@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 
 export default () => (
   <header>
-    <div className={styles.container}>
+    <div class="container">
       <div className={styles.headerIntro}>
         <h1>
           Hello, I’m Aaron.

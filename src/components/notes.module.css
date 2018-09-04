@@ -1,19 +1,5 @@
 /* NOTES: */
 
-.container {
-  max-width: 1240px;
-  height: auto;
-  min-height: 80vh;
-  max-height: 960px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-  align-content: center;
-  padding: 10vh 20px;
-  background: #fff;
-}
-
 .articleHero {
   grid-column: 1 / -1;
 }
@@ -59,12 +45,6 @@ article.list {
 
 .notes a:hover {
   text-decoration: underline;
-}
-
-@media only screen and (min-height: 960px) {
-  .container {
-    min-height: 960px;
-  }
 }
 
 @media only screen and (min-width: 768px) {

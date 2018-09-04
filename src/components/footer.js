@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 
 export default () => (
   <footer>
-    <div className={styles.container}>
+    <div class="container">
       <div className={styles.footerTwitter}>
         <a
           href="https://twitter.com/aaroot"
