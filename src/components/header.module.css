@@ -26,12 +26,16 @@ h1 span::before {
     content: "";
   }
 }
-
 @media only screen and (min-width: 1120px) {
   .headerIntro {
     grid-column: 1 / 8;
     align-self: center;
   }
+
+  .headerIntro h1 {
+    font-size: 80px;
+  }
+
   .headerBody {
     grid-column: 8 / 13;
     align-self: center;

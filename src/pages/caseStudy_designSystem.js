@@ -10,8 +10,8 @@ export default () => (
       <Header />
       <article>
         <section>
-          <h1>Designing high risk interactions.</h1>
-          <p>
+          <h1>Building a design system architecture that scales</h1>
+          <p class="intro">
             Trading is hard. Designing trading applications isn't any easier.
             Executing an order at the right second can make the difference
             between a profit or a loss. As a result, quantifying the opportunity
@@ -19,90 +19,214 @@ export default () => (
           </p>
         </section>
         <img
-          src={require("../images/caseStudies/caseStudy_01_formationPreview.jpg")}
+          src={require("../images/caseStudies/caseStudy_DesignSystem_header.jpg")}
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
         <section>
-          <h2>Reseach process</h2>
+          <h2>Project history</h2>
+          <p>
+            I joined the team at IG to help redesign the web trading platform.
+            My role was to define the visual language and lead the UI and
+            interaction design for the platform. This later set the design
+            direction of IG's other applications and formed the basis of the
+            broader mobile and web platform style guides.
+          </p>
+          <p>
+            Although the platforms shared common styles, individual teams made
+            decisions in isolation, leading to inconsistencies and duplication.
+            Key principles where not documented and shared lorem ipsum to new
+            starters. Most importantly, our product offering was growing and our
+            design processes needed to scale to match.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_deviceMockups.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <h2>Creating a brief</h2>
+          <p>
+            My role as a Lead UI Designer was to work with the Head of Product
+            Design to create a system to unify and consolidate our principles
+            and act as a single point of truth. We needed a project brief,
+            success criteria, senior stakeholder buy-in and a dedicated team
+            member to help make it happen.
+          </p>
+
+          <p>
+            The main objectives of the project were to improve the consistency
+            of our products, building trust and creating a familiar experience
+            for clients. Streamline design workflows and build processes, saving
+            time on recreating similar components on different platforms.
+            Crucially, we needed to upscale our design output, aligning creative
+            and development teams globally, allowing us to ship better products
+            faster.
+          </p>
+
+          <p>
+            We created three key performance indicators to judge the progress
+            and success of the project, giving us a benchmark to improve upon.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_KPIs.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <h2>The process</h2>
+          <p>
+            After creating the brief, my next task was to plan and hire for the
+            project. I foundThe remaining work into three main stages. First was
+            a design audit, combing through the different facets of IG’s digital
+            estate, highlighting inconsistencies in patterns and styles.
+          </p>
+
+          <p>
+            The second was compiling those issues, organising workshops to
+            discuss the appropriate design direction then building consensus
+            around the chosen approach. Finally we documented those principles,
+            design language and patterns. Working closely with the engineering
+            teams to create codified components for the different development
+            libraries.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_Steps.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <h3>Design audit</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             commodo est id massa porttitor ultrices. Curabitur nec lobortis
             purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
             mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
-            egestas dolor. Phasellus cursus nunc lacus, iaculis volutpat justo
-            consequat id. Morbi hendrerit blandit odio a suscipit. Vestibulum
-            vulputate tempor lorem. Quisque et nibh bibendum, tincidunt enim
-            quis, congue nisi.
-          </p>
-          <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus. Maecenas vestibulum leo at vulputate
-            tempus. Maecenas ultricies quam at consequat dignissim. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Mauris vehicula rutrum
-            quam, non volutpat lacus laoreet laoreet. Curabitur tempus vel magna
-            vel fermentum. Mauris pellentesque pulvinar sapien Nunc mauris elit,
-            laoreet sit amet luctus in, ornare nec nisi. Interdum et malesuada
-            fames ac ante ipsum primis
+            egestas dolor.
           </p>
         </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_Audit.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
         <section className={styles.mobileDesign}>
           <div className={styles.workText}>
-            <h2>Lorem ipsum</h2>
+            <h3>Building concensus</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              commodo est id massa porttitor ultrices. Curabitur nec lobortis
-              purus, non egestas neque. Vivamus sollicitudin consequat magna,
-              nec mattis nunc luctus eu. Cras et risus faucibus, aliquet risus
-              ut, egestas dolor.
-            </p>
-            <p>
-              Phasellus cursus nunc lacus, iaculis volutpat justo consequat id.
-              Morbi hendrerit blandit odio a suscipit. Vestibulum vulputate
-              tempor lorem. Quisque et nibh bibendum, tincidunt enim quis,
-              congue nisi.
+              In order for the design system to succeed it was important to
+              build consensus from across the business. I set about finding
+              advocates from each area that could offer their insight and
+              expertise as well as act as ambassadors for the project as a
+              whole.
             </p>
           </div>
           <div className={styles.workImage}>
             <img
-              src={require("../images/workPlaceholder_mobile.jpg")}
+              src={require("../images/caseStudies/caseStudy_DesignSystem_consensusDiagram.jpg")}
               alt="Placeholder"
             />
           </div>
         </section>
         <section>
-          <h3>Lorem ipsum</h3>
-          <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus. Maecenas vestibulum leo at vulputate
-            tempus. Maecenas ultricies quam at consequat dignissim. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Mauris vehicula rutrum
-            quam, non volutpat lacus laoreet laoreet. Curabitur tempus vel magna
-            vel fermentum. Mauris pellentesque pulvinar sapien Nunc mauris elit,
-            laoreet sit amet luctus in, ornare nec nisi. Interdum et malesuada
-            fames ac ante ipsum primis
-          </p>
-        </section>
-        <img
-          src={require("../images/workPlaceholder.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
-        />
-        <section>
-          <h2>Reseach process</h2>
+          <h2>A product to service products</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             commodo est id massa porttitor ultrices. Curabitur nec lobortis
             purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
             mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
-            egestas dolor. Phasellus cursus nunc lacus, iaculis volutpat justo
-            consequat id. Morbi hendrerit blandit odio a suscipit. Vestibulum
-            vulputate tempor lorem. Quisque et nibh bibendum, tincidunt enim
-            quis, congue nisi.
+            egestas dolor.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            commodo est id massa porttitor ultrices. Curabitur nec lobortis
+            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
+            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
+            egestas dolor.
           </p>
         </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_Audit.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section className={styles.mobileDesign}>
+          <div className={styles.workText}>
+            <h3>One day prototype</h3>
+            <p>
+              In order for the design system to succeed it was important to
+              build consensus from across the business. I set about finding
+              advocates from each area that could offer their insight and
+              expertise as well as act as ambassadors for the project as a
+              whole.
+            </p>
+          </div>
+          <div className={styles.workImage}>
+            <img
+              src={require("../images/caseStudies/caseStudy_DesignSystem_sysytemPrototype.jpg")}
+              alt="Placeholder"
+            />
+          </div>
+        </section>
+        <section>
+          <h2>Formation</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            commodo est id massa porttitor ultrices. Curabitur nec lobortis
+            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
+            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
+            egestas dolor.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_systemSections.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <h3>Component libraries</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            commodo est id massa porttitor ultrices. Curabitur nec lobortis
+            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
+            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
+            egestas dolor.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_structure.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <h3>Outcome</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            commodo est id massa porttitor ultrices. Curabitur nec lobortis
+            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
+            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
+            egestas dolor.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_DesignSystem_frontify.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <h2>Learnings</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            commodo est id massa porttitor ultrices. Curabitur nec lobortis
+            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
+            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
+            egestas dolor.
+          </p>
+        </section>
+
         <Author />
       </article>
     </div>

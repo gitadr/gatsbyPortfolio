@@ -140,6 +140,7 @@ p.articleDate {
     font-size: 64px;
     margin: 0 0 32px 0;
   }
+
   h2 {
     font-size: 32px;
   }
@@ -162,7 +163,7 @@ p.articleDate {
   }
 }
 
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1441px) {
   h1 {
     font-size: 80px;
   }
