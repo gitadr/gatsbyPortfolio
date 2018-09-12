@@ -2,7 +2,8 @@
   grid-column: 1 / -1;
   height: 48px;
   max-width: 1240px;
-  margin: 24px auto 0 auto;
+  margin: 0 auto;
+  padding-top: 24px;
 }
 
 .backLink {
@@ -23,8 +24,8 @@
 
 @media only screen and (min-width: 768px) {
   .internalHeader {
-    margin: 112px auto 0 auto;
-    padding-left: 20px;
+    margin: 0 auto;
+    padding: 112px 0 0 20px;
   }
 }
 

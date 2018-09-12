@@ -1,5 +1,9 @@
 /* NOTES: */
 
+.notes {
+  background-color: #fff;
+}
+
 .articleHero {
   grid-column: 1 / -1;
 }
