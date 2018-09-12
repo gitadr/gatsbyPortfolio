@@ -16,6 +16,10 @@ header {
   display: none;
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
 h1 span::before {
   content: "\A";
   white-space: pre;
