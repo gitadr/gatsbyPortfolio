@@ -19,7 +19,7 @@ export default () => (
         <h2>@aaroot</h2>
         <div className={styles.tweet}>
           <p className="intro">
-            Super impressed with the second @
+            Super impressed with the latest @
             <a
               href="https://twitter.com/framer"
               target="_blank"
