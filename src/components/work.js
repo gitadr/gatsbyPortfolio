@@ -13,7 +13,7 @@ export default () => (
           profit or a loss. As a result, knowing the opportunity cost of an
           interaction becomes vital.
         </p>
-        <Link to="/caseStudy_forexTrading" className="button invert">
+        <Link to="/case_study_forex_trading" className="button invert">
           <span className="linkIcon" />
           <span className="text">View Project</span>
         </Link>
