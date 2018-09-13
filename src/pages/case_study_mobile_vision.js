@@ -19,7 +19,7 @@ export default () => (
           </p>
         </section>
         <img
-          src={require("../images/caseStudies/caseStudy_01_formationPreview.jpg")}
+          src={require("../images/caseStudies/caseStudy_MobileVision_Hero.jpg")}
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
