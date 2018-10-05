@@ -44,6 +44,12 @@
   grid-column: 1 / -1;
 }
 
+.lorem {
+  grid-column: 1 / -1;
+  height: 1px;
+  border-bottom: 1px solid #d8d8dc;
+}
+
 section.mobileDesign {
   display: flex;
   flex-direction: column;

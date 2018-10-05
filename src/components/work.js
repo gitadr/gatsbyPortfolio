@@ -13,10 +13,32 @@ export default () => (
           profit or a loss. As a result, knowing the opportunity cost of an
           interaction becomes vital.
         </p>
-        <Link to="/case_study_forex_trading" className="button invert">
-          <span className="linkIcon" />
-          <span className="text">View Project</span>
-        </Link>
+        <ul>
+          <li>
+            <Link to="/case_study_web_trading" className="button invert">
+              <span className="linkIcon" />
+              <span className="text">Evolving Web Trading</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/case_study_mobile_vision" className="button invert">
+              <span className="linkIcon" />
+              <span className="text">A Mobile Vision</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/case_study_design_system" className="button invert">
+              <span className="linkIcon" />
+              <span className="text">Systems That Scale</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/case_study_forex_trading" className="button invert">
+              <span className="linkIcon" />
+              <span className="text">Trading New Markets</span>
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   </section>

@@ -38,6 +38,14 @@ body {
   padding: 10vh 20px;
 }
 
+ul {
+  margin-bottom: 32px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
 @media only screen and (min-height: 960px) {
   .container {
     min-height: 800px;
@@ -48,6 +56,19 @@ body {
 ::selection {
   background: #d6e2f9;
   color: #034ada;
+}
+
+.borderKeyline {
+  grid-column: 1 / -1;
+  height: 1px;
+  border-bottom: 1px solid #d8d8dc;
+  margin: 32px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .borderKeyline {
+    grid-column: 3 / 11;
+  }
 }
 
 /* Typography: */
@@ -193,7 +214,7 @@ p.articleDate {
   color: #fff;
   border: none;
   text-transform: uppercase;
-  margin: 8px 16px 0 0;
+  margin: 0;
   cursor: pointer;
   display: inline-block;
 }
@@ -325,6 +346,6 @@ a.button.top {
   .button.invert {
     padding: 16px 32px 16px 32px;
     font-size: 16px;
-    margin: 16px 32px 0 0;
+    margin: 0;
   }
 }
