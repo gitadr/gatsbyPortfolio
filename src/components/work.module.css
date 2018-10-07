@@ -115,7 +115,7 @@
 @media only screen and (min-width: 1199px) {
   .work .container {
     background-image: url(../images/workDesktopLarge.jpg);
-    background-size: 1203px 803px;
+    background-size: 1200px 803px;
     background-position: center center;
   }
   .workText {

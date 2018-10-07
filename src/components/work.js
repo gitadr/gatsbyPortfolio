@@ -9,9 +9,9 @@ export default () => (
         <h1>Designing high risk interactions.</h1>
         <p>
           Trading is hard. Designing a trading application isn't any easier.
-          Placing an order at the right second can make the difference between a
-          profit or a loss. As a result, knowing the opportunity cost of an
-          interaction becomes vital.
+          Over the last three years I have immersed myself in the world of
+          leveraged trading, helping IG design and build their next generation
+          of trading apps. Three of my favourite projects are detailed below.
         </p>
         <ul>
           <li>

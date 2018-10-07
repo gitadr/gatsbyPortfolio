@@ -12,10 +12,11 @@ export default () => (
         <section>
           <h1>Creating a vision for the future of mobile trading</h1>
           <p className="intro">
-            Having an inspirational vision allows a product team to move beyond
-            just delvering the next feature and instead build with intent. As a
-            lead designer at IG I created a vision that would reshape how people
-            trade on mobile.
+            A product team needs a defined roadmap to build a good app. But to
+            build an exceptional app, they also require shared purpose and
+            ambition. In my role as lead UI designer at IG, I worked to create a
+            collaborative design vision that would inspire change and help
+            reshape how people trade on mobile.
           </p>
         </section>
         <img
@@ -26,21 +27,21 @@ export default () => (
         <section>
           <h2>Creating a brief</h2>
           <p>
-            The aim of the project was to create an long-term vision for mobile.
+            The aim of the project was to create a long-term vision for mobile.
             A set of core concepts that could be integrated into the apps within
-            18-24 months. IG's mobile platforms had been stagnating and the
-            ambition was to create a product that would be truly innovative. We
-            priorotised streamlining key trading tasks and aligning the visual
-            identity, functionality and common interaction. We also wanted to
-            better understand traders motivations and encouraging behaviour that
-            made them more sucessful and ultimatly more profitable for IG.
+            18-24 months. IG's mobile platforms had been stagnating and there
+            was a desire to create a product that would be truly innovative. We
+            prioritised streamlining key trading tasks and aligning the visual
+            identity, functionality and common interaction. It was also
+            important to understand traders motivations in order to encourage
+            behaviour that made them more successful and ultimately more
+            profitable.
           </p>
           <h3>Key user tasks</h3>
           <p>
             To focus our efforts we identified four key users task. These 'red
-            routes' are the foundational user journeys that we belived made our
-            product most valuable and captured 90% or more of our traders
-            actions.
+            routes' are the foundational user journeys that made our product
+            most valuable and captured 90% or more of our traders actions.
           </p>
           <ul>
             <li>01 Register and manage an account</li>
@@ -53,19 +54,20 @@ export default () => (
         <section>
           <h2>State of play</h2>
           <p>
-            The mobile trading apps hadn't been redesigned for some years and
-            had developed from roadmap that encouraged short term, discrete
-            feautures. From a technical perspective the codebase had become
-            outdated and hard to maintain. From a design perspective the look
-            and feel of the apps was dated and disparate.
+            The mobile trading apps hadn't been redesigned for years. They were
+            experiencing growing pains caused by multiple discrete features
+            added in quick succession. From a technical perspective, the
+            codebase had become bloated and hard to maintain. From a design
+            perspective, the look and feel of the apps was dated and disparate.
           </p>
 
           <p>
             The iOS and Android apps had deviated and some key flow had become
             convoluted. The architecture on both apps again differed, but
             oriented around a hub and spoke style navigation. The information
-            hierachy was relativly flat and dense. The was emphasis on showing a
-            limited number of data points on as many markets as possible.
+            hierarchy was relatively flat and dense. There was emphasis on
+            showing a limited number of data points on as many markets as
+            possible.
           </p>
         </section>
         <img
@@ -77,14 +79,14 @@ export default () => (
           <div className={styles.workText}>
             <h3>Platform alignment</h3>
             <p>
-              A big consideration was platform alignment. The revent redesign of
-              the web trading platforms had been a catalyst for new services and
+              A big consideration was platform alignment. The recent redesign of
+              the web trading platforms had been a catalyst for new features and
               ways of organising content.
             </p>
 
             <p>
               The mobile vision needed to integrate these features in a cohesive
-              way while respecting the nuances of the native operating systems.
+              way, while respecting the nuances of the native operating systems.
               Creating a consistent but not uniformed experience.
             </p>
           </div>
@@ -98,21 +100,21 @@ export default () => (
         <section>
           <h2>Research</h2>
           <p>
-            Domain knowledge is scarce resource in the world of leveraged
-            trading so finding experienced traders is crucial. We started by
-            organising senior stakeholder interviews (many of which are current
-            or former traders), to gain insight into their views of the existing
-            apps. It was important to get their perspective on the strengths and
-            weaknesses app but also proved to be a good opportunity to promote
-            the project and its objectives.
+            Domain knowledge is scarce in the world of leveraged trading so
+            finding experienced traders is crucial. We started by organising
+            senior stakeholder interviews, including current or former traders,
+            to get insight on their views of the apps. While I was keen to get
+            their perspective on the apps current strengths and weaknesses, it
+            also proved to an opportunity to promote the project and its
+            objectives.
           </p>
 
           <p>
-            The next task was collecting qualitative and quantitate data from
-            clients. Again starting with the existing app we focused in trading
-            data such as the number of trade placed, markets traded, average
-            session times, popular devices etc. Next I worked with the UX
-            research team to organise and facilitate high value client
+            The next task was collecting qualitative and quantitative data from
+            clients. Again, starting with the existing app, we focused on
+            trading data such as the number of trade placed, markets traded,
+            average session times, popular devices etc. Next I worked with the
+            UX research team to organise and facilitate high value client
             interviews as well as focus groups for both existing and potential
             clients. IG hadn't conducted mobile specific research before so I
             helped create a mobile testing rig. This included screen recording
@@ -121,12 +123,11 @@ export default () => (
 
           <h3>Key findings</h3>
           <p>
-            We managed to collate a huge amount of research. Some finding were
-            predictable. Others proved to be hugly controversal and contridcted
-            much of the conventional thinking that had gone before. Three of the
-            most interesting data points are listed below. These findings
-            greatly influnced the ideation workshops and design sprints that
-            followed.
+            We managed to collate a huge amount of research. Some findings were
+            predictable. Others proved to be controversial and contradicted much
+            of the conventional thinking that had gone before. Three of the most
+            interesting data points are listed below. These findings greatly
+            influenced the ideation workshops and design sprints that followed.
           </p>
         </section>
         <img
@@ -138,36 +139,36 @@ export default () => (
         <section>
           <h2>Design Sprints</h2>
           <p>
-            Once we had solid base of research to reference and the main
+            Once we had a solid base of research to reference and the main
             objectives had been clearly defined, the next step was to create
-            osome design conceptss.
+            some design concepts.
           </p>
 
           <p>
             It is important to have a broad set of skills and influences in the
             early stages of the ideation process. I organised and facilitated a
             number of design sprints in order maximise the possibility of
-            different team members and stakeholder participating and therefore
+            different team members and stakeholder participating, therefore
             generating the highest quality design concepts.
           </p>
           <h3>Planning</h3>
           <p>
             The design sprints followed a common structure and lasted a week
-            each. We started with a team kick off and research presentation
-            followed by a planning session for the sprints goals and
-            testing/demo sessions.{" "}
+            each. We started with a team kick off and research presentation,
+            followed by a planning session for the sprint's goals, testing and
+            demo sessions.
           </p>
           <h3>Ideation</h3>
           <p>
-            Tuesdays start with a recap of the teams design principles and
-            project goals. This is followed by sketching sessions and 'Crazy 8'
-            style design exercises.{" "}
+            Day 2 started with a recap of the team's design principles and
+            project goals. Sketching sessions and 'Crazy 8' style design
+            exercises followed.
           </p>
           <p>
-            Wednesday is all about reviewing the ideas so far and planning the
-            prototyping stage. This can include paper prototypes or
-            storyboarding exercises but should include a mid week review to
-            discuss with stakeholders.
+            Day 3 was all about reviewing the ideas so far and planning the
+            prototyping stage. This included paper prototypes or storyboarding
+            exercises and was accompanied by a mid week review with
+            stakeholders.
           </p>
         </section>
         <img
@@ -178,19 +179,19 @@ export default () => (
         <section>
           <h3>Prototyping</h3>
           <p>
-            All day Thursday and Friday mornings are dedicated to prototyping
-            and planning testing sessions. It's important prototype fidelity is
-            considered early on. There needs to be enough detail to prove the
-            concept, but not too high that you waste time at the expense of
-            iterating and improving a concept.
+            All of Day 4 and the morning of Day 5 were dedicated to prototyping
+            and planning testing sessions. It's important that prototype
+            fidelity is considered early on. There needs to be enough detail to
+            prove the concept, but not so much that you waste time at the
+            expense of iterating and improving a concept.
           </p>
           <p>
             Framer is my prototyping tool of choice. It gives maximum
-            flexibility. It provides nested scrolling, pagination and modal
-            dialogues out of the box or you can use the physics engine and
+            flexibility, providing nested scrolling, pagination and modal
+            dialogues out of the box. Or you can use the physics engine and
             custom interactions to make something bespoke. The most valuable
-            during the mobile vision project was ability to prototype with live
-            data using IG's trading API.
+            aspect during the mobile vision project was the ability to prototype
+            with live data using IG's trading API.
           </p>
         </section>
         <img
@@ -202,18 +203,18 @@ export default () => (
           <div className={styles.workText}>
             <h2>Demo Day</h2>
             <p>
-              Demo day is the highlight of my week. It's a chance for the team
-              to show off what they have been working on with the wider
-              business, receive feedback and celebrate the achivements of the
-              week. Where possible prototypes circulated so that the demo
-              audience can see them up close on their own devices.
+              Demo day was the highlight the week. A chance for the team to show
+              off what they had been working on with the wider business, receive
+              feedback and celebrate achievements. Where possible, prototypes
+              circulated so that the demo audience could see them up close on
+              their own devices.
             </p>
 
             <p>
-              It's also an important time to refelct and work out next steps.
-              Are the concepts ready for further testing? Do they need another
-              round of iteration? Or have you proven that the concept shouldn't
-              be pursued at all.
+              It was also an important time to reflect and calculate our next
+              steps. Are the concepts ready for further testing? Do they need
+              another round of iteration? Or have you proven that the concept
+              shouldn't be pursued at all.
             </p>
           </div>
           <div className={styles.workImage}>
@@ -226,14 +227,30 @@ export default () => (
         <section>
           <h2>User testing</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
-            turpis ultricies porta. Mauris sit amet tellus lectus. Nam ligula
-            nisi, pulvinar quis elit cursus, dapibus faucibus justo. Suspendisse
-            potenti. Nullam metus tortor, pretium at placerat eget, viverra quis
-            magna.
+            Testing sessions fell into one of two categories. The first happened
+            early and often. We gorilla tested concepts as much as possible
+            internally, recruiting IG dealers to validate technical concepts.
+            The second focused on client's personal trading habits and
+            preferences. These were organised in batches, at key stages of the
+            project.
+          </p>
+          <p>
+            In both cases we needed a way of recording the sessions. As
+            mentioned, this was a first for IG so considerable time was spent
+            developing a robust testing setup that could be used both in the
+            office and remotely.{" "}
+          </p>
+          <p>
+            For the later stages of testing we used Framer prototypes to plug
+            into the trading API, pulling in live market data and user
+            preferences such as positions, balances and watchlists. This level
+            of detail, again, was new ground for IG and required the input from
+            several teams.{" "}
+          </p>
+          <p>
+            The effort was rewarded with exceptionally realistic testing
+            sessions. Clients responded to prototypes based on their experiences
+            using their own accounts and trading history.
           </p>
         </section>
         <img
@@ -245,33 +262,31 @@ export default () => (
         <section>
           <h2>Keep innovating</h2>
           <p>
-            One of the biggest risks for the project was creating solutions that
-            become technologically redundant. Due to the long timelines involved
-            the proposed concepts would need to stand the test of time. The best
-            hedge against *this* was to focus on strong design principles and
-            execute them using the latest mobile technologies.
+            One of the biggest risks of the project was investing in solutions
+            that could become technologically redundant. Due to the long
+            timelines, the proposed concepts would need to stand the test of
+            time. Our best bet was to focus on creating robust design principles
+            and execute them using the latest mobile technologies.
           </p>
           <p>
             Working closely with the development teams we regularly created
-            proof of concepts based on the latest OS capabilities. Integrating
+            proof of concepts based on the latest OS capabilities. We integrated
             features such as biometric verification, inline payments and native
-            widgets into our designs, making interactions feel seamless. The
-            adage that "...sufficiently advanced technology is indistinguishable
-            from magic" has never felt more true.
+            widgets to make key user tasks as frictionless as possible.
           </p>
         </section>
         <section className={styles.mobileDesign}>
           <div className={styles.workText}>
             <h3>Swift nights</h3>
             <p>
-              Originally set up as an opportunity of the iOS team to brush up on
-              their Swift skills, Swift Nights quickly became an important part
-              of the mobile vision project.
+              Originally set up as an opportunity for the iOS team to brush up
+              on their skills, Swift Nights quickly became an important part of
+              the mobile vision project.
             </p>
             <p>
-              By regular attending the events and encouraging other designers to
-              do the same, we gained invaluable insight into latest OS features
-              and became a stronger team in the process.
+              By regular attending the events - and encouraging other designers
+              to do the same - we gained invaluable insight into the latest OS
+              features and became a stronger, more rounded team in the process.
             </p>
           </div>
           <div className={styles.workImage}>
@@ -284,16 +299,16 @@ export default () => (
         <section>
           <h2>Design Vision</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            By the end of the workshops we had seven recommendations based
+            around the original four red routes. We'd also experimented with a
+            completely new app architecture and an aesthetic that aligned with
+            the updated web trading platform.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            While the prototyping and testing was carried out on iOS devices,
+            the user flows were designed to be agnostic. This allowed for
+            consistency between platforms with variations limited to the
+            interface based on OS guidelines.
           </p>
         </section>
         <img
@@ -302,38 +317,41 @@ export default () => (
           className={styles.caseStudy_LargeImage}
         />
         <section>
-          <p className="caption">Trade Everywhere</p>
-          <h2>Streamline the deal flow</h2>
+          <p className="caps">Smart Onbording</p>
+          <h2>Explore and personalise straight away</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            IG has always invested a lot in supporting new clients. This is
+            often done with little understanding of the clients current trading
+            knowledge or experience. By allowing clients to tailor their apps at
+            account creation based on these factors, not only can IG offer an
+            app more tailored to their needs, but can also provide the right
+            kind of support from outset.
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>Personalise your initial experience</li>
+            <li>Preview app before creating an account</li>
+            <li>Understand more about clients before calling</li>
           </ul>
         </section>
         <section>
-          <p className="caption">Trade Everywhere</p>
+          <p className="caps">Trade Everywhere</p>
           <h2>Streamline the deal flow</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            Executing an order at the right second can make the difference
+            between a profit or a loss. As a result, quantifying the opportunity
+            cost of interaction was vital. By keeping the ticket in context and
+            aligning the design with IG's other platforms we have drastically
+            reduced the cognitive load and time need to place a deal.
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>One tap deal ticket</li>
+            <li>Stay in context</li>
+            <li>Align details with the web platform</li>
           </ul>
         </section>
         <section>
-          <p className="caption">Trade Everywhere</p>
-          <h2>Streamline the deal flow</h2>
+          <p className="caps">Market Centric Analysis</p>
+          <h2>Bring together analysis & exposure per market</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             pharetra facilisis augue id dapibus. Fusce mattis porta massa
@@ -341,14 +359,14 @@ export default () => (
             libero. In hac habitasse platea dictumst. Curabitur varius nec
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>Collate market information on one screen</li>
+            <li>Only see relevant content</li>
+            <li>Swipe between markets and charts</li>
           </ul>
         </section>
         <section>
-          <p className="caption">Trade Everywhere</p>
-          <h2>Streamline the deal flow</h2>
+          <p className="caps">Conslidate Trading Activity</p>
+          <h2>Trading Activity in one place</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             pharetra facilisis augue id dapibus. Fusce mattis porta massa
@@ -356,14 +374,14 @@ export default () => (
             libero. In hac habitasse platea dictumst. Curabitur varius nec
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>Positions, orders and alerts in one place</li>
+            <li>More information available on lists</li>
+            <li>Customise to your trading strategy</li>
           </ul>
         </section>
         <section>
-          <p className="caption">Trade Everywhere</p>
-          <h2>Streamline the deal flow</h2>
+          <p className="caps">Discover new opportunities</p>
+          <h2>Awareness of other intersting markets</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             pharetra facilisis augue id dapibus. Fusce mattis porta massa
@@ -371,14 +389,14 @@ export default () => (
             libero. In hac habitasse platea dictumst. Curabitur varius nec
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>Explore without leaving the app</li>
+            <li>Markets relevent to trading activity</li>
+            <li>Task rather than feature based navigation</li>
           </ul>
         </section>
         <section>
-          <p className="caption">Trade Everywhere</p>
-          <h2>Streamline the deal flow</h2>
+          <p className="caps">Manage Accounts</p>
+          <h2>Visual Account health and inline funding</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             pharetra facilisis augue id dapibus. Fusce mattis porta massa
@@ -386,14 +404,14 @@ export default () => (
             libero. In hac habitasse platea dictumst. Curabitur varius nec
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>Graphical account health</li>
+            <li>Inline Funding</li>
+            <li>Account activities in one place</li>
           </ul>
         </section>
         <section>
-          <p className="caption">Trade Everywhere</p>
-          <h2>Streamline the deal flow</h2>
+          <p className="caps">Increase engagement</p>
+          <h2>Reduce Friction and increase visibility of IG</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             pharetra facilisis augue id dapibus. Fusce mattis porta massa
@@ -401,11 +419,12 @@ export default () => (
             libero. In hac habitasse platea dictumst. Curabitur varius nec
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
+            <li>Monitor and research without frequent login</li>
+            <li>Widgets expose key information outside the app</li>
+            <li>Show charts in notifications</li>
           </ul>
         </section>
+
         <Author />
       </article>
     </div>

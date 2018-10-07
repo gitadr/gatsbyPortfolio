@@ -7,17 +7,17 @@ export default () => (
     <div class="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
-          <p className="articleDate">Tuesday, 17 July 2018</p>
+          <p className="articleDate">Monday, 8 October 2018</p>
           <Link to="/blogArticle_one">
-            <h1>I’d rather be a pirate than join the navy.</h1>
+            <h1>"It's better to be a pirate than join the navy."</h1>
           </Link>
           <div className={styles.articlePreview}>
             <img src={require("../images/heroImage.png")} alt="Steve Jobs" />
             <div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adi piscing elit. Nullam
-                posuere nisl et sem congue, ac tempus nibh egestas nullam
-                tincidunt nib Lorem ipsum dolor sit amet...
+                In January 1983 Steve Jobs began a company retreat with three
+                "Sayings from Chairman Jobs", intended to inspire the team and
+                set the tone for the meeting...
               </p>
             </div>
           </div>
@@ -25,24 +25,21 @@ export default () => (
       </div>
       <div className={styles.articleList}>
         <article className={styles.list}>
-          <p className="articleDate">Tuesday, 17 July 2018</p>
+          <p className="articleDate">Monday, 8 October 2018</p>
           <Link to="/blogArticle_two">
-            <h2>Lorem ipsum dolor sit amet consectetur?</h2>
+            <h2>Designing with constraints</h2>
           </Link>
         </article>
         <article className={styles.list}>
-          <p className="articleDate">Tuesday, 17 July 2018</p>
+          <p className="articleDate">Monday, 8 October 2018</p>
           <Link to="/blogArticle_three">
-            <h2>Fusce eget massa quis neque euismod venenatis</h2>
+            <h2>Framer prototyping and my experience learning React</h2>
           </Link>
         </article>
         <article className={styles.list}>
-          <p className="articleDate">Tuesday, 17 July 2018</p>
+          <p className="articleDate">Monday, 8 October 2018</p>
           <Link to="/blogArticle_four">
-            <h2>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit nam tellus
-              leo tempus
-            </h2>
+            <h2>Digital psychology – Rational designs for irrational humans</h2>
           </Link>
         </article>
       </div>
