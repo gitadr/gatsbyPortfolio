@@ -59,6 +59,14 @@ section.mobileDesign {
   margin: 32px 0;
 }
 
+section.mobileDesign h3 {
+  margin: 0;
+}
+
+.recommendation {
+  font-size: 64px;
+}
+
 .workText {
   flex-basis: 100%;
   align-self: center;

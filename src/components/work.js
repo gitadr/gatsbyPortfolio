@@ -15,9 +15,9 @@ export default () => (
         </p>
         <ul>
           <li>
-            <Link to="/case_study_web_trading" className="button invert">
+            <Link to="/case_study_forex_trading" className="button invert">
               <span className="linkIcon" />
-              <span className="text">Evolving Web Trading</span>
+              <span className="text">Trading New Markets</span>
             </Link>
           </li>
           <li>
@@ -30,12 +30,6 @@ export default () => (
             <Link to="/case_study_design_system" className="button invert">
               <span className="linkIcon" />
               <span className="text">Systems That Scale</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/case_study_forex_trading" className="button invert">
-              <span className="linkIcon" />
-              <span className="text">Trading New Markets</span>
             </Link>
           </li>
         </ul>

@@ -11,7 +11,7 @@ export default () => (
       <article>
         <section>
           <h1>Launching a Forex trading app lorem ipsum</h1>
-          <p>
+          <p className="intro">
             Trading is hard. Designing trading applications isn't any easier.
             Executing an order at the right second can make the difference
             between a profit or a loss. As a result, quantifying the opportunity
@@ -103,9 +103,9 @@ export default () => (
         <section>
           <h2>Iterating the mobile vision</h2>
           <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
+            Placing an order at the right second can make the difference between
+            a profit or a loss. As a result, knowing the opportunity cost of an
+            interaction becomes vital.
           </p>
           <p>
             Cras et risus faucibus, aliquet risus ut, egestas dolor. Phasellus
@@ -135,7 +135,7 @@ export default () => (
         <img
           src={require("../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg")}
           alt="Placeholder"
-          className={styles.caseStudy_LargeImage}
+          className={styles.caseStudy_MediumImage}
         />
         <div class="borderKeyline" />
         <section>
@@ -149,26 +149,31 @@ export default () => (
         <img
           src={require("../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg")}
           alt="Placeholder"
-          className={styles.caseStudy_LargeImage}
-        />
-        <section>
-          <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
-          </p>
-          <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
-          </p>
-        </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_pricesTicks.gif")}
-          alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
-        <div class="borderKeyline" />
+        <section className={styles.mobileDesign}>
+          <div className={styles.workText}>
+            <h2>Design Concept</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              pharetra facilisis augue id dapibus. Fusce mattis porta massa
+              maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
+              libero. In hac habitasse platea dictumst. Curabitur varius nec
+            </p>
+            <ul>
+              <li>01 Identify new opportunities to trade</li>
+              <li>02 Identify new opportunities to trade</li>
+              <li>03 Identify new opportunities to trade</li>
+              <li>03 Identify new opportunities to trade</li>
+            </ul>
+          </div>
+          <div className={styles.workImage}>
+            <img
+              src={require("../images/caseStudies/caseStudy_redRoute1.gif")}
+              alt="Placeholder"
+            />
+          </div>
+        </section>
         <section>
           <h2>Outcome & Learnings</h2>
           <p>
@@ -179,11 +184,10 @@ export default () => (
           </p>
         </section>
         <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_iOS_before.jpg")}
+          src={require("../images/caseStudies/caseStudy_forexTrading_overview.jpg")}
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
-        <div class="borderKeyline" />
         <section>
           <h2>Measuring success</h2>
           <p>
