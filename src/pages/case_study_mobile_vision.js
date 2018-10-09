@@ -29,11 +29,11 @@ export default () => (
           <p>
             The aim of the project was to create a long-term vision for mobile.
             A set of core concepts that could be integrated into the apps within
-            18-24 months. IG's mobile platforms had been stagnating and there
+            18–24 months. IG's mobile platforms had been stagnating and there
             was a desire to create a product that would be truly innovative. We
             prioritised streamlining key trading tasks and aligning the visual
             identity, functionality and common interaction. It was also
-            important to understand traders motivations in order to encourage
+            important to understand traders' motivations in order to encourage
             behaviour that made them more successful and ultimately more
             profitable.
           </p>
@@ -41,7 +41,7 @@ export default () => (
           <p>
             To focus our efforts we identified four key users tasks. These 'red
             routes' are the foundational user journeys that made our product
-            most valuable and captured 90% of our traders actions.
+            most valuable and captured 90% of our traders' actions.
           </p>
           <ul>
             <li>
@@ -72,7 +72,7 @@ export default () => (
           <p>
             The iOS and Android apps had deviated and some key flows had become
             convoluted. The architecture on both apps again differed, but
-            oriented around a hub and spoke style navigation. The information
+            orientated around a hub and spoke style navigation. The information
             hierarchy was relatively flat and dense. There was emphasis on
             showing a limited number of data points on as many markets as
             possible.
@@ -112,7 +112,7 @@ export default () => (
             finding experienced traders is crucial. We started by organising
             senior stakeholder interviews, including current or former traders,
             to get insight on their views of the apps. While I was initially
-            keen to get their perspective on the apps strengths and weaknesses,
+            keen to get their perspective on the apps' strengths and weaknesses,
             it also proved to an opportunity to promote the project and its
             objectives.
           </p>
@@ -291,8 +291,8 @@ export default () => (
               the mobile vision project.
             </p>
             <p>
-              By regular attending the events - and encouraging other designers
-              to do the same - we gained invaluable insight into the latest OS
+              By regular attending the events – and encouraging other designers
+              to do the same – we gained invaluable insight into the latest OS
               features and became a stronger, more rounded team in the process.
             </p>
           </div>
@@ -386,8 +386,8 @@ export default () => (
           </p>
 
           <p>
-            This change also allowed us to move away from the hub and spoke
-            style navigation to point to point. This drastically reduced the
+            This change also allowed us to move away from the hub-and-spoke
+            style navigation to point-to-point. This drastically reduced the
             amount of steps in key user flows, allowing us to make switching
             between markets easier.
           </p>
@@ -482,9 +482,10 @@ export default () => (
             Another key statistic from the research showed that a large
             proportion of sessions were for under ten seconds. These short but
             frequent logins were to check account health and balances. The last
-            recommendation was to reduce the need to login to see account health
-            information by integrating better with the mobile OS. This would
-            include using home page widgets, richer notifications and shortcuts.
+            recommendation was to reduce the need to log in to see account
+            health information by integrating better with the mobile OS. This
+            would include using home page widgets, richer notifications and
+            shortcuts.
           </p>
           <h3>Summary</h3>
           <ul>
