@@ -227,7 +227,7 @@ export default () => (
         </section>
         <div className={styles.workImage}>
           <img
-            src={require("../images/caseStudies/caseStudy_MobileVision_redRoute1.gif")}
+            src={require("../images/caseStudies/caseStudy_MobileVision_Demo.gif")}
             alt="Placeholder"
           />
         </div>
