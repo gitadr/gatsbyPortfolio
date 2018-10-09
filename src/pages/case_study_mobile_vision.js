@@ -70,7 +70,7 @@ export default () => (
           </p>
 
           <p>
-            The iOS and Android apps had deviated and some key flow had become
+            The iOS and Android apps had deviated and some key flows had become
             convoluted. The architecture on both apps again differed, but
             oriented around a hub and spoke style navigation. The information
             hierarchy was relatively flat and dense. There was emphasis on
@@ -112,9 +112,9 @@ export default () => (
             finding experienced traders is crucial. We started by organising
             senior stakeholder interviews, including current or former traders,
             to get insight on their views of the apps. While I was initially
-            keen to get their perspective on the apps current strengths and
-            weaknesses, it also proved to an opportunity to promote the project
-            and its objectives.
+            keen to get their perspective on the apps strengths and weaknesses,
+            it also proved to an opportunity to promote the project and its
+            objectives.
           </p>
 
           <p>

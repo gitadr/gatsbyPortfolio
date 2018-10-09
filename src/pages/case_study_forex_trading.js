@@ -13,7 +13,7 @@ export default () => (
         <section>
           <h1>Launching FX trading apps in a new market</h1>
           <p className="intro">
-            Launching a new product is always exciting. Sometimes it can offer
+            Launching a new product is always exciting. Sometimes it can provide
             unique design opportunities too. IG's application to offer regulated
             FX products to US clients gave my team the chance to implement our
             design vision and build two world-class trading apps.
@@ -28,9 +28,9 @@ export default () => (
           <h2>Challenge</h2>
           <p>
             The US FX industry has some of the most stringent regulatory
-            conditions in the world. Adding to the existing technical and
-            cultural complications of exporting a primarily European product,
-            the challenges of launching in the US soon added up.
+            conditions in the world. Adding to the technical and cultural
+            complications of exporting a primarily European product, the
+            challenges of launching in the US soon added up.
           </p>
           <p>
             As the lead UI design for the mobile platforms, I was accountable
@@ -39,17 +39,16 @@ export default () => (
           <p>
             Our first task was to establish the differences in terminology and
             regulatory requirements between our existing and proposed apps.
-            Working with the wider mobile and project management teams we
-            compiled a specification for the new apps, framing the design
-            problems into sprint stories.
+            Working with the wider mobile teams we compiled a specification for
+            the new apps.
           </p>
           <p>
-            The next step was create a series of prototypes to test our
-            assumptions. Due to the intricate nature of the US trading rules we
-            needed a way of replicating US trading behaviour. The solutions was
-            to us Framer to adapt our existing trading API's so we could create
-            a realistic simulation of what needed to be built. This was a huge
-            undertaking and was a technical first for IG.
+            The next step was creating a series of prototypes to test our
+            assumptions. Due to the complexity of the trading regulations we
+            needed a way to simulate the expected outcomes. The solutions was to
+            use Framer to adapt our IG's trading API's so we could create a
+            realistic example for clients to test. This was a huge undertaking
+            and a technical first for IG.
           </p>
         </section>
         <img
@@ -59,10 +58,10 @@ export default () => (
         />
         <section>
           <p>
-            Once we had a set of prototypes we could test, I worked with the UX
+            Once we had a set of prototypes to test, I worked with the UX
             research team to facilitate a series of user testing sessions in
-            Chicago. They focused on validating our early assumptions and were
-            targeted at both new category and competitor clients.
+            Chicago. They focused on validating our early assumptions and
+            involved both new and competitor clients.
           </p>
         </section>
         <img
@@ -74,22 +73,22 @@ export default () => (
         <section>
           <h2>Existing designs</h2>
           <p>
-            Although the early prototypes were based on the existing web and
-            native trading platforms, there was a strong design from the product
-            teams to move beyond what had been achieved before and create
-            something truly innovative.
+            Although the early prototypes were based on the existing trading
+            platforms, there was a strong design from the product teams to move
+            beyond what had been achieved before and create something truly
+            innovative.
           </p>
           <h3>iOS App</h3>
           <p>
             The existing iOS app designs where dated. They lacked hierarchy and
-            structure and conformed to an older navigation paradigm.
+            structure and conformed to an older navigation architecture.
           </p>
 
           <p>
-            Based in the London office, the iOS develop team wanted to start
-            with a completely new code base. As a result of the recent success
-            of 'Swift Nights' the team felt confident that they could rewrite
-            the app from the ground up.
+            Based in the London office, the iOS development team wanted to start
+            with a completely new code base. As a result of the recent 'Swift
+            Nights' the team felt confident that they could rewrite the app from
+            the ground up.
           </p>
 
           <p>
@@ -105,14 +104,14 @@ export default () => (
         <section>
           <h3>Android App</h3>
           <p>
-            The android app suffered from many of the same design problems the
-            iOS. In addition, the progress made with Material Design was absent
-            from IG app.
+            The android app suffered from many of the same design problems iOS.
+            In addition, the progress made with Material Design was absent from
+            IG app.
           </p>
           <p>
-            Based in the Krakow office, the Android develop team wanted to clone
-            the existing Android trading app, concentrating instead on
-            refactoring the code to separate the UI and business logic elements.
+            Based in the Krakow office, the Android development team wanted to
+            clone the existing trading app, concentrating instead on refactoring
+            the code to separate the UI and business logic elements.
           </p>
           <p>
             Although the outcome for the two apps would be the same, due to the
@@ -131,10 +130,10 @@ export default () => (
             <p>
               Native apps should feel like part of your device, using default
               fonts, components and transitions where possible. This avoids
-              redesigning common mobile patterns such as toggles or list and
-              leaves the team to focus on designing trading-specific tasks. It
-              is here that time should be spent perfecting interactions and
-              creating an experience that feels unique to IG.
+              redesigning common patterns such as toggles or list and allows
+              designers to focus on trading-specific elements. Here time can be
+              spent perfecting interactions and creating an experience that
+              feels unique to IG.
             </p>
           </div>
           <div className={styles.workImage}>
@@ -152,7 +151,7 @@ export default () => (
             vision in a comprehensive way.
           </p>
           <p>
-            The vision consisted of 7 concepts that aimed to streamline key
+            The project made seven recommendations that aimed to streamline key
             trading tasks and align the visual identity, functionality and
             common interaction of IG's mobile apps.
           </p>
@@ -210,8 +209,8 @@ export default () => (
               As well as the mobile vision, we had been working on adding mobile
               patterns to the design system. Formation was created to unify IG's
               platforms, create a shared understanding of design principles and
-              enable teams work more efficiently. Again, the new FX apps were a
-              chance to put this to the test.
+              enabling teams work more efficiently. Again, the new FX apps were
+              a chance to put this to the test.
             </p>
             <Link to="/case_study_design_system" className="button">
               <span className="linkIcon" />
@@ -226,18 +225,18 @@ export default () => (
           </div>
         </section>
         <section>
-          <h2>Market Widget</h2>
+          <h2>Market screens</h2>
           <p>
-            One of the key changes we wanted to make as part of the redesign was
-            a move to a more market-centric way of trading. Rather than browsing
-            by feature, e.g. news or positions, we presented all of the
-            necessary market information on a single page.
+            One of the key changes we made as part of the redesign was a move to
+            a more market-centric app structure. Rather than browsing by
+            feature, e.g. news or positions, we presented all of the necessary
+            market information on a single page.
           </p>
           <p>
             Reaching a design took some time. It was hard to balance the need
             for data density with a clear hierarchy. We achieved the final
             design after a number of iterations, testing different versions with
-            client along the way.
+            clients along the way.
           </p>
         </section>
         <img

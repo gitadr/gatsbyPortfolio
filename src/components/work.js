@@ -10,16 +10,10 @@ export default () => (
         <p>
           Trading is hard. Designing a trading platform isn't any easier. Over
           the last three years I have helped IG design and build a new
-          generation of task orientated applications. Find out more and learn
-          about my design process in the case studies below.
+          generation of task orientated applications. Find out more about my
+          design process in the case studies below.
         </p>
         <ul>
-          <li>
-            <Link to="/case_study_forex_trading" className="button invert">
-              <span className="linkIcon" />
-              <span className="text">Trading New Markets</span>
-            </Link>
-          </li>
           <li>
             <Link to="/case_study_mobile_vision" className="button invert">
               <span className="linkIcon" />
@@ -30,6 +24,12 @@ export default () => (
             <Link to="/case_study_design_system" className="button invert">
               <span className="linkIcon" />
               <span className="text">Systems That Scale</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/case_study_forex_trading" className="button invert">
+              <span className="linkIcon" />
+              <span className="text">Trading New Markets</span>
             </Link>
           </li>
         </ul>
