@@ -20,7 +20,7 @@ export default () => (
           </p>
         </section>
         <img
-          src={require("../images/caseStudies/caseStudy_MobileVision_Hero.jpg")}
+          src={require("../images/caseStudies/caseStudy_mobileVision_Hero.jpg")}
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -226,7 +226,7 @@ export default () => (
           </div>
           <div className={styles.workImage}>
             <img
-              src={require("../images/caseStudies/caseStudy_MobileVision_Demo.gif")}
+              src={require("../images/caseStudies/caseStudy_mobileVision_Demo.gif")}
               alt="Placeholder"
             />
           </div>
