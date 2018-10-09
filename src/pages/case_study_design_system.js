@@ -15,8 +15,9 @@ export default () => (
             IG offers a multitude of products, from native apps to web-based
             trading platforms. As the company expanded to 17 global locations,
             maintaining design consistency became a challenge. Formation, IG's
-            design system, was created to unify these platforms, allowing them
-            to ship better products faster.
+            design system, was created to unify these platforms, create a shared
+            understanding of design principles and enable teams work more
+            efficiently.
           </p>
         </section>
         <img
@@ -168,27 +169,13 @@ export default () => (
         <section>
           <h2>Formation</h2>
           <p>
-            Once a consensus had been formed on IG's design foundations,
-            patterns and principles, it was time to start documenting.
-          </p>
-          <p>
-            The technicalities of building the design system proved challenging.
-            The preferred option was to build a custom framework and CMS. The
-            design system itself would have been the first 'product' designed
-            and built using the newly established patterns and principles. But
-            due to time restrictions, an off the self solution was used instead.
-          </p>
-          <p>
-            The system was aptly named Formation and included three main
-            sections. collaborative set of principles and guidelines, with a
-            comprehensive live inventory of UI components, style guides, assets,
-            code snippets, developer guidelines and more. Formation was the
-            system tied all of these areas together, becoming the one source of
-            truth.
-          </p>
-          <p>
-            The system was aptly named Formation and included three main
-            sections:
+            Once IG's brand elements, patterns and principles had been agreed,
+            they needed to documented. The first option was to build a custom
+            framework and CMS. This would have made Formation the first
+            'product' designed and built using the new design system – a great
+            way to test and 'dogfood' our principles . Unfortunately, due to
+            time restrictions, Frontify's ready made solution was the obvious
+            MVP.
           </p>
         </section>
         <img
@@ -197,6 +184,19 @@ export default () => (
           className={styles.caseStudy_MediumImage}
         />
         <section>
+          <p>
+            An important part of designing Formation creating a structure that
+            would enable it to efficiently scale with IG's growth. Formation
+            need to include a live inventory of UI components, style guides,
+            assets, code snippets, developer guidelines and more. After a number
+            workshops and card sorting exercises we settled on three core
+            sections: Foundations, Patterns and Components.
+          </p>
+          <p>
+            These three sections formed the core of the design system and
+            represented different levels of complexity, offering greater detail
+            and specifics around elements as you progressed.
+          </p>
           <h3>01 Foundations</h3>
           <p>
             Foundations are the high-level principles and building blocks of any
@@ -242,10 +242,11 @@ export default () => (
         <section>
           <h2>Price Ticks</h2>
           <p>
-            In order for the design system to succeed it was important to build
-            consensus from across the business. I set about finding advocates
-            from each area that could offer their insight and expertise as well
-            as act as ambassadors for the project as a whole.
+            The need to show market price changes is a constant across IG
+            products. For this reason it proved to be a perfect example of how
+            to create innovative patterns using Formation. When designing the
+            price ticks we referenced the existing foundations and patterns to
+            design and build new components.
           </p>
         </section>
         <img
@@ -267,25 +268,36 @@ export default () => (
         <section>
           <h2>Outcome & Learnings</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            commodo est id massa porttitor ultrices. Curabitur nec lobortis
-            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
-            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
-            egestas dolor.
+            Building design systems is tricky. It relies on a huge amount of
+            hard work and collaboration from across a business. It also requires
+            a certain kind of mindset. Unlike the brand guidelines and style
+            guides that came before, design systems are living entities that
+            need to constantly evolve to stay relevant useful.
           </p>
-        </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Symbols.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
-        />
-        <section>
+          My biggest learning from the project are:
+          <h3>Start early, update often</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            commodo est id massa porttitor ultrices. Curabitur nec lobortis
-            purus, non egestas neque. Vivamus sollicitudin consequat magna, nec
-            mattis nunc luctus eu. Cras et risus faucibus, aliquet risus ut,
-            egestas dolor.
+            It's so much easier to record thinking as it happens rather than
+            retrospectively document changes. Make sure when you start a new
+            project that you set a side time to document changes that are
+            relevant to the design system.
+          </p>
+          <h3>Build a strong support base</h3>
+          <p>
+            Creating a design system isn't a job for one person or even a small
+            team. It requires support and buy-in from a multitude of teams and
+            stakeholders. Find people that are motivated and get them to help
+            you build awareness for the project.{" "}
+          </p>
+          <h3>Get the level of detail right</h3>
+          <p>
+            Figuring out the right amount of detail to include in Formation was
+            one of the biggest headaches of the project. Include too much and
+            your system become dense and obtuse. Don't include enough and your
+            team are left asking questions. The eureka moment for me was
+            splitting the system into detail specific sections. This allowed us
+            to include a various amounts of detail at different stages on a
+            'need to know' bases.
           </p>
         </section>
         <img

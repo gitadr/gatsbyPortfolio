@@ -3,6 +3,7 @@ import styles from "./caseStudy.module.css";
 import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
+import { Link } from "gatsby";
 
 export default () => (
   <div className={styles.caseStudy}>
@@ -10,12 +11,12 @@ export default () => (
       <Header />
       <article>
         <section>
-          <h1>Launching a Forex trading app lorem ipsum</h1>
+          <h1>Launching FX trading apps in a new market</h1>
           <p className="intro">
-            Trading is hard. Designing trading applications isn't any easier.
-            Executing an order at the right second can make the difference
-            between a profit or a loss. As a result, quantifying the opportunity
-            cost of interactions becomes vital.
+            Launching a new product is always exciting. Sometimes it can offer
+            unique design opportunities too. IG's application to offer regulated
+            FX products to US clients gave my team the chance to implement our
+            design vision and build two world class trading apps.
           </p>
         </section>
         <img
@@ -26,22 +27,43 @@ export default () => (
         <section>
           <h2>Challenge</h2>
           <p>
-            Create a long-term vision for mobile that better supports our users'
-            varying trading behaviours and knowledge, and the execution of key
-            trading tasks, while aligning visual identity, functionality, and
-            interaction across all of IG's trading platforms.
+            The US FX industry has long had some of the most stringent
+            regulatory conditions in the world. Combined with the technical and
+            cultural complications of exporting a primarily European product and
+            the challenges of launching in the US soon added up.
           </p>
           <p>
-            Testable prototypes of varying fidelity are to be produced, so that
-            we may better explore and validate the vision, and promote a shared
-            understanding of it, for the benefit of our teams and stakeholders.
-            Cross-platform alignment - Define red routes
+            As the lead UI design for the mobile platforms, I was accountable
+            for the design of the IG's new US focused iOS and Android Apps.
           </p>
           <p>
-            Testable prototypes of varying fidelity are to be produced, so that
-            we may better explore and validate the vision, and promote a shared
-            understanding of it, for the benefit of our teams and stakeholders.
-            Cross-platform alignment - Define red routes
+            Our first task was establish the differences is terminology and
+            regulatory requirements between our existing and proposed apps.
+            Working with the wider mobile and project management teams we
+            compiled a specification for the new apps, framing the design
+            problems into sprint stories.
+          </p>
+          <p>
+            The next step was create a series of prototypes to test our
+            assumptions. Due to the intricate nature of the US trading rules we
+            needed a way of replicating US trading behaviour. The solutions was
+            to us Framer to adapt our existing trading API's so we could create
+            a realistic simulation of what needed to be built. This was a huge
+            undertaking and was a technical first for IG.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_forexTrading_prototype.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+        <section>
+          <p>
+            Once we had a set of prototypes we could test, I worked with the UX
+            research team to facilitate a series of user testing sessions based
+            in Chicago. These sessions were focused on validating our early
+            assumptions and were targeted at both new category and competitor
+            clients.
           </p>
         </section>
         <img
@@ -51,17 +73,29 @@ export default () => (
         />
         <div class="borderKeyline" />
         <section>
-          <h2>Exsisting designs</h2>
+          <h2>Existing designs</h2>
           <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
+            Although the early prototypes were based on the existing web and
+            native trading platforms, the was a strong design from the product
+            teams to move beyond what had been achieve before and create
+            something truly innovative.
           </p>
           <h3>iOS App</h3>
           <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
+            The existing iOS app designs where dated. They lacked hierarchy and
+            structure and conformed to an older navigation paradigm.
+          </p>
+
+          <p>
+            Based in the London office, the iOS develop team wanted to start
+            with a completely new code base. As a result of the recent success
+            of 'Swift Nights' the team felt confident that they could rewrite
+            the app from the ground up.
+          </p>
+
+          <p>
+            This meant the design team could focus on producing new designs
+            based on the recommendations of the mobile vision project.
           </p>
         </section>
         <img
@@ -72,9 +106,19 @@ export default () => (
         <section>
           <h3>Android App</h3>
           <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
+            The android app suffered from many of the same design problems the
+            iOS. In addition, the *huge progress* made with Material Design were
+            absent from IG app.
+          </p>
+          <p>
+            Based in the Krakow office, the Android develop team wanted to clone
+            the existing Android trading app, concentrating instead on
+            refactoring the code to separate the UI and business logic elements.
+          </p>
+          <p>
+            Although the outcome for the two apps would be the same, due the
+            difference in development strategy the design team needed to support
+            the iOS and Android teams in different ways.
           </p>
         </section>
         <img
@@ -84,18 +128,19 @@ export default () => (
         />
         <section className={styles.mobileDesign}>
           <div className={styles.workText}>
-            <h3>Formation Design System</h3>
+            <h3>Native first</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              commodo est id massa porttitor ultrices. Curabitur nec lobortis
-              purus, non egestas neque. Vivamus sollicitudin consequat magna,
-              nec mattis nunc luctus eu. Cras et risus faucibus, aliquet risus
-              ut, egestas dolor.
+              Native apps should feel like part of your device, using default
+              fonts, components and transitions where possible. This avoids
+              redesigning common mobile patterns such as toggles or list and
+              leaves team to focus on designing trading specific tasks. It is
+              here that time should be spent perfecting interactions and
+              creating an experience that feels unique to IG.
             </p>
           </div>
           <div className={styles.workImage}>
             <img
-              src={require("../images/caseStudies/caseStudy_forexTrading_designSystem.jpg")}
+              src={require("../images/caseStudies/caseStudy_forexTrading_nativeFirst.jpg")}
               alt="Placeholder"
             />
           </div>
@@ -103,15 +148,14 @@ export default () => (
         <section>
           <h2>Iterating the mobile vision</h2>
           <p>
-            Placing an order at the right second can make the difference between
-            a profit or a loss. As a result, knowing the opportunity cost of an
-            interaction becomes vital.
+            The team had recently finished putting together a long-term vision
+            for mobile. The new FX apps were the first chance to implement that
+            vision in a comprehensive way.
           </p>
           <p>
-            Cras et risus faucibus, aliquet risus ut, egestas dolor. Phasellus
-            cursus nunc lacus, iaculis volutpat justo consequat id. Morbi
-            hendrerit blandit odio a suscipit. Vestibulum vulputate tempor
-            lorem. Quisque et nibh bibendum, tincidunt enim quis, congue nisi.
+            The vision consisted of 7 concepts that aimed to streamline key
+            trading tasks and align the visual identity, functionality and
+            common interaction of IG's mobile apps.
           </p>
           <ul>
             <li>
@@ -155,54 +199,73 @@ export default () => (
               </p>
             </li>
           </ul>
+          <Link to="/case_study_mobile_vision" className="button">
+            <span className="linkIcon" />
+            <span className="text">Find out more</span>
+          </Link>
         </section>
-        <div class="borderKeyline" />
-        <section>
-          <h2>Market Widget</h2>
-          <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
-          </p>
-        </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
-        />
-        <div class="borderKeyline" />
-        <section>
-          <h2>Deal Ticket</h2>
-          <p>
-            Nulla tincidunt pharetra vestibulum. Nunc mauris elit, laoreet sit
-            amet luctus in, ornare nec nisi. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
-          </p>
-        </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
-        />
         <section className={styles.mobileDesign}>
           <div className={styles.workText}>
-            <h2>Design Concept</h2>
+            <h3>Formation Design System</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              pharetra facilisis augue id dapibus. Fusce mattis porta massa
-              maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-              libero. In hac habitasse platea dictumst. Curabitur varius nec
+              As well as the mobile vision, we had been working on adding mobile
+              patterns to the design system. Formation was created to unify IG's
+              platforms, create a shared understanding of design principles and
+              enable teams work more efficiently. Again, the new FX apps were a
+              chance to put this to the test.
             </p>
-            <ul>
-              <li>01 Identify new opportunities to trade</li>
-              <li>02 Identify new opportunities to trade</li>
-              <li>03 Identify new opportunities to trade</li>
-              <li>03 Identify new opportunities to trade</li>
-            </ul>
+            <Link to="/case_study_design_system" className="button">
+              <span className="linkIcon" />
+              <span className="text">Find out more</span>
+            </Link>
           </div>
           <div className={styles.workImage}>
             <img
-              src={require("../images/caseStudies/caseStudy_redRoute1.gif")}
+              src={require("../images/caseStudies/caseStudy_forexTrading_designSystem.jpg")}
+              alt="Placeholder"
+            />
+          </div>
+        </section>
+        <section>
+          <h2>Market Widget</h2>
+          <p>
+            One of the key changes we wanted to make as part of the redesign was
+            a move to a more market centric way of trading. Rather than browsing
+            by feature, e.g. news or positions, we presented all of the
+            necessary market information on to a single page.
+          </p>
+          <p>
+            Reaching a design took some time. It was hard to balance the need
+            for data density with a clear hierarchy. We achieved the final
+            design after a number of iterations, testing different versions with
+            client along the way.
+          </p>
+        </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_LargeImage}
+        />
+        <section className={styles.mobileDesign}>
+          <div className={styles.workText}>
+            <h2>Minimum Viable Product</h2>
+            <p>
+              One of the biggest challenges we faced as a design team was
+              supporting the different development road maps of the iOS and
+              Android teams. As mentioned, the teams took different approach to
+              the apps development and this had a knock on effect on feature
+              delivery.
+            </p>
+            <p>
+              The best way I found to counter this was to create a MVP prototype
+              for each platform. This allowed both teams to see the end goal,
+              and work with the designers to adapt it to their development
+              stories.
+            </p>
+          </div>
+          <div className={styles.workImage}>
+            <img
+              src={require("../images/caseStudies/caseStudy_forexTrading_MVP_light.gif")}
               alt="Placeholder"
             />
           </div>
@@ -210,10 +273,10 @@ export default () => (
         <section>
           <h2>Outcome & Learnings</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            After months of hard work, we finally had a something that we could
+            take to market. The final apps where a product of the mobile vision
+            a design system that had proceeded them and where the best example
+            of IG's aspiration to build category defining apps.
           </p>
         </section>
         <img
@@ -221,20 +284,6 @@ export default () => (
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
-        <section>
-          <h2>Measuring success</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
-          </p>
-          <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
-          </ul>
-        </section>
         <Author />
       </article>
     </div>

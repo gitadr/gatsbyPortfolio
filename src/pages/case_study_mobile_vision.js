@@ -39,9 +39,9 @@ export default () => (
           </p>
           <h3>Key user tasks</h3>
           <p>
-            To focus our efforts we identified four key users task. These 'red
+            To focus our efforts we identified four key users tasks. These 'red
             routes' are the foundational user journeys that made our product
-            most valuable and captured 90% or more of our traders actions.
+            most valuable and captured 90% of our traders actions.
           </p>
           <ul>
             <li>
@@ -111,18 +111,18 @@ export default () => (
             Domain knowledge is scarce in the world of leveraged trading so
             finding experienced traders is crucial. We started by organising
             senior stakeholder interviews, including current or former traders,
-            to get insight on their views of the apps. While I was keen to get
-            their perspective on the apps current strengths and weaknesses, it
-            also proved to an opportunity to promote the project and its
-            objectives.
+            to get insight on their views of the apps. While I was initially
+            keen to get their perspective on the apps current strengths and
+            weaknesses, it also proved to an opportunity to promote the project
+            and its objectives.
           </p>
 
           <p>
             The next task was collecting qualitative and quantitative data from
             clients. Again, starting with the existing app, we focused on
-            trading data such as the number of trade placed, markets traded,
+            trading data such as the number of trades placed, markets traded,
             average session times, popular devices etc. Next I worked with the
-            UX research team to organise and facilitate high value client
+            UX research team to organise and facilitate high-value client
             interviews as well as focus groups for both existing and potential
             clients. IG hadn't conducted mobile specific research before so I
             helped create a mobile testing rig. This included screen recording
@@ -167,12 +167,12 @@ export default () => (
           </p>
           <h3>Ideation</h3>
           <p>
-            Day 2 started with a recap of the team's design principles and
+            Day two started with a recap of the team's design principles and
             project goals. Sketching sessions and 'Crazy 8' style design
             exercises followed.
           </p>
           <p>
-            Day 3 was all about reviewing the ideas so far and planning the
+            Day three was all about reviewing the ideas so far and planning the
             prototyping stage. This included paper prototypes or storyboarding
             exercises and was accompanied by a mid week review with
             stakeholders.
@@ -186,11 +186,11 @@ export default () => (
         <section>
           <h3>Prototyping</h3>
           <p>
-            All of Day 4 and the morning of Day 5 were dedicated to prototyping
-            and planning testing sessions. It's important that prototype
-            fidelity is considered early on. There needs to be enough detail to
-            prove the concept, but not so much that you waste time at the
-            expense of iterating and improving a concept.
+            All of day four and the morning of day five were dedicated to
+            prototyping and planning testing sessions. It's important that
+            prototype fidelity is considered early on. There needs to be enough
+            detail to prove the concept, but not so much that you waste time at
+            the expense of iterating and improving a concept.
           </p>
           <p>
             Framer is my prototyping tool of choice. It gives maximum
@@ -221,12 +221,12 @@ export default () => (
               It was also an important time to reflect and calculate our next
               steps. Are the concepts ready for further testing? Do they need
               another round of iteration? Or have you proven that the concept
-              shouldn't be pursued at all.
+              shouldn't be pursued at all?
             </p>
           </div>
           <div className={styles.workImage}>
             <img
-              src={require("../images/caseStudies/caseStudy_redRoute1.gif")}
+              src={require("../images/caseStudies/caseStudy_MobileVision_redRoute1.gif")}
               alt="Placeholder"
             />
           </div>
@@ -328,7 +328,7 @@ export default () => (
           <h2>Explore and personalise straight away</h2>
           <p>
             IG has always invested in supporting new clients. This historically
-            has had to be done without any upfront understanding of a client's
+            had to be done without any upfront understanding of a client's
             trading knowledge or experience. By allowing clients to tailor the
             app at login, based on experience or trading style, IG can offer a
             more personalised experience.
@@ -352,9 +352,9 @@ export default () => (
           <p>
             Executing an order at the right second can make the difference
             between a profit or a loss. So quantifying the opportunity cost of
-            interaction was vital. By keeping the ticket in context and aligning
-            the design with IG's other platforms, we have drastically reduced
-            the cognitive load and time needed to place a deal.
+            interactions was vital. By keeping the ticket in context and
+            aligning the design with IG's other platforms, we have drastically
+            reduced the cognitive load and time needed to place a deal.
           </p>
           <h3>Summary</h3>
           <ul>
@@ -374,8 +374,8 @@ export default () => (
           <h2>Bring together analysis & exposure per market</h2>
           <p>
             One of the biggest changes proposed in the design vision was a move
-            from feature to task based navigation. During the research we found
-            that the vast majority of user only trade 3-5 markets.
+            from feature to task-based navigation. During the research we found
+            that the vast majority of users only trade in three to five markets.
           </p>
 
           <p>
