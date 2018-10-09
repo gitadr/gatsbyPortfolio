@@ -16,7 +16,7 @@ export default () => (
             Launching a new product is always exciting. Sometimes it can offer
             unique design opportunities too. IG's application to offer regulated
             FX products to US clients gave my team the chance to implement our
-            design vision and build two world class trading apps.
+            design vision and build two world-class trading apps.
           </p>
         </section>
         <img
@@ -27,9 +27,9 @@ export default () => (
         <section>
           <h2>Challenge</h2>
           <p>
-            The US FX industry has long had some of the most stringent
-            regulatory conditions in the world. Combined with the technical and
-            cultural complications of exporting a primarily European product and
+            The US FX industry has some of the most stringent regulatory
+            conditions in the world. Adding to the existing technical and
+            cultural complications of exporting a primarily European product,
             the challenges of launching in the US soon added up.
           </p>
           <p>
@@ -37,7 +37,7 @@ export default () => (
             for the design of the IG's new US focused iOS and Android Apps.
           </p>
           <p>
-            Our first task was establish the differences is terminology and
+            Our first task was to establish the differences in terminology and
             regulatory requirements between our existing and proposed apps.
             Working with the wider mobile and project management teams we
             compiled a specification for the new apps, framing the design
@@ -60,10 +60,9 @@ export default () => (
         <section>
           <p>
             Once we had a set of prototypes we could test, I worked with the UX
-            research team to facilitate a series of user testing sessions based
-            in Chicago. These sessions were focused on validating our early
-            assumptions and were targeted at both new category and competitor
-            clients.
+            research team to facilitate a series of user testing sessions in
+            Chicago. They focused on validating our early assumptions and were
+            targeted at both new category and competitor clients.
           </p>
         </section>
         <img
@@ -76,8 +75,8 @@ export default () => (
           <h2>Existing designs</h2>
           <p>
             Although the early prototypes were based on the existing web and
-            native trading platforms, the was a strong design from the product
-            teams to move beyond what had been achieve before and create
+            native trading platforms, there was a strong design from the product
+            teams to move beyond what had been achieved before and create
             something truly innovative.
           </p>
           <h3>iOS App</h3>
@@ -94,8 +93,8 @@ export default () => (
           </p>
 
           <p>
-            This meant the design team could focus on producing new designs
-            based on the recommendations of the mobile vision project.
+            This meant the design team could focus on producing new work based
+            on the recommendations of the mobile vision project.
           </p>
         </section>
         <img
@@ -107,8 +106,8 @@ export default () => (
           <h3>Android App</h3>
           <p>
             The android app suffered from many of the same design problems the
-            iOS. In addition, the *huge progress* made with Material Design were
-            absent from IG app.
+            iOS. In addition, the progress made with Material Design was absent
+            from IG app.
           </p>
           <p>
             Based in the Krakow office, the Android develop team wanted to clone
@@ -116,7 +115,7 @@ export default () => (
             refactoring the code to separate the UI and business logic elements.
           </p>
           <p>
-            Although the outcome for the two apps would be the same, due the
+            Although the outcome for the two apps would be the same, due to the
             difference in development strategy the design team needed to support
             the iOS and Android teams in different ways.
           </p>
@@ -133,8 +132,8 @@ export default () => (
               Native apps should feel like part of your device, using default
               fonts, components and transitions where possible. This avoids
               redesigning common mobile patterns such as toggles or list and
-              leaves team to focus on designing trading specific tasks. It is
-              here that time should be spent perfecting interactions and
+              leaves the team to focus on designing trading-specific tasks. It
+              is here that time should be spent perfecting interactions and
               creating an experience that feels unique to IG.
             </p>
           </div>
@@ -170,7 +169,7 @@ export default () => (
             </li>
             <li>
               <p>
-                <b>Market centric analysis</b> – Bring together analysis &
+                <b>Market centric analysis</b> – Bring together analysis and
                 exposure per market
               </p>
             </li>
@@ -188,13 +187,13 @@ export default () => (
             </li>
             <li>
               <p>
-                <b>Manage accounts</b> – Visual Account health and inline
+                <b>Manage accounts</b> – Visual account health and inline
                 funding
               </p>
             </li>
             <li>
               <p>
-                <b>Increase engagement</b> – Reduce Friction and increase
+                <b>Increase engagement</b> – Reduce friction and increase
                 visibility of IG
               </p>
             </li>
@@ -230,9 +229,9 @@ export default () => (
           <h2>Market Widget</h2>
           <p>
             One of the key changes we wanted to make as part of the redesign was
-            a move to a more market centric way of trading. Rather than browsing
+            a move to a more market-centric way of trading. Rather than browsing
             by feature, e.g. news or positions, we presented all of the
-            necessary market information on to a single page.
+            necessary market information on a single page.
           </p>
           <p>
             Reaching a design took some time. It was hard to balance the need
@@ -257,10 +256,10 @@ export default () => (
               delivery.
             </p>
             <p>
-              The best way I found to counter this was to create a MVP prototype
-              for each platform. This allowed both teams to see the end goal,
-              and work with the designers to adapt it to their development
-              stories.
+              The best way to counter this, I found, was to create a MVP
+              prototype for each platform. This allowed both teams to see the
+              end goal, and work with the designers to adapt it to their
+              development stories.
             </p>
           </div>
           <div className={styles.workImage}>
@@ -273,10 +272,10 @@ export default () => (
         <section>
           <h2>Outcome & Learnings</h2>
           <p>
-            After months of hard work, we finally had a something that we could
-            take to market. The final apps where a product of the mobile vision
-            a design system that had proceeded them and where the best example
-            of IG's aspiration to build category defining apps.
+            After months of hard work, we finally had something that we could
+            take to market. The final apps were a product of the mobile vision
+            and design system that proceeded them and were the best example of
+            IG's aspiration to build category-defining apps.
           </p>
         </section>
         <img

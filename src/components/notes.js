@@ -7,7 +7,7 @@ export default () => (
       <div className={styles.articleHero}>
         <article className={styles.hero}>
           <p className="articleDate">COMING SOON</p>
-          <h1>Jobs and why it's better to be a pirate than join the navy.</h1>
+          <h1>Jobs on why it's better to be a pirate than join the navy.</h1>
           <div className={styles.articlePreview}>
             <img src={require("../images/heroImage.png")} alt="Steve Jobs" />
             <div>
