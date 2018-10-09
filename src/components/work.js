@@ -8,10 +8,10 @@ export default () => (
       <div className={styles.workText}>
         <h1>Designing high risk interactions.</h1>
         <p>
-          Trading is hard. Designing a trading application isn't any easier.
-          Over the last three years I have immersed myself in the world of
-          leveraged trading, helping IG design and build their next generation
-          of trading apps. Three of my favourite projects are detailed below.
+          Trading is hard. Designing a trading platforms isn't any easier. Over
+          the last three years i've helped IG design and build a new generation
+          of super fast, market centric trading apps. Find out more about my
+          design process in the case studies below.
         </p>
         <ul>
           <li>

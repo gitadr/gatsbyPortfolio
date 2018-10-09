@@ -147,6 +147,10 @@ p.articleDate {
   margin: 0;
 }
 
+li p {
+  margin: 0;
+}
+
 .textLink {
   text-transform: uppercase;
   display: block;

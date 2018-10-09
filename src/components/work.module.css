@@ -28,7 +28,7 @@
 }
 
 .work .container {
-  background-image: url(../images/workMobile.png);
+  background-image: url(../images/workMobile.jpg);
   background-size: 100vw;
   background-position: center top;
   background-repeat: no-repeat;
@@ -94,8 +94,8 @@
     align-self: center;
   }
   .work .container {
-    background-image: url(../images/workDesktop.png);
-    background-size: 1080px 802px;
+    background-image: url(../images/workDesktop.jpg);
+    background-size: 1080px 822px;
     background-position: -100px bottom;
     align-content: center;
   }
@@ -115,11 +115,13 @@
 @media only screen and (min-width: 1199px) {
   .work .container {
     background-image: url(../images/workDesktopLarge.jpg);
-    background-size: 1200px 803px;
+    background-size: 1200px 822px;
     background-position: center center;
+    padding: 10vh 0px;
   }
   .workText {
     grid-column: 8 / 13;
     align-self: center;
+    padding-bottom: 0px;
   }
 }

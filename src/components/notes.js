@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "./notes.module.css";
-import { Link } from "gatsby";
 
 export default () => (
   <section className={styles.notes}>
     <div class="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
-          <p className="articleDate">Monday, 8 October 2018</p>
-          <Link to="/blogArticle_one">
-            <h1>"It's better to be a pirate than join the navy."</h1>
-          </Link>
+          <p className="articleDate">COMING SOON</p>
+          <h1>Jobs and why it's better to be a pirate than join the navy.</h1>
           <div className={styles.articlePreview}>
             <img src={require("../images/heroImage.png")} alt="Steve Jobs" />
             <div>
@@ -25,22 +22,16 @@ export default () => (
       </div>
       <div className={styles.articleList}>
         <article className={styles.list}>
-          <p className="articleDate">Monday, 8 October 2018</p>
-          <Link to="/blogArticle_two">
-            <h2>Designing with constraints</h2>
-          </Link>
+          <p className="articleDate">COMING SOON</p>
+          <h2>Designing with constraints</h2>
         </article>
         <article className={styles.list}>
-          <p className="articleDate">Monday, 8 October 2018</p>
-          <Link to="/blogArticle_three">
-            <h2>Framer prototyping and my experience learning React</h2>
-          </Link>
+          <p className="articleDate">COMING SOON</p>
+          <h2>Framer prototyping and my experience learning React</h2>
         </article>
         <article className={styles.list}>
-          <p className="articleDate">Monday, 8 October 2018</p>
-          <Link to="/blogArticle_four">
-            <h2>Digital psychology – Rational designs for irrational humans</h2>
-          </Link>
+          <p className="articleDate">COMING SOON</p>
+          <h2>Digital psychology – Rational designs for irrational humans</h2>
         </article>
       </div>
     </div>

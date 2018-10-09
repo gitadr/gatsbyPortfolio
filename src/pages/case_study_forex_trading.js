@@ -35,13 +35,13 @@ export default () => (
             Testable prototypes of varying fidelity are to be produced, so that
             we may better explore and validate the vision, and promote a shared
             understanding of it, for the benefit of our teams and stakeholders.
-            Crosplatform alignment - Define red routes
+            Cross-platform alignment - Define red routes
           </p>
           <p>
             Testable prototypes of varying fidelity are to be produced, so that
             we may better explore and validate the vision, and promote a shared
             understanding of it, for the benefit of our teams and stakeholders.
-            Crosplatform alignment - Define red routes
+            Cross-platform alignment - Define red routes
           </p>
         </section>
         <img
@@ -114,13 +114,46 @@ export default () => (
             lorem. Quisque et nibh bibendum, tincidunt enim quis, congue nisi.
           </p>
           <ul>
-            <li>01 Identify new opportunities to trade</li>
-            <li>02 Identify new opportunities to trade</li>
-            <li>03 Identify new opportunities to trade</li>
-            <li>04 Identify new opportunities to trade</li>
-            <li>05 Identify new opportunities to trade</li>
-            <li>06 Identify new opportunities to trade</li>
-            <li>07 Identify new opportunities to trade</li>
+            <li>
+              <p>
+                <b>Smart onboarding</b> – Explore and personalise straight away
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Trade everywhere</b> – Streamline the deal flow
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Market centric analysis</b> – Bring together analysis &
+                exposure per market
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Consolidate trading activity</b> – Trading Activity in one
+                place
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Discover new opportunities</b> – Awareness of other
+                interesting markets
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Manage accounts</b> – Visual Account health and inline
+                funding
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Increase engagement</b> – Reduce Friction and increase
+                visibility of IG
+              </p>
+            </li>
           </ul>
         </section>
         <div class="borderKeyline" />

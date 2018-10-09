@@ -44,10 +44,18 @@ export default () => (
             most valuable and captured 90% or more of our traders actions.
           </p>
           <ul>
-            <li>01 Register and manage an account</li>
-            <li>02 Identify opportunities to trade</li>
-            <li>03 Open a new position</li>
-            <li>04 Monitor, edit and close positions</li>
+            <li>
+              <p>01 Register and manage an account</p>
+            </li>
+            <li>
+              <p>02 Identify opportunities to trade</p>
+            </li>
+            <li>
+              <p>03 Open a new position</p>
+            </li>
+            <li>
+              <p>04 Monitor, edit and close positions</p>
+            </li>
           </ul>
         </section>
         <div class="borderKeyline" />
@@ -133,9 +141,8 @@ export default () => (
         <img
           src={require("../images/caseStudies/caseStudy_mobileVision_research.jpg")}
           alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
+          className={styles.caseStudy_LargeImage}
         />
-        <div class="borderKeyline" />
         <section>
           <h2>Design Sprints</h2>
           <p>
@@ -320,17 +327,23 @@ export default () => (
           <p className="caps">Smart Onbording</p>
           <h2>Explore and personalise straight away</h2>
           <p>
-            IG has always invested a lot in supporting new clients. This is
-            often done with little understanding of the clients current trading
-            knowledge or experience. By allowing clients to tailor their apps at
-            account creation based on these factors, not only can IG offer an
-            app more tailored to their needs, but can also provide the right
-            kind of support from outset.
+            IG has always invested in supporting new clients. This historically
+            has had to be done without any upfront understanding of a client's
+            trading knowledge or experience. By allowing clients to tailor the
+            app at login, based on experience or trading style, IG can offer a
+            more personalised experience.
           </p>
+          <h3>Summary</h3>
           <ul>
-            <li>Personalise your initial experience</li>
-            <li>Preview app before creating an account</li>
-            <li>Understand more about clients before calling</li>
+            <li>
+              <p>Tailor your initial experience</p>
+            </li>
+            <li>
+              <p>Preview app before creating an account</p>
+            </li>
+            <li>
+              <p>Understand more about clients before calling</p>
+            </li>
           </ul>
         </section>
         <section>
@@ -338,93 +351,154 @@ export default () => (
           <h2>Streamline the deal flow</h2>
           <p>
             Executing an order at the right second can make the difference
-            between a profit or a loss. As a result, quantifying the opportunity
-            cost of interaction was vital. By keeping the ticket in context and
-            aligning the design with IG's other platforms we have drastically
-            reduced the cognitive load and time need to place a deal.
+            between a profit or a loss. So quantifying the opportunity cost of
+            interaction was vital. By keeping the ticket in context and aligning
+            the design with IG's other platforms, we have drastically reduced
+            the cognitive load and time needed to place a deal.
           </p>
+          <h3>Summary</h3>
           <ul>
-            <li>One tap deal ticket</li>
-            <li>Stay in context</li>
-            <li>Align details with the web platform</li>
+            <li>
+              <p>One tap deal ticket</p>
+            </li>
+            <li>
+              <p>Stay in context</p>
+            </li>
+            <li>
+              <p>Align details with the web platform</p>
+            </li>
           </ul>
         </section>
         <section>
           <p className="caps">Market Centric Analysis</p>
           <h2>Bring together analysis & exposure per market</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            One of the biggest changes proposed in the design vision was a move
+            from feature to task based navigation. During the research we found
+            that the vast majority of user only trade 3-5 markets.
           </p>
+
+          <p>
+            This contradicts previous thinking and opens new design
+            opportunities. We switched from showing a small amount of data for a
+            lot of markets, to showing a lot of information on the most
+            important markets.
+          </p>
+
+          <p>
+            This change also allowed us to move away from the hub and spoke
+            style navigation to point to point. This drastically reduced the
+            amount of steps in key user flows, allowing us to make switching
+            between markets easier.
+          </p>
+          <h3>Summary</h3>
           <ul>
-            <li>Collate market information on one screen</li>
-            <li>Only see relevant content</li>
-            <li>Swipe between markets and charts</li>
+            <li>
+              <p>Collate market information on one screen</p>
+            </li>
+            <li>
+              <p>Only see relevant content</p>
+            </li>
+            <li>
+              <p>Swipe between markets and charts</p>
+            </li>
           </ul>
         </section>
         <section>
-          <p className="caps">Conslidate Trading Activity</p>
+          <p className="caps">Consolidate Trading Activity</p>
           <h2>Trading Activity in one place</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            The second new section is Monitor. In the current app, pending, open
+            and closed orders are all separate areas of the app. With the new
+            architecture they are brought together in one 'Trades' tab. The
+            'Trades' tab focuses on the task of managing exposure and allows
+            users to see the entire history of an order easily.
           </p>
+          <h3>Summary</h3>
           <ul>
-            <li>Positions, orders and alerts in one place</li>
-            <li>More information available on lists</li>
-            <li>Customise to your trading strategy</li>
+            <li>
+              <p>Open, pending and closed orders all in one place</p>
+            </li>
+            <li>
+              <p>More information available on lists</p>
+            </li>
+            <li>
+              <p>Customise to your trading strategy</p>
+            </li>
           </ul>
         </section>
         <section>
           <p className="caps">Discover new opportunities</p>
-          <h2>Awareness of other intersting markets</h2>
+          <h2>Awareness of other interesting markets</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            A consequence of reducing the prominence of watchlists is that it
+            becomes harder find opportunities in markets in which you don't
+            normally trade. To compensate for this, we proposed a task-based
+            section called 'Discover'. There, users could see trending markets ,
+            breaking news and press coverage as well as details about upcoming
+            economic events - all without leaving the app.
           </p>
+          <h3>Summary</h3>
           <ul>
-            <li>Explore without leaving the app</li>
-            <li>Markets relevent to trading activity</li>
-            <li>Task rather than feature based navigation</li>
+            <li>
+              <p>Explore without leaving the app</p>
+            </li>
+            <li>
+              <p>Markets relevant to trading activity</p>
+            </li>
+            <li>
+              <p>Task rather than feature based navigation</p>
+            </li>
           </ul>
         </section>
         <section>
           <p className="caps">Manage Accounts</p>
           <h2>Visual Account health and inline funding</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            The final task-based section of the app is account management. Here
+            we grouped all of a user's common account-based tasks and visualised
+            key balance values. We also designed ways to allow some tasks to be
+            done in context. A good example is payments. Instead of navigating
+            away from a task to deposit funds, users can leverage Apple or
+            Google Pay to deposit straight from a deal ticket.
           </p>
+          <h3>Summary</h3>
           <ul>
-            <li>Graphical account health</li>
-            <li>Inline Funding</li>
-            <li>Account activities in one place</li>
+            <li>
+              <p>Graphical account health</p>
+            </li>
+            <li>
+              <p>Inline funding</p>
+            </li>
+            <li>
+              <p>Account activities in one place</p>
+            </li>
           </ul>
         </section>
         <section>
           <p className="caps">Increase engagement</p>
           <h2>Reduce Friction and increase visibility of IG</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            pharetra facilisis augue id dapibus. Fusce mattis porta massa
-            maximus fermentum. Sed a congue nisl. Nullam sit amet hendrerit
-            libero. In hac habitasse platea dictumst. Curabitur varius nec
+            Another key statistic from the research showed that a large
+            proportion of sessions were for under ten seconds. These short but
+            frequent logins were to check account health and balances. The last
+            recommendation was to reduce the need to login to see account health
+            information by integrating better with the mobile OS. This would
+            include using home page widgets, richer notifications and shortcuts.
           </p>
+          <h3>Summary</h3>
           <ul>
-            <li>Monitor and research without frequent login</li>
-            <li>Widgets expose key information outside the app</li>
-            <li>Show charts in notifications</li>
+            <li>
+              <p>Monitor and research without frequent login</p>
+            </li>
+            <li>
+              <p>Widgets expose key information outside the app</p>
+            </li>
+            <li>
+              <p>Show charts in notifications</p>
+            </li>
           </ul>
         </section>
-
         <Author />
       </article>
     </div>
