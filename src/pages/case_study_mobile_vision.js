@@ -224,12 +224,6 @@ export default () => (
               shouldn't be pursued at all?
             </p>
           </div>
-          <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_MobileVision_redRoute1.gif")}
-              alt="Placeholder"
-            />
-          </div>
         </section>
         <section>
           <h2>User testing</h2>
