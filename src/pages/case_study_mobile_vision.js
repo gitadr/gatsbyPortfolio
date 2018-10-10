@@ -318,6 +318,7 @@ export default () => (
             consistency between platforms with variations limited to the
             interface based on OS guidelines.
           </p>
+          <h3>Medium-fidelity designs</h3>
         </section>
         <img
           src={require("../images/caseStudies/caseStudy_mobileVision_after.jpg")}
