@@ -77,6 +77,7 @@ export default () => (
             showing a limited number of data points on as many markets as
             possible.
           </p>
+          <h3>Existing iOS Designs</h3>
         </section>
         <img
           src={require("../images/caseStudies/caseStudy_mobileVision_before.jpg")}
