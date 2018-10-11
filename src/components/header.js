@@ -29,7 +29,7 @@ export default () => (
         <p>
           I specialise in building clean and well-structured interfaces,
           data-driven prototypes and scalable design systems. My experience
-          leading co-located design teams has taught me the value of creating a
+          leading distributed design teams has taught me the value of creating a
           clear design vision and developing robust team processes.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button bottom">
