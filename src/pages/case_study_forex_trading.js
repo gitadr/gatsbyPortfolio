@@ -277,6 +277,12 @@ export default () => (
             IG's aspiration to build category-defining apps.
           </p>
         </section>
+        <img
+          src={require("../images/caseStudies/caseStudy_forexTrading_overview.jpg")}
+          alt="Placeholder"
+          className={styles.caseStudy_MediumImage}
+        />
+
         <Author />
       </article>
     </div>
