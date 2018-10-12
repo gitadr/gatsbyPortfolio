@@ -23,15 +23,15 @@ export default () => (
       <div className={styles.articleList}>
         <article className={styles.list}>
           <p className="articleDate">COMING SOON</p>
-          <h2>Designing with constraints</h2>
+          <h2>Designing with constraints.</h2>
         </article>
         <article className={styles.list}>
           <p className="articleDate">COMING SOON</p>
-          <h2>Framer prototyping and my experience learning React</h2>
+          <h2>Framer prototyping and my experience learning React.</h2>
         </article>
         <article className={styles.list}>
           <p className="articleDate">COMING SOON</p>
-          <h2>Digital psychology – Rational designs for irrational humans</h2>
+          <h2>Digital psychology – Rational designs for irrational humans.</h2>
         </article>
       </div>
     </div>
