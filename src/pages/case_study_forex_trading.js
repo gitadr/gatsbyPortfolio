@@ -46,7 +46,7 @@ export default () => (
             The next step was creating a series of prototypes to test our
             assumptions. Due to the complexity of the trading regulations we
             needed a way to simulate the expected outcomes. The solutions was to
-            use Framer to adapt our IG's trading API's so we could create a
+            use Framer to adapt IG's trading API's so we could create a
             realistic example for clients to test. This was a huge undertaking
             and a technical first for IG.
           </p>
@@ -61,7 +61,7 @@ export default () => (
             Once we had a set of prototypes to test, I worked with the UX
             research team to facilitate a series of user testing sessions in
             Chicago. They focused on validating our early assumptions and
-            involved both new and competitor clients.
+            involved both experienced and new to category traders.
           </p>
         </section>
         <img
@@ -74,13 +74,13 @@ export default () => (
           <h2>Existing designs</h2>
           <p>
             Although the early prototypes were based on the existing trading
-            platforms, there was a strong design from the product teams to move
+            platforms, there was a strong desire from the product teams to move
             beyond what had been achieved before and create something truly
             innovative.
           </p>
           <h3>iOS App</h3>
           <p>
-            The existing iOS app designs where dated. They lacked hierarchy and
+            The existing iOS app designs where dated. They lacked hierarchy,
             structure and conformed to an older navigation architecture.
           </p>
 
@@ -104,9 +104,9 @@ export default () => (
         <section>
           <h3>Android App</h3>
           <p>
-            The android app suffered from many of the same design problems iOS.
-            In addition, the progress made with Material Design was absent from
-            IG app.
+            The android app suffered from many of the same design problems as
+            iOS. In addition, the progress made with Material Design was absent
+            from IG app.
           </p>
           <p>
             Based in the Krakow office, the Android development team wanted to
@@ -114,7 +114,7 @@ export default () => (
             the code to separate the UI and business logic elements.
           </p>
           <p>
-            Although the outcome for the two apps would be the same, due to the
+            Although the outcome of the two apps would be the same, due to the
             difference in development strategy the design team needed to support
             the iOS and Android teams in different ways.
           </p>
@@ -133,7 +133,7 @@ export default () => (
               redesigning common patterns such as toggles or list and allows
               designers to focus on trading-specific elements. Here time can be
               spent perfecting interactions and creating an experience that
-              feels unique to IG.
+              feels unique.
             </p>
           </div>
           <div className={styles.workImage}>
@@ -209,7 +209,7 @@ export default () => (
               As well as the mobile vision, we had been working on adding mobile
               patterns to the design system. Formation was created to unify IG's
               platforms, create a shared understanding of design principles and
-              enabling teams work more efficiently. Again, the new FX apps were
+              enable teams to work more efficiently. Again, the new FX apps were
               a chance to put this to the test.
             </p>
             <Link to="/case_study_design_system" className="button">

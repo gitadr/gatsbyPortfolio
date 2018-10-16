@@ -14,9 +14,9 @@ export default () => (
           <p className="intro">
             A product team needs a defined roadmap to build a good app. But to
             build an exceptional app, they also require shared purpose and
-            ambition. In my role as lead UI designer at IG, I worked to create a
-            collaborative design vision that would inspire change and help
-            reshape how people trade on mobile.
+            ambition. In my role as the lead mobile UI designer, I worked to
+            create a collaborative design vision that would inspire change and
+            help reshape how people trade on mobile.
           </p>
         </section>
         <img
@@ -110,7 +110,7 @@ export default () => (
           <h2>Research</h2>
           <p>
             Domain knowledge is scarce in the world of leveraged trading so
-            finding experienced traders is crucial. We started by organising
+            finding experienced traders was crucial. We started by organising
             senior stakeholder interviews, including current or former traders,
             to get insight on their views of the apps. While I was initially
             keen to get their perspective on the apps' strengths and weaknesses,
@@ -196,7 +196,7 @@ export default () => (
           <p>
             Framer is my prototyping tool of choice. It gives maximum
             flexibility, providing nested scrolling, pagination and modal
-            dialogues out of the box. Or you can use the physics engine and
+            dialogues out of the box. You can also use the physics engine and
             custom interactions to make something bespoke. The most valuable
             aspect during the mobile vision project was the ability to prototype
             with live data using IG's trading API.
@@ -239,21 +239,21 @@ export default () => (
             early and often. We gorilla tested concepts as much as possible
             internally, recruiting IG dealers to validate technical concepts.
             The second focused on client's personal trading habits and
-            preferences. These were organised in batches, at key stages of the
+            preferences. These were organised in batches at key stages of the
             project.
           </p>
           <p>
             In both cases we needed a way of recording the sessions. As
-            mentioned, this was a first for IG so considerable time was spent
+            mentioned, this was a first for IG, so considerable time was spent
             developing a robust testing setup that could be used both in the
-            office and remotely.{" "}
+            office and remotely.
           </p>
           <p>
             For the later stages of testing we used Framer prototypes to plug
-            into the trading API, pulling in live market data and user
-            preferences such as positions, balances and watchlists. This level
-            of detail, again, was new ground for IG and required the input from
-            several teams.{" "}
+            into the trading API, pulling in live market data and user details
+            such as positions, balances and watchlists. This level of detail,
+            again, was new ground for IG and required the input from several
+            teams.
           </p>
           <p>
             The effort was rewarded with exceptionally realistic testing
@@ -382,16 +382,16 @@ export default () => (
 
           <p>
             This contradicts previous thinking and opens new design
-            opportunities. We switched from showing a small amount of data for a
-            lot of markets, to showing a lot of information on the most
-            important markets.
+            opportunities. We switched from showing a small amount of data on
+            many markets, to showing a lot of information on the most important
+            markets.
           </p>
 
           <p>
             This change also allowed us to move away from the hub-and-spoke
-            style navigation to point-to-point. This drastically reduced the
-            amount of steps in key user flows, allowing us to make switching
-            between markets easier.
+            style navigation to point-to-point focused one. This drastically
+            reduced the amount of steps in key user flows, allowing us to make
+            switching between markets easier.
           </p>
           <h3>Summary</h3>
           <ul>
@@ -434,11 +434,11 @@ export default () => (
           <h2>Awareness of other interesting markets</h2>
           <p>
             A consequence of reducing the prominence of watchlists is that it
-            becomes harder find opportunities in markets in which you don't
-            normally trade. To compensate for this, we proposed a task-based
-            section called 'Discover'. There, users could see trending markets ,
-            breaking news and press coverage as well as details about upcoming
-            economic events - all without leaving the app.
+            becomes harder to find opportunities in unfamiliar markets. To
+            compensate for this, we proposed a task-based section called
+            'Discover'. There, users could see trending markets , breaking news
+            and press coverage as well as details about upcoming economic events
+            – all without leaving the app.
           </p>
           <h3>Summary</h3>
           <ul>

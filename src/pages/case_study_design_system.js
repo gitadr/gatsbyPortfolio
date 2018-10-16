@@ -38,7 +38,7 @@ export default () => (
           <p>
             Although the platforms shared common styles, individual teams made
             decisions in isolation, leading to inconsistencies and duplication.
-            Key principles where not documented and were only shared with new
+            Key principles were not documented and were only shared with new
             starters on an ad hoc basis. Ultimately, as the number of products
             grew, design processes needed to scale too.
           </p>
@@ -51,7 +51,7 @@ export default () => (
         <section>
           <h2>Creating a brief</h2>
           <p>
-            As a Lead UI Designer, I worked with the Head of Product Design to
+            As the mobile UI lead, I worked with the Head of Product Design to
             create a system to unify and consolidate our principles. We needed a
             project brief, success criteria, senior stakeholder buy-in and a
             dedicated team to help make it happen.
@@ -60,7 +60,7 @@ export default () => (
           <p>
             The main objectives of the project were to improve the consistency
             of our products, build trust and create a cohesive experience for
-            clients. We also want to improve our internal process simplifying
+            clients. We also wanted to improve our internal process simplifying
             the making the design process more transparent and collaborative.
             Crucially, we needed to upscale our design output. Aligning creative
             and development teams globally ment we could avoid recreating
@@ -80,8 +80,8 @@ export default () => (
             </li>
             <li>
               <p>
-                <b>Consistent patterns</b> – Well Subsequent design audits
-                reveal less inconsistencies?
+                <b>Consistent patterns</b> – Will subsequent design audits
+                reveal fewer inconsistencies?
               </p>
             </li>
             <li>
@@ -110,7 +110,7 @@ export default () => (
             First was the design audit – combing through the different facets of
             IG's products and services, highlighting inconsistencies. The second
             was organising workshops to discuss the design direction and
-            building consensus around the outcomes. The final step was
+            building consensus around the outcomes. The final steps were
             documenting the chosen approach and working closely with the
             engineering teams to create codified components for the different
             development libraries.
@@ -134,13 +134,13 @@ export default () => (
           <p>
             Next was a review of our design thinking and values. We had many
             project principles. Some aligned, others didn't. Working with the
-            Head of Product design, we pulled together all of the unwritten
+            Head of Product Design, we pulled together all of the unwritten
             rules we used as a team to critique each others work.
           </p>
           <p>
             Throughout this process we were collaborating with our international
-            design and development teams, presenting the system at regular
-            intervals to teams around the world.
+            colleagues, presenting the system at regular intervals to teams
+            around the world.
           </p>
         </section>
         <img
@@ -153,9 +153,9 @@ export default () => (
             <h3>Building consensus</h3>
             <p>
               For the design system to succeed, it was important to build
-              consensus from across the business. After the products and design
+              consensus from across the business. After the product and design
               thinking had been audited, I found advocates from each area of the
-              business to offer insight and expertise - as well as act as
+              business to offer insight and expertise – as well as act as
               ambassadors for the project
             </p>
           </div>
@@ -185,12 +185,12 @@ export default () => (
         />
         <section>
           <p>
-            An important part of designing Formation creating a structure that
-            would enable it to efficiently scale with IG's growth. Formation
-            need to include a live inventory of UI components, style guides,
-            assets, code snippets, developer guidelines and more. After a number
-            workshops and card sorting exercises we settled on three core
-            sections: Foundations, Patterns and Components.
+            An important part of designing Formation was creating a structure
+            that would enable it to efficiently scale with IG's growth.
+            Formation needed to include a live inventory of UI components, style
+            guides, assets, code snippets, developer guidelines and more. After
+            a number of workshops and card sorting exercises we settled on three
+            core sections: Foundations, Patterns and Components.
           </p>
           <p>
             These three sections formed the core of the design system and
@@ -223,13 +223,13 @@ export default () => (
           <div className={styles.workText}>
             <h3>Leveraging React</h3>
             <p>
-              React is powerful Javascript library for building user interfaces.
-              It is also fast becoming a common language between designers and
-              developers. With the release of prototyping tools such as Framer X
-              it's now possible to design, prototype, develop and deploy a new
-              component as part of one extended workflow. At IG I experimented
-              with integrating production react components into the design
-              system using Framer X.
+              React is a powerful Javascript library for building user
+              interfaces. It's also fast becoming a common language between
+              designers and developers. With the release of prototyping tools
+              such as Framer X it's now possible to design, prototype, develop
+              and deploy a new component as part of one extended workflow. At IG
+              I experimented with integrating production react components into
+              the design system using Framer X.
             </p>
           </div>
           <div className={styles.workImage}>
@@ -287,7 +287,7 @@ export default () => (
             Creating a design system isn't a job for one person or even a small
             team. It requires support and buy-in from a multitude of teams and
             stakeholders. Find people that are motivated and get them to help
-            you build awareness for the project.{" "}
+            you build awareness for the project.
           </p>
           <h3>Get the level of detail right</h3>
           <p>
