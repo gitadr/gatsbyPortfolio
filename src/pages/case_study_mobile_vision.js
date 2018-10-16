@@ -236,7 +236,7 @@ export default () => (
           <h2>User testing</h2>
           <p>
             Testing sessions fell into one of two categories. The first happened
-            early and often. We gorilla tested concepts as much as possible
+            early and often. We guerilla tested concepts as much as possible
             internally, recruiting IG dealers to validate technical concepts.
             The second focused on client's personal trading habits and
             preferences. These were organised in batches at key stages of the
