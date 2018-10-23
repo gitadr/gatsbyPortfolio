@@ -33,7 +33,7 @@ export default () => (
             challenges of launching in the US soon added up.
           </p>
           <p>
-            As the lead UI design for the mobile platforms, I was accountable
+            As the lead UI designer for the mobile platforms, I was accountable
             for the design of the IG's new US focused iOS and Android Apps.
           </p>
           <p>
