@@ -9,7 +9,7 @@ export default () => (
       <div className={styles.container}>
         <Header />
         <h1>Reading List</h1>
-        <p class="intro">44 read, 6 to go</p>
+        <p class="intro">39 read, 13 to go</p>
       </div>
       <div className={styles.bookGrid}>
         <div className={styles.vertical}>
@@ -620,6 +620,18 @@ export default () => (
           >
             <img
               src={require("../images/books/homer_TheOdessey.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/niccoloMachiavelli_ThePrince.png")}
               alt="Nassim Nicholas Taleb – The Black Swan"
             />
           </a>
