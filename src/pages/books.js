@@ -564,6 +564,30 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.vertical}>
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/herodotus_TheHistories.png")}
+              alt="Nassim Nicholas Taleb – The Black Swan"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/marcusAurelius_Meditations.png")}
+              alt="Marcus Aurelius – Meditations"
+            />
+          </a>
+        </div>
       </div>
     </section>
     <Footer />
