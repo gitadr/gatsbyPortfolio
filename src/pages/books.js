@@ -588,6 +588,18 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/blakeSnyder_SaveTheCat.png")}
+              alt="Blake Snyder – Save the Cat"
+            />
+          </a>
+        </div>
       </div>
     </section>
     <Footer />
