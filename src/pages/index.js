@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Work from "../components/work";
 import Notes from "../components/notes";
 import Footer from "../components/footer";
-import SEO from "../components/seo";
+import SEO from "../components/metaTags";
 
 export default () => (
   <div>
