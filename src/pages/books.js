@@ -28,7 +28,7 @@ export default () => (
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/242472.The_Black_Swan"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,61 +40,61 @@ export default () => (
         </div>
         <div className={styles.unread}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/nassimTaleb_TheBedOfProcrustes.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Nassim Nicholas Taleb – The Bed Of Procrustes"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/15956427-antifragile"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/nassimTaleb_Anti-fragile.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Nassim Nicholas Taleb – Anti-Fragile"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/36064445-skin-in-the-game"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/nassimTaleb_SkinInTheGame.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Nassim Nicholas Taleb – Skin In The Game"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/23692271-sapiens"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/yuvalNoahHarari_Sapiens.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Yuval Noah Harari – Sapiens"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/31138556-homo-deus"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/yuvalNoahHarari_HomoDeus.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Yuval Noah Harari – Homo Deus"
             />
           </a>
         </div>
