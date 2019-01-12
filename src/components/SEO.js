@@ -1,61 +1,75 @@
 import React from "react";
 import Helmet from "react-helmet";
 import PropTypes from "prop-types";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery } from "gatsby";
+import Twitter from "./Twitter";
 
-function Meta({ meta, title }) {
-  return (
-    <StaticQuery
-      query={graphql`
-        query SiteTitleQuery {
-          site {
-            siteMetadata {
-              title
-              description
-              url
-              twitter
-            }
+const SEO = ({
+  title = null,
+  description = null,
+  image = null,
+  pathname = null,
+  article = false
+}) => (
+  <StaticQuery
+    query={graphql`
+      query SEOQuery {
+        site {
+          siteMetadata {
+            defaultTitle: title
+            titleTemplate
+            defaultDescription: description
+            siteUrl: url
+            defaultImage: image
+            twitterUsername
+            facebookAppID
           }
-      `}
-      render={data => (
-        <Helmet
-          meta={[
-            {
-              name: `description`,
-              content: data.content.description
-            },
-            {
-              name: `og:url`,
-              content: data.content.url
-            },
-            {
-              name: `twitter:creator`,
-              content: data.content.twitter
-            }
-          ].concat(meta)}
-          title={title}
-          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-        >
-          <html lang="en" />
-        </Helmet>
-      )}
-    />
-  );
-}
+        }
+      }
+    `}
+    render={({
+      site: {
+        siteMetadata: {
+          defaultTitle,
+          titleTemplate,
+          defaultDescription,
+          siteUrl,
+          defaultImage,
+          twitterUsername
+        }
+      }
+    }) => {
+      const seo = {
+        title: title || defaultTitle,
+        description: description || defaultDescription,
+        image: `${siteUrl}${image || defaultImage}`,
+        url: `${siteUrl}${pathname || "/"}`
+      };
 
-Meta.propTypes = {
-  meta: PropTypes.arrayOf(
-    PropTypes.shape({
-      content: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired
-    })
-  ),
-  title: PropTypes.string
+      return (
+        <>
+          <Helmet title={seo.title} titleTemplate={titleTemplate}>
+            <meta name="description" content={seo.description} />
+            <meta name="image" content={seo.image} />
+          </Helmet>
+          <Twitter
+            username={twitterUsername}
+            title={seo.title}
+            description={seo.description}
+            image={seo.image}
+          />
+        </>
+      );
+    }}
+  />
+);
+
+SEO.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  pathname: PropTypes.string,
+  article: PropTypes.bool
 };
 
-Meta.defaultProps = {
-  title: `Portfolio`,
-  meta: []
-};
-
-export default Meta;
+export default seo;
