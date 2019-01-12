@@ -15,6 +15,9 @@ export default () => (
       </div>
       <div className={styles.photosGrid}>
         <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_102.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
           <img src={require("../images/photos/photo_101.jpg")} alt="photo02" />
         </div>
         <div className={styles.vertical}>
@@ -260,7 +263,7 @@ export default () => (
         <div className={styles.vertical}>
           <img src={require("../images/photos/photo_20.jpg")} alt="photo01" />
         </div>
-        <div className={styles.vertica}>
+        <div className={styles.vertical}>
           <img src={require("../images/photos/photo_19.jpg")} alt="photo01" />
         </div>
         <div className={styles.vertical}>
