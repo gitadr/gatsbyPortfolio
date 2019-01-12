@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "Aaron · Sydney-based product designer",
+    title: "Aaron Root",
     titleTemplate: "%s · Portfolio",
     description:
-      "Hello, I'm Aaron. A Sydney-based product designer specialising in clean interfaces, data-driven prototypes and scalable design systems",
-    url: "https://aaronroot.net", // no trailing slash!
-    image: "/images/favicon.jpg",
-    owner: "Aaron Root",
+      "Sydney-based product designer specialising in clean interfaces, data-driven prototypes and scalable design systems",
+    url: "https://www.aaronroot.net", // No trailing slash allowed!
+    image: "/avatar.jpg", // Path to your image you placed in the 'static' folder
+    icon: "/favicon.ico",
     twitterUsername: "@aaroot"
   },
   plugins: [

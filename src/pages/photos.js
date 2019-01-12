@@ -2,9 +2,11 @@ import React from "react";
 import styles from "./photos.module.css";
 import Header from "../components/internalHeader";
 import Footer from "../components/footer";
+import SEO from "../components/SEO";
 
 export default () => (
   <div>
+    <SEO />
     <section className={styles.photos}>
       <div className={styles.container}>
         <Header />

@@ -4,10 +4,12 @@ import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
 import { Link } from "gatsby";
+import SEO from "../components/SEO";
 
 export default () => (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
+      <SEO />
       <Header />
       <article>
         <section>

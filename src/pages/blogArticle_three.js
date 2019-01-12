@@ -3,10 +3,12 @@ import styles from "./blogArticle.module.css";
 import Author from "../components/author";
 import Header from "../components/internalHeader";
 import Footer from "../components/footer";
+import SEO from "../components/SEO";
 
 export default () => (
   <div className={styles.blogArticle}>
     <div className={styles.container}>
+      <SEO />
       <Header />
       <article>
         <section>

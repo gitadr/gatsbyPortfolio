@@ -2,11 +2,13 @@ import React from "react";
 import styles from "./books.module.css";
 import Header from "../components/internalHeader";
 import Footer from "../components/footer";
+import SEO from "../components/SEO";
 
 export default () => (
   <div>
     <section className={styles.books}>
       <div className={styles.container}>
+        <SEO />
         <Header />
         <h1>Reading List</h1>
         <p class="intro">39 read, 13 to go</p>
