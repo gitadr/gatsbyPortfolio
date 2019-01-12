@@ -1,6 +1,9 @@
-// In your gatsby-config.js
 module.exports = {
+  siteMetadata: {
+    title: `Aaron Root's Portfolio`
+  },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
