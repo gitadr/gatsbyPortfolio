@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
-const SEO = ({ title, description, image, icon, pathname, article }) => (
+const SEO = ({ title, description, image, pathname, article }) => (
   <StaticQuery
     query={query}
     render={({
@@ -14,8 +14,7 @@ const SEO = ({ title, description, image, icon, pathname, article }) => (
           defaultDescription,
           siteUrl,
           defaultImage,
-          twitterUsername,
-          favicon
+          twitterUsername
         }
       }
     }) => {
@@ -23,8 +22,7 @@ const SEO = ({ title, description, image, icon, pathname, article }) => (
         title: title || defaultTitle,
         description: description || defaultDescription,
         image: `${siteUrl}${image || defaultImage}`,
-        url: `${siteUrl}${pathname || "/"}`,
-        icon: `${siteUrl}${icon || favicon}`
+        url: `${siteUrl}${pathname || "/"}`
       };
 
       return (
@@ -63,7 +61,6 @@ SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
-  icon: PropTypes.string,
   pathname: PropTypes.string,
   article: PropTypes.bool
 };
@@ -73,8 +70,7 @@ SEO.defaultProps = {
   description: null,
   image: null,
   pathname: null,
-  article: false,
-  icon: null
+  article: false
 };
 const query = graphql`
   query SEO {

@@ -6,11 +6,11 @@ module.exports = {
       "Sydney-based product designer specialising in clean interfaces, data-driven prototypes and scalable design systems",
     url: "https://www.aaronroot.net", // No trailing slash allowed!
     image: "/avatar.jpg", // Path to your image you placed in the 'static' folder
-    icon: "/favicon.ico",
     twitterUsername: "@aaroot"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-favicon",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
