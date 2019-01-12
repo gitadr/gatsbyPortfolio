@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio`,
-    siteUrl: `https://www.aaronroot.ent.org`,
-    description: `Aaron Root's Portfolio`
+    title: "Portfolio",
+    siteUrl: "https://www.aaronroot.net",
+    description: "Aaron Root's Portfolio",
+    twitter: "@aaroot"
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "UA-46089139-1",
         // Puts tracking script in the head instead of the body
