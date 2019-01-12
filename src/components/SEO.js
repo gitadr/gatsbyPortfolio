@@ -1,8 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import PropTypes from "prop-types";
-import { StaticQuery } from "gatsby";
-import Twitter from "./Twitter";
+import { graphql } from "gatsby";
 
 const SEO = ({
   title = null,
@@ -11,7 +10,7 @@ const SEO = ({
   pathname = null,
   article = false
 }) => (
-  <StaticQuery
+  <graphql
     query={graphql`
       query SEOQuery {
         site {
@@ -21,8 +20,6 @@ const SEO = ({
             defaultDescription: description
             siteUrl: url
             defaultImage: image
-            twitterUsername
-            facebookAppID
           }
         }
       }
@@ -35,7 +32,8 @@ const SEO = ({
           defaultDescription,
           siteUrl,
           defaultImage,
-          twitterUsername
+          twitterUsername,
+          facebookAppID
         }
       }
     }) => {
@@ -52,12 +50,6 @@ const SEO = ({
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
           </Helmet>
-          <Twitter
-            username={twitterUsername}
-            title={seo.title}
-            description={seo.description}
-            image={seo.image}
-          />
         </>
       );
     }}
@@ -72,4 +64,4 @@ SEO.propTypes = {
   article: PropTypes.bool
 };
 
-export default seo;
+export default SEO;

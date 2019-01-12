@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    defaultTitle: "Portfolio",
-    titleTemplate,
-    siteUrl: "https://www.aaronroot.net",
-    defaultDescription: "Aaron Root's Portfolio",
-    twitterUsername: "@aaroot",
-    defaultImage: "images/favicon.ico"
+    title: "Aaron · Sydney-based product designer",
+    titleTemplate: "%s · Portfolio",
+    description:
+      "Hello, I'm Aaron. A Sydney-based product designer specialising in clean interfaces, data-driven prototypes and scalable design systems",
+    url: "https://aaronroot.net", // no trailing slash!
+    image: "/images/favicon.jpg",
+    owner: "Aaron Root",
+    twitterUsername: "@aaroot"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
