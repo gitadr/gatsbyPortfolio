@@ -302,11 +302,6 @@ export default () => (
             'need to know' bases.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_deviceMockups.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
-        />
 
         <Author />
       </article>

@@ -52,13 +52,6 @@ export default () => (
             realistic example for clients to test. This was a huge undertaking
             and a technical first for IG.
           </p>
-        </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_prototype.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_MediumImage}
-        />
-        <section>
           <p>
             Once we had a set of prototypes to test, I worked with the UX
             research team to facilitate a series of user testing sessions in

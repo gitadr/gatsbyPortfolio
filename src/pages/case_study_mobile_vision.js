@@ -79,13 +79,7 @@ export default () => (
             showing a limited number of data points on as many markets as
             possible.
           </p>
-          <h3>Existing iOS Designs</h3>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_before.jpg")}
-          alt="Placeholder"
-          className={styles.caseStudy_LargeImage}
-        />
         <section className={styles.mobileDesign}>
           <div className={styles.workText}>
             <h3>Platform alignment</h3>
