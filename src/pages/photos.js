@@ -11,7 +11,7 @@ export default () => (
       <div className={styles.container}>
         <Header />
         <h1>Favourite Photos</h1>
-        <p class="intro">102 photos in 21 months</p>
+        <p class="intro">103 photos in 21 months</p>
       </div>
       <div className={styles.photosGrid}>
         <div className={styles.vertical}>
@@ -35,7 +35,7 @@ export default () => (
         <div>
           <img src={require("../images/photos/photo_96.jpg")} alt="photo02" />
         </div>
-        <div>
+        <div className={styles.vertical}>
           <img src={require("../images/photos/photo_95.jpg")} alt="photo02" />
         </div>
         <div>
