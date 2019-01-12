@@ -54,7 +54,7 @@ Meta.propTypes = {
 };
 
 Meta.defaultProps = {
-  title: `Inbox`,
+  title: `Portfolio`,
   meta: []
 };
 
