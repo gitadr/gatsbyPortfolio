@@ -8,7 +8,8 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "next",
+    "gatsby": "^2.0.91",
+    "gatsby-link": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.5",
