@@ -100,37 +100,37 @@ export default () => (
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/17333324-ancillary-justice"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/annLeckie_AncillaryJustice.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Ann Leckie – Ancillary Justice"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/23533039-ancillary-mercy"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/annLeckie_AncillaryMercy.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Ann Leckie – Ancillary Mercy"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/20706284-ancillary-sword"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/annLeckie_AncillarySword.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Ann Leckie – Ancillary Sword"
             />
           </a>
         </div>
@@ -141,44 +141,44 @@ export default () => (
             rel="noopener noreferrer"
           >
             <img
-              src={require("../images/books/annLeckie_Provernance.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              src={require("../images/books/annLeckie_Provenance.png")}
+              alt="Ann Leckie – Provenance"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/19161852-the-fifth-season/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/nKJemisin_TheFifthSeason.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="N.K. Jemisin – The Fifth Season"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/26228034-the-obelisk-gate"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/nKJemisin_TheObeliskGate.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="N.K. Jemisin – The Obelisk Gate"
             />
           </a>
         </div>
         <div className={styles.unread}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/31817749-the-stone-sky"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/nKJemisin_TheStoneSky.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="N.K. Jemisin – The Stone Sky"
             />
           </a>
         </div>
