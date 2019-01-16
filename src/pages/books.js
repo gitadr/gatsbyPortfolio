@@ -11,7 +11,7 @@ export default () => (
         <SEO />
         <Header />
         <h1>Reading List</h1>
-        <p class="intro">39 read, 13 to go</p>
+        <p class="intro">39 read, 14 to go</p>
       </div>
       <div className={styles.bookGrid}>
         <div className={styles.vertical}>
@@ -38,7 +38,7 @@ export default () => (
             />
           </a>
         </div>
-        <div className={styles.unread}>
+        <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes"
             target="_blank"
@@ -184,85 +184,85 @@ export default () => (
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/35629744-the-square-and-the-tower"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/niallFergerson_TheSquareAndTheTower.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Niall Fergerson – The Square and the Tower"
             />
           </a>
         </div>
         <div className={styles.unread}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/10475421-civilization"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/niallFergerson_Civilization.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Niall Fergerson – Civilization"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/11084145-steve-jobs"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/walterIsaacson_SteveJobs.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Walter Isaacson – Steve Jobs"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/18077903-creativity-inc"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/edCatmull_CreativityInc.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Ed Catmull – Creativity Inc"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/41804.I_Robot"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/issacAsimov_iRobot.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Issac Asimov – iRobot"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/7954936-what-technology-wants"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/kevinKelly_WhatTechnologyWants.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Kevin Kelly – What Technology Wants"
             />
           </a>
         </div>
         <div className={styles.unread}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/27209431-the-inevitable"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={require("../images/books/kevinKelly_TheInvertible.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              src={require("../images/books/kevinKelly_TheInevitable.png")}
+              alt="Kevin Kelly – The Inevitable"
             />
           </a>
         </div>
@@ -578,6 +578,18 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/38821039-the-making-of-a-manager"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/julieZhuo_TheMakingOfAManager.png")}
+              alt="Julie Zhuo – The Making of a Manager"
+            />
+          </a>
+        </div>
         <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/"
@@ -635,6 +647,18 @@ export default () => (
             <img
               src={require("../images/books/niccoloMachiavelli_ThePrince.png")}
               alt="Nassim Nicholas Taleb – The Black Swan"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/aldous_Huxley_TheDoorsOfPerception.png")}
+              alt="Aldous Huxley – The Doors of Perception"
             />
           </a>
         </div>
