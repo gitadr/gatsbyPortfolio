@@ -34,7 +34,7 @@ export default () => (
           >
             <img
               src={require("../images/books/nassimTaleb_TheBlackSwan.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Nassim Nicholas Taleb – The Black Swans"
             />
           </a>
         </div>
