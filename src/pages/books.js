@@ -662,6 +662,18 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/frankHerbert_Dune.png")}
+              alt="Frank Herbert – Dune"
+            />
+          </a>
+        </div>
       </div>
     </section>
     <Footer />
