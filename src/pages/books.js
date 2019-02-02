@@ -664,13 +664,25 @@ export default () => (
         </div>
         <div className={styles.unread}>
           <a
-            href="https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
+            href="https://www.goodreads.com/book/show/25772375-dune"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/frankHerbert_Dune.png")}
               alt="Frank Herbert – Dune"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/20518872-the-three-body-problem"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/liuCixin_TheThreeBodyProblem.png")}
+              alt="Liu Cixin – TheThreeBodyProblem"
             />
           </a>
         </div>
