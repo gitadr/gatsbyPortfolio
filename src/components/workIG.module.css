@@ -28,7 +28,7 @@
 }
 
 .work .container {
-  background-image: url(../images/workMobile.jpg);
+  background-image: url(../images/home/workMobile.jpg);
   background-size: 100vw;
   background-position: center top;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ span.appIcon {
   float: left;
   width: 28px;
   height: 28px;
-  background-image: url(../images/igIcon.png);
+  background-image: url(../images/home/igIcon.png);
   background-size: 28px 28px;
   background-position: center;
   margin-right: 16px;
@@ -83,7 +83,7 @@ span.appIcon {
     align-self: center;
   }
   .work .container {
-    background-image: url(../images/workDesktop.jpg);
+    background-image: url(../images/home/workDesktop.jpg);
     background-size: 1080px 822px;
     background-position: -100px bottom;
     align-content: center;
@@ -103,7 +103,7 @@ span.appIcon {
 }
 @media only screen and (min-width: 1199px) {
   .work .container {
-    background-image: url(../images/workDesktopLarge.jpg);
+    background-image: url(../images/home/workDesktopLarge.jpg);
     background-size: 1200px 822px;
     background-position: center center;
     padding: 10vh 0px;

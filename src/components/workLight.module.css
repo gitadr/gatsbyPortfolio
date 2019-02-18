@@ -28,7 +28,7 @@
 }
 
 .work .container {
-  background-image: url(../images/workMobileLight.jpg);
+  background-image: url(../images/home/workMobileLight.jpg);
   background-size: 100vw;
   background-position: center top;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ span.appIcon {
   float: left;
   width: 28px;
   height: 28px;
-  background-image: url(../images/woolworthsIcon.png);
+  background-image: url(../images/home/woolworthsIcon.png);
   background-size: 28px 28px;
   background-position: center;
   align-items: center;
@@ -84,7 +84,7 @@ span.appIcon {
     align-self: center;
   }
   .work .container {
-    background-image: url(../images/workDesktopLight.jpg);
+    background-image: url(../images/home/workDesktopLight.jpg);
     background-size: 1080px 822px;
     background-position: -100px bottom;
     align-content: center;
@@ -104,7 +104,7 @@ span.appIcon {
 }
 @media only screen and (min-width: 1199px) {
   .work .container {
-    background-image: url(../images/workDesktopLargeLight.jpg);
+    background-image: url(../images/home/workDesktopLargeLight.jpg);
     background-size: 1200px 822px;
     background-position: center center;
     padding: 10vh 0px;

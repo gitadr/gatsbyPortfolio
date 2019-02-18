@@ -9,7 +9,10 @@ export default () => (
           <p className="articleDate">COMING SOON</p>
           <h1>Building insanely great products.</h1>
           <div className={styles.articlePreview}>
-            <img src={require("../images/heroImage.png")} alt="Steve Jobs" />
+            <img
+              src={require("../images/home/heroImage.png")}
+              alt="Steve Jobs"
+            />
             <div>
               <p>
                 In January 1983 Steve Jobs began a company retreat with three

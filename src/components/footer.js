@@ -43,70 +43,70 @@ export default () => (
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_01.jpg")}
+              src={require("../images/home/instagram_01.jpg")}
               alt="image1"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_02.jpg")}
+              src={require("../images/home/instagram_02.jpg")}
               alt="image2"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_03.jpg")}
+              src={require("../images/home/instagram_03.jpg")}
               alt="image3"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_04.jpg")}
+              src={require("../images/home/instagram_04.jpg")}
               alt="image4"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_05.jpg")}
+              src={require("../images/home/instagram_05.jpg")}
               alt="image5"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_06.jpg")}
+              src={require("../images/home/instagram_06.jpg")}
               alt="image1"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_07.jpg")}
+              src={require("../images/home/instagram_07.jpg")}
               alt="image2"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_08.jpg")}
+              src={require("../images/home/instagram_08.jpg")}
               alt="image3"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_09.jpg")}
+              src={require("../images/home/instagram_09.jpg")}
               alt="image4"
             />
           </li>
           <li>
             <img
               className={styles.footerImage}
-              src={require("../images/instagram_10.jpg")}
+              src={require("../images/home/instagram_10.jpg")}
               alt="image5"
             />
           </li>
