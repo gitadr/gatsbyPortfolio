@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./notes.module.css";
+import styles from "./articles.module.css";
 
 export default () => (
-  <section className={styles.notes}>
+  <section className={styles.blogArticles}>
     <div class="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
           <p className="articleDate">COMING SOON</p>
-          <h1>Jobs on why it's better to be a pirate than join the navy.</h1>
+          <h1>Building insanely great products.</h1>
           <div className={styles.articlePreview}>
             <img src={require("../images/heroImage.png")} alt="Steve Jobs" />
             <div>

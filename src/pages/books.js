@@ -230,6 +230,18 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/17288649-creative-confidence"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/tomDavidKelley_creativeConfidence.png")}
+              alt="Tom & David Kelley – Creative Confidence"
+            />
+          </a>
+        </div>
         <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/book/show/41804.I_Robot"
@@ -470,15 +482,27 @@ export default () => (
             />
           </a>
         </div>
-        <div className={styles.unread}>
+        <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/79909.In_Patagonia"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/bruceChatwin_InPatagonia.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Bruce Chatwin – In Patagonia"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/76844.The_Songlines"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/bruceChatwin_Songlines.png")}
+              alt="Bruce Chatwin – Songlines"
             />
           </a>
         </div>
@@ -590,6 +614,18 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/27789652-sprint"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/jakeKnapp_Sprint.png")}
+              alt="Jake Knapp – Sprint"
+            />
+          </a>
+        </div>
         <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/"
@@ -602,7 +638,7 @@ export default () => (
             />
           </a>
         </div>
-        <div className={styles.unread}>
+        <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/"
             target="_blank"

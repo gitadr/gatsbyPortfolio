@@ -1,23 +1,21 @@
 import React from "react";
-import styles from "./work.module.css";
+import styles from "./workDark.module.css";
 import { Link } from "gatsby";
 
 export default () => (
   <section className={styles.work}>
     <div className={styles.container}>
       <div className={styles.workText}>
+        <div className="companyName">
+          <span className={styles.appIcon} />
+          <p className={styles.company}>IG GROUP – TRADING</p>
+        </div>
         <h1>Designing for high-risk trading environments.</h1>
-        <p>
-          Trading is hard. Designing a trading platform isn't any easier. Over
-          the last three years I have helped IG design and build a new
-          generation of task orientated applications. Find out more about my
-          design process in the case studies below.
-        </p>
         <ul>
           <li>
             <Link to="/case_study_forex_trading" className="button invert">
               <span className="linkIcon" />
-              <span className="text">Trading New Markets</span>
+              <span className="text">TRADING NEW MARKETS</span>
             </Link>
           </li>
           <li>
@@ -29,7 +27,7 @@ export default () => (
           <li>
             <Link to="/case_study_design_system" className="button invert">
               <span className="linkIcon" />
-              <span className="text">Systems That Scale</span>
+              <span className="text">Systems that scale</span>
             </Link>
           </li>
         </ul>

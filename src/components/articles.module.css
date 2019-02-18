@@ -1,6 +1,6 @@
-/* NOTES: */
+/* ARTICLES: */
 
-.notes {
+.blogArticles {
   background-color: #fff;
 }
 
@@ -47,7 +47,7 @@ article.list {
   border-bottom: 1px solid #d8d8dc;
 }
 
-.notes a:hover {
+.articles a:hover {
   text-decoration: underline;
 }
 
