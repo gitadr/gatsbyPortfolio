@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-favicon",
+    "gatsby-remark-images",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,6 +32,25 @@ module.exports = {
         trackingId: `UA-46089139-1`,
         // Puts tracking script in the head instead of the body
         head: false
+      }
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 820,
+              linkImagesToOriginal: false,
+              wrapperStyle: "margin-top:48px;"
+            }
+          }
+        ]
       }
     }
   ]
