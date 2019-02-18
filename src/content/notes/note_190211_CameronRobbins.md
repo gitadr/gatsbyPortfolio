@@ -3,9 +3,10 @@ title: "Cameron Robbins"
 date: "2019-02-18"
 ---
 
-Robbins is an Australian artist who harnesses the randomness of natural forces. He builds instruments that transcribe changes in wind or hydro movements into drawings. The idea of a perpetual creation caught my imaginations, this contraption could be left running day and night, indefinitely (or until the pen runs out).
+Robbins is an Australian artist who harnesses the randomness of natural forces. He builds instruments that transcribe changes in the wind or tide into drawings. These instruments can be left running day and night –
+always creating, always recording.
 
-I loved that it provided a physical representation of ephemeral events. Something that feels missing in a lot of the things I concentrate on now days. I think my brother would also really appreciate the mechanics of it all.
+The part I found most interesting was that concept of perpetual creation. I also liked that the output was permanent. A lasting record of something as fleeting as a gust of wind. I think my brother would also really appreciate the mechanics of it all.
 
 ### Wind section instrumental
 

@@ -5,7 +5,7 @@ date: "2019-02-18"
 
 ### Your Shadow Rising
 
-Your shadow rising was the highlight of MONA for me. Located at the bottom of the vast gallery, the exhibit includes a number of paintings sculptures videos.
+Your shadow rising was the highlight of MONA for me. Located at the bottom of the vast gallery, the exhibit includes a number of paintings, sculptures and videos.
 
 MONA uses an app called "The O". It replaces wall texts in the museum and allows visitors to read or listen to stories, essays, music and interviews about the different art.
 
