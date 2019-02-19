@@ -11,7 +11,7 @@ export default () => (
         <SEO />
         <Header />
         <h1>Reading List</h1>
-        <p class="intro">39 read, 14 to go</p>
+        <p class="intro">42 read, 18 to go</p>
       </div>
       <div className={styles.bookGrid}>
         <div className={styles.vertical}>
