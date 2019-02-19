@@ -280,97 +280,109 @@ export default () => (
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/30118099-the-descent-of-man"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/graysonPerry_TheDecentOfMan.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="The Decent of Man – The Decent of Man"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/34272565-life-3-0"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/maxTegmark_Life3.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Max Tegmark – Life 3.0"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/40102.Blink"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={require("../images/books/malcomGladwell_Blink.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              src={require("../images/books/malcolmGladwell_Blink.png")}
+              alt="Malcolm Gladwell – Blink"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/647.No_Logo"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/naomiKlien_NoLogo.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Naomi Klien – No Logo"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/117047.The_Blind_Watchmaker"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/richardDawkins_TheBlindWatchMaker.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Richard Dawkins – The Blind Watch Maker"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/40961427-1984"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/georgeOrwell_1984.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="George Orwell – 1984"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/76171.We"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/yevgenyZamyatin_We.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Yevgeny Zamyatin– We"
             />
           </a>
         </div>
         <div className={styles.vertical}>
           <a
-            href="https://www.goodreads.com/"
+            href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={require("../images/books/danielKahneman_ThinkingFastAndSlow.png")}
-              alt="Nassim Nicholas Taleb – The Black Swan"
+              alt="Daniel Kahneman – Thinking Fast and Slow"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/31670196-scale"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/geoffreyWest_Scale.png")}
+              alt="GeoffreyWest – Scale.png"
             />
           </a>
         </div>
