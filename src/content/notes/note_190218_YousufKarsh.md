@@ -1,11 +1,12 @@
 ---
-title: "Yousuf Karsh"
-date: "2019-02-18"
+title: "'You may take one.'"
+date: "2019-02-19"
+tags: ["Photography"]
 ---
 
 Today I learned about Yousuf Karsh.
 
-### Churchill
+### Churchill by Karsh
 
 “My portrait of Winston Churchill changed my life. I knew after I had taken it that it was an important picture, but I could hardly have dreamed that it would become one of the most widely reproduced images in the history of photography.
 

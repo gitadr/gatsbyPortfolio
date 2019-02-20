@@ -29,8 +29,8 @@ export default () => (
         <p>
           I specialise in building clean and well-structured interfaces,
           data-driven prototypes and scalable design systems. My experience
-          leading a distributed UI design team has taught me the value of
-          creating a clear design vision and developing robust team processes.
+          leading a distributed design team has taught me the value of creating
+          a clear design vision and developing robust team processes.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button bottom">
           <span className="linkIcon" />

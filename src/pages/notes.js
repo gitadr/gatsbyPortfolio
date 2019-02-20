@@ -22,12 +22,12 @@ class NoteIndex extends React.Component {
               const title = node.frontmatter.title || node.fields.slug;
               return (
                 <div key={node.fields.slug}>
-                  <h3>
+                  <p className="articleDate">{node.frontmatter.date}</p>
+                  <h2>
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                       {title}
                     </Link>
-                  </h3>
-                  <small>{node.frontmatter.date}</small>
+                  </h2>
                 </div>
               );
             })}
@@ -59,7 +59,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MMMM YYYY")
             title
           }
         }

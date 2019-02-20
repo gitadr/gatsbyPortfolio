@@ -11,6 +11,11 @@ export default () => (
           <p className={styles.company}>IG GROUP – TRADING</p>
         </div>
         <h1>Designing for high-risk trading environments.</h1>
+        <p>
+          Trading is hard. Designing a trading platform isn't any easier. I
+          helped IG design and build a new generation of task orientated
+          applications.
+        </p>
         <ul>
           <li>
             <Link to="/case_study_forex_trading" className="button invert">

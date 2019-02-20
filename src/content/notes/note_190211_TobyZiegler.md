@@ -1,9 +1,10 @@
 ---
-title: "Toby Ziegler"
+title: "MONA – Your Shadow Rising."
 date: "2019-02-18"
+tags: ["MONA", "Tasmania", "Art"]
 ---
 
-### Your Shadow Rising
+### Cameron Robbins
 
 Your shadow rising was the highlight of MONA for me. Located at the bottom of the vast gallery, the exhibit includes a number of paintings, sculptures and videos.
 
