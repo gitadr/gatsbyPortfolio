@@ -10,7 +10,7 @@ export default () => (
           <span className={styles.appIcon} />
           <p className={styles.company}>WOOLWORTHS – GROCERIES</p>
         </div>
-        <h1>Delivering more choice in-store and at home.</h1>
+        <h1>Deliverying for the experiences.</h1>
         <p>
           During a six month contact at Woolies X, I helped design and deliver
           the Lorem ipsum dolor sit amet consectetur adipiscing elit
@@ -20,13 +20,13 @@ export default () => (
           <li>
             <Link to="/case_study_forex_trading" className="button">
               <span className="linkIcon" />
-              <span className="text">Trading New Markets</span>
+              <span className="text">The last mile </span>
             </Link>
           </li>
           <li>
             <Link to="/case_study_mobile_vision" className="button">
               <span className="linkIcon" />
-              <span className="text">A Mobile Vision</span>
+              <span className="text">Connected customers</span>
             </Link>
           </li>
         </ul>

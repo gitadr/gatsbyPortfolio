@@ -182,7 +182,7 @@ li p {
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 64px;
+    font-size: 48px;
     margin: 0 0 32px 0;
   }
 
@@ -205,6 +205,12 @@ li p {
   p.caption {
     font-size: 16px;
     line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 1048px) {
+  h1 {
+    font-size: 64px;
   }
 }
 
@@ -347,6 +353,10 @@ a.button.bottom {
 
 a.button.top {
   display: none;
+}
+
+a.button.notes {
+  margin-top: 32px;
 }
 
 @media only screen and (min-width: 1120px) {

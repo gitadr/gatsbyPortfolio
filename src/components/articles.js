@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./articles.module.css";
+import { Link } from "gatsby";
 
 export default () => (
   <section className={styles.blogArticles}>
@@ -36,6 +37,10 @@ export default () => (
           <p className="articleDate">COMING SOON</p>
           <h2>Digital psychology – Rational designs for irrational humans.</h2>
         </article>
+        <Link to="/notes" className="button notes">
+          <span className="linkIcon" />
+          <span className="text">See all notes</span>
+        </Link>
       </div>
     </div>
   </section>
