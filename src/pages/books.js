@@ -722,6 +722,7 @@ export default () => (
             />
           </a>
         </div>
+
         <div className={styles.unread}>
           <a
             href="https://www.goodreads.com/book/show/20518872-the-three-body-problem"
@@ -731,6 +732,42 @@ export default () => (
             <img
               src={require("../images/books/liuCixin_TheThreeBodyProblem.png")}
               alt="Liu Cixin – TheThreeBodyProblem"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/2888995-thoughts-on-design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/paulRand_ThoughtsOnDesign.png")}
+              alt="Paul Rand – Thoughts on Design"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/613547.Design_Form_and_Chaos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/paulRand_DesignFormChaos.png")}
+              alt="Paul Rand – Design, Form & Chaos"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/163436.Paul_Rand"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/paulRand_ADesignersArt.png")}
+              alt="Paul Rand – A Designers Art"
             />
           </a>
         </div>
