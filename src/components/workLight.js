@@ -10,11 +10,11 @@ export default () => (
           <span className={styles.appIcon} />
           <p className={styles.company}>WOOLWORTHS – GROCERIES</p>
         </div>
-        <h1>Deliverying for the experiences.</h1>
+        <h1>Delivering more value in-store and at home.</h1>
         <p>
-          During a six month contact at Woolies X, I helped design and deliver
-          the Lorem ipsum dolor sit amet consectetur adipiscing elit
-          suspendisse.
+          Technology is most powerful when it empowers everyone. As part of the
+          mobile team, I helped deliver a more personal, convenient and
+          accessible shopping experience for millions of Australian families.
         </p>
         <ul>
           <li>

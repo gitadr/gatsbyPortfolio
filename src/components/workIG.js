@@ -8,10 +8,10 @@ export default () => (
       <div className={styles.workText}>
         <h1>Designing for high-risk trading environments.</h1>
         <p>
-          Trading is hard. Designing a trading platform isn't any easier. Over
-          the last three years I have helped IG design and build a new
-          generation of task orientated applications. Find out more about my
-          design process in the case studies below.
+          Trading is hard. Designing a trading platform isn't any easier. For
+          over three years I helped IG design and build a new generation of task
+          orientated applications. Find out more about my design process in the
+          case studies below.
         </p>
         <ul>
           <li>

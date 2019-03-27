@@ -12,9 +12,9 @@ export default () => (
         </div>
         <h1>Designing for high-risk trading environments.</h1>
         <p>
-          Trading is hard. Designing a trading platform isn't any easier. I
-          helped IG design and build a new generation of task orientated
-          applications.
+          Trading is hard. Designing a trading platform isn't any easier. As
+          Lead designer, I spent over three years helping IG design and build a
+          new generation of task orientated trading applications.
         </p>
         <ul>
           <li>
