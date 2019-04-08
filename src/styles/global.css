@@ -43,7 +43,8 @@ body {
   padding: 10vh 20px;
 }
 
-ul {
+ul,
+ol {
   margin-bottom: 32px;
 }
 
@@ -112,7 +113,7 @@ h4 {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2;
-  margin: 0;
+  margin: 32px 0 -8px 0;
   padding: 0;
 }
 

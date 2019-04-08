@@ -10,23 +10,17 @@ export default () => (
           <span className={styles.appIcon} />
           <p className={styles.company}>WOOLWORTHS – GROCERIES</p>
         </div>
-        <h1>Delivering more value in-store and at home.</h1>
+        <h1>Designing for geo-located environments.</h1>
         <p>
-          Technology is most powerful when it empowers everyone. As part of the
-          mobile team, I helped deliver a more personal, convenient and
-          accessible shopping experience for millions of Australian families.
+          Technology is most powerful when it empowers everyone. That's why as
+          part of the mobile team, I helped deliver a more personal, convenient
+          and accessible shopping experience for millions of Australians.
         </p>
         <ul>
           <li>
-            <Link to="/case_study_forex_trading" className="button">
+            <Link to="/case_study_augmented_shopping" className="button">
               <span className="linkIcon" />
-              <span className="text">The last mile </span>
-            </Link>
-          </li>
-          <li>
-            <Link to="/case_study_mobile_vision" className="button">
-              <span className="linkIcon" />
-              <span className="text">Connected customers</span>
+              <span className="text">Augmented shopping</span>
             </Link>
           </li>
         </ul>
