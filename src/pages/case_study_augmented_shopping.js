@@ -183,7 +183,7 @@ export default () => (
             some of the smaller details of the scanners UI. An area I enjoyed
             experimenting with was the frame. After deciding that we wanted to
             keep the UI minimal, I produced a number of options. The designs
-            below represent a few of iterations.
+            below represent a few of the iterations.
           </p>
         </section>
         <img
@@ -215,9 +215,9 @@ export default () => (
           <p>
             The last step was to produce a rough prototype of what the scanner
             would look like. Because the camera plays such an important part, I
-            wanted to make sure we had a live stream. This allowed us to test
-            with more realistic scenarios , checking for accessibility of
-            messaging and icons in different conditions.
+            wanted to make sure we had a live camera in the prototype. This
+            allowed us to test with more realistic scenarios , checking the
+            accessibility of messaging and icons in different conditions.
           </p>
 
           <p>
