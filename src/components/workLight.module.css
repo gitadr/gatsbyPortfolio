@@ -31,7 +31,7 @@
 }
 
 .work .container {
-  background-image: url(../images/home/workMobileLight.png);
+  background-image: url(../images/home/workMobileLight.jpg);
   background-size: 100vw;
   background-position: center top;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ span.appIcon {
     );
   }
   .work .container {
-    background-image: url(../images/home/workDesktopLight.png);
+    background-image: url(../images/home/workDesktopLight.jpg);
     background-size: 1080px 822px;
     background-position: -100px bottom;
     align-content: center;
@@ -113,7 +113,7 @@ span.appIcon {
 }
 @media only screen and (min-width: 1199px) {
   .work .container {
-    background-image: url(../images/home/workDesktopLargeLight.png);
+    background-image: url(../images/home/workDesktopLargeLight.jpg);
     background-size: 1200px 822px;
     background-position: center center;
     padding: 10vh 0px;
