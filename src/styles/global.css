@@ -162,6 +162,11 @@ li p {
   margin: 0;
 }
 
+li {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 .textLink {
   text-transform: uppercase;
   display: block;
@@ -206,6 +211,10 @@ li p {
   p.caption {
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  li {
+    font-size: 20px;
   }
 }
 
