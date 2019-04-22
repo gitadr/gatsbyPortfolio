@@ -26,8 +26,6 @@ The presentation was intended to inspire the Macintosh team to deliver one of th
 
 Each of the points relates to a fundamental part of building great teams and great products that are just relevant today as they were then.
 
-![Jolly Roger](images/steveJobs_mac.jpg)
-
 ### Real artists ship.
 
 Get your product out there. It doesn’t matter how extraordinary the idea, how perfect the design or how elegant the code, unless you can get it into users hands what’s the point?

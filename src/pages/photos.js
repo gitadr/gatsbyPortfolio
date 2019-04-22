@@ -11,9 +11,90 @@ export default () => (
       <div className={styles.container}>
         <Header />
         <h1>Favourite Photos</h1>
-        <p class="intro">103 photos in 21 months</p>
+        <p class="intro">130 photos in 25 months</p>
       </div>
       <div className={styles.photosGrid}>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_129.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_128.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.big}>
+          <img src={require("../images/photos/photo_127.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_126.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_125.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_124.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_123.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_122.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_121.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_120.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_119.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_118.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.big}>
+          <img src={require("../images/photos/photo_117.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_116.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_115.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_114.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_113.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_112.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_111.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_110.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_109.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.horizontal}>
+          <img src={require("../images/photos/photo_108.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.big}>
+          <img src={require("../images/photos/photo_107.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_106.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_105.jpg")} alt="photo02" />
+        </div>
+        <div>
+          <img src={require("../images/photos/photo_104.jpg")} alt="photo02" />
+        </div>
+        <div className={styles.vertical}>
+          <img src={require("../images/photos/photo_103.jpg")} alt="photo02" />
+        </div>
         <div className={styles.vertical}>
           <img src={require("../images/photos/photo_102.jpg")} alt="photo02" />
         </div>

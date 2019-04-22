@@ -11,7 +11,7 @@ export default () => (
         <SEO />
         <Header />
         <h1>Reading List</h1>
-        <p class="intro">42 read, 18 to go</p>
+        <p class="intro">44 read, 24 to go</p>
       </div>
       <div className={styles.bookGrid}>
         <div className={styles.vertical}>
@@ -227,6 +227,18 @@ export default () => (
             <img
               src={require("../images/books/edCatmull_CreativityInc.png")}
               alt="Ed Catmull – Creativity Inc"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/39863447-loonshots"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/safiBahcall_Loonshot.png")}
+              alt="Safi Bahcall – Loonshot"
             />
           </a>
         </div>
@@ -638,6 +650,18 @@ export default () => (
             />
           </a>
         </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/benHorowit_TheHardThingAboutHardThings.png")}
+              alt="Ben Horowitz – The Hard Thing About Hard Things"
+            />
+          </a>
+        </div>
         <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/book/show/1362.The_Histories"
@@ -705,12 +729,24 @@ export default () => (
             rel="noopener noreferrer"
           >
             <img
+              src={require("../images/books/aldous_Huxley_BraveNewWorld.png")}
+              alt="Aldous Huxley – Brave New World"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/5129.Brave_New_World"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
               src={require("../images/books/aldous_Huxley_TheDoorsOfPerception.png")}
               alt="Aldous Huxley – The Doors of Perception"
             />
           </a>
         </div>
-        <div className={styles.unread}>
+        <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/book/show/25772375-dune"
             target="_blank"
@@ -768,6 +804,18 @@ export default () => (
             <img
               src={require("../images/books/paulRand_ADesignersArt.png")}
               alt="Paul Rand – A Designers Art"
+            />
+          </a>
+        </div>
+        <div className={styles.unread}>
+          <a
+            href="https://www.goodreads.com/book/show/18222705-deep"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/jamesNestor_Deep.png")}
+              alt="James Nestor – Deep"
             />
           </a>
         </div>
