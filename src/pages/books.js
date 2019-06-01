@@ -11,7 +11,7 @@ export default () => (
         <SEO />
         <Header />
         <h1>Reading List</h1>
-        <p class="intro">44 read, 24 to go</p>
+        <p class="intro">46 read, 24 to go</p>
       </div>
       <div className={styles.bookGrid}>
         <div className={styles.vertical}>
@@ -722,7 +722,7 @@ export default () => (
             />
           </a>
         </div>
-        <div className={styles.unread}>
+        <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
             target="_blank"
@@ -816,6 +816,18 @@ export default () => (
             <img
               src={require("../images/books/jamesNestor_Deep.png")}
               alt="James Nestor – Deep"
+            />
+          </a>
+        </div>
+        <div className={styles.vertical}>
+          <a
+            href="https://www.goodreads.com/book/show/375802.Ender_s_Game"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={require("../images/books/orsonScottCard_endersGame.png")}
+              alt="Orson Scott Card Ender's Game.png"
             />
           </a>
         </div>

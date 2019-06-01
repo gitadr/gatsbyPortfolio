@@ -328,7 +328,7 @@ li {
 }
 .button:hover span.downloadIcon {
   background: url(../images/icons/arrowDownIcon_white.svg) no-repeat;
-  mmargin: 2px 0 0 -32px;
+  margin: 2px 0 0 -32px;
   transform: rotate(-90deg);
 }
 .button:hover span.twitterIcon {
