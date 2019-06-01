@@ -13,7 +13,7 @@ export default () => (
       <Header />
       <article>
         <section>
-          <h1>Launching FX trading apps in a new market</h1>
+          <h1>Optimising the pick-up and delivery experience</h1>
           <p className="intro">
             Launching a new product is always exciting. Sometimes it can provide
             unique design opportunities too. IG's application to offer regulated
