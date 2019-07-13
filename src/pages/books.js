@@ -518,7 +518,7 @@ export default () => (
             />
           </a>
         </div>
-        <div className={styles.unread}>
+        <div className={styles.vertical}>
           <a
             href="https://www.goodreads.com/book/show/76844.The_Songlines"
             target="_blank"
