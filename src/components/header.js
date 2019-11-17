@@ -7,7 +7,7 @@ export default () => (
       <div className={styles.headerIntro}>
         <h1>
           Hello, I’m Aaron.
-          <span> A London-based product designer.</span>
+          <span> A Sydney-based product designer.</span>
         </h1>
         <a href="mailto:mail@aaronroot.net" className="button top">
           <span className="linkIcon" />
