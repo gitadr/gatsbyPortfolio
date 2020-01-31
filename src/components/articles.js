@@ -6,8 +6,14 @@ export default () => (
     <div class="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
-          <p className="articleDate">COMING SOON</p>
-          <h1>Building insanely great products.</h1>
+          <p className="articleDate">26 JANUARY 2020</p>
+          <a
+            href="https://medium.com/@aaroot/building-insanely-great-products-29e535b73a4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1>Building insanely great products.</h1>
+          </a>
           <div className={styles.articlePreview}>
             <img
               src={require("../images/home/heroImage.png")}
