@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./workDark.module.css";
+import styles from "./workNearmap.module.css";
 import { Link } from "gatsby";
 
 export default () => (
