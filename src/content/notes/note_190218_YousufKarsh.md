@@ -1,5 +1,5 @@
 ---
-title: "You may take one."
+title: "You May Take One."
 date: "2019-02-19"
 tags: ["Photography"]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Think Different"
+title: "Think Different."
 date: "2019-11-17"
 tags: ["Marketing"]
 ---

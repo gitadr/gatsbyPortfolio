@@ -1,5 +1,5 @@
 ---
-title: "Marcus Aurelius – Meditations"
+title: "Marcus Aurelius – Meditations."
 date: "2019-02-22"
 tags: ["Ancient Greeks"]
 ---

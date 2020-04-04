@@ -4,7 +4,7 @@ date: "2020-04-02"
 tags: ["Risk"]
 ---
 
-The Cynefin Framework is a conceptual decision making aide, designed by Dave Snowde, to help identify and respond to different situations.
+The Cynefin Framework is a conceptual decision making aide by Dave Snowde. It was designed to help people identify and respond to different situations.
 
 ### There are 4 states:
 

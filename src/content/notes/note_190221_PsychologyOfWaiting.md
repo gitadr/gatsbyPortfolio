@@ -1,5 +1,5 @@
 ---
-title: "Sydney Design Thinking Meetup – The psychology of waiting"
+title: "Sydney Design Thinking Meetup – The Psychology of Waiting."
 date: "2019-02-21"
 tags: ["Design Talk"]
 ---
@@ -22,11 +22,4 @@ Show time when you can
 
 Anxious waits feel longer
 
-Reset your wait clock. Apple Genius Bar always tells let you know "You are next inline" 
-
-
-
-
-
-
-
+Reset your wait clock. Apple Genius Bar always tells let you know "You are next inline"

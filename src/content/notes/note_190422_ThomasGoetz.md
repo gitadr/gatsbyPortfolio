@@ -1,5 +1,5 @@
 ---
-title: "It's time to redesign medical data."
+title: "It's Time To Redesign Medical Data."
 date: "2019-04-22"
 tags: ["Design", "TED", "Health"]
 ---
