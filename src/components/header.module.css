@@ -42,6 +42,8 @@ h1 span::before {
 
   .headerIntro h1 {
     font-size: 80px;
+    letter-spacing: -3.2px;
+    font-weight: 600;
   }
 
   .headerBody {

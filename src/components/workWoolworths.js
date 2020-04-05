@@ -10,7 +10,7 @@ export default () => (
           <span className={styles.appIcon} />
           <p className={styles.company}>WOOLWORTHS – GROCERIES</p>
         </div>
-        <h1>Designing for geo-located environments.</h1>
+        <h1>Designing an augmented retail experience.</h1>
         <p>
           Technology is most powerful when it empowers everyone. That's why as
           part of the mobile team, I helped deliver a more personal, convenient
