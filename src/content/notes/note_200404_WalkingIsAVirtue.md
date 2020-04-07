@@ -10,4 +10,4 @@ I saw Werner once or twice after that. And he would phone me from fishing trips 
 
 He was also the only person with whom I could have a one-to-one conversation on what I would call the sacramental aspect of walking. He and I shared a belief that walking is not simply therapeutic for oneself but is a poetic activity that can cure the world of its ills. He sums up his position in a stern pronouncement: ‘Walking is virtue, tourism deadly sin’.
 
-![Bruce Chatwin](images/BruceChatwin_Walking.jpg)
+![Bruce Chatwin](images/bruceChatwin_Walking.jpg)
