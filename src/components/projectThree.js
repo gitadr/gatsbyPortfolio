@@ -8,7 +8,7 @@ export default () => (
         <div className="companyName">
           <p className={styles.company}>PROJECT 03</p>
         </div>
-        <h1>Designing for high-risk trading environments.</h1>
+        <h1>Designing aerial maps from the ground up.</h1>
         <p>
           Trading is hard. Designing a trading platform isn't any easier. As
           Lead designer, I spent over three years helping IG design and build a

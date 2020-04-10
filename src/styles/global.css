@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans+Condensed:wght@700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&family=IBM+Plex+Sans:wght@400;700&family=IBM+Plex+Serif:wght@400;600&display=swap");
 
 html {
   background-color: #000;
@@ -140,7 +140,7 @@ p.caption {
 }
 
 p.caps {
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Sans";
   font-size: 16px;
   line-height: 1;
   letter-spacing: 1.6px;
@@ -227,7 +227,13 @@ section.journal .container {
 
   h2 {
     font-size: 32px;
+    letter-spacing: -1.2px;
   }
+  h3 {
+    font-size: 24px;
+    letter-spacing: -0.8px;
+  }
+
   p {
     font-size: 20px;
     letter-spacing: -0.64px;
