@@ -17,17 +17,16 @@ class NoteIndex extends React.Component {
           <div className={styles.container}>
             <SEO />
             <Header />
-            <h1>Notes</h1>
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug;
               return (
                 <div key={node.fields.slug}>
                   <p className="articleDate">{node.frontmatter.date}</p>
-                  <h2>
+                  <h1>
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                       {title}
                     </Link>
-                  </h2>
+                  </h1>
                 </div>
               );
             })}

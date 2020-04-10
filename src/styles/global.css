@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans+Condensed:wght@700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:wght@400;700&display=swap");
 
 html {
   background-color: #000;
@@ -17,7 +17,7 @@ button {
 }
 
 body {
-  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-weight: 400;
@@ -89,8 +89,8 @@ h1 {
   line-height: 1;
   margin: 0 0 16px 0;
   padding: 0;
-  font-weight: 600;
-  letter-spacing: -2.4px;
+  font-weight: 400;
+  letter-spacing: -3.2px;
 }
 
 h2 {
@@ -121,6 +121,7 @@ p.intro {
   font-size: 17px;
   line-height: 1.5;
   margin: 0 0 8px 0;
+  letter-spacing: -1.2px;
 }
 
 p {
@@ -139,7 +140,8 @@ p.caption {
 }
 
 p.caps {
-  font-size: 15px;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
   line-height: 1;
   letter-spacing: 1.6px;
   color: #9696a3;
@@ -186,6 +188,37 @@ li {
   margin: 0 0 0 8px;
 }
 
+section.journal {
+  background: #fff;
+}
+
+section.journal .container {
+  background-image: url(../images/home/journalMobileLight.jpg);
+  background-size: 100vw;
+  background-position: center top;
+  background-repeat: no-repeat;
+  align-content: flex-end;
+  padding: 20vh 20px 0vh 20px;
+}
+
+.journalText {
+  grid-column: 1/ -1;
+  align-self: end;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.journalText ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 48px;
@@ -197,7 +230,7 @@ li {
   }
   p {
     font-size: 20px;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.64px;
   }
 
   p.intro {
@@ -216,11 +249,41 @@ li {
   li {
     font-size: 20px;
   }
+
+  .journalText {
+    grid-column: 1 / 9;
+    align-self: center;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 0%
+    );
+  }
+  section.journal .container {
+    background-image: url(../images/home/journalDesktopLight.jpg);
+    background-size: 1080px 822px;
+    background-position: 0px bottom;
+    align-content: center;
+  }
 }
 
 @media only screen and (min-width: 1048px) {
   h1 {
     font-size: 64px;
+  }
+  section.journal .container {
+    background-position: right bottom;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  section.journal .container {
+    background-image: url(../images/home/journalDesktopLargeLight.jpg);
+    background-size: 1200px 822px;
+    background-position: center center;
+    padding: 10vh 0px;
+    background-repeat: no-repeat;
   }
 }
 
@@ -228,10 +291,16 @@ li {
   h1 {
     font-size: 64px;
   }
+  .journalText {
+    grid-column: 1 / 6;
+    align-self: center;
+    padding-bottom: 0px;
+  }
 }
 
 /* Button: */
 .button {
+  font-family: "IBM Plex Sans";
   padding: 16px 32px 16px 32px;
   font-size: 15px;
   letter-spacing: 3px;
@@ -369,17 +438,6 @@ a.button.notes {
   margin-top: 32px;
 }
 
-@media only screen and (min-width: 1120px) {
-  a.button.bottom {
-    display: none;
-  }
-
-  a.button.top {
-    display: inline-block;
-    margin-top: 8px;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .button {
     padding: 16px 32px 16px 32px;
@@ -392,5 +450,15 @@ a.button.notes {
     padding: 16px 32px 16px 32px;
     font-size: 16px;
     margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  a.button.bottom {
+    display: none;
+  }
+  a.button.top {
+    display: inline-block;
+    margin-top: 8px;
   }
 }

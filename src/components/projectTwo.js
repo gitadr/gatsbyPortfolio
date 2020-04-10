@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./workLight.module.css";
+import styles from "./projectTwo.module.css";
 import { Link } from "gatsby";
 
 export default () => (
@@ -7,8 +7,7 @@ export default () => (
     <div className={styles.container}>
       <div className={styles.workText}>
         <div className="companyName">
-          <span className={styles.appIcon} />
-          <p className={styles.company}>WOOLWORTHS – GROCERIES</p>
+          <p className={styles.company}>PROJECT 02</p>
         </div>
         <h1>Designing an augmented retail experience.</h1>
         <p>

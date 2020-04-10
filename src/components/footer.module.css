@@ -114,6 +114,7 @@ img.twitterLogo {
   }
   .footerCopyright {
     grid-column: 10 / 13;
+    text-align: right;
   }
   .footerInstagram li {
     flex-basis: 16%;

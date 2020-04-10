@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./workDark.module.css";
+import styles from "./projectOne.module.css";
 import { Link } from "gatsby";
 
 export default () => (
@@ -7,8 +7,7 @@ export default () => (
     <div className={styles.container}>
       <div className={styles.workText}>
         <div className="companyName">
-          <span className={styles.appIcon} />
-          <p className={styles.company}>IG GROUP – TRADING</p>
+          <p className={styles.company}>PROJECT 01</p>
         </div>
         <h1>Designing for high-risk trading environments.</h1>
         <p>

@@ -4,7 +4,7 @@ date: "2019-02-22"
 tags: ["Ancient Greeks"]
 ---
 
-Some of my favourite quotes.
+### Some of my favourite quotes:
 
 Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.
 

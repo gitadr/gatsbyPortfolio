@@ -31,7 +31,7 @@
 }
 
 .work .container {
-  background-image: url(../images/home/workMobileDark.jpg);
+  background-image: url(../images/home/project1MobileDark.jpg);
   background-size: 100vw;
   background-position: center top;
   background-repeat: no-repeat;
@@ -41,11 +41,11 @@
 }
 
 p.company {
-  font-family: "IBM Plex Sans";
+  font-family: "IBM Plex Mono";
   text-transform: uppercase;
-  letter-spacing: 1.6px;
+  letter-spacing: 2.4px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 span.appIcon {
@@ -82,7 +82,7 @@ span.appIcon {
     padding: 0 20px 0 0;
   }
   .workText {
-    grid-column: 1 / 7;
+    grid-column: 7 / 13;
     align-self: center;
     background: linear-gradient(
       to bottom,
@@ -92,7 +92,7 @@ span.appIcon {
     );
   }
   .work .container {
-    background-image: url(../images/home/workDesktopDark.jpg);
+    background-image: url(../images/home/project1DesktopDark.jpg);
     background-size: 1080px 822px;
     background-position: -100px bottom;
     align-content: center;
@@ -112,13 +112,13 @@ span.appIcon {
 }
 @media only screen and (min-width: 1199px) {
   .work .container {
-    background-image: url(../images/home/workDesktopLargeNearmap.jpg);
+    background-image: url(../images/home/project1DesktopLargeDark.jpg);
     background-size: 1200px 822px;
     background-position: center center;
     padding: 10vh 0px;
   }
   .workText {
-    grid-column: 1 / 6;
+    grid-column: 8 / 13;
     align-self: center;
     padding-bottom: 0px;
   }

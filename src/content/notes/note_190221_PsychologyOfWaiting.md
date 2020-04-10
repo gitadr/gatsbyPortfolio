@@ -1,12 +1,12 @@
 ---
-title: "Sydney Design Thinking Meetup – The Psychology of Waiting."
+title: "The Psychology of Waiting."
 date: "2019-02-21"
 tags: ["Design Talk"]
 ---
 
 ## Quick notes
 
-Presented by Freya Elliot
+Sydney Design Thinking Meetup – Presented by Freya Elliot
 
 We over estimate the waiting experience by 30%
 
