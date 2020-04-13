@@ -22,12 +22,12 @@ class JournalIndex extends React.Component {
         <section class="journal">
           <div class="container">
             <div class="journalText">
-              <p class="caps">Notes + Scribbles</p>
               <ul>
                 {posts.map(({ node }) => {
                   const title = node.frontmatter.title || node.fields.slug;
                   return (
                     <li key={node.fields.slug}>
+                      <p class="caps">{node.frontmatter.date}</p>
                       <h1>
                         <Link
                           style={{ boxShadow: `none` }}
@@ -66,7 +66,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/notes/" } }
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
+      limit: 4
     ) {
       edges {
         node {

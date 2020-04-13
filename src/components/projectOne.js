@@ -9,7 +9,10 @@ export default () => (
         <div className="companyName">
           <p className={styles.company}>PROJECT 01</p>
         </div>
-        <h1>Designing for high-risk trading environments.</h1>
+        <h1>
+          Designing for <span className="white-space: nowrap;">high-risk</span>{" "}
+          trading environments.
+        </h1>
         <p>
           Trading is hard. Designing a trading platform isn't any easier. As
           Lead designer, I spent over three years helping IG design and build a

@@ -91,6 +91,7 @@ h1 {
   padding: 0;
   font-weight: 400;
   letter-spacing: -3.2px;
+  hyphens: none;
 }
 
 h2 {
@@ -142,16 +143,6 @@ p.caption {
 p.caps {
   font-family: "IBM Plex Sans";
   font-size: 16px;
-  line-height: 1;
-  letter-spacing: 1.6px;
-  color: #9696a3;
-  text-transform: uppercase;
-  padding: 16px 0 4px 0;
-  margin: 0;
-}
-
-p.articleDate {
-  font-size: 15px;
   line-height: 1;
   letter-spacing: 1.6px;
   color: #9696a3;
@@ -229,6 +220,7 @@ section.journal .container {
     font-size: 32px;
     letter-spacing: -1.2px;
   }
+
   h3 {
     font-size: 24px;
     letter-spacing: -0.8px;
@@ -243,10 +235,11 @@ section.journal .container {
     font-size: 24px;
     margin: 0 0 24px 0;
   }
-  p.articleDate {
-    font-size: 16px;
+
+  p.caps {
     padding: 20px 0 8px 0;
   }
+
   p.caption {
     font-size: 16px;
     line-height: 1.5;
@@ -276,7 +269,7 @@ section.journal .container {
 
 @media only screen and (min-width: 1048px) {
   h1 {
-    font-size: 64px;
+    font-size: 60px;
   }
   section.journal .container {
     background-position: right bottom;

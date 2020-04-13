@@ -26,6 +26,9 @@ footer .container {
 
 .footerTwitter h2 {
   margin: 4px 0 0 16px;
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .footerTwitter p {

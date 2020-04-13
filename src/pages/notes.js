@@ -21,7 +21,7 @@ class NoteIndex extends React.Component {
               const title = node.frontmatter.title || node.fields.slug;
               return (
                 <div key={node.fields.slug}>
-                  <p className="articleDate">{node.frontmatter.date}</p>
+                  <p class="caps">{node.frontmatter.date}</p>
                   <h1>
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                       {title}
