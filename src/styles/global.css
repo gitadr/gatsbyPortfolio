@@ -215,7 +215,7 @@ section.journal .container {
   padding: 0;
 }
 
-.journalText h4 {
+.journalText h5 {
   margin: 80px 0 20px 0;
   letter-spacing: 4px;
 }
@@ -243,6 +243,9 @@ section.journal .container {
   h3 {
     font-size: 24px;
     letter-spacing: -0.8px;
+  }
+  .journalText h5 {
+    display: none;
   }
 
   p {
