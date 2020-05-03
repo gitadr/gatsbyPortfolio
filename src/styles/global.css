@@ -40,7 +40,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 0px;
   align-items: center;
-  padding: 10vh 20px;
+  padding: 2vh 20px 8vh 20px;
 }
 
 ul,
@@ -50,6 +50,12 @@ ol {
 
 li {
   margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 10vh 20px 10vh 20px;
+  }
 }
 
 @media only screen and (min-height: 960px) {
