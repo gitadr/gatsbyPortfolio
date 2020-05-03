@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Aaron Root`,
-    titleTemplate: `%s · Portfolio`,
+    titleTemplate: `Aaron Root — Product Design`,
     description: `Sydney-based product designer specialising in clean interfaces, data-driven prototypes and scalable design systems`,
     url: `https://www.aaronroot.net`, // No trailing slash allowed!
     image: `/avatar.jpg`, // Path to your image you placed in the 'static' folder
-    twitterUsername: `@aaroot`
+    twitterUsername: `@aaroot`,
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -15,15 +15,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/content/articles`,
-        name: `articles`
-      }
+        name: `articles`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/content/notes`,
-        name: `notes`
-      }
+        name: `notes`,
+      },
     },
     "gatsby-transformer-remark",
     {
@@ -31,8 +31,8 @@ module.exports = {
       options: {
         trackingId: `UA-46089139-1`,
         // Puts tracking script in the head instead of the body
-        head: false
-      }
+        head: false,
+      },
     },
     `gatsby-plugin-sharp`,
     {
@@ -47,11 +47,11 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 820,
               linkImagesToOriginal: false,
-              wrapperStyle: "margin:48px, 0, 48px, 0;"
-            }
-          }
-        ]
-      }
-    }
-  ]
+              wrapperStyle: "margin:48px, 0, 48px, 0;",
+            },
+          },
+        ],
+      },
+    },
+  ],
 };

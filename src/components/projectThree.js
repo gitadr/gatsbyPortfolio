@@ -7,9 +7,9 @@ export default () => (
       <div className={styles.workText}>
         <h1>Designing aerial maps, from the ground up.</h1>
         <p>
-          Trading is hard. Designing a trading platform isn't any easier. As
-          Lead designer, I spent over three years helping IG design and build a
-          new generation of task orientated trading applications.
+          Seeing the world from a different angle can give you a completely
+          different prospective. At Nearmap, I am helping a create a suite of 2D
+          and 3D geospatial tools.
         </p>
         <ul>
           <li>

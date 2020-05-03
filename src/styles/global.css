@@ -221,9 +221,8 @@ section.journal .container {
   padding: 0;
 }
 
-.journalText h5 {
+.journalText h2 {
   margin: 80px 0 20px 0;
-  letter-spacing: 4px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -249,9 +248,6 @@ section.journal .container {
   h3 {
     font-size: 24px;
     letter-spacing: -0.8px;
-  }
-  .journalText h5 {
-    display: none;
   }
 
   p {
@@ -299,6 +295,10 @@ section.journal .container {
   h1 {
     font-size: 56px;
   }
+  h2 {
+    font-size: 40px;
+  }
+
   section.journal .container {
     background-position: right bottom;
   }
