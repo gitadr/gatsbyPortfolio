@@ -119,14 +119,14 @@ h4 {
 }
 
 p.intro {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 0 0 8px 0;
-  letter-spacing: -1.2px;
+  letter-spacing: -0.8px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -136,7 +136,7 @@ p a {
 }
 
 p.caption {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -325,7 +325,7 @@ section.journal .container {
   padding: 16px 32px 16px 32px;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2.4px;
+  letter-spacing: 3.2px;
   font-weight: 700;
   background-color: none;
   border: none;
@@ -340,7 +340,7 @@ section.journal .container {
   padding: 16px 32px 16px 32px;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2.4px;
+  letter-spacing: 3.2px;
   font-weight: 700;
   background-color: #000;
   color: #fff;
