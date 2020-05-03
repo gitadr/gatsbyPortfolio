@@ -215,9 +215,18 @@ section.journal .container {
   padding: 0;
 }
 
+.journalText h4 {
+  margin: 80px 0 20px 0;
+  letter-spacing: 4px;
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     grid-gap: 20px;
+  }
+
+  .journalText h4 {
+    display: none;
   }
 
   h1 {

@@ -22,6 +22,7 @@ class JournalIndex extends React.Component {
         <section class="journal">
           <div class="container">
             <div class="journalText">
+              <h4>JOURNAL</h4>
               <ul>
                 {posts.map(({ node }) => {
                   const title = node.frontmatter.title || node.fields.slug;
