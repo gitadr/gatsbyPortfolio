@@ -24,11 +24,8 @@ footer .container {
   margin: 48px 0 32px 0;
 }
 
-.footerTwitter h2 {
-  margin: 4px 0 0 16px;
-  font-family: "IBM Plex Sans";
-  font-weight: 600;
-  text-transform: uppercase;
+.footerTwitter h2 a {
+  text-decoration: none;
 }
 
 .footerTwitter p {
@@ -113,7 +110,7 @@ img.twitterLogo {
   }
 
   .footerColophon {
-    grid-column: 1 / 9;
+    grid-column: 1 / 7;
   }
   .footerCopyright {
     grid-column: 10 / 13;

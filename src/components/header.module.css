@@ -16,14 +16,6 @@ header {
   display: none;
 }
 
-header h1 {
-  margin: 0px;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -1.6px;
-}
-
 h1 span::before {
   content: "\A";
   white-space: pre;
@@ -37,8 +29,7 @@ h1 span::before {
 @media only screen and (min-width: 640px) {
   .headerIntro h1 {
     font-size: 64px;
-    line-height: 64px;
-    letter-spacing: -3.2px;
+    letter-spacing: -2.4px;
   }
 }
 
@@ -54,7 +45,7 @@ h1 span::before {
 
   .headerIntro h1 {
     font-size: 72px;
-    letter-spacing: -3.2px;
+    letter-spacing: -2.4px;
   }
 
   .headerBody {
@@ -71,5 +62,11 @@ h1 span::before {
   h1 span::before {
     content: "\A";
     white-space: pre;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .headerIntro h1 {
+    font-size: 80px;
   }
 }

@@ -43,7 +43,7 @@ class JournalIndex extends React.Component {
 
               <a href="/notes" className="button top">
                 <span className="linkIcon" />
-                <span className="text">View Journal</span>
+                <span className="text">See All Articles</span>
               </a>
             </div>
           </div>

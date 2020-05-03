@@ -6,9 +6,6 @@ export default () => (
   <section className={styles.work}>
     <div className={styles.container}>
       <div className={styles.workText}>
-        <div className="companyName">
-          <p className={styles.company}>PROJECT 02</p>
-        </div>
         <h1>Designing an augmented retail experience.</h1>
         <p>
           Technology is most powerful when it empowers everyone. That's why as

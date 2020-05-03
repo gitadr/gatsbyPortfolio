@@ -5,18 +5,16 @@ export default () => (
   <footer>
     <div class="container">
       <div className={styles.footerTwitter}>
-        <a
-          href="https://twitter.com/aaroot"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="twitterLogo"
-            src={require("../images/icons/twitterLogo.svg")}
-            alt="Twitter logo"
-          />
-        </a>
-        <h2>@aaroot</h2>
+        <h2>
+          <a
+            href="https://twitter.com/aaroot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @aaroot
+          </a>
+        </h2>
+
         <div className={styles.tweet}>
           <p className="intro">
             Super impressed with the latest @
@@ -34,11 +32,6 @@ export default () => (
         </div>
       </div>
       <div className={styles.footerInstagram}>
-        <img
-          className={styles.instagramLogo}
-          src={require("../images/icons/instagramLogo.svg")}
-          alt="instagram"
-        />
         <ul>
           <li>
             <img
@@ -115,9 +108,9 @@ export default () => (
       <div className={styles.footerKeyline} />
       <div className={styles.footerColophon}>
         <p className="caption">
-          This portfolio is a work-in-progress. Built with{" "}
+          Developed using{" "}
           <a
-            href="https://reactjs.org/"
+            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -125,62 +118,53 @@ export default () => (
           </a>{" "}
           and{" "}
           <a
-            href="https://www.gatsbyjs.org/"
+            href="https://www.gatsbyjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             Gatsby
           </a>
-          , written using{" "}
+          , written in{" "}
           <a
-            href="https://code.visualstudio.com/"
+            href="https://code.visualstudio.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             VS Code
-          </a>{" "}
-          and Framer's handsome{" "}
-          <a
-            href="https://framer.com/free-syntax-theme/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            syntax theme
           </a>
-          . Version control is handled by{" "}
+          . Version controlled by{" "}
           <a
-            href="http://www.github.com/gitadr"
+            href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
           </a>{" "}
-          and deployment by{" "}
+          and deployed with{" "}
           <a
-            href="https://www.netlify.com/"
+            href="https://www.netlify.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             Netfliy
           </a>
-          . Type is set in{" "}
+          . Typeset in{" "}
           <a
-            href="https://www.ibm.com/plex/"
+            href="https://rsms.me/inter/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Plex
+            Inter
           </a>
           , an open source typeface from{" "}
           <a
-            href="https://github.com/IBM/plex"
+            href="https://twitter.com/rsms"
             target="_blank"
             rel="noopener noreferrer"
           >
-            IBM
-          </a>{" "}
-          . If there is anything else you would like to know please email me at{" "}
-          <a href="mailto:mail@aaronroot.net">mail@aaronroot.net</a>
+            @rsms
+          </a>
+          .
         </p>
       </div>
       <div className={styles.footerCopyright}>

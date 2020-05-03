@@ -6,9 +6,6 @@ export default () => (
   <section className={styles.work}>
     <div className={styles.container}>
       <div className={styles.workText}>
-        <div className="companyName">
-          <p className={styles.company}>PROJECT 01</p>
-        </div>
         <h1>
           Designing for <span className="white-space: nowrap;">high-risk</span>{" "}
           trading environments.

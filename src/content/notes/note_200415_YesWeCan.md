@@ -19,8 +19,8 @@ Obama spoke of how he wanted his memoir to tell a story and be more than a chron
 This was a distinction I hadn’t made before. The main distinction being scale. Problems are fairly niche, only concerning a limited number of people. Issues are much broader points and often represent an underlining trend.
 
 Example:  
-**Problem** = Leaking roof at apartment block 80  
-**Issue** = Poor condition of social housing in Downtown Chicago
+Problem = Leaking roof at apartment block 80  
+Issue = Poor condition of social housing in Downtown Chicago
 
 ### Create a shared vision
 
