@@ -8,8 +8,8 @@ export default () => (
         <h1>Designing aerial maps, from the ground up.</h1>
         <p>
           Seeing the world from a different angle can give you a completely
-          different prospective. At Nearmap, I am helping a create a suite of 2D
-          and 3D geospatial tools.
+          different prospective. At Nearmap, we are creating geospatial tools
+          that aim to profoundly change the way people work.
         </p>
         <ul>
           <li>
