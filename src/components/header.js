@@ -21,7 +21,7 @@ export default () => (
       </div>
       <div className={styles.headerBody}>
         <p>
-          Over the past seven years I have focused on designing products that
+          Over the past nine years I have focused on designing products that
           help people understand and react to complex information. Whether
           that's patient health records or financial trading data, the goal is
           to create applications that are simple, innovative and empowering.
