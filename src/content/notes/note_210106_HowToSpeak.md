@@ -1,5 +1,5 @@
 ---
-title: "How to speak"
+title: "How To Speak"
 date: "2021-01-06"
 tags: ["Public Speaking"]
 ---
@@ -19,7 +19,7 @@ Patrick Winston's 'How to speak' lecture has been on my watchlist for a while. I
 - Hapax legomenon (Something you can show only once. e.g. a complex slide)
 - Exhibit passion to inspire
 - Link passion with the promise at the start
-- Story telling. We are symbolic creatures.
+- Story telling. We are symbolic creatures
 - Practise
 - Show that you have vision (Problem and approach) and that you have done something (steps taken) in the first 5 mins.
 - Whys do you want to be famous? Because you want your ideas/work to be recognised.
