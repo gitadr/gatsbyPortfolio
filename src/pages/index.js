@@ -27,8 +27,7 @@ class JournalIndex extends React.Component {
                 <p class="caps">ARTICLE – 26 JANUARY 2020</p>
                 <h1>
                   <a
-                    href="https://medium.com/@aaroot/building-insanely-great-products-29e535b73a4"
-                    target="_blank"
+                    href="https://www.aaronroot.net/note_190219_SteveJobs/"
                     rel="noopener noreferrer"
                   >
                     On Building Insanely Great Products.
