@@ -24,7 +24,7 @@ Patrick Winston's 'How to speak' lecture has been on my watchlist for a while. I
 - Show that you have vision (Problem and approach) and that you have done something (steps taken) in the first 5 mins.
 - Whys do you want to be famous? Because you want your ideas/work to be recognised.
 - Winstons star:
-  - Symobol
+  - Symbol
   - Slogan
   - Surprise
   - Salient idea
