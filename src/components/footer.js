@@ -170,7 +170,7 @@ export default () => (
       <div className={styles.footerCopyright}>
         <div>
           <p className="caption">
-            Made with ♥&#xFE0E; by Aaron Root <span>© Copyright 2020</span>
+            Made with ♥&#xFE0E; by Aaron Root <span>© Copyright 2021</span>
           </p>
         </div>
       </div>
