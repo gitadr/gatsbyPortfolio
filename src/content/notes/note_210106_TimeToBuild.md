@@ -1,5 +1,5 @@
 ---
-title: "It's Time to Build."
+title: "It's Time To Build."
 date: "2021-01-06"
 tags: ["Inspiration"]
 ---

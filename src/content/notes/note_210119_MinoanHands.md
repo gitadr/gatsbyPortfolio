@@ -1,5 +1,5 @@
 ---
-title: "Minoan hands."
+title: "Minoan Hands."
 date: "2021-01-19"
 tags: ["History"]
 ---
