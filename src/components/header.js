@@ -21,16 +21,10 @@ export default () => (
       </div>
       <div className={styles.headerBody}>
         <p>
-          Over the past nine years I have focused on designing products that
-          help people understand and react to complex information. Whether
-          that's patient health records or financial trading data, the goal is
-          to create applications that are simple, innovative and empowering.
+        Over the past ten years I have focused on designing things that help people understand and act upon complex information. Whether that's geospatial projections or trading data, the goal has been to create products that are simple, innovative and empowering.
         </p>
         <p>
-          I specialise in building clean and well-structured interfaces,
-          data-driven prototypes and scalable design systems. My experience
-          leading a distributed design team has taught me the value of creating
-          a clear design vision and developing robust team processes.
+        This experience has taught me a lot about what it takes to build great teams and products. Especially the importance of creating consensus, empathy and a clear design vision. But, most of all, the value in scaling and compounding positive change.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button bottom">
           <span className="linkIcon" />

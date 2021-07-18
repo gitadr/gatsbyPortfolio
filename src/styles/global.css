@@ -103,7 +103,6 @@ h1 {
 h2 {
   font-size: 28px;
   font-weight: 700;
-  letter-spacing: -0.24px;
   line-height: 1.1;
   margin: 0;
   letter-spacing: -0.64px;
@@ -252,7 +251,7 @@ section.journal .container {
 
   p {
     font-size: 20px;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.32px;
   }
 
   p.intro {
