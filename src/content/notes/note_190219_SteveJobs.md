@@ -1,5 +1,5 @@
 ---
-title: "Building Insanely Great Products."
+title: "On Building Insanely Great Products."
 date: "2019-01-22"
 tags: ["Product Design"]
 ---
