@@ -10,7 +10,7 @@ Over the last 12 months I've been the 'horizontal lead' for Nearmap's MapBrowser
 
 A key realisation for me has been the power of incremental improvement. Big change, although sometimes necessary, often involves more risk. Both in terms of implementation and adoption. The larger the change, the greater the FUD (fear, uncertainty and doubt). This can create inertia within teams, leading to a slower development cycle.
 
-Smaller iterations allow teams to focus on specific goals and mitigate risk better. In turn, increasing confidence and velocity. This can be further improved with the introduction of feedback loops. Changes that result in undesirable outcomes can be tweaked or rolled back quickly. Desirable ones can be repeated and built upon.
+A way to combat this is to ship early and often. Smaller iterations allow teams to focus on specific goals and mitigate risk better, in turn, increasing confidence and velocity. This can be further improved with the introduction of feedback loops. Changes that result in undesirable outcomes can be tweaked or rolled back quickly. Desirable ones can be repeated and built upon.
 
 The last and most important benefit is momentum. The more data points (releases) a team has, the more opportunities they have to learn. When applied correctly, these learnings lead to successful outcomes occurring more often. Small but consistent improvements compound over time, creating substantial and sustained results.
 

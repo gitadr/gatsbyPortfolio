@@ -8,7 +8,7 @@ In 2010 Ben Barry set up the Facebook Analog Research Lab in an unused corner of
 
 Bold typographic posters started popping up all over the campus. “Stay focused and keep shipping” and “Move fast and break things” were just some of the sayings used to promote and inspire shared values.
 
-Although there is a contradiction in a tech start-up having a print workshop, I think there is a wisdom in what Ben and the Analog Research lab team where advocating.
+Although there is a contradiction in a tech start-up having a print workshop, I think there is a wisdom in what Ben and the Analog Research lab team were advocating.
 
 Apart from the style and aesthetic of these posters, there is something about the medium that resonates. They are raw and imperfect. They can be removed or painted over but they leave an impression that a keynote slide rarley does.
 
