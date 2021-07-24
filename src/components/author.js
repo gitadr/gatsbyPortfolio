@@ -8,7 +8,7 @@ export default () => (
     </div>
     <div className={styles.bio}>
       <p className="intro">
-      Hi, I’m Aaron. A Sydney-based Product Designer. I specialise in building scalable, user-centred  design teams that create innovative and empowering products.
+      Hi, I’m Aaron. A Sydney-based Product Designer. I specialise in building scalable, user-centred design teams and innovative, empowering products.
       </p>
       <a href="mailto:mail@aaronroot.net" className="button">
         <span className="linkIcon" />
