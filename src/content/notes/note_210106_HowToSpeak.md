@@ -4,7 +4,7 @@ date: "2021-01-06"
 tags: ["Public Speaking"]
 ---
 
-Patrick Winston's 'How to speak' lecture has been on my watchlist for a while. I wanted to make an effort at the start of the year to do so. I'm glad I did. You can watch it [here](https://youtu.be/Unzc731iCUY).
+Patrick Winston's 'How to speak' lecture has been on my watchlist for a while. It didn't disappoint. You can watch it [here](https://youtu.be/Unzc731iCUY).
 
 ### Notes
 
