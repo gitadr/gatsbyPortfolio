@@ -4,7 +4,7 @@ date: "2020-04-04"
 tags: ["Travel"]
 ---
 
-Bruce Chatwin discussing the virtues of walking. What am I doing here. Page 139.
+Bruce Chatwin, discussing the virtues of walking. What am I doing here. Page 139.
 
 I saw Werner once or twice after that. And he would phone me from fishing trips in Northumberland, where his brother-in-law was an Anglican parson. He was, I discovered, a compendium of contradictions: immensely tough yet vulnerable, affectionate and remote, austere and sensual, not particularly well-adjusted to the strains of everyday life but functioning efficiently under the extreme conditions.
 
