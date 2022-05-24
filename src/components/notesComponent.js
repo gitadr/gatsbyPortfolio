@@ -6,7 +6,7 @@ import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
 import Project3 from "../components/projectThree";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
 
 class ArticleIndex extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class ArticleIndex extends React.Component {
 
     return (
       <div>
-        <SEO />
+        <SearchEngineOptimisation />
         <Header />
         <Project1 />
         <Project2 />

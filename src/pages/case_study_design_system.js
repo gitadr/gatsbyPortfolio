@@ -3,12 +3,14 @@ import styles from "./caseStudy.module.css";
 import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const DesignSystem = () => {
+  return (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <SEO />
+      <SearchEngineOptimisation />
       <Header />
       <article>
         <section>
@@ -22,8 +24,8 @@ export default () => (
             efficiently.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Hero.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_Hero.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -45,8 +47,8 @@ export default () => (
             grew, design processes needed to scale too.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_OldVsNew.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_OldVsNew.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -94,8 +96,8 @@ export default () => (
             </li>
           </ul>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Planning.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_Planning.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -118,8 +120,8 @@ export default () => (
             development libraries.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_AuditOne.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_AuditOne.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -145,8 +147,8 @@ export default () => (
             around the world.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_AuditTwo.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_AuditTwo.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -162,8 +164,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_DesignSystem_consensusDiagram.jpg")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_DesignSystem_consensusDiagram.jpg"
               alt="Placeholder"
             />
           </div>
@@ -180,8 +182,8 @@ export default () => (
             MVP.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Intro.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_Intro.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -235,8 +237,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_DesignSystem_React.jpg")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_DesignSystem_React.jpg"
               alt="Placeholder"
             />
           </div>
@@ -251,18 +253,18 @@ export default () => (
             design and build new components.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Foundations.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_Foundations.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Patterns.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_Patterns.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
-        <img
-          src={require("../images/caseStudies/caseStudy_DesignSystem_Components.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_DesignSystem_Components.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -308,4 +310,7 @@ export default () => (
     </div>
     <Footer />
   </div>
-);
+  );
+};
+
+export default DesignSystem;

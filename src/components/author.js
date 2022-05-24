@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./author.module.css";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const Author = () => {
+  return (
   <div className={styles.authorFooter}>
     <div className={styles.avatar}>
-      <img src={require("../images/avatar.jpg")} alt="AaronRoot" />
+      <StaticImage src="../images/avatar.jpg" alt="AaronRoot" />
     </div>
     <div className={styles.bio}>
       <p className="intro">
@@ -21,3 +23,6 @@ export default () => (
     </div>
   </div>
 );
+  };
+
+  export default Author;

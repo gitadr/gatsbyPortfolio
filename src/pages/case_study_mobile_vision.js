@@ -3,12 +3,14 @@ import styles from "./caseStudy.module.css";
 import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const MobileVision = () => {
+  return (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <SEO />
+      <SearchEngineOptimisation />
       <Header />
       <article>
         <section>
@@ -21,8 +23,8 @@ export default () => (
             help reshape how people trade on mobile.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_Hero.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_Hero.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -96,8 +98,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_mobileVision_NWTP.jpg")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_mobileVision_NWTP.jpg"
               alt="Placeholder"
             />
           </div>
@@ -135,8 +137,8 @@ export default () => (
             influenced the ideation workshops and design sprints that followed.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_research.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_research.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -175,8 +177,8 @@ export default () => (
             stakeholders.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_ideation.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_ideation.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -198,8 +200,8 @@ export default () => (
             with live data using IG's trading API.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_prototype.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_prototype.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -222,8 +224,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_mobileVision_Demo.gif")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_mobileVision_Demo.gif"
               alt="Placeholder"
             />
           </div>
@@ -257,8 +259,8 @@ export default () => (
             using their own accounts and trading history.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_userTesting.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_userTesting.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -294,8 +296,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_mobileVision_Swift.jpg")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_mobileVision_Swift.jpg"
               alt="Placeholder"
             />
           </div>
@@ -316,8 +318,8 @@ export default () => (
           </p>
           <h3>Medium-fidelity designs</h3>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_after.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_after.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -503,4 +505,7 @@ export default () => (
     </div>
     <Footer />
   </div>
-);
+  );
+};
+
+export default MobileVision;

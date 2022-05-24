@@ -3,12 +3,14 @@ import styles from "./caseStudy.module.css";
 import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const AugmentedShopping = () => {
+  return (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <SEO />
+      <SearchEngineOptimisation />
       <Header />
       <article>
         <section>
@@ -21,8 +23,8 @@ export default () => (
             in-store experience.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_hero.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_hero.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -52,8 +54,8 @@ export default () => (
           </p>
           <h3>Existing designs</h3>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_heuristicReview.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_heuristicReview.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -124,8 +126,8 @@ export default () => (
           </p>
         </section>
 
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_competitorReview.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_competitorReview.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -157,8 +159,8 @@ export default () => (
             considerations.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_designIterations.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_designIterations.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -171,8 +173,8 @@ export default () => (
             defined the MVP.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_designIterations_3.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_designIterations_3.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -186,8 +188,8 @@ export default () => (
             below represent a few of the iterations.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_designIterations_2.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_designIterations_2.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -205,8 +207,8 @@ export default () => (
             successful outcomes.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_designIterations_4.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_designIterations_4.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -226,8 +228,8 @@ export default () => (
             basics and building the prototype over a few evenings.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_mobileVision_origami.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_mobileVision_origami.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -249,8 +251,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_augmented_shopping_Demo.gif")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_augmented_shopping_Demo.gif"
               alt="Placeholder"
             />
           </div>
@@ -296,8 +298,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_augmentedShopping_POC.gif")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_augmentedShopping_POC.gif"
               alt="Placeholder"
             />
           </div>
@@ -318,8 +320,8 @@ export default () => (
             Woolworth's senior leadership.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_augmentedShopping_concepts.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_augmentedShopping_concepts.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -328,4 +330,7 @@ export default () => (
     </div>
     <Footer />
   </div>
-);
+  );
+};
+
+export default AugmentedShopping;

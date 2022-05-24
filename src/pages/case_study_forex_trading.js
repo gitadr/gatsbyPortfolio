@@ -3,13 +3,16 @@ import styles from "./caseStudy.module.css";
 import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby";
-import SEO from "../components/SEO";
 
-export default () => (
+
+const ForexTrading = () => {
+  return (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <SEO />
+      <SearchEngineOptimisation />
       <Header />
       <article>
         <section>
@@ -21,8 +24,8 @@ export default () => (
             design vision and build two world-class trading apps.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_hero.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_forexTrading_hero.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -59,8 +62,8 @@ export default () => (
             involved both experienced and new to category traders.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_research.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_forexTrading_research.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -91,8 +94,8 @@ export default () => (
             on the recommendations of the mobile vision project.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_iOS_before.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_forexTrading_iOS_before.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -114,8 +117,8 @@ export default () => (
             the iOS and Android teams in different ways.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_android_before.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_forexTrading_android_before.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -132,8 +135,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_forexTrading_nativeFirst.jpg")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_forexTrading_nativeFirst.jpg"
               alt="Placeholder"
             />
           </div>
@@ -213,8 +216,8 @@ export default () => (
             </Link>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_forexTrading_designSystem.jpg")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_forexTrading_designSystem.jpg"
               alt="Placeholder"
             />
           </div>
@@ -234,8 +237,8 @@ export default () => (
             clients along the way.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -257,8 +260,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/caseStudies/caseStudy_forexTrading_MVP_light.gif")}
+          <StaticImage 
+              src="../images/caseStudies/caseStudy_forexTrading_MVP_light.gif"
               alt="Placeholder"
             />
           </div>
@@ -272,8 +275,8 @@ export default () => (
             IG's aspiration to build category-defining apps.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_forexTrading_overview.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_forexTrading_overview.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -283,4 +286,7 @@ export default () => (
     </div>
     <Footer />
   </div>
-);
+  );
+};
+
+export default ForexTrading;

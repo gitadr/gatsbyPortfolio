@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import styles from "./notes.module.css";
 import Header from "../components/internalHeader";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
 
 class NoteIndex extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class NoteIndex extends React.Component {
       <div>
         <section className={styles.notes}>
           <div className={styles.container}>
-            <SEO />
+            <SearchEngineOptimisation />
             <Header />
             <h1>Notes</h1>
             {posts.map(({ node }) => {

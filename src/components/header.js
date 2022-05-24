@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./header.module.css";
 
-export default () => (
+const Header = () => { 
+  return(
   <header>
     <div class="container">
       <div className={styles.headerIntro}>
@@ -40,4 +41,6 @@ export default () => (
       </div>
     </div>
   </header>
-);
+  );
+};
+export default Header;

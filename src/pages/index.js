@@ -6,7 +6,8 @@ import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
 import Project3 from "../components/projectThree";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 
 class JournalIndex extends React.Component {
   render() {
@@ -15,7 +16,7 @@ class JournalIndex extends React.Component {
 
     return (
       <div>
-        <SEO />
+        <SearchEngineOptimisation />
         <Header />
         <Project1 />
         <Project2 />
@@ -34,8 +35,8 @@ class JournalIndex extends React.Component {
                   </a>
                 </h1>
                 <div className={styles.articlePreview}>
-                  <img
-                    src={require("../images/home/heroImage.png")}
+                <StaticImage 
+                    src="../images/home/heroImage.png"
                     alt="Steve Jobs"
                   />
                   <div>

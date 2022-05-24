@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./projectOne.module.css";
 import { Link } from "gatsby";
 
-export default () => (
+const ProjectOne = () => {
+  return (
   <section className={styles.work}>
     <div className={styles.container}>
       <div className={styles.workText}>
@@ -38,4 +39,6 @@ export default () => (
       </div>
     </div>
   </section>
-);
+  );
+};
+export default ProjectOne;

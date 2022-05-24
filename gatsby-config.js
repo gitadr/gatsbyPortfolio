@@ -9,7 +9,18 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-favicon",
+    "gatsby-plugin-postcss",
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        cssLoaderOptions: {
+        esModule: false,
+        modules: {
+        namedExport: false,
+             },
+          },
+       },
+    },
     "gatsby-remark-images",
     {
       resolve: `gatsby-source-filesystem`,
@@ -34,6 +45,8 @@ module.exports = {
         head: false,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,

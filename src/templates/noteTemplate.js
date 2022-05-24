@@ -1,17 +1,18 @@
 import React from "react";
 import styles from "./articleTemplate.module.css";
-import Author from "../components/author";
 import Header from "../components/noteHeader";
+import Author from "../components/author";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
 import { graphql } from "gatsby";
 
-export default ({ data }) => {
+const NoteTemplate = ({ data }) => {
+
   const post = data.markdownRemark;
   return (
     <div className={styles.noteArticle}>
       <div className={styles.container}>
-        <SEO />
+        <SearchEngineOptimisation />
         <Header />
         <article>
           <section>
@@ -25,6 +26,8 @@ export default ({ data }) => {
     </div>
   );
 };
+
+export default NoteTemplate;
 
 export const query = graphql`
   query($slug: String!) {

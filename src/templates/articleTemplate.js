@@ -3,15 +3,14 @@ import styles from "./articleTemplate.module.css";
 import Author from "../components/author";
 import Header from "../components/internalHeader";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
-import { graphql } from "gatsby";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <div className={styles.noteArticle}>
       <div className={styles.container}>
-        <SEO />
+        <SearchEngineOptimisation />
         <Header />
         <article>
           <section>
@@ -25,14 +24,3 @@ export default ({ data }) => {
     </div>
   );
 };
-
-export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`;

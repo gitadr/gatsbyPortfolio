@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./footer.module.css";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const Footer = () => {
+  return (
   <footer>
     <div class="container">
       <div className={styles.footerTwitter}>
@@ -34,72 +36,72 @@ export default () => (
       <div className={styles.footerInstagram}>
         <ul>
           <li>
-            <img
+          <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_01.jpg")}
+              src="../images/home/instagram_01.jpg"
               alt="image1"
             />
           </li>
           <li>
-            <img
+            <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_02.jpg")}
+              src="../images/home/instagram_02.jpg"
               alt="image2"
             />
           </li>
           <li>
-            <img
+            <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_03.jpg")}
+              src="../images/home/instagram_03.jpg"
               alt="image3"
             />
           </li>
           <li>
-            <img
+          <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_04.jpg")}
+              src="../images/home/instagram_04.jpg"
               alt="image4"
             />
           </li>
           <li>
-            <img
+          <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_05.jpg")}
+              src="../images/home/instagram_05.jpg"
               alt="image5"
             />
           </li>
           <li>
-            <img
+          <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_06.jpg")}
+              src="../images/home/instagram_06.jpg"
               alt="image1"
             />
           </li>
           <li>
-            <img
+            <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_07.jpg")}
+              src="../images/home/instagram_07.jpg"
               alt="image2"
             />
           </li>
           <li>
-            <img
+          <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_08.jpg")}
+              src="../images/home/instagram_08.jpg"
               alt="image3"
             />
           </li>
           <li>
-            <img
+            <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_09.jpg")}
+              src="../images/home/instagram_09.jpg"
               alt="image4"
             />
           </li>
           <li>
-            <img
+          <StaticImage 
               className={styles.footerImage}
-              src={require("../images/home/instagram_10.jpg")}
+              src="../images/home/instagram_10.jpg"
               alt="image5"
             />
           </li>
@@ -177,3 +179,5 @@ export default () => (
     </div>
   </footer>
 );
+  };
+  export default Footer;

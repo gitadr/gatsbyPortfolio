@@ -3,12 +3,14 @@ import styles from "./caseStudy.module.css";
 import Header from "../components/internalHeader";
 import Author from "../components/author";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const WebTrading = () => {
+  return (
   <div className={styles.caseStudy}>
     <div className={styles.container}>
-      <SEO />
+      <SearchEngineOptimisation />
       <Header />
       <article>
         <section>
@@ -20,8 +22,8 @@ export default () => (
             cost of interactions becomes vital.
           </p>
         </section>
-        <img
-          src={require("../images/caseStudies/caseStudy_01_formationPreview.jpg")}
+        <StaticImage 
+          src="../images/caseStudies/caseStudy_01_formationPreview.jpg"
           alt="Placeholder"
           className={styles.caseStudy_LargeImage}
         />
@@ -67,8 +69,8 @@ export default () => (
             </p>
           </div>
           <div className={styles.workImage}>
-            <img
-              src={require("../images/workPlaceholder_mobile.jpg")}
+          <StaticImage 
+              src="../images/workPlaceholder_mobile.jpg"
               alt="Placeholder"
             />
           </div>
@@ -87,8 +89,8 @@ export default () => (
             fames ac ante ipsum primis
           </p>
         </section>
-        <img
-          src={require("../images/workPlaceholder.jpg")}
+        <StaticImage 
+          src="../images/workPlaceholder.jpg"
           alt="Placeholder"
           className={styles.caseStudy_MediumImage}
         />
@@ -110,4 +112,7 @@ export default () => (
     </div>
     <Footer />
   </div>
-);
+  );
+};
+export default WebTrading;
+

@@ -2,13 +2,15 @@ import React from "react";
 import styles from "./books.module.css";
 import Header from "../components/internalHeader";
 import Footer from "../components/footer";
-import SEO from "../components/SEO";
+import SearchEngineOptimisation from "../components/searchEngineOptimisation";
+import { StaticImage } from "gatsby-plugin-image"
 
-export default () => (
+const Books = () => {
+  return (
   <div>
     <section className={styles.books}>
       <div className={styles.container}>
-        <SEO />
+        <SearchEngineOptimisation />
         <Header />
         <h1>Reading List</h1>
         <p class="intro">46 read, 24 to go</p>
@@ -20,8 +22,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nassimTaleb_FooledByRandomness.png")}
+            <StaticImage 
+              src="../images/books/nassimTaleb_FooledByRandomness.png"
               alt="Nassim Nicholas Taleb – Fooled By Randomness"
             />
           </a>
@@ -32,8 +34,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nassimTaleb_TheBlackSwan.png")}
+            <StaticImage 
+              src="../images/books/nassimTaleb_TheBlackSwan.png"
               alt="Nassim Nicholas Taleb – The Black Swans"
             />
           </a>
@@ -44,8 +46,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nassimTaleb_TheBedOfProcrustes.png")}
+            <StaticImage 
+              src="../images/books/nassimTaleb_TheBedOfProcrustes.png"
               alt="Nassim Nicholas Taleb – The Bed Of Procrustes"
             />
           </a>
@@ -56,8 +58,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nassimTaleb_Anti-fragile.png")}
+            <StaticImage 
+              src="../images/books/nassimTaleb_Anti-fragile.png"
               alt="Nassim Nicholas Taleb – Anti-Fragile"
             />
           </a>
@@ -68,8 +70,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nassimTaleb_SkinInTheGame.png")}
+            <StaticImage 
+              src="../images/books/nassimTaleb_SkinInTheGame.png"
               alt="Nassim Nicholas Taleb – Skin In The Game"
             />
           </a>
@@ -80,8 +82,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/yuvalNoahHarari_Sapiens.png")}
+            <StaticImage 
+              src="../images/books/yuvalNoahHarari_Sapiens.png"
               alt="Yuval Noah Harari – Sapiens"
             />
           </a>
@@ -92,8 +94,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/yuvalNoahHarari_HomoDeus.png")}
+            <StaticImage 
+              src="../images/books/yuvalNoahHarari_HomoDeus.png"
               alt="Yuval Noah Harari – Homo Deus"
             />
           </a>
@@ -104,8 +106,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/annLeckie_AncillaryJustice.png")}
+            <StaticImage 
+              src="../images/books/annLeckie_AncillaryJustice.png"
               alt="Ann Leckie – Ancillary Justice"
             />
           </a>
@@ -116,8 +118,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/annLeckie_AncillaryMercy.png")}
+            <StaticImage 
+              src="../images/books/annLeckie_AncillaryMercy.png"
               alt="Ann Leckie – Ancillary Mercy"
             />
           </a>
@@ -128,8 +130,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/annLeckie_AncillarySword.png")}
+            <StaticImage 
+              src="../images/books/annLeckie_AncillarySword.png"
               alt="Ann Leckie – Ancillary Sword"
             />
           </a>
@@ -140,8 +142,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/annLeckie_Provenance.png")}
+            <StaticImage 
+              src="../images/books/annLeckie_Provenance.png"
               alt="Ann Leckie – Provenance"
             />
           </a>
@@ -152,8 +154,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nKJemisin_TheFifthSeason.png")}
+            <StaticImage 
+              src="../images/books/nKJemisin_TheFifthSeason.png"
               alt="N.K. Jemisin – The Fifth Season"
             />
           </a>
@@ -164,8 +166,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nKJemisin_TheObeliskGate.png")}
+            <StaticImage 
+              src="../images/books/nKJemisin_TheObeliskGate.png"
               alt="N.K. Jemisin – The Obelisk Gate"
             />
           </a>
@@ -176,8 +178,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/nKJemisin_TheStoneSky.png")}
+            <StaticImage 
+              src="../images/books/nKJemisin_TheStoneSky.png"
               alt="N.K. Jemisin – The Stone Sky"
             />
           </a>
@@ -188,8 +190,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/niallFergerson_TheSquareAndTheTower.png")}
+            <StaticImage 
+              src="../images/books/niallFergerson_TheSquareAndTheTower.png"
               alt="Niall Fergerson – The Square and the Tower"
             />
           </a>
@@ -200,8 +202,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/niallFergerson_Civilization.png")}
+            <StaticImage 
+              src="../images/books/niallFergerson_Civilization.png"
               alt="Niall Fergerson – Civilization"
             />
           </a>
@@ -212,8 +214,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/walterIsaacson_SteveJobs.png")}
+            <StaticImage 
+              src="../images/books/walterIsaacson_SteveJobs.png"
               alt="Walter Isaacson – Steve Jobs"
             />
           </a>
@@ -224,8 +226,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/edCatmull_CreativityInc.png")}
+            <StaticImage 
+              src="../images/books/edCatmull_CreativityInc.png"
               alt="Ed Catmull – Creativity Inc"
             />
           </a>
@@ -236,8 +238,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/safiBahcall_Loonshot.png")}
+            <StaticImage 
+              src="../images/books/safiBahcall_Loonshot.png"
               alt="Safi Bahcall – Loonshot"
             />
           </a>
@@ -248,8 +250,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/tomDavidKelley_creativeConfidence.png")}
+            <StaticImage 
+              src="../images/books/tomDavidKelley_creativeConfidence.png"
               alt="Tom & David Kelley – Creative Confidence"
             />
           </a>
@@ -260,8 +262,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/issacAsimov_iRobot.png")}
+            <StaticImage 
+              src="../images/books/issacAsimov_iRobot.png"
               alt="Issac Asimov – iRobot"
             />
           </a>
@@ -272,8 +274,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/kevinKelly_WhatTechnologyWants.png")}
+            <StaticImage 
+              src="../images/books/kevinKelly_WhatTechnologyWants.png"
               alt="Kevin Kelly – What Technology Wants"
             />
           </a>
@@ -284,8 +286,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/kevinKelly_TheInevitable.png")}
+            <StaticImage 
+              src="../images/books/kevinKelly_TheInevitable.png"
               alt="Kevin Kelly – The Inevitable"
             />
           </a>
@@ -296,8 +298,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/graysonPerry_TheDecentOfMan.png")}
+            <StaticImage 
+              src="../images/books/graysonPerry_TheDecentOfMan.png"
               alt="The Decent of Man – The Decent of Man"
             />
           </a>
@@ -308,8 +310,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/maxTegmark_Life3.png")}
+            <StaticImage 
+              src="../images/books/maxTegmark_Life3.png"
               alt="Max Tegmark – Life 3.0"
             />
           </a>
@@ -320,8 +322,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/malcolmGladwell_Blink.png")}
+            <StaticImage 
+              src="../images/books/malcolmGladwell_Blink.png"
               alt="Malcolm Gladwell – Blink"
             />
           </a>
@@ -332,8 +334,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/naomiKlien_NoLogo.png")}
+            <StaticImage 
+              src="../images/books/naomiKlien_NoLogo.png"
               alt="Naomi Klien – No Logo"
             />
           </a>
@@ -344,8 +346,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/richardDawkins_TheBlindWatchMaker.png")}
+            <StaticImage 
+              src="../images/books/richardDawkins_TheBlindWatchMaker.png"
               alt="Richard Dawkins – The Blind Watch Maker"
             />
           </a>
@@ -356,8 +358,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/georgeOrwell_1984.png")}
+            <StaticImage 
+              src="../images/books/georgeOrwell_1984.png"
               alt="George Orwell – 1984"
             />
           </a>
@@ -368,8 +370,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/yevgenyZamyatin_We.png")}
+            <StaticImage 
+              src="../images/books/yevgenyZamyatin_We.png"
               alt="Yevgeny Zamyatin – We"
             />
           </a>
@@ -380,8 +382,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/danielKahneman_ThinkingFastAndSlow.png")}
+            <StaticImage 
+              src="../images/books/danielKahneman_ThinkingFastAndSlow.png"
               alt="Daniel Kahneman – Thinking Fast and Slow"
             />
           </a>
@@ -392,8 +394,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/geoffreyWest_Scale.png")}
+            <StaticImage 
+              src="../images/books/geoffreyWest_Scale.png"
               alt="GeoffreyWest – Scale.png"
             />
           </a>
@@ -404,8 +406,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/jordanBPeterson_12RulesForLife.png")}
+            <StaticImage 
+              src="../images/books/jordanBPeterson_12RulesForLife.png"
               alt="Jordan B Peterson – 12 Rules of Life"
             />
           </a>
@@ -416,8 +418,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/gailHoneyman_EleanorOliphantIsCompletlyFine.png")}
+            <StaticImage 
+              src="../images/books/gailHoneyman_EleanorOliphantIsCompletlyFine.png"
               alt="Gail Honeyman – Eleanor Oliphant Is Completely Fine"
             />
           </a>
@@ -428,8 +430,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/christopherMcDugall_BornToRun.png")}
+            <StaticImage 
+              src="../images/books/christopherMcDugall_BornToRun.png"
               alt="Christopher McDougall – Born to run"
             />
           </a>
@@ -440,8 +442,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/georgeRRMartin_AGameOfThrones.png")}
+            <StaticImage 
+              src="../images/books/georgeRRMartin_AGameOfThrones.png"
               alt="George R.R. Martin – A Game of Thrones"
             />
           </a>
@@ -452,8 +454,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/charlesDickens_ATaleOfTwoCities.png")}
+            <StaticImage 
+              src="../images/books/charlesDickens_ATaleOfTwoCities.png"
               alt="Charles Dickens – A Tale of Two Cities"
             />
           </a>
@@ -464,8 +466,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/davidAllen_GettingThingsDone.png")}
+            <StaticImage 
+              src="../images/books/davidAllen_GettingThingsDone.png"
               alt="David Allen – Getting Things Done"
             />
           </a>
@@ -476,8 +478,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/edwinAAbbott_Flatland.png")}
+            <StaticImage 
+              src="../images/books/edwinAAbbott_Flatland.png"
               alt=" Edwin A. Abbott – Flatland"
             />
           </a>
@@ -488,8 +490,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/clayShirky_CognitiveSurplus.png")}
+            <StaticImage 
+              src="../images/books/clayShirky_CognitiveSurplus.png"
               alt="Cognitive Surplus – Clay Shirky"
             />
           </a>
@@ -500,8 +502,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/charlesMackay_MemoirsOfExtraorinaryPopularDelusions.png")}
+            <StaticImage 
+              src="../images/books/charlesMackay_MemoirsOfExtraorinaryPopularDelusions.png"
               alt="Charles Mackay – Extraordinary Popular Delusions and the Madness of Crowds"
             />
           </a>
@@ -512,8 +514,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/bruceChatwin_InPatagonia.png")}
+            <StaticImage 
+              src="../images/books/bruceChatwin_InPatagonia.png"
               alt="Bruce Chatwin – In Patagonia"
             />
           </a>
@@ -524,8 +526,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/bruceChatwin_Songlines.png")}
+            <StaticImage 
+              src="../images/books/bruceChatwin_Songlines.png"
               alt="Bruce Chatwin – Songlines"
             />
           </a>
@@ -536,8 +538,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/charlesBukowski_HamOnRye.png")}
+            <StaticImage 
+              src="../images/books/charlesBukowski_HamOnRye.png"
               alt="Charles Bukowski – Ham on Rye"
             />
           </a>
@@ -548,8 +550,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/hunterSThompson_TheRumDiary.png")}
+            <StaticImage 
+              src="../images/books/hunterSThompson_TheRumDiary.png"
               alt="Hunter S Thomposon – The Rum Diary"
             />
           </a>
@@ -560,8 +562,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/jayMcInerney_BrightLightsBigCity.png")}
+            <StaticImage 
+              src="../images/books/jayMcInerney_BrightLightsBigCity.png"
               alt="Jay McInerney  – Bright Lights, Big City"
             />
           </a>
@@ -572,8 +574,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/andreAciman_callMeByYourName.png")}
+            <StaticImage 
+              src="../images/books/andreAciman_callMeByYourName.png"
               alt="Andre Aciman – Call Me By Your Name"
             />
           </a>
@@ -584,8 +586,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/claireTomalin_SamuelPepysTheUnequalledSelf.png")}
+            <StaticImage 
+              src="../images/books/claireTomalin_SamuelPepysTheUnequalledSelf.png"
               alt="SamuelPepys – The Unequalled Self"
             />
           </a>
@@ -596,8 +598,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/jaredDiamond_GunsGermsAndSteel.png")}
+            <StaticImage 
+              src="../images/books/jaredDiamond_GunsGermsAndSteel.png"
               alt="Jared Diamond – Guns Germs And Steel"
             />
           </a>
@@ -608,8 +610,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/johnVonNeumann_TheoryOfGamesAndEconomicBehavior.png")}
+            <StaticImage 
+              src="../images/books/johnVonNeumann_TheoryOfGamesAndEconomicBehavior.png"
               alt="John von Neumann – Theory Of Games And Economic Behavior"
             />
           </a>
@@ -620,8 +622,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/blakeSnyder_SaveTheCat.png")}
+            <StaticImage 
+              src="../images/books/blakeSnyder_SaveTheCat.png"
               alt="Blake Snyder – Save the Cat"
             />
           </a>
@@ -632,8 +634,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/julieZhuo_TheMakingOfAManager.png")}
+            <StaticImage 
+              src="../images/books/julieZhuo_TheMakingOfAManager.png"
               alt="Julie Zhuo – The Making of a Manager"
             />
           </a>
@@ -644,8 +646,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/jakeKnapp_Sprint.png")}
+            <StaticImage 
+              src="../images/books/jakeKnapp_Sprint.png"
               alt="Jake Knapp – Sprint"
             />
           </a>
@@ -656,8 +658,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/benHorowit_TheHardThingAboutHardThings.png")}
+            <StaticImage 
+              src="../images/books/benHorowit_TheHardThingAboutHardThings.png"
               alt="Ben Horowitz – The Hard Thing About Hard Things"
             />
           </a>
@@ -668,8 +670,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/herodotus_TheHistories.png")}
+            <StaticImage 
+              src="../images/books/herodotus_TheHistories.png"
               alt="herodotus – The Histories"
             />
           </a>
@@ -680,8 +682,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/marcusAurelius_Meditations.png")}
+            <StaticImage 
+              src="../images/books/marcusAurelius_Meditations.png"
               alt="Marcus Aurelius – Meditations"
             />
           </a>
@@ -692,8 +694,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/homer_TheIlliad.png")}
+            <StaticImage 
+              src="../images/books/homer_TheIlliad.png"
               alt="Homer – The Illiad"
             />
           </a>
@@ -704,8 +706,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/homer_TheOdyssey.png")}
+            <StaticImage 
+              src="../images/books/homer_TheOdyssey.png"
               alt="Homer – The Odyssey"
             />
           </a>
@@ -716,8 +718,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/niccoloMachiavelli_ThePrince.png")}
+            <StaticImage 
+              src="../images/books/niccoloMachiavelli_ThePrince.png"
               alt="Niccolo Machiavelli – The Prince"
             />
           </a>
@@ -728,8 +730,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/aldous_Huxley_BraveNewWorld.png")}
+            <StaticImage 
+              src="../images/books/aldous_Huxley_BraveNewWorld.png"
               alt="Aldous Huxley – Brave New World"
             />
           </a>
@@ -740,8 +742,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/aldous_Huxley_TheDoorsOfPerception.png")}
+            <StaticImage 
+              src="../images/books/aldous_Huxley_TheDoorsOfPerception.png"
               alt="Aldous Huxley – The Doors of Perception"
             />
           </a>
@@ -752,8 +754,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/frankHerbert_Dune.png")}
+            <StaticImage 
+              src="../images/books/frankHerbert_Dune.png"
               alt="Frank Herbert – Dune"
             />
           </a>
@@ -765,8 +767,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/liuCixin_TheThreeBodyProblem.png")}
+            <StaticImage 
+              src="../images/books/liuCixin_TheThreeBodyProblem.png"
               alt="Liu Cixin – TheThreeBodyProblem"
             />
           </a>
@@ -777,8 +779,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/paulRand_ThoughtsOnDesign.png")}
+            <StaticImage 
+              src="../images/books/paulRand_ThoughtsOnDesign.png"
               alt="Paul Rand – Thoughts on Design"
             />
           </a>
@@ -789,8 +791,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/paulRand_DesignFormChaos.png")}
+            <StaticImage 
+              src="../images/books/paulRand_DesignFormChaos.png"
               alt="Paul Rand – Design, Form & Chaos"
             />
           </a>
@@ -801,8 +803,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/paulRand_ADesignersArt.png")}
+            <StaticImage 
+              src="../images/books/paulRand_ADesignersArt.png"
               alt="Paul Rand – A Designers Art"
             />
           </a>
@@ -813,8 +815,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/jamesNestor_Deep.png")}
+            <StaticImage 
+              src="../images/books/jamesNestor_Deep.png"
               alt="James Nestor – Deep"
             />
           </a>
@@ -825,8 +827,8 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={require("../images/books/orsonScottCard_endersGame.png")}
+            <StaticImage 
+              src="../images/books/orsonScottCard_endersGame.png"
               alt="Orson Scott Card Ender's Game.png"
             />
           </a>
@@ -835,4 +837,7 @@ export default () => (
     </section>
     <Footer />
   </div>
-);
+  );
+};
+
+export default Books;
