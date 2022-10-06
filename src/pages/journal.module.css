@@ -26,12 +26,9 @@ article.hero {
 }
 
 article.hero img {
-  margin: 0 32px 0 0;
-  flex-grow: 0;
-  flex-shrink: 0;
-  width: 100%;
-  height: 100%;
-  display: none;
+  margin: 0 0 0 0;
+  display: block;
+  width: 360px;
 }
 
 .articlePreview {
@@ -40,10 +37,14 @@ article.hero img {
   border-bottom: 1px solid #d8d8dc;
 }
 
+.articlePreview .journalImage {
+  display: none;
+  width: 0;
+}
+
 article.hero p {
   display: inline-flex;
   flex-grow: 2;
-  margin: 0;
 }
 
 article.list {
@@ -68,15 +69,20 @@ article.list {
     grid-column: 8 / 13;
   }
   article.hero img {
-    width: 164px;
-    height: 123px;
+    width: 100%;
+    
   }
   .articlePreview {
     border-bottom: none;
   }
 }
 @media only screen and (min-width: 1199px) {
-  article.hero img {
-    display: block;
+  .articlePreview .journalImage {
+    display: inline-flex;
+    width: 100%;
+    margin: 0 32px 0 0;
+  }
+  .articlePreview {
+    width: 100%;
   }
 }

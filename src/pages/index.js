@@ -36,6 +36,7 @@ class JournalIndex extends React.Component {
                 </h1>
                 <div className={styles.articlePreview}>
                 <StaticImage 
+                    className={styles.journalImage}
                     src="../images/home/heroImage.png"
                     alt="Steve Jobs"
                   />
