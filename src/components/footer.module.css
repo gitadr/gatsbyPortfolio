@@ -11,7 +11,7 @@ footer a {
 }
 
 footer .container {
-  align-content: flex-start;
+  height: 200px;
 }
 
 .footerTwitter {

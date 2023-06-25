@@ -14,16 +14,16 @@ Apart from the style and aesthetic of these posters, there is something about th
 
 As we move to increasingly digital world, I think it’s important to remember the impact of communicating is different ways.
 
-![Gary Hustwit Urbanized](images/analogResearchLab01.jpg)
+![Gary Hustwit Urbanized](note_images/analogResearchLab01.jpg)
 Original print workshop
 
-![Gary Hustwit Urbanized](images/analogResearchLab02.jpg)
+![Gary Hustwit Urbanized](note_images/analogResearchLab02.jpg)
 Early typographic posters
 
-![Gary Hustwit Urbanized](images/analogResearchLab03.jpg)
+![Gary Hustwit Urbanized](note_images/analogResearchLab03.jpg)
 The hacker way
 
-![Gary Hustwit Urbanized](images/analogResearchLab04.jpg)
+![Gary Hustwit Urbanized](note_images/analogResearchLab04.jpg)
 Employee handbook
 
-![Gary Hustwit Urbanized](images/analogResearchLab05.jpg)
+![Gary Hustwit Urbanized](note_images/analogResearchLab05.jpg)

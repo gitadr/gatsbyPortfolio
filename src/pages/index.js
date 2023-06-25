@@ -1,13 +1,18 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import styles from "./journal.module.css";
+import styles from "./journalHome.module.css";
 import Header from "../components/header";
 import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
 import Project3 from "../components/projectThree";
 import Footer from "../components/footer";
-import SearchEngineOptimisation from "../components/searchEngineOptimisation";
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image";
+
+export const Head = () => (
+  <>
+    <title>Aaron Root – Portfolio</title>
+  </>
+);
 
 class JournalIndex extends React.Component {
   render() {
@@ -16,16 +21,16 @@ class JournalIndex extends React.Component {
 
     return (
       <div>
-        <SearchEngineOptimisation />
         <Header />
         <Project1 />
         <Project2 />
         <Project3 />
+
         <section className={styles.blogArticles}>
           <div class="container">
             <div className={styles.articleHero}>
               <article className={styles.hero}>
-                <p class="caps">ARTICLE – 26 JANUARY 2020</p>
+                <p class="date">26 January 2020</p>
                 <h1>
                   <a
                     href="https://www.aaronroot.net/note_190219_SteveJobs/"
@@ -35,7 +40,7 @@ class JournalIndex extends React.Component {
                   </a>
                 </h1>
                 <div className={styles.articlePreview}>
-                <StaticImage 
+                  <StaticImage
                     className={styles.journalImage}
                     src="../images/home/heroImage.png"
                     alt="Steve Jobs"
@@ -57,7 +62,7 @@ class JournalIndex extends React.Component {
                   return (
                     <li key={node.fields.slug}>
                       <article className={styles.list}>
-                        <p class="caps">NOTE – {node.frontmatter.date}</p>
+                        <p class="date">{node.frontmatter.date}</p>
                         <h2>
                           <Link
                             style={{ boxShadow: `none` }}
@@ -92,7 +97,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/notes/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: 3
     ) {
       edges {

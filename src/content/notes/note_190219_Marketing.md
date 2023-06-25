@@ -28,4 +28,4 @@ And the theme of the campaign is “Think Different”. It’s the people honour
 
 [Watch the presentation](https://www.youtube.com/watch?v=3zyeSTEcNgk)
 
-![Think Different](images/thinkDifferent.jpg)
+![Think Different](note_images/thinkDifferent.jpg)

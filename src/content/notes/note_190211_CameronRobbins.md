@@ -11,4 +11,4 @@ always creating, always recording.
 
 The part I found most interesting was that concept of perpetual creation. I also liked that the output was permanent. A lasting record of something as fleeting as a gust of wind. I think my brother would also really appreciate the mechanics of it all.
 
-![Wind section instrumental](images/cameronRobbins_windSectionInstrumental.jpg)
+![Wind section instrumental](note_images/cameronRobbins_windSectionInstrumental.jpg)

@@ -54,4 +54,4 @@ Less, but better – because it concentrates on the essential aspects, and the p
 
 Back to purity, back to simplicity.
 
-![Wind section instrumental](images/dieterRams.jpg)
+![Wind section instrumental](note_images/dieterRams.jpg)

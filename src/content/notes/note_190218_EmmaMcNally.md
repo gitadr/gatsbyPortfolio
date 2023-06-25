@@ -10,4 +10,4 @@ I saw Emma's work at MONA during a recent trip to Tasmania. I liked how moody an
 
 1–12, 2014–16 graphite on paper, 214 x 304 cm each.
 
-![Choral Field](images/emmaMcNally_ChoralField.jpg)
+![Choral Field](note_images/emmaMcNally_ChoralField.jpg)

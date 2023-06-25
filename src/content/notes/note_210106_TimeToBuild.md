@@ -8,4 +8,4 @@ Marc Andreessen's ['It's time to build'](https://youtu.be/Unzc731iCUY) was one o
 
 As William Gibson said, "the future is already here – it's just not evenly distributed."
 
-![Star Trek San Fran](images/starTrekSanFran.jpg)
+![Star Trek San Fran](note_images/starTrekSanFran.jpg)

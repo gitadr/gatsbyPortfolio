@@ -12,4 +12,4 @@ The expression "fight like a cornered rat" has become symbolic of the desperate 
 
 Many animals will attack desperately when surprised by an enemy at less than a certain critical distance, whereas they would have fled if they had noticed his coming from further away. As Hediger has described, lion tamers manoeuvre their great beast of prey into their positions in the arena by playing a dangerous game with the margin between flight distance and critical distance; and thousands of big game hunting stories testify to the dangerousness of large beasts of prey in dense cover. The reason is that in such circumstances the flight distance is particularly small, because the animal feels safe, imagining that it will not be noticed by a man even if he should penetrate the cover and get quite close; but if in so doing the man oversteps the animal’s critical distance, a so-called hunting accident happens quickly and disastrously.
 
-![Konrad Lorenz](images/KonradLorenz.jpg)
+![Konrad Lorenz](note_images/KonradLorenz.jpg)

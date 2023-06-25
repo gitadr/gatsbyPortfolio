@@ -40,4 +40,4 @@ Ultimately though, as Obama points out, what moves people is not issues but valu
 
 This last part is super important. Without a shared vision of the future, its is so much harder to ask people to make the difficult choices now. People need a North Star. A positive vision of the future.
 
-![Barack Obama Hope](images/obamaHope.jpg)
+![Barack Obama Hope](note_images/obamaHope.jpg)

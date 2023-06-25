@@ -8,8 +8,8 @@ I recently applied for a design role in the health industry. The application pro
 
 Thomas Goetz was championing the cause of better design for medical data. His central premises was that if patients where empowered to have responsibility over their own health data (and health in general) there would be considerably better outcomes. Its well worth a watch.
 
-![TedTalk](images/ThomasGotez_TED.jpg)
+![TedTalk](note_images/ThomasGotez_TED.jpg)
 
 ### My final year show
 
-![Final year show 2011](images/aaronRoot_UniversityWork.jpg)
+![Final year show 2011](note_images/aaronRoot_UniversityWork.jpg)

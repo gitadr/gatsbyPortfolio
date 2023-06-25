@@ -17,4 +17,4 @@ Each domain has its own characteristics. Simple environments can have logical, p
 
 One of the hardest parts of applying the Cynefin framework is understanding which environment you are in. Particular caution must be paid to the “Cliff” between Simple and Chaotic. If you act as if you are in a simple environment, but slip in to a chaotic one, it is very hard to recover.
 
-![Cynefin Framework](images/cynefinFramework.jpg)
+![Cynefin Framework](note_images/cynefinFramework.jpg)

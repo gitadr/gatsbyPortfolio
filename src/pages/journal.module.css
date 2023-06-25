@@ -1,88 +1,97 @@
-/* ARTICLES: */
+/* JOURNAL SECTION PAGE: */
 
-.blogArticles {
+.journal {
+  color: #000;
   background-color: #fff;
 }
 
-.articleHero {
+.container {
+  max-width: 1240px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.journal section {
   grid-column: 1 / -1;
 }
 
-.articleList {
+section {
+  padding-bottom: 40px;
   grid-column: 1 / -1;
 }
 
-article h1 {
-  padding: 8px 0 0 0;
+.articleColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
-.articleList h2 {
-  margin: 0;
-  padding: 0 0 24px 0;
-}
-
-article.hero {
-  background-color: #fff;
-}
-
-article.hero img {
-  margin: 0 0 0 0;
-  display: block;
-  width: 360px;
-}
-
-.articlePreview {
+.notePost {
   display: flex;
-  padding-bottom: 32px;
-  border-bottom: 1px solid #d8d8dc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: #e5e5e5 1px solid;
 }
 
-.articlePreview .journalImage {
-  display: none;
-  width: 0;
+.notePost h1 {
+  padding: 0;
+  flex-basis: 60%;
+  flex-grow: 3;
 }
 
-article.hero p {
-  display: inline-flex;
-  flex-grow: 2;
+.date {
+  text-align: right;
+  flex-basis: 40%;
+  flex-grow: 1;
+  color: #9696a3;
 }
 
-article.list {
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  color: #9696a3;
+}
+
+.imageContainer {
+  margin: 32px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 20px; /* Gap between grid items */
+}
+
+.scrapsImage {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Reset the height to auto */
+  aspect-ratio: 1/1; /* Set the aspect ratio to 1:1 for a square shape */
+  object-fit: cover; /* Maintains the aspect ratio and covers the container */
+}
+
+.scrapsImage img {
   width: 100%;
-  border-bottom: 1px solid #d8d8dc;
+  height: auto;
+  object-fit: cover;
 }
 
-.articles a:hover {
-  text-decoration: underline;
+h3 {
+  margin-bottom: 40px;
 }
 
-.blogArticles ul {
-  list-style: none;
-  padding-left: 0;
+@media only screen and (min-width: 640px) {
+  section {
+    padding-bottom: 80px;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  .articleHero {
-    grid-column: 1 / 7;
-  }
-  .articleList {
-    grid-column: 8 / 13;
-  }
-  article.hero img {
-    width: 100%;
-    
-  }
-  .articlePreview {
-    border-bottom: none;
-  }
-}
-@media only screen and (min-width: 1199px) {
-  .articlePreview .journalImage {
-    display: inline-flex;
-    width: 100%;
-    margin: 0 32px 0 0;
-  }
-  .articlePreview {
-    width: 100%;
+@media only screen and (min-width: 1240px) {
+  .journalHeader {
+    padding-left: 0px;
   }
 }

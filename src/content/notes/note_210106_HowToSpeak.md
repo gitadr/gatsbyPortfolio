@@ -32,4 +32,4 @@ Patrick Winston's 'How to speak' lecture has been on my watchlist for a while. I
 
 How to end? Never with a slide that says questions or thank you. Try a 'contributions' slide. Try to avoid saying thank you. It’s weak. Salute the audience instead.
 
-![Patrick Wilson](images/howToSpeakByPW.jpg)
+![Patrick Wilson](noteimages/howToSpeakByPW.jpg)

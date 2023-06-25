@@ -1,0 +1,71 @@
+.about {
+  color: #000;
+  background-color: #fff;
+}
+.about section p.intro {
+  font-size: 20px;
+  line-height: 28px;
+  padding-right: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  grid-gap: 20px;
+  padding: 0 20px;
+}
+
+.about article {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.about section {
+  grid-column: 1 / -1;
+}
+
+section.about {
+  padding-bottom: 160px;
+}
+
+.avatar {
+  width: 80px;
+  margin: 8px 32px 80px 0;
+  float: left;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.bio {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .about section {
+    grid-column: 3 / 11;
+  }
+  .container {
+    padding: 0;
+  }
+  .about_MediumImage {
+    grid-column: 3 / 11;
+  }
+  .aboutHeader {
+    margin: 112px auto 0 auto;
+    padding-left: 20px;
+  }
+  .about section p.intro {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .aboutHeader {
+    padding-left: 0px;
+  }
+}

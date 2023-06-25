@@ -18,4 +18,4 @@ Being able to here interviews with Toby and learn more about his process made th
 
 [Download from the iOS app store](https://itunes.apple.com/au/app/the-o/id1161982400?mt=8)
 
-![The O App](images/theOApp.png)
+![The O App](note_images/theOApp.png)

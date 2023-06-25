@@ -16,4 +16,4 @@ I switched on my floodlights; a surprised Churchill growled, ‘What’s this, w
 
 Churchill’s cigar was ever present. I held out an ashtray, but he would not dispose of it. I went back to my camera and made sure that everything was all right technically. I waited; he continued to chomp vigorously at his cigar. I waited. Then I stepped toward him and, without premeditation, but ever so respectfully, I said, ‘Forgive me, sir,’ and plucked the cigar out of his mouth. By the time I got back to my camera, he looked so belligerent he could have devoured me. It was at that instant that I took the photograph.”
 
-![Churchill](images/yousufKarsh_WinstonChurchill.jpg)
+![Churchill](note_images/yousufKarsh_WinstonChurchill.jpg)

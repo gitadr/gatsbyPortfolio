@@ -4,11 +4,6 @@ html {
   background-color: #000;
 }
 
-.blog-post-container {
-  background: #fff;
-  color: #000;
-}
-
 textarea,
 select,
 input,
@@ -28,12 +23,10 @@ body {
   padding: 0px;
   margin: 0px;
   color: #000;
-  border-top: 8px solid #000;
 }
 
 .container {
   max-width: 1240px;
-  min-height: 80vh;
   height: 100%;
   margin: 0 auto;
   display: grid;
@@ -51,6 +44,22 @@ ol {
 li {
   margin-bottom: 12px;
 }
+.weather {
+  display: inline-block;
+  height: 16px;
+}
+.weatherpic {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  margin-top: 4px;
+  padding: 0 4px;
+  display: inline-block;
+}
+
+.active {
+  text-decoration: underline;
+}
 
 @media only screen and (min-width: 768px) {
   .container {
@@ -60,13 +69,12 @@ li {
 
 @media only screen and (min-height: 960px) {
   .container {
-    min-height: 800px;
     padding: 80px 20px;
   }
 }
 
 ::selection {
-  background: #ffaa00;
+  background: #ffca3d;
   color: #000;
 }
 
@@ -88,6 +96,10 @@ li {
 a {
   text-decoration: none;
   color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -148,11 +160,18 @@ p.caption {
 
 p.caps {
   font-family: "Inter";
-  font-size: 16px;
   line-height: 1;
   letter-spacing: 1.6px;
   color: #9696a3;
   text-transform: uppercase;
+  padding: 16px 0 4px 0;
+  margin: 0;
+}
+
+p.date {
+  font-family: "Inter";
+  line-height: 1;
+  color: #9696a3;
   padding: 16px 0 4px 0;
   margin: 0;
 }
@@ -185,53 +204,9 @@ li {
   margin: 0 0 0 8px;
 }
 
-section.journal {
-  background: #fff;
-}
-
-section.journal .container {
-  background-image: url(../images/home/journalMobileLight.jpg);
-  background-size: 100vw;
-  background-position: center top;
-  background-repeat: no-repeat;
-  align-content: flex-end;
-  padding: 20vh 20px 0vh 20px;
-}
-
-.journalText {
-  grid-column: 1/ -1;
-  align-self: end;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 1) 12%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  padding-bottom: 80px;
-  padding-top: 40px;
-}
-
-.journalText ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.journalText h1 {
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.journalText h2 {
-  margin: 80px 0 20px 0;
-}
-
 @media only screen and (min-width: 768px) {
   .container {
     grid-gap: 20px;
-  }
-
-  .journalText h4 {
-    display: none;
   }
 
   h1 {
@@ -264,6 +239,10 @@ section.journal .container {
     padding: 20px 0 8px 0;
   }
 
+  p.date {
+    padding: 20px 0 8px 0;
+  }
+
   p.caption {
     font-size: 16px;
     line-height: 1.5;
@@ -271,23 +250,6 @@ section.journal .container {
 
   li {
     font-size: 20px;
-  }
-
-  .journalText {
-    grid-column: 1 / 9;
-    align-self: center;
-    background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0) 0%
-    );
-  }
-  section.journal .container {
-    background-image: url(../images/home/journalDesktopLight.jpg);
-    background-size: 1080px 822px;
-    background-position: 0px bottom;
-    align-content: center;
   }
 }
 
@@ -298,30 +260,11 @@ section.journal .container {
   h2 {
     font-size: 40px;
   }
-
-  section.journal .container {
-    background-position: right bottom;
-  }
-}
-
-@media only screen and (min-width: 1120px) {
-  section.journal .container {
-    background-image: url(../images/home/journalDesktopLargeLight.jpg);
-    background-size: 1200px 822px;
-    background-position: center center;
-    padding: 10vh 0px;
-    background-repeat: no-repeat;
-  }
 }
 
 @media only screen and (min-width: 1441px) {
   h1 {
     font-size: 64px;
-  }
-  .journalText {
-    grid-column: 1 / 9;
-    align-self: center;
-    padding-bottom: 0px;
   }
 }
 
@@ -405,11 +348,13 @@ section.journal .container {
   background-color: #000;
   color: #fff;
   padding: 16px 16px 16px 48px;
+  text-decoration: none;
 }
 .button.invert:hover {
   background-color: #fff;
   color: #000;
   padding: 16px 16px 16px 48px;
+  text-decoration: none;
 }
 
 .button:hover span.linkIcon {

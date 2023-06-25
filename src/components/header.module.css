@@ -1,72 +1,58 @@
-header {
+.header {
   background-color: #fff;
 }
 
-.headerIntro {
-  grid-column: 1 / -1;
-  align-self: end;
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.headerBody {
+.headerLorem {
   grid-column: 1 / -1;
-  align-self: start;
+  padding: 0 0 80px 0;
 }
 
 .block {
   display: none;
 }
 
-h1 span::before {
-  content: "\A";
-  white-space: pre;
-}
-
-@media only screen and (min-width: 500px) {
-  h1 span::before {
-    content: "";
-  }
-}
 @media only screen and (min-width: 640px) {
-  .headerIntro h1 {
+  .headerLorem h1 {
     font-size: 64px;
     letter-spacing: -2.4px;
   }
 }
 
 @media only screen and (min-width: 1120px) {
-  .headerIntro {
-    grid-column: 1 / 8;
+  .headerLorem {
+    grid-column: 1 / 11;
     align-self: center;
   }
 
-  header h1 {
+  .header h1 {
     margin: 0 0 32px 0;
   }
 
-  .headerIntro h1 {
-    font-size: 72px;
-    letter-spacing: -2.4px;
+  p.intro {
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.4px;
   }
 
-  .headerBody {
-    grid-column: 8 / 13;
-    align-self: center;
-  }
-  .block {
-    width: 80px;
-    height: 10px;
-    background-color: black;
-    margin: 40px 0 68px 0;
-    display: none;
-  }
-  h1 span::before {
-    content: "\A";
-    white-space: pre;
+  .headerLorem h1 {
+    font-size: 96px;
+    letter-spacing: -2.4px;
   }
 }
 
 @media only screen and (min-width: 1441px) {
-  .headerIntro h1 {
-    font-size: 80px;
+  .headerLorem h1 {
+    font-size: 120px;
+    letter-spacing: -4.8px;
   }
 }

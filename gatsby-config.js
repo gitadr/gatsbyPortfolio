@@ -8,7 +8,6 @@ module.exports = {
     twitterUsername: `@aaroot`,
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-postcss",
     {
       resolve: `gatsby-plugin-postcss`,
@@ -34,6 +33,20 @@ module.exports = {
       options: {
         path: `${__dirname}/src/content/notes`,
         name: `notes`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: `images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content`,
+        name: `content`,
       },
     },
     "gatsby-transformer-remark",

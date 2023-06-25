@@ -1,0 +1,85 @@
+nav {
+  background-color: #fff;
+  grid-column: 1 / -1;
+}
+
+.navWrapper {
+  max-width: 1240px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.navLogo {
+  grid-column: 1 / 6;
+}
+
+.navLogo a:hover {
+  text-decoration: none;
+}
+
+.navLogoIcon {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 168, 0, 0.2);
+  border-radius: 32px;
+}
+
+.navLogoIcon p {
+  font-size: 30px;
+  padding: 2px 0 0 8px;
+  margin: 0;
+}
+
+notePost a:hover {
+  text-decoration: underline;
+}
+
+.navItems a:hover {
+  text-decoration: underline;
+}
+
+.navItems {
+  grid-column: 7 / 13;
+}
+.navWrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navWrapper li {
+  padding-left: 16px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .navWrapper {
+    padding: 80px 0;
+  }
+
+  .navWrapper li {
+    padding-left: 32px;
+  }
+
+  .navLogoIcon {
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 168, 0, 0.2);
+    border-radius: 32px;
+  }
+
+  .navLogoIcon p {
+    font-size: 40px;
+  }
+}

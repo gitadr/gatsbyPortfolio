@@ -8,4 +8,4 @@ tags: ["History"]
 
 [Original Tweet](https://twitter.com/tzoumio/status/1351455624845008898)
 
-![Ancient Olive Tree](images/oliveTree.jpg)
+![Ancient Olive Tree](note_images/oliveTree.jpg)
