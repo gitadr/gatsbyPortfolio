@@ -12,7 +12,7 @@ const Photos = ({ data }) => {
         <div className={styles.container}>
           <Navigation />
           <h1>Photos</h1>
-          <p className="intro">219 photos in 36 months</p>
+          <p className="intro">702 photos in 72 months</p>
         </div>
         <div className={styles.photosGrid}>
           {data.favPhotos.edges.map((image) => {
