@@ -4,9 +4,10 @@ date: "2023-01-28"
 tags: ["Product Design"]
 ---
 
-We've all been there - you start a new task or goal with loads of motivation and excitement, but as time goes on, that motivation starts to fade. But why is that? What makes motivation so difficult to maintain?
+We've all been there - you start a new project with loads of motivation and excitement, but as time goes on, that motivation starts to fade. But why is that? What makes motivation so difficult to maintain?
 
-In my experience, motivation can be broken down into three key ingredients: 
+In my experience, motivation can be broken down into three factors:
+
 - Purpose
 - Focus
 - Urgency
@@ -23,4 +24,4 @@ So, next time you're struggling to stay motivated, ask yourself:
 - Am I able to focus on this task? What's distracting me?
 - Do I have a sense of urgency? Have I set a deadline?
 
-Answering these questions can help you figure out what's missing from your motivation and guide you on how to improve it. Remember, motivation is a powerful force, but it's not magic. By understanding the ingredients, you can better control it and stay on track to achieving your goals.
+Answering these questions can help you figure out what's missing and act as a guide on how to improve it. Remember, motivation is a powerful force, but it's not magic.
