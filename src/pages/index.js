@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import styles from "./journalHome.module.css";
+import styles from "./index.module.css";
 import Header from "../components/header";
 import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
@@ -10,7 +10,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export const Head = () => (
   <>
-    <title>Aaron Root – Portfolio</title>
+    <title>Aaron – Portfolio</title>
   </>
 );
 
