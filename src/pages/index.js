@@ -33,7 +33,7 @@ class JournalIndex extends React.Component {
                 <p class="date">26 January 2020</p>
                 <h1>
                   <a
-                    href="https://www.aaronroot.net/note_190219_SteveJobs/"
+                    href="https://www.aaronroot.net/article_190219_SteveJobs/"
                     rel="noopener noreferrer"
                   >
                     On Building Insanely Great Products.

@@ -22,7 +22,7 @@ const Header = () => {
               <span className="text">Get In Touch</span>
             </a>
             <a
-              href={require("../files/aaronroot_cv.pdf")}
+              href="http://aaronroot.net/public/aaronroot_cv.pdf"
               className="button bottom"
             >
               <span className="downloadIcon" />
