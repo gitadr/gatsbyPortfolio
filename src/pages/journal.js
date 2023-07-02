@@ -140,7 +140,7 @@ export const pageQuery = graphql`
         relativeDirectory: { eq: "scraps" }
         sourceInstanceName: { eq: "images" }
       }
-      sort: { fields: [birthTime], order: DESC }
+      sort: { birthTime: DESC }
       limit: 120
     ) {
       edges {

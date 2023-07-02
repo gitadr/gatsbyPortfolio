@@ -22,6 +22,13 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Aaron Root's Portfolio`,
+        icon: `src/images/favicon.png`,
+      },
+    },
     "gatsby-remark-images",
     {
       resolve: `gatsby-source-filesystem`,
@@ -69,6 +76,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
