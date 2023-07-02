@@ -36,12 +36,9 @@ nav {
   margin: 0;
 }
 
-notePost a:hover {
-  text-decoration: underline;
-}
-
 .navItems a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #000;
+  text-decoration: none;
 }
 
 .navItems {

@@ -10,7 +10,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export const Head = () => (
   <>
-    <title>Aaron – Portfolio</title>
+    <title>Aaron Root – Portfolio</title>
   </>
 );
 

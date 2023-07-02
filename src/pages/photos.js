@@ -6,13 +6,16 @@ import Navigation from "../components/navbar";
 import Footer from "../components/footer";
 
 const Photos = ({ data }) => {
+  const imageCount = data.favPhotos.edges.length; // Count the number of images
+
   return (
     <div>
       <section className={styles.photos}>
         <div className={styles.container}>
           <Navigation />
           <h1>Photos</h1>
-          <p className="intro">702 photos in 72 months</p>
+          <p className="intro">{`${imageCount} photos in 72 months`}</p>{" "}
+          {/* Display the image count */}
         </div>
         <div className={styles.photosGrid}>
           {data.favPhotos.edges.map((image) => {
