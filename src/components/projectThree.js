@@ -6,7 +6,7 @@ const ProjectThree = () => {
     <section className={styles.work}>
       <div className={styles.container}>
         <div className={styles.workText}>
-          <h1>Designing aerial maps, from the ground up.</h1>
+          <h1>Designing aerial insights, from the ground up.</h1>
           <p>
             Seeing the world from a new angle can provide a completely different
             perspective. At Nearmap, we are creating geospatial tools that aim

@@ -1,71 +1,86 @@
-.projects {
-  color: #000;
+/* ARTICLES: */
+.blogArticles {
   background-color: #fff;
 }
-.projects section p.intro {
-  font-size: 20px;
-  line-height: 28px;
-  padding-right: 0;
-}
 
-.container {
-  max-width: 1240px;
-  margin: 0 auto;
-  grid-gap: 20px;
-  padding: 0 20px;
-}
-
-.projects article {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-  max-width: 1240px;
-  margin: 0 auto;
-}
-.projects section {
+.articleHero {
   grid-column: 1 / -1;
 }
 
-section.projects {
-  padding-bottom: 160px;
+.articleList {
+  grid-column: 1 / -1;
 }
 
-.avatar {
-  width: 80px;
-  margin: 8px 32px 80px 0;
-  float: left;
+article h1 {
+  padding: 8px 0 0 0;
 }
 
-.avatar img {
+.articleList h2 {
+  margin: 0;
+  padding: 0 0 24px 0;
+}
+
+article.hero {
+  background-color: #fff;
+}
+
+article.hero img {
+  margin: 0 0 0 0;
+  display: block;
+  width: 360px;
+}
+
+.articlePreview {
+  display: flex;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #d8d8dc;
+}
+
+.articlePreview .journalImage {
+  display: none;
+  width: 0;
+}
+
+article.hero p {
+  display: inline-flex;
+  flex-grow: 2;
+}
+
+article.list {
   width: 100%;
+  border-bottom: 1px solid #d8d8dc;
 }
 
-.bio {
-  width: 100%;
+.articles a:hover {
+  text-decoration: underline;
+}
+
+.blogArticles ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .projects section {
-    grid-column: 3 / 11;
+  .articleHero {
+    grid-column: 1 / 7;
   }
-  .container {
-    padding: 0;
+  .articleList {
+    grid-column: 8 / 13;
   }
-  .projects_MediumImage {
-    grid-column: 3 / 11;
+  article.hero img {
+    width: 100%;
   }
-  .projectsHeader {
-    margin: 112px auto 0 auto;
-    padding-left: 20px;
-  }
-  .projects section p.intro {
-    font-size: 32px;
-    line-height: 40px;
+  .articlePreview {
+    border-bottom: none;
   }
 }
-
-@media only screen and (min-width: 1240px) {
-  .projectsHeader {
-    padding-left: 0px;
+@media only screen and (min-width: 1199px) {
+  .articlePreview .journalImage {
+    display: inline-flex;
+    width: 100%;
+    margin: 0 32px 0 0;
+  }
+  .articlePreview {
+    width: 100%;
   }
 }

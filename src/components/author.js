@@ -10,9 +10,12 @@ const Author = () => {
       </div>
       <div className={styles.bio}>
         <p className="intro">
-          Hi, I’m Aaron. A Sydney-based Product Designer. I specialise in
-          building scalable, user-centred design teams and innovative,
-          empowering products.
+          Hi, I'm Aaron. Director of Design at{" "}
+          <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
+            Nearmap
+          </a>{" "}
+          . I specialise in building scalable, user-centred design teams and
+          innovative, empowering products.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button">
           <span className="linkIcon" />

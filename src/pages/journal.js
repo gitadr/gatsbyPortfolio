@@ -20,43 +20,6 @@ class JournalIndex extends React.Component {
         <section className={styles.journal}>
           <div className={styles.container}>
             <Navigation />
-
-            {/* 
-            <section>
-              <h3>ARTICLES</h3>
-              <div
-                className={`${styles.articleContainer} ${styles.articleColumns}`}
-              >
-                {articlesPosts[0] && (
-                  <div key={articlesPosts[0].node.fields.slug}>
-                    <p>{articlesPosts[0].node.frontmatter.date}</p>
-                    <h2>
-                      <Link
-                        style={{ boxShadow: `none` }}
-                        to={articlesPosts[0].node.fields.slug}
-                      >
-                        {articlesPosts[0].node.frontmatter.title}
-                      </Link>
-                    </h2>
-                  </div>
-                )}å
-                {articlesPosts[1] && (
-                  <div key={articlesPosts[1].node.fields.slug}>
-                    <p>{articlesPosts[1].node.frontmatter.date}</p>
-                    <h2>
-                      <Link
-                        style={{ boxShadow: `none` }}
-                        to={articlesPosts[1].node.fields.slug}
-                      >
-                        {articlesPosts[1].node.frontmatter.title}
-                      </Link>
-                    </h2>
-                  </div>
-                )}
-              </div>
-            </section>
-            */}
-
             <section>
               <p class="caps">ARTICLES</p>
               {articlesPosts.map(({ node }) => {
