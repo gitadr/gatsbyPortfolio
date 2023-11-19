@@ -1,12 +1,12 @@
 ---
-title: "Outside perspective."
+title: "Outside Perspective."
 date: "2023-11-19"
 tags: ["General"]
 ---
 
-As I approach my 5 year anniversary at Nearmap, i'm increasingly craving outside perspective on what gret design looks like in other orgs. I've recently found these three podcasts by Lenny Rachitsky to be super interesting.
+As I approach my five-year anniversary at Nearmap, I'm increasingly feeling the need to gain outside perspectives. I believe it's important to challenge existing processes and incorporate new ways of working, and this becomes increasingly difficult without external influences or stimuli.
 
-I need to find time to turn these into articles...
+With that in mind, I've found three podcasts by Lenny Rachitsky to be incredibly useful in learning how other organizations approach design and product development:
 
 - ['Brian Chesky’s new playbook'](https://www.lennyspodcast.com/brian-cheskys-new-playbook/)
 - ['Building beautiful products with Stripe’s Head of Design | Katie Dill'](https://www.lennyspodcast.com/building-beautiful-products-with-stripes-head-of-design-katie-dill-stripe-airbnb-lyft/)

@@ -15,10 +15,8 @@ const Header = () => {
               <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
                 Nearmap
               </a>
-              . I design products that help people navigate complexity. Whether
-              that's trading data, geospatial insights or your weekly grocery
-              shop, my goal is to create experiences that are simple, intuitive
-              and empowering.
+              . I like to create experiences that are simple, intuitive and
+              empowering.
             </p>
             <a href="mailto:mail@aaronroot.net" className="button top">
               <span className="linkIcon" />
