@@ -335,11 +335,11 @@ li {
   transition: 0.24s all ease-out;
 }
 
-.button span.twitterIcon {
-  background: url(../images/icons/twitterLogoIcon_black.svg) no-repeat;
+.button span.threadsIcon {
+  background: url(../images/icons/threadsLogoIcon_black.svg) no-repeat;
   float: left;
   width: 20px;
-  height: 16px;
+  height: 22px;
   margin: 2px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
@@ -374,8 +374,8 @@ li {
   margin: 4px 0 0 -32px;
   transform: rotate(-90deg);
 }
-.button:hover span.twitterIcon {
-  background: url(../images/icons/twitterLogoIcon_white.svg) no-repeat;
+.button:hover span.threadsIcon {
+  background: url(../images/icons/threadsLogoIcon_white.svg) no-repeat;
   margin: 2px 0 0 -32px;
 }
 
@@ -396,8 +396,8 @@ li {
 .button:active span.downloadIcon {
   background: url(../images/icons/arrowDownIcon.svg) no-repeat;
 }
-.button:active span.twitterIcon {
-  background: url(../images/icons/twitterLogoIcon_black.svg) no-repeat;
+.button:active span.threadsIcon {
+  background: url(../images/icons/threadsLogoIcon_black.svg) no-repeat;
 }
 
 a.button.bottom {

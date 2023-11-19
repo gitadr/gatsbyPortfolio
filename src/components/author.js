@@ -21,8 +21,8 @@ const Author = () => {
           <span className="linkIcon" />
           <span className="text">Get In Touch</span>
         </a>
-        <a href="https://twitter.com/aaroot" className="button">
-          <span className="twitterIcon" />
+        <a href="https://www.threads.net/@aarootco" className="button">
+          <span className="threadsIcon" />
           <span className="text">Follow</span>
         </a>
       </div>

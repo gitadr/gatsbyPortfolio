@@ -6,7 +6,7 @@ export default () => (
     <div class="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
-          <p className="articleDate">26 JANUARY 2020</p>
+          <p className="articleDate">26 JANUARY 2019</p>
           <a
             href="https://www.aaronroot.net/note_190219_SteveJobs/"
             target="_blank"
