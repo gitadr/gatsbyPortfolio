@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   color: #fff;
   align-content: flex-end;
-  padding: 20vh 20px 0vh 20px;
+  padding: 10vh 20px 0vh 20px;
 }
 
 p.company {
@@ -90,17 +90,15 @@ span.appIcon {
       rgba(0, 0, 0, 0) 0%
     );
   }
+  .container {
+    min-height: 600px;
+    padding: 80px 20px;
+  }
   .work .container {
     background-image: url(../images/home/project1DesktopDark.jpg);
     background-size: 1080px 822px;
     background-position: -100px bottom;
     align-content: center;
-  }
-}
-
-@media only screen and (min-height: 820px) {
-  .work .container {
-    background-position: center center;
   }
 }
 
@@ -115,6 +113,9 @@ span.appIcon {
     background-size: 1200px 822px;
     background-position: center center;
     padding: 10vh 0px;
+  }
+  .container {
+    min-height: 800px;
   }
   .workText {
     grid-column: 8 / 13;
