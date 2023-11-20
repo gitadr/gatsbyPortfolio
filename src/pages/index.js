@@ -22,9 +22,9 @@ class JournalIndex extends React.Component {
     return (
       <div>
         <Header />
-        <Project1 />
-        <Project2 />
         <Project3 />
+        <Project2 />
+        <Project1 />
 
         <section className={styles.blogArticles}>
           <div class="container">

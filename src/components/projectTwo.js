@@ -9,7 +9,7 @@ const ProjectTwo = () => {
         <div className={styles.workText}>
           <h1>Designing an augmented retail experience.</h1>
           <p>
-            Technology is most powerful when it empowers everyone. That's why as
+            Technology is most powerful when it helps everyone. That's why as
             part of the mobile team, I helped deliver a more personal,
             convenient and accessible shopping experience for millions of
             Australians.
