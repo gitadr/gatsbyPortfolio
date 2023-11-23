@@ -25,7 +25,7 @@ const Navigation = () => {
         <div className={styles.navLogo}>
           <Link to="/">
             <div className={styles.navLogoIcon}>
-              <p className="navLogoIconLorem">{currentIcon}</p>
+              <p className="navLogoIcon">{currentIcon}</p>
             </div>
           </Link>
         </div>

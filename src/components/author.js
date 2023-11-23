@@ -13,9 +13,9 @@ const Author = () => {
           Hi, I'm Aaron. Director of Design at{" "}
           <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
             Nearmap
-          </a>{" "}
-          . I specialise in building scalable, user-centred design teams and
-          innovative, empowering products.
+          </a>
+          . I like to create experiences that are simple, intuitive and
+          empowering.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button">
           <span className="linkIcon" />

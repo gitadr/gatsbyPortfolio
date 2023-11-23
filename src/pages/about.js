@@ -14,23 +14,37 @@ const About = () => {
             <div className={styles.aboutIntroText}>
               <h1>Curriculum vitae</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                pretium enim quam, et fermentum felis consectetur et. Fusce
-                finibus condimentum aliquam. Aliquam erat volutpat. Phasellus
-                porttitor erat sed arcu molestie molestie.
-              </p>
-
-              <p>
-                Suspendisse aliquam diam sit amet sem faucibus sodales. Etiam
-                justo urna, elementum nec libero nec, condimentum congue dui.
-                Sed aliquet massa ut sapien dapibus, a mollis dolor rhoncus.
-                Pellentesque et velit quis eros maximus consequat.
+                As a kid, I wanted to be an inventor—the eccentric type who
+                single-handedly built ingenious contraptions in the shed.
+                However, I soon came to realise that building with a team (my
+                little brother) made it much more fun. You could bounce ideas
+                around, test prototypes, and share in the excitement of creating
+                new things.
               </p>
               <p>
-                In porttitor nisl sem, at ultrices nisi ultricies sed. Nullam
-                congue odio id risus placerat ullamcorper. Ut sollicitudin
-                semper elementum. Phasellus sed interdum sapien. Maecenas semper
-                molestie leo a volutpat dolor.
+                It also become apparent that my team (Adam) excelled in some
+                areas where I didn't. Repairing the go-kart after taking a
+                corner too quickly? Not my zone of genius. Designing a better
+                way to steer the go-kart at speed? Much more my thing. This love
+                of problem-solving led me to study maths and science in college,
+                but after a few terms, I knew something was missing.
+              </p>
+              <p>
+                Around the same time I began learning about Web 2.0 and the
+                movement towards greater usability, interactivity and
+                collaboration. I'd long been obsessed with how Apple could make
+                using a computer feel like a magical experience, but programming
+                had always seemed out of reach. Web design gave me a new,
+                accessible way to create. It felt like the perfect combination
+                of all the things I loved—I was hooked.
+              </p>
+              <p>
+                I went on to have the career listed below, but it's the journey
+                above that shaped my philosophy and principles. I believe that
+                the act of creating is both an art and a science. More
+                importantly, that you will go further and faster in your
+                endeavors if you have a strong team, a shared vision, and sense
+                of excitement about what is possible.
               </p>
             </div>
 
@@ -38,10 +52,18 @@ const About = () => {
               {" "}
               <StaticImage
                 className={styles.journalImage}
-                src="../images/about/aboutImage.jpg"
+                src="../images/about/aboutImage1.jpg"
                 alt="About image"
               />
+              <h3>Other things</h3>
+              <ul>
+                <li>Goodreads – Books i'm reading</li>
+                <li>Strava – Runs i've been on</li>
+                <li>Threads – Photos i've taken</li>
+                <li>Lorem ipsum</li>
+              </ul>
             </div>
+            <div></div>
           </section>
           <section>
             <p class="caps">ROLES</p>

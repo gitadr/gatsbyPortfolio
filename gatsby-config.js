@@ -76,7 +76,32 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      /* Include plugin */
+      resolve: "gatsby-omni-font-loader",
 
+      /* Plugin options */
+      options: {
+        /* Font loading mode */
+        mode: "async",
+
+        /* Enable font loading listener to handle FOUT */
+        enableListener: true,
+
+        /* Preconnect URL-s. This example is for Google Fonts */
+        preconnect: ["https://rsms.me/"],
+
+        /* Web fonts. File link should point to font CSS file. */
+        web: [
+          {
+            /* Exact name of the font as defied in @font-face CSS rule */
+            name: "InterVariable",
+            /* URL to the font CSS file with @font-face definition */
+            file: "https://rsms.me/inter/inter.css",
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

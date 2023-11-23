@@ -27,7 +27,6 @@ section {
 
 .aboutIntro {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 1fr);
   grid-column-gap: 20px;
 }
 
@@ -74,6 +73,12 @@ notePost a:hover {
 @media only screen and (min-width: 640px) {
   section {
     padding-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .aboutIntro {
+    grid-template-columns: 1.5fr minmax(0, 1fr);
   }
 }
 
