@@ -32,11 +32,6 @@ const Navigation = () => {
         <div className={styles.navItems}>
           <ul>
             <li>
-              <Link to="/about" activeClassName="active">
-                About
-              </Link>
-            </li>
-            <li>
               <Link to="/journal" activeClassName="active">
                 Journal
               </Link>

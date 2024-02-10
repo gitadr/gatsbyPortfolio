@@ -4,7 +4,7 @@ date: "2024-02-10"
 tags: ["Creative Process"]
 ---
 
-I stumbled across this 2022 interview over the weekend. It's a timely reminder of the importance of trusting the creative process and helping others transcend the immediate challenges and focus on the opportunity and vision.
+I stumbled across this 2022 interview over the weekend. It's a timely reminder of the importance of trusting the creative process and helping others transcend the immediate challenges and focus on the vision.
 
 ![Recode22](note_images/code22_Cook-Ive-Laurene-Jobs.png)
 
