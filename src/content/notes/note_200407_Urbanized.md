@@ -4,7 +4,7 @@ date: "2020-04-07"
 tags: ["Design, Cities"]
 ---
 
-![Gary Hustwit Urbanized](images/garyHustwit_Urbanized.jpg)
+![Gary Hustwit Urbanized](note_images/garyHustwit_Urbanized.jpg)
 
 To help soften the blow of the Covid-19 lockdown, film-maker Gary Hustwit has been streaming a documentary each week for free. Yesterday I watched Urbanized.
 

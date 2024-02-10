@@ -74,7 +74,7 @@ const Footer = () => {
               <span className="weather">
                 <Weather />
               </span>
-              Bondi, Australia<span>© Copyright 2023</span>
+              Bondi, Australia<span> © Copyright 2023</span>
             </p>
           </div>
         </div>

@@ -80,7 +80,7 @@ span.appIcon {
 
 @media only screen and (min-width: 768px) {
   .work {
-    padding: 0 20px 0 0;
+    padding: 0 0px 0 0;
   }
   .workText {
     grid-column: 1 / 7;
