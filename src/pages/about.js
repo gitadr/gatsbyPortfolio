@@ -22,7 +22,7 @@ const About = () => {
                 new things.
               </p>
               <p>
-                At school, my love for problem-solving led me to study maths and
+                At school, my love for problem solving led me to study maths and
                 science. I enjoyed the rigor of the scientific process and the
                 definitive outcome that came with successfully performing an
                 experiment. I was also deeply interested in all things art and
@@ -40,8 +40,8 @@ const About = () => {
               </p>
               <p>
                 I went on to have the career listed below, but it's the journey
-                above that shaped my philosophy and principles. I believe that
-                the act of creating is both an art and a science. More
+                above that shaped my design philosophy and principles. I believe
+                that the act of creating is both an art and a science. More
                 importantly, that you will go further and faster in your
                 endeavours if you have a strong team, a shared vision, and sense
                 of excitement about what is possible.
