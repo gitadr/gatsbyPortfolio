@@ -22,30 +22,28 @@ const About = () => {
                 new things.
               </p>
               <p>
-                I also quickly realised I had different strengths to my team.
-                Repairing the go-kart after taking a corner too quickly? Not my
-                zone of genius. Designing a better way to steer the go-kart at
-                speed? Much more my thing. This love of problem-solving led me
-                to study maths and science in college. At first this was super
-                exciting. I learnt about everthing from imaginary number to the
-                double-slit experiment. But after a while I knew something was
-                missing.
+                At school, my love for problem-solving led me to study maths and
+                science. I enjoyed the rigor of the scientific process and the
+                definitive outcome that came with successfully performing an
+                experiment. I was also deeply interested in all things art and
+                design. Initially, I was a lot less successful academically in
+                those subjects, but over time, I compensated for my lack of raw
+                talent with an abundance of enthusiasm.
               </p>
               <p>
-                Luckily, around the same time, I began to learn about Web 2.0
-                and the human-centred design movement. I'd long been obsessed
-                with how Apple could make using a computer feel like a magical
-                experience, but computer programming had always felt
-                inaccessible. Web design gave me a new, collaborative way to
-                create. It felt like the perfect combination of all the things I
-                loved—I was hooked.
+                It wasn’t until I began to learn about Web 2.0 and the
+                human-centred design movement that I started to connect the dots
+                between my two interests. The web gave me a new, accessible way
+                to create—seamlessly merging science and technology with the
+                iterative creativity of design. It felt like the perfect
+                combination of the things I loved. I was hooked.
               </p>
               <p>
                 I went on to have the career listed below, but it's the journey
                 above that shaped my philosophy and principles. I believe that
                 the act of creating is both an art and a science. More
                 importantly, that you will go further and faster in your
-                endeavors if you have a strong team, a shared vision, and sense
+                endeavours if you have a strong team, a shared vision, and sense
                 of excitement about what is possible.
               </p>
             </div>
@@ -106,7 +104,7 @@ const About = () => {
                 University of Essex{" "}
                 <span className={styles.role}>– BA Graphic Media</span>
               </h2>
-              <p className={styles.date}>Oct 2008 –-Jul 2011</p>
+              <p className={styles.date}>Oct 2008 - Jul 2011</p>
             </div>
           </section>
         </div>
