@@ -10,7 +10,7 @@ const ProjectThree = () => {
           <p>
             Seeing the world from a different angle can provide a completely new
             perspective. At Nearmap, we are focused on using geospatial insights
-            to deliver empowering tool and workflows.
+            to deliver empowering tools and workflows.
           </p>
           <ul>
             <li>
