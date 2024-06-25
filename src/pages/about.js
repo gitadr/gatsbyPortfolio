@@ -16,7 +16,7 @@ const About = () => {
               <p>
                 As a kid, I wanted to be an inventor—the eccentric type who
                 single-handedly built ingenious contraptions in the shed. I soon
-                came to realise though, building with a team (my little brother)
+                came to realise that building with a team (my little brother)
                 was a lot more fun. I could bounce ideas around, test
                 prototypes, and generally share in the excitement of creating
                 new things.
@@ -24,11 +24,11 @@ const About = () => {
               <p>
                 At school, my love for problem solving led me to study maths and
                 science. I enjoyed the rigor of the scientific process and the
-                definitive outcome that came with successfully performing an
-                experiment. I was also deeply interested in all things art and
-                design. Initially, I was a lot less successful academically in
-                those subjects, but over time, I compensated for my lack of raw
-                talent with an abundance of enthusiasm.
+                definitive outcome of a successful experiment. I was also deeply
+                interested in all things art and design. Initially, I was a lot
+                less successful academically in those subjects, but over time, I
+                compensated for my lack of raw talent with an abundance of
+                enthusiasm.
               </p>
               <p>
                 It wasn’t until I began to learn about Web 2.0 and the
