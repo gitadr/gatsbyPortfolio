@@ -34,7 +34,7 @@ The agile movement was built on the principles of shipping early and often. Real
 
 #### Take away
 
-Find your core market. Add value. Then compound that value over time by releasing sequential, validated improvements.
+Find your core market. Add value. Then compound that value over time by releasing incremental, but meaningful improvements.
 
 ### It’s better to be a pirate than join the navy
 
