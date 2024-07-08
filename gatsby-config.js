@@ -26,7 +26,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Aaron Root's Portfolio`,
-        icon: `src/images/favicon.png`,
+        icon: `/static/favicon.png`,
       },
     },
     "gatsby-remark-images",
