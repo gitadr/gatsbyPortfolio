@@ -23,7 +23,7 @@ const Header = () => {
               <span className="text">Get in Contact</span>
             </a>
             <a
-              href="https:/www.linkedin.com/in/aaroot"
+              href="https://www.linkedin.com/in/aaroot"
               target="_blank"
               rel="noreferrer"
               className="button top"
