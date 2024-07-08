@@ -22,7 +22,12 @@ const Header = () => {
               <span className="linkIcon" />
               <span className="text">Get in Contact</span>
             </a>
-            <a href="https:/www.linkedin.com/in/aaroot" className="button top">
+            <a
+              href="https:/www.linkedin.com/in/aaroot"
+              target="_blank"
+              rel="noreferrer"
+              className="button top"
+            >
               <span className="linkIcon" />
               <span className="text">Connect on LinkedIn</span>
             </a>
