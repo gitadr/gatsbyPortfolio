@@ -4,7 +4,7 @@ date: "2024-04-23"
 tags: ["Product Design"]
 ---
 
-I found myself referencing Alex Schleifer's blog on defining Product Design for 1,000th time this week. It's as true today as it was then. Posting for prosperity.
+I found myself referencing Alex Schleifer's blog on defining Product Design for the 1,000th time this week. It's as true today as it was then. Posting for prosperity.
 
 ### Fuse Engineering, Product and Design from the start.
 
