@@ -1,7 +1,7 @@
 ---
 title: "Wayfinding."
 date: "2024-09-22"
-tags: ["Michael Bond", "Wayfinding", "Spatial Intellegence"]
+tags: ["Michael Bond", "Wayfinding", "Spatial Intelligence"]
 ---
 
 I listened to the a16z podcast on **spatial intelligence** this morning, and it reminded me of Michael Bond’s book _Wayfinding_. I stumbled across it on a trip to the UK a couple of years ago and spent the next two weeks deep in thought.
