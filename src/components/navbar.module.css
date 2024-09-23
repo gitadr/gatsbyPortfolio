@@ -28,11 +28,15 @@ nav {
   height: 48px;
   background: rgba(255, 168, 0, 0.2);
   border-radius: 32px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
 }
 
 .navLogoIcon p {
-  font-size: 30px;
-  padding: 1px 0 0 10px;
+  font-size: 32px;
+  line-height: 32px;
+  vertical-align: baseline;
   margin: 0;
 }
 
@@ -78,5 +82,8 @@ nav {
 
   .navLogoIcon p {
     font-size: 40px;
+    line-height: 40px;
+    vertical-align: baseline;
+    margin: 0;
   }
 }

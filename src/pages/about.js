@@ -15,11 +15,10 @@ const About = () => {
               <h1>Curriculum vitae</h1>
               <p>
                 As a kid, I wanted to be an inventor—the eccentric type who
-                single-handedly built ingenious contraptions in the shed. I soon
-                came to realise that building with a team (my little brother)
-                was a lot more fun. I could bounce ideas around, test
-                prototypes, and generally share in the excitement of creating
-                new things.
+                single-handedly built ingenious contraptions in the shed. Soon,
+                I realised that building with a team (my little brother) was a
+                lot more fun. I could bounce ideas around, test prototypes, and
+                generally share in the excitement of creating new things.
               </p>
               <p>
                 At school, my love for problem solving led me to study maths and
