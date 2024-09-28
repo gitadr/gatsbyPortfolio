@@ -15,10 +15,10 @@ const AugmentedShopping = () => {
             <h1>Augmenting the in-store shopping experience</h1>
             <p className="intro">
               Continuous improvement initiatives are a great way to iterate and
-              enhance existing features. Occasionally they become an opportunity
-              to instigate more fundamental change too. The scanner project
-              helped me turn a neglected feature into a catalyst for redefining
-              the in-store experience.
+              enhance existing features. Occasionally, they present an
+              opportunity to initiate more fundamental change. The scanner
+              project helped me turn a neglected feature into a catalyst for
+              redefining the in-store experience.
             </p>
           </section>
           <StaticImage
@@ -41,7 +41,7 @@ const AugmentedShopping = () => {
               <li> Providing more accurate product results</li>
             </ul>
           </section>
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>Discover & define</h2>
             <p>
@@ -64,8 +64,9 @@ const AugmentedShopping = () => {
               One of the primary user tasks was to add items to your cart ready
               for checkout. Another was to add items to a shopping list to
               purchase at a later date. The former was fairly well supported
-              with a link from the product search page. There wasn't any access
-              to the scanner from the list section though.
+              with a link from the product search page. The former was fairly
+              well-supported with a link from the product search page, but there
+              was no access to the scanner from the list section.
             </p>
             <p>
               Another common user task was to scan multiple products
@@ -98,7 +99,7 @@ const AugmentedShopping = () => {
               There are a number of issues that can prevent a barcode from being
               recognised. These include poor lighting, lack of focus or obscured
               barcodes. The current implementation had no way of giving timely,
-              helpful information to the user in order to avoid these issues
+              helpful information to the user in order to avoid these issues.
             </p>
             <h4>Consistency and standards</h4>
             <p>
@@ -216,13 +217,13 @@ const AugmentedShopping = () => {
               The last step was to produce a rough prototype of what the scanner
               would look like. Because the camera plays such an important part,
               I wanted to make sure we had a live camera in the prototype. This
-              allowed us to test with more realistic scenarios , checking the
+              allowed us to test with more realistic scenarios, checking the
               accessibility of messaging and icons in different conditions.
             </p>
 
             <p>
               A stumbling block was that Framer does not have native camera
-              support. So instead I turned to Facebook's Origimi, learning the
+              support. So instead I turned to Facebook's Origami, learning the
               basics and building the prototype over a few evenings.
             </p>
           </section>
@@ -291,7 +292,7 @@ const AugmentedShopping = () => {
               <p>
                 Most of the traditional design tools weren't up to the task, so
                 instead I turned to Xcode. By scanning Woolworth products using
-                a AR mapping app and hacking a simple tutorial I was able to
+                an AR mapping app and hacking a simple tutorial I was able to
                 build this demo using an iPhone X and ARKit over the course of a
                 weekend
               </p>

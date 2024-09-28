@@ -13,13 +13,12 @@ const DesignSystem = () => {
         <article>
           <section>
             <h1>Building a design system architecture that scales</h1>
-            <p class="intro">
+            <p className="intro">
               IG offers a multitude of products, from native apps to web-based
-              trading platforms. As the company expanded to 17 global locations,
-              maintaining design consistency became a challenge. Formation, IG's
-              design system, was created to unify these platforms, create a
-              shared understanding of design principles and enable teams work
-              more efficiently.
+              trading platforms. As the company expanded to 17 glFormation, IG’s
+              design system, was created to unify these platforms, foster a
+              shared understanding of design principles, and enable teams to
+              work more efficiently..
             </p>
           </section>
           <StaticImage
@@ -27,7 +26,7 @@ const DesignSystem = () => {
             alt="Placeholder"
             className={styles.caseStudy_LargeImage}
           />
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>Project history</h2>
             <p>
@@ -62,11 +61,11 @@ const DesignSystem = () => {
             <p>
               The main objectives of the project were to improve the consistency
               of our products, build trust and create a cohesive experience for
-              clients. We also wanted to improve our internal process
-              simplifying the making the design process more transparent and
-              collaborative. Crucially, we needed to upscale our design output.
-              Aligning creative and development teams globally ment we could
-              avoid recreating similar components on different platforms.
+              clients. We also wanted to improve our internal process by making
+              the design process more transparent and collaborative. Crucially,
+              we needed to scale our design output. Aligning creative and
+              development teams globally meant we could avoid duplicating
+              similar components across different platforms.
             </p>
 
             <p>
@@ -276,15 +275,16 @@ const DesignSystem = () => {
               hard work and collaboration from across a business. It also
               requires a certain kind of mindset. Unlike the brand guidelines
               and style guides that came before, design systems are living
-              entities that need to constantly evolve to stay relevant useful.
+              entities that need to constantly evolve to stay relevant and
+              useful.
             </p>
             My biggest learning from the project are:
             <h3>Start early, update often</h3>
             <p>
               It's so much easier to record thinking as it happens rather than
               retrospectively document changes. Make sure when you start a new
-              project that you set a side time to document changes that are
-              relevant to the design system.
+              project that you set a side time to document changes relevant to
+              the design system.
             </p>
             <h3>Build a strong support base</h3>
             <p>
@@ -299,7 +299,7 @@ const DesignSystem = () => {
               was one of the biggest headaches of the project. Include too much
               and your system become dense and obtuse. Don't include enough and
               your team are left asking questions. The eureka moment for me was
-              splitting the system into detail specific sections. This allowed
+              splitting the system into detail-specific sections. This allowed
               us to include a various amounts of detail at different stages on a
               'need to know' bases.
             </p>

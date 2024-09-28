@@ -33,16 +33,15 @@ section {
 
 .notePost {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 1rem 0;
   border-bottom: #e5e5e5 1px solid;
 }
 
 .notePost h1 {
   padding: 0;
-  flex-basis: 60%;
-  flex-grow: 3;
 }
 
 notePost a:hover {
@@ -50,10 +49,9 @@ notePost a:hover {
 }
 
 .date {
-  text-align: right;
-  flex-basis: 40%;
-  flex-grow: 1;
+  text-align: left;
   color: #9696a3;
+  margin-bottom: 8px;
 }
 
 .sectionTitle {
@@ -82,6 +80,32 @@ notePost a:hover {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+@media only screen and (min-width: 430px) {
+  .notePost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: #e5e5e5 1px solid;
+  }
+
+  .notePost h1 {
+    padding: 0;
+    flex-basis: 60%;
+    flex-grow: 3;
+    order: 1;
+  }
+
+  .date {
+    text-align: right;
+    flex-basis: 40%;
+    flex-grow: 1;
+    color: #9696a3;
+    order: 2;
+  }
 }
 
 @media only screen and (min-width: 640px) {

@@ -26,12 +26,12 @@ class JournalIndex extends React.Component {
                 const title = node.frontmatter.title || node.fields.slug;
                 return (
                   <div key={node.fields.slug} className={styles.notePost}>
+                    <p className={styles.date}>{node.frontmatter.date}</p>
                     <h1>
                       <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                         {title}
                       </Link>
                     </h1>
-                    <p className={styles.date}>{node.frontmatter.date}</p>
                   </div>
                 );
               })}
@@ -42,12 +42,12 @@ class JournalIndex extends React.Component {
                 const title = node.frontmatter.title || node.fields.slug;
                 return (
                   <div key={node.fields.slug} className={styles.notePost}>
+                    <p className={styles.date}>{node.frontmatter.date}</p>
                     <h2>
                       <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                         {title}
                       </Link>
                     </h2>
-                    <p className={styles.date}>{node.frontmatter.date}</p>
                   </div>
                 );
               })}

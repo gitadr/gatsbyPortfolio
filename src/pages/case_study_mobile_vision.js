@@ -14,11 +14,11 @@ const MobileVision = () => {
           <section>
             <h1>Creating a vision for the future of mobile trading</h1>
             <p className="intro">
-              A product team needs a defined roadmap to build a good app. But to
-              build an exceptional app, they also require shared purpose and
-              ambition. In my role as the lead mobile UI designer, I worked to
-              create a collaborative design vision that would inspire change and
-              help reshape how people trade on mobile.
+              A product team needs a clear roadmap to build a good app, but
+              building an exceptional app requires a shared purpose and ambition
+              In my role as the lead mobile UI designer, I worked to create a
+              collaborative design vision that would inspire change and help
+              reshape how people trade on mobile.
             </p>
           </section>
           <StaticImage
@@ -41,7 +41,7 @@ const MobileVision = () => {
             </p>
             <h3>Key user tasks</h3>
             <p>
-              To focus our efforts we identified four key users tasks. These
+              To focus our efforts, we identified four key user tasks. These
               'red routes' are the foundational user journeys that made our
               product most valuable and captured 90% of our traders' actions.
             </p>
@@ -73,9 +73,9 @@ const MobileVision = () => {
             </p>
 
             <p>
-              The iOS and Android apps had deviated and some key flows had
-              become convoluted. The architecture on both apps again differed,
-              but orientated around a hub and spoke style navigation. The
+              The iOS and Android apps had diverged, and some key flows had
+              become convoluted. The architecture of both apps differed, but
+              both were oriented around a hub-and-spoke style of navigation. The
               information hierarchy was relatively flat and dense. There was
               emphasis on showing a limited number of data points on as many
               markets as possible.
@@ -112,8 +112,8 @@ const MobileVision = () => {
               senior stakeholder interviews, including current or former
               traders, to get insight on their views of the apps. While I was
               initially keen to get their perspective on the apps' strengths and
-              weaknesses, it also proved to an opportunity to promote the
-              project and its objectives.
+              weaknesses, it also proved to be an opportunity to promote the
+              project and its objectives..
             </p>
 
             <p>
@@ -123,7 +123,7 @@ const MobileVision = () => {
               average session times, popular devices etc. Next I worked with the
               UX research team to organise and facilitate high-value client
               interviews as well as focus groups for both existing and potential
-              clients. IG hadn't conducted mobile specific research before so I
+              clients. IG hadn’t conducted mobile-specific research before, so I
               helped create a mobile testing rig. This included screen recording
               software, camera and audio equipment and networked test devices.
             </p>
@@ -154,10 +154,9 @@ const MobileVision = () => {
             <p>
               It is important to have a broad set of skills and influences in
               the early stages of the ideation process. I organised and
-              facilitated a number of design sprints in order maximise the
-              possibility of different team members and stakeholder
-              participating, therefore generating the highest quality design
-              concepts.
+              facilitated several design sprints to maximise the participation
+              of team members and stakeholders, therefore generating the highest
+              quality design concepts.
             </p>
             <h3>Planning</h3>
             <p>
@@ -243,7 +242,7 @@ const MobileVision = () => {
               the project.
             </p>
             <p>
-              In both cases we needed a way of recording the sessions. As
+              In both cases, we needed a way of recording the sessions. As
               mentioned, this was a first for IG, so considerable time was spent
               developing a robust testing setup that could be used both in the
               office and remotely.
@@ -293,7 +292,7 @@ const MobileVision = () => {
                 of the mobile vision project.
               </p>
               <p>
-                By regular attending the events – and encouraging other
+                By regularly attending the events – and encouraging other
                 designers to do the same – we gained invaluable insight into the
                 latest OS features and became a stronger, more rounded team in
                 the process.

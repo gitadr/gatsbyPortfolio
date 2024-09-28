@@ -37,8 +37,8 @@ const ForexTrading = () => {
             </p>
             <p>
               As the lead UI designer for the mobile platforms, I was
-              accountable for the design of the IG's new US focused iOS and
-              Android Apps.
+              accountable for the design of IG’s new US-focused iOS and Android
+              apps.
             </p>
             <p>
               Our first task was to establish the differences in terminology and
@@ -49,8 +49,8 @@ const ForexTrading = () => {
             <p>
               The next step was creating a series of prototypes to test our
               assumptions. Due to the complexity of the trading regulations we
-              needed a way to simulate the expected outcomes. The solutions was
-              to use Framer to adapt IG's trading API's so we could create a
+              needed a way to simulate the expected outcomes. The solution was
+              to use Framer to adapt IG’s trading APIs so we could create a
               realistic example for clients to test. This was a huge undertaking
               and a technical first for IG.
             </p>
@@ -66,7 +66,7 @@ const ForexTrading = () => {
             alt="Placeholder"
             className={styles.caseStudy_MediumImage}
           />
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>Existing designs</h2>
             <p>
@@ -77,7 +77,7 @@ const ForexTrading = () => {
             </p>
             <h3>iOS App</h3>
             <p>
-              The existing iOS app designs where dated. They lacked hierarchy,
+              The existing iOS app designs were dated. They lacked hierarchy,
               structure and conformed to an older navigation architecture.
             </p>
 
@@ -101,9 +101,9 @@ const ForexTrading = () => {
           <section>
             <h3>Android App</h3>
             <p>
-              The android app suffered from many of the same design problems as
-              iOS. In addition, the progress made with Material Design was
-              absent from IG app.
+              The Android app suffered from many of the same design problems as
+              iOS. Additionally, the progress made with Material Design was
+              absent from the IG app..
             </p>
             <p>
               Based in the Krakow office, the Android development team wanted to
@@ -232,10 +232,10 @@ const ForexTrading = () => {
               market information on a single page.
             </p>
             <p>
-              Reaching a design took some time. It was hard to balance the need
-              for data density with a clear hierarchy. We achieved the final
-              design after a number of iterations, testing different versions
-              with clients along the way.
+              Arriving at a final design took time. Balancing the need for data
+              density with a clear hierarchy was challenging. We achieved the
+              final design after a number of iterations, testing different
+              versions with clients along the way.
             </p>
           </section>
           <StaticImage
@@ -249,15 +249,15 @@ const ForexTrading = () => {
               <p>
                 One of the biggest challenges we faced as a design team was
                 supporting the different development road maps of the iOS and
-                Android teams. As mentioned, the teams took different approach
-                to the apps development and this had a knock on effect on
-                feature delivery.
+                Android teams. As mentioned, the teams took different approaches
+                to the app’s development, which had a knock-on effect on feature
+                delivery.
               </p>
               <p>
-                The best way to counter this, I found, was to create a MVP
-                prototype for each platform. This allowed both teams to see the
-                end goal, and work with the designers to adapt it to their
-                development stories.
+                The best way to address this was to create an MVP prototype for
+                each platform. This allowed both teams to see the end goal, and
+                work with the designers to adapt it to their development
+                stories.
               </p>
             </div>
             <div className={styles.workImage}>
