@@ -12,7 +12,7 @@ MONA uses an app called "The O". It replaces wall texts in the museum and allows
 
 Being able to here interviews with Toby and learn more about his process made the art much more meaningful for me.
 
-![Your Shadow Rising](images/tobyZiegler_yourShadowRising.jpg)
+![Your Shadow Rising](note_images/tobyZiegler_yourShadowRising.jpg)
 
 ### The O App
 
