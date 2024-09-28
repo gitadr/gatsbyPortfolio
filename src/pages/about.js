@@ -21,7 +21,7 @@ const About = () => {
                 generally share in the excitement of creating new things.
               </p>
               <p>
-                At school, my love for problem solving led me to study maths and
+                At school, my love for problem-solving led me to study maths and
                 science. I enjoyed the rigor of the scientific process and the
                 definitive outcome of a successful experiment. I was also deeply
                 interested in all things art and design. Initially, I was a lot
@@ -31,7 +31,7 @@ const About = () => {
               </p>
               <p>
                 It wasn’t until I began to learn about Web 2.0 and the
-                human-centred design movement that I started to connect the dots
+                human-centred design movement that I started connecting the dots
                 between my two interests. The web gave me a new, accessible way
                 to create—seamlessly merging science and technology with the
                 iterative creativity of design. It felt like the perfect
