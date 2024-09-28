@@ -37,9 +37,9 @@ section {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: left;
+  align-items: flex-start; /* Fixed alignment */
   padding: 1rem 0;
-  border-bottom: #e5e5e5 1px solid;
+  border-bottom: 1px solid #e5e5e5; /* Shorthand for border */
 }
 
 .notePost h1 {
@@ -49,7 +49,7 @@ section {
   order: 2;
 }
 
-notePost a:hover {
+.notePost a:hover {
   text-decoration: underline;
 }
 
@@ -80,7 +80,7 @@ notePost a:hover {
     flex-direction: row;
     align-items: center;
     padding: 1rem 0;
-    border-bottom: #e5e5e5 1px solid;
+    border-bottom: 1px solid #e5e5e5;
   }
 
   .notePost h1 {
@@ -105,16 +105,16 @@ notePost a:hover {
 
 @media only screen and (min-width: 800px) {
   .aboutIntro {
-    grid-template-columns: 1.5fr minmax(0, 1fr);
+    grid-template-columns: 1.5fr minmax(0, 1fr); /* Consider more fluid grid */
   }
   .aboutIntroText {
-    padding-right: 20px;
+    padding-right: 20px; /* Consider using rem units for consistency */
   }
 }
 
 @media only screen and (min-width: 1240px) {
   .journalHeader {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .aboutIntroText {
     padding-right: 60px;

@@ -12,12 +12,12 @@
 }
 
 article h1 {
-  padding: 8px 0 0 0;
+  padding: 0.5rem 0 0 0; /* Converted px to rem for better scalability */
 }
 
 .articleList h2 {
   margin: 0;
-  padding: 0 0 24px 0;
+  padding: 0 0 1.5rem 0; /* Using rem for consistency */
 }
 
 article.hero {
@@ -25,14 +25,14 @@ article.hero {
 }
 
 article.hero img {
-  margin: 0 0 0 0;
+  margin: 0; /* Simplified */
   display: block;
-  width: 360px;
+  width: 22.5rem; /* Changed 360px to rem */
 }
 
 .articlePreview {
   display: flex;
-  padding-bottom: 32px;
+  padding-bottom: 2rem; /* Converted px to rem */
   border-bottom: 1px solid #d8d8dc;
 }
 
@@ -74,11 +74,12 @@ article.list {
     border-bottom: none;
   }
 }
+
 @media only screen and (min-width: 1199px) {
   .articlePreview .journalImage {
     display: inline-flex;
     width: 100%;
-    margin: 0 32px 0 0;
+    margin: 0 2rem 0 0; /* Converted 32px to rem */
   }
   .articlePreview {
     width: 100%;

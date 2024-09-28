@@ -20,7 +20,6 @@ body {
   background-color: #000;
   padding: 0px;
   margin: 0px;
-  color: #000;
 }
 
 .container {
@@ -42,10 +41,12 @@ ol {
 li {
   margin-bottom: 12px;
 }
+
 .weather {
   display: inline-block;
   height: 16px;
 }
+
 .weatherpic {
   width: 16px;
   height: 16px;
@@ -271,12 +272,12 @@ li {
 /* Button: */
 .button {
   font-family: "Inter";
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 3.2px;
   font-weight: 700;
-  background-color: none;
+  background-color: transparent; /* Fixed background-color */
   border: none;
   text-transform: uppercase;
   margin: 0px 16px 0 0;
@@ -286,7 +287,7 @@ li {
 }
 
 .button.invert {
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 3.2px;
@@ -326,6 +327,7 @@ li {
   margin: 4px 0 0 -32px;
   transition: 0.24s all ease-out;
 }
+
 .button span.downloadIcon {
   background: url(../images/icons/arrowDownIcon.svg) no-repeat;
   float: left;
@@ -349,7 +351,9 @@ li {
   color: #fff;
   padding: 16px 16px 16px 48px;
   text-decoration: none;
+  transition: background-color 0.24s ease-out, padding 0.24s ease-out; /* Added transition for smoother interaction */
 }
+
 .button.invert:hover {
   background-color: #fff;
   color: #000;
@@ -361,19 +365,23 @@ li {
   background: url(../images/icons/arrowForwardIcon_white.svg) no-repeat;
   margin: 4px 0 0 -32px;
 }
+
 .button:hover span.backIcon {
   background: url(../images/icons/arrowBackwardIcon_white.svg) no-repeat;
   margin: 4px 0 0 -32px;
 }
+
 .button.invert:hover span.linkIcon {
   background: url(../images/icons/arrowForwardIcon.svg) no-repeat;
   margin: 4px 0 0 -32px;
 }
+
 .button:hover span.downloadIcon {
   background: url(../images/icons/arrowDownIcon_white.svg) no-repeat;
   margin: 4px 0 0 -32px;
   transform: rotate(-90deg);
 }
+
 .button:hover span.threadsIcon {
   background: url(../images/icons/threadsLogoIcon_white.svg) no-repeat;
   margin: 2px 0 0 -32px;
@@ -383,19 +391,24 @@ li {
   background-color: #eee;
   color: #000;
 }
+
 .button.invert:active {
   background-color: #eee;
   color: #000;
 }
+
 .button:active span.linkIcon {
   background: url(../images/icons/arrowForwardIcon.svg) no-repeat;
 }
+
 .button:active span.backIcon {
   background: url(../images/icons/arrowBackwardIcon.svg) no-repeat;
 }
+
 .button:active span.downloadIcon {
   background: url(../images/icons/arrowDownIcon.svg) no-repeat;
 }
+
 .button:active span.threadsIcon {
   background: url(../images/icons/threadsLogoIcon_black.svg) no-repeat;
 }
@@ -414,14 +427,14 @@ a.button.notes {
 
 @media only screen and (min-width: 768px) {
   .button {
-    padding: 16px 32px 16px 32px;
+    padding: 16px 32px;
     font-size: 16px;
     line-height: 24px;
     margin: 0px 32px 0 0;
   }
 
   .button.invert {
-    padding: 16px 32px 16px 32px;
+    padding: 16px 32px;
     font-size: 16px;
     margin: 0;
   }
