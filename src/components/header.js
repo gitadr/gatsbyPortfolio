@@ -15,8 +15,8 @@ const Header = () => {
               <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
                 Nearmap
               </a>
-              . I like to create experiences that are simple, intuitive and
-              empowering.
+              . I help teams create thoughtful, intuitive and empowering
+              products.
             </p>
             <a href="mailto:mail@aaronroot.net" className="button top">
               <span className="linkIcon" />

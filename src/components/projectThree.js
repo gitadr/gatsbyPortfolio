@@ -8,9 +8,9 @@ const ProjectThree = () => {
         <div className={styles.workText}>
           <h1>Designing aerial insights, from the ground up.</h1>
           <p>
-            Seeing the world from a different angle can provide a completely new
-            perspective. At Nearmap, we are focused on using geospatial insights
-            to deliver empowering tools and workflows.
+            Viewing the world from a new perspective can unlock entirely
+            different insights. At Nearmap, we leverage aerial imagery and
+            geospatial data to create empowering tools and workflows.
           </p>
           <ul>
             <li>

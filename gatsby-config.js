@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Aaron Root`,
     titleTemplate: `Aaron Root — Product Design`,
-    description: `Sydney-based product designer specialising in clean interfaces, data-driven prototypes and scalable design systems`,
+    description: `Sydney-based Product Designer.`,
     url: `https://www.aaronroot.net`, // No trailing slash allowed!
     image: `/avatar.jpg`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@aaroot`,
