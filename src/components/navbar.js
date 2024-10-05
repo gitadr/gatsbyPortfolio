@@ -12,8 +12,11 @@ const Navigation = () => {
     "/": "👋",
     "/about/": "🏔️",
     "/journal/": "💭",
-    "/projects/": "🚀",
     "/article_190219_SteveJobs/": "🏴‍☠️",
+    "/case_study_forex_trading/": "📈",
+    "/case_study_design_system/": "📈",
+    "/case_study_mobile_vision/": "📈",
+    "/case_study_augmented_shopping/": "🍏",
   };
 
   // Get the emoji icon for the current page
