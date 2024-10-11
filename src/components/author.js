@@ -14,7 +14,7 @@ const Author = () => {
           <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
             Nearmap
           </a>
-          . I help teams create thoughtful, intuitive and empowering products.
+          . I help teams create thoughtful and empowering products.
         </p>
         <a href="mailto:mail@aaronroot.net" className="button">
           <span className="linkIcon" />
