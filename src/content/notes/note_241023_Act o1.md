@@ -4,7 +4,7 @@ date: "2024-10-23"
 tags: ["Sequoia", "AI"]
 ---
 
-I found the _Generative AI's Act o1_ [blog](https://www.sequoiacap.com/article/generative-ais-act-o1/) by Sonya Huang and Pat Grady at Sequoia to be incredibly insightful. I've been reflecting on what's next for Nearmap, and this blog helped me build a broader understanding of the trends shaping the SaaS/AI space.
+I found the _Generative AI's Act o1_ [blog](https://www.sequoiacap.com/article/generative-ais-act-o1/) by Sonya Huang and Pat Grady at Sequoia to be incredibly insightful. I've been reflecting on what's next for Nearmap, and this blog helped me build a broader understanding of the trends shaping the SaaS space.
 
 ### A Few Highlights:
 

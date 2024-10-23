@@ -17,7 +17,7 @@ const About = () => {
                 As a kid, I wanted to be an inventor—the eccentric type who
                 single-handedly built ingenious contraptions in the shed. Soon,
                 I realised that building with a team (my little brother) was a
-                lot more fun. I could bounce ideas around, test prototypes, and
+                lot more fun. I could bounce ideas around, test gizmos, and
                 generally share in the excitement of creating new things.
               </p>
               <p>
