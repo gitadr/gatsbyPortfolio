@@ -1,4 +1,4 @@
-const { TRUE } = require("node-sass");
+const { TRUE } = require("sass");
 
 module.exports = {
   siteMetadata: {

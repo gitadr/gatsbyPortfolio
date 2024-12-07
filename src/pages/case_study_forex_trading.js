@@ -1,7 +1,7 @@
 import React from "react";
+import Navigation from "../components/navbar";
 import styles from "./caseStudy.module.css";
 import Author from "../components/author";
-import Navigation from "../components/navbar";
 import Footer from "../components/footer";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";

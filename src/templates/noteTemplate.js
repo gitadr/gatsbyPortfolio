@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./articleTemplate.module.css";
 import Navigation from "../components/navbar";
+import styles from "./articleTemplate.module.css";
 import Author from "../components/author";
 import Footer from "../components/footer";
 import { graphql } from "gatsby";
