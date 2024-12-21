@@ -10,6 +10,6 @@ Eno recounts an experience at the newly built Cologne Bonn Airport, where he not
 
 What struck me most was the depth of his creative thinking—sidestepping the clichés of ambient music to create something profoundly moving.
 
-You can listen to the album [here](hhttps://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa?si=bVtvjwpUShOOqIqdAMLfXg).
+You can listen to the album [on Spotify](hhttps://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa?si=bVtvjwpUShOOqIqdAMLfXg).
 
 ![Ambient 1: Music for Airports](note_images/music_for_airports.jpg)
