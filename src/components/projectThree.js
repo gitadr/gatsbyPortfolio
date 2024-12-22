@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./projectThree.module.css";
+import { Link } from "gatsby";
 
 const ProjectThree = () => {
   return (
@@ -14,10 +15,13 @@ const ProjectThree = () => {
           </p>
           <ul>
             <li>
-              <div className="button invert">
+              <Link
+                to="https://www.design.studio/work/nearmap"
+                className="button invert"
+              >
                 <span className="linkIcon" />
-                <span className="text">COMING SOON</span>
-              </div>
+                <span className="text">CURIOSITY MEETS CLARITY</span>
+              </Link>
             </li>
           </ul>
         </div>
