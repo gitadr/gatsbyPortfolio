@@ -14,7 +14,7 @@ const About = () => {
             <div className={styles.aboutIntroText}>
               <h1>Curriculum vitae</h1>
               <p>
-                As a kid, I wanted to be an inventor—the eccentric type who
+                Growing up, I wanted to be an inventor—the eccentric type who
                 single-handedly built ingenious contraptions in the shed. Soon,
                 I realised that building with a team (my little brother) was a
                 lot more fun. I could bounce ideas around, test gizmos, and

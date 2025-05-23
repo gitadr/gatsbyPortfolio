@@ -9,7 +9,7 @@ const Navigation = () => {
 
   // Define the page icons mapping
   const pageIcons = {
-    "/": "👋",
+    "/": "🌏",
     "/about/": "🏔️",
     "/journal/": "💭",
     "/article_190219_SteveJobs/": "🏴‍☠️",
