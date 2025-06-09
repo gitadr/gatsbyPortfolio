@@ -1,5 +1,5 @@
 ---
-title: "GSD"
+title: "Get Stuff Done."
 date: "2025-05-27"
 tags: ["Career", "Obama"]
 ---
