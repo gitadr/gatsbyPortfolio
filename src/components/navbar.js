@@ -20,7 +20,7 @@ const Navigation = () => {
   };
 
   // Get the emoji icon for the current page
-  const currentIcon = pageIcons[currentPagePath] || "👋"; // Default emoji for unknown pages
+  const currentIcon = pageIcons[currentPagePath] || "💭"; // Default emoji for unknown pages
 
   return (
     <nav>
