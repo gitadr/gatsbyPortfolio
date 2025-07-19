@@ -74,7 +74,8 @@ const Footer = () => {
               <span className="weather">
                 <Weather />
               </span>
-              Bondi, Australia<span> © Copyright 2024</span>
+              Bondi, Australia
+              <span> © Copyright {new Date().getFullYear()}</span>
             </p>
           </div>
         </div>
