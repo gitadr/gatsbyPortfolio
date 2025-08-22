@@ -10,7 +10,7 @@ const Author = () => {
       </div>
       <div className={styles.bio}>
         <p className="intro">
-          Hi, I'm Aaron. Director of Design at{" "}
+          Hi, I'm Aaron. VP of Design at{" "}
           <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
             Nearmap
           </a>

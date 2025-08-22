@@ -11,7 +11,7 @@ const Header = () => {
           <div className={styles.headerLorem}>
             <h1>Hello, world!</h1>
             <p className={styles.intro}>
-              I'm Aaron Root, Director of Design at{" "}
+              I'm Aaron Root, VP of Design at{" "}
               <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
                 Nearmap
               </a>
