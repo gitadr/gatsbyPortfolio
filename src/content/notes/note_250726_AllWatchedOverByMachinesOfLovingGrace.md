@@ -1,7 +1,7 @@
 ---
-title: “Machines of Loving Grace.”
-date: “2025-07-26”
-tags: [“Adam Curtis”, “Documentary”, “Philosophy”]
+title: "Machines of Loving Grace."
+date: "2025-07-26"
+tags: ["Adam Curtis", "Documentary", "Philosophy"]
 ---
 
 I rewatched Adam Curtis’ All Watched Over by Machines of Loving Grace a few weeks back. The poem the documentary is based on feels like a story regression and progress at the same time—mourning what’s lost, imagining what could still be.
