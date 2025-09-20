@@ -10,8 +10,6 @@ I’m sure I will have more reflections in time, but this section struck a chord
 
 ### Innovation is where crazy people have stature
 
-Schmidt, Eric; Rosenberg, Jonathan; Eagle, Alan. Trillion Dollar Coach: The Leadership Handbook of Silicon Valley's Bill Campbell (p. 69). John Murray Press. Kindle Edition.
-
 "The purpose of a company is to take the vision you have of the product and bring it to life," Bill once said at a conference. "Then, you put all the other components around it—finance, sales, marketing—to get the product out the door and ensure its success." This approach was not common in Silicon Valley, or most other places, when Bill arrived in the 1980s. Back then, while a company might be started by a technologist, it wasn’t long before a business executive with experience in sales, marketing, finance, or operations would be brought in to run things. These executives often didn’t prioritize the needs of engineers or focus on the product first.
 
 Though Bill was a business executive, he believed that nothing was more important than empowering engineers. His consistent message was clear: product teams are the heart of the company, the ones who create new features and products. Their ultimate goal is to achieve great product-market fit. If you have the right product for the right market at the right time, you must push full steam ahead.

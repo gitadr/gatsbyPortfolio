@@ -4,26 +4,26 @@ date: "2023-01-28"
 tags: ["Product Design"]
 ---
 
-We've all been there - you start a new project with loads of motivation and excitement, but as time goes on, that motivation starts to fade. But why is that? What makes motivation so difficult to maintain?
+We’ve all felt it. The spark of a new project—energy high, ideas flowing—only for that momentum to thin out over time. The question is why. What makes motivation so hard to sustain?
 
-In my experience, motivation can be broken down into three factors:
+Don Weigel once shared a formula with me that I keep coming back to. He broke motivation into three simple factors: purpose, focus, and urgency.
 
 ### Purpose
 
-The is the reason why you're doing something. It's the driving force behind your actions and the foundation of motivation. When you have a clear sense of purpose, you know why you're doing something and what you're working towards. This gives you direction and a sense of meaning in your actions.
+The reason behind what you’re doing. It’s the foundation. When your purpose is clear, you know why you’re putting in the effort and what you’re working towards. Purpose gives meaning and direction.
 
 ### Focus
 
-This is the ability to concentrate your attention and energy on a specific task or goal. When you're focused, you're able to tune out distractions and stay on track. Without focus, it's easy to get sidetracked and make little progress.
+The ability to channel your attention and energy into the task at hand. Focus is what stops you drifting. Without it, progress slips away.
 
 ### Urgency
 
-The time pressure and importance you attach to a task or goal. When you feel a sense of urgency, you're more likely to take action and make progress. Urgency helps you overcome procrastination and stay motivated even when things get tough.
+The time pressure and importance attached to the work. Urgency pushes you forward. It’s what cuts through procrastination and helps you keep going when things get hard.
 
-So, next time you're struggling to stay motivated, ask yourself:
+So when motivation falters, I ask myself:
 
-- Do I have a clear sense of purpose? Why am I doing this?
-- Am I able to focus on this task? What's distracting me?
-- Do I have a sense of urgency? Have I set a deadline?
+- Do I have a clear sense of purpose?
+- Am I giving this my full focus?
+- Have I created enough urgency to act?
 
-Answering these questions can help you figure out what's missing and act as a guide on how to improve it. Remember, motivation is a powerful force, but it's not magic.
+More often than not, the answer lies in one of these three.
