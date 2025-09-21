@@ -1,19 +1,17 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import styles from "./journal.module.css";
 import Navigation from "../components/navbar";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 class JournalIndex extends React.Component {
   render() {
     const { data } = this.props;
-    const posts = data.allMarkdownRemark.edges;
-    const notesPosts = posts
-      .filter(({ node }) => node.fileAbsolutePath.includes("/notes/"))
-      .slice(0, 100); // Limit notesPosts to 100 posts
-    const articlesPosts = posts
-      .filter(({ node }) => node.fileAbsolutePath.includes("/articles/"))
-      .slice(0, 100); // Limit articlesPosts to 100 posts
+    const articlesPosts = data.articles.edges;
+    const notesPosts = data.notes.edges;
+    const scrapbookImages = data.images.edges;
 
     return (
       <div>
@@ -55,14 +53,20 @@ class JournalIndex extends React.Component {
             <section>
               <p className="caps">CLIPPINGS</p>
               <div className={styles.imageContainer}>
-                {data.images.edges.map(({ node }) => (
-                  <img
-                    key={node.id}
-                    src={node.publicURL}
-                    alt={`Scrapbook clipping ${node.relativePath}`}
-                    className={styles.scrapsImage}
-                  />
-                ))}
+                {scrapbookImages.map(({ node }) => {
+                  const image = getImage(node.childImageSharp);
+                  if (!image) {
+                    return null;
+                  }
+                  return (
+                    <GatsbyImage
+                      key={node.id}
+                      image={image}
+                      alt={`Scrapbook clipping ${node.relativePath}`}
+                      className={styles.scrapsImage}
+                    />
+                  );
+                })}
               </div>
             </section>
           </div>
@@ -75,21 +79,45 @@ class JournalIndex extends React.Component {
 
 export default JournalIndex;
 
+export const Head = () => (
+  <Seo
+    title="Journal – Aaron Root"
+    description="Recent articles, notes, and creative clippings from Aaron Root."
+    pathname="/journal"
+  />
+);
+
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+    articles: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/articles/" } }
+      sort: { frontmatter: { date: DESC } }
+      limit: 100
+    ) {
       edges {
         node {
           excerpt
           fields {
             slug
           }
-          fileAbsolutePath
+          frontmatter {
+            date(formatString: "DD MMMM YYYY")
+            title
+          }
+        }
+      }
+    }
+    notes: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/notes/" } }
+      sort: { frontmatter: { date: DESC } }
+      limit: 100
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
           frontmatter {
             date(formatString: "DD MMMM YYYY")
             title
@@ -110,7 +138,14 @@ export const pageQuery = graphql`
         node {
           id
           relativePath
-          publicURL
+          childImageSharp {
+            gatsbyImageData(
+              width: 360
+              height: 360
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
         }
       }
     }

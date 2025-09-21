@@ -7,11 +7,14 @@ import Project2 from "../components/projectTwo";
 import Project3 from "../components/projectThree";
 import Footer from "../components/footer";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../components/seo";
 
 export const Head = () => (
-  <>
-    <title>Aaron Root – Portfolio</title>
-  </>
+  <Seo
+    title="Aaron Root – Portfolio"
+    description="Product design leadership, case studies, and journal entries from Aaron Root."
+    pathname="/"
+  />
 );
 
 class JournalIndex extends React.Component {

@@ -11,11 +11,28 @@ const Weather = () => {
 
   useEffect(() => {
     let isMounted = true;
+    if (typeof window === "undefined") {
+      return () => {
+        isMounted = false;
+      };
+    }
+
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-data: reduce)").matches
+    ) {
+      return () => {
+        isMounted = false;
+      };
+    }
+
+    const controller = new AbortController();
 
     const fetchData = async () => {
       try {
         const response = await fetch(`/api/weather?location=sydney,au`, {
           cache: "no-store",
+          signal: controller.signal,
         });
 
         if (!response.ok) {
@@ -27,16 +44,31 @@ const Weather = () => {
           setWeatherData(data);
         }
       } catch (err) {
+        if (err.name === "AbortError") {
+          return;
+        }
         if (isMounted) {
           setError(true);
         }
       }
     };
 
-    fetchData();
+    const scheduleFetch = (callback) => {
+      if ("requestIdleCallback" in window) {
+        const idleId = window.requestIdleCallback(callback, { timeout: 2000 });
+        return () => window.cancelIdleCallback(idleId);
+      }
+
+      const timeoutId = window.setTimeout(callback, 0);
+      return () => window.clearTimeout(timeoutId);
+    };
+
+    const cancelScheduledFetch = scheduleFetch(fetchData);
 
     return () => {
       isMounted = false;
+      controller.abort();
+      cancelScheduledFetch();
     };
   }, []);
 

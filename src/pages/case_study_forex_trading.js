@@ -4,6 +4,8 @@ import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import forexTradingMvp from "../images/caseStudies/caseStudy_forexTrading_MVP_light.gif";
 import { Link } from "gatsby";
+import Seo from "../components/seo";
+import LazyAnimatedImage from "../components/lazyAnimatedImage";
 
 const ForexTrading = () => {
   return (
@@ -20,7 +22,7 @@ const ForexTrading = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_forexTrading_hero.jpg"
-            alt="Placeholder"
+            alt="Screens from the redesigned IG mobile trading apps"
             className={styles.caseStudy_LargeImage}
           />
           <section>
@@ -59,7 +61,7 @@ const ForexTrading = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_forexTrading_research.jpg"
-            alt="Placeholder"
+            alt="Research wall mapping the customer journey for IG's US FX launch"
             className={styles.caseStudy_MediumImage}
           />
           <div className="borderKeyline" />
@@ -91,7 +93,7 @@ const ForexTrading = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_forexTrading_iOS_before.jpg"
-            alt="Placeholder"
+            alt="Legacy IG iOS trading interface prior to the redesign"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -115,7 +117,7 @@ const ForexTrading = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_forexTrading_android_before.jpg"
-            alt="Placeholder"
+            alt="Legacy IG Android trading app before the visual refresh"
             className={styles.caseStudy_MediumImage}
           />
           <section className={styles.mobileDesign}>
@@ -133,7 +135,7 @@ const ForexTrading = () => {
             <div className={styles.workImage}>
               <StaticImage
                 src="../images/caseStudies/caseStudy_forexTrading_nativeFirst.jpg"
-                alt="Placeholder"
+                alt="Native iOS and Android components informing the FX redesign"
               />
             </div>
           </section>
@@ -215,7 +217,7 @@ const ForexTrading = () => {
             <div className={styles.workImage}>
               <StaticImage
                 src="../images/caseStudies/caseStudy_forexTrading_designSystem.jpg"
-                alt="Placeholder"
+                alt="Formation design system components tailored for mobile"
               />
             </div>
           </section>
@@ -236,7 +238,7 @@ const ForexTrading = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_forexTrading_marketWidget.jpg"
-            alt="Placeholder"
+            alt="Market overview screen combining pricing, news, and actions"
             className={styles.caseStudy_LargeImage}
           />
           <section className={styles.mobileDesign}>
@@ -257,10 +259,11 @@ const ForexTrading = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <img
+              <LazyAnimatedImage
                 src={forexTradingMvp}
                 alt="Animated minimum viable product walkthrough for the FX trading app"
-                loading="lazy"
+                width={400}
+                height={678}
               />
             </div>
           </section>
@@ -275,7 +278,7 @@ const ForexTrading = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_forexTrading_overview.jpg"
-            alt="Placeholder"
+            alt="Collage of final IG FX trading app screens"
             className={styles.caseStudy_MediumImage}
           />
 
@@ -284,3 +287,12 @@ const ForexTrading = () => {
 };
 
 export default ForexTrading;
+
+export const Head = () => (
+  <Seo
+    title="Launching FX trading apps in a new market – Aaron Root"
+    description="How IG redesigned its iOS and Android FX trading experience to enter the US market."
+    pathname="/case_study_forex_trading"
+    type="article"
+  />
+);

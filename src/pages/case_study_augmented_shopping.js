@@ -4,6 +4,8 @@ import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import augmentedShoppingDemo from "../images/caseStudies/caseStudy_augmented_shopping_Demo.gif";
 import augmentedShoppingPoc from "../images/caseStudies/caseStudy_augmentedShopping_POC.gif";
+import Seo from "../components/seo";
+import LazyAnimatedImage from "../components/lazyAnimatedImage";
 
 const AugmentedShopping = () => {
   return (
@@ -20,7 +22,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_hero.jpg"
-            alt="Placeholder"
+            alt="Storyboard of the augmented in-store grocery shopping experience"
             className={styles.caseStudy_LargeImage}
           />
           <section>
@@ -51,7 +53,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_heuristicReview.jpg"
-            alt="Placeholder"
+            alt="Screenshots from the original Woolworths scanner used in the heuristic review"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -157,7 +159,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_designIterations.jpg"
-            alt="Placeholder"
+            alt="Early sketchbook explorations for improving the scanner UI"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -171,7 +173,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_designIterations_3.jpg"
-            alt="Placeholder"
+            alt="Storyboard concepts exploring future scanning flows"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -186,7 +188,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_designIterations_2.jpg"
-            alt="Placeholder"
+            alt="Scanner frame design variations balancing focus and guidance"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -205,7 +207,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_designIterations_4.jpg"
-            alt="Placeholder"
+            alt="Interface concepts showing improved scan feedback states"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -226,7 +228,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_origami.jpg"
-            alt="Placeholder"
+            alt="Origami prototype demonstrating live camera interactions"
             className={styles.caseStudy_MediumImage}
           />
           <section className={styles.mobileDesign}>
@@ -247,10 +249,11 @@ const AugmentedShopping = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <img
+              <LazyAnimatedImage
                 src={augmentedShoppingDemo}
                 alt="Prototype demonstrating the augmented shopping scanner in action"
-                loading="lazy"
+                width={400}
+                height={761}
               />
             </div>
           </section>
@@ -296,10 +299,11 @@ const AugmentedShopping = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <img
+              <LazyAnimatedImage
                 src={augmentedShoppingPoc}
                 alt="Augmented shopping proof of concept animation"
-                loading="lazy"
+                width={320}
+                height={630}
               />
             </div>
           </section>
@@ -321,7 +325,7 @@ const AugmentedShopping = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_augmentedShopping_concepts.jpg"
-            alt="Placeholder"
+            alt="Augmented reality concepts layering guidance onto grocery aisles"
             className={styles.caseStudy_LargeImage}
           />
     </CaseStudyLayout>
@@ -329,3 +333,12 @@ const AugmentedShopping = () => {
 };
 
 export default AugmentedShopping;
+
+export const Head = () => (
+  <Seo
+    title="Augmenting the in-store shopping experience – Aaron Root"
+    description="Reimagining Woolworths' barcode scanner and exploring AR to elevate in-store shopping."
+    pathname="/case_study_augmented_shopping"
+    type="article"
+  />
+);

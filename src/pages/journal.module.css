@@ -40,8 +40,10 @@ section {
   border-bottom: 1px solid #e5e5e5; /* Shorthand for border */
 }
 
-.notePost h1 {
+.notePost h1,
+.notePost h2 {
   padding: 0;
+  margin: 0;
 }
 
 .notePost a:hover {
@@ -92,7 +94,8 @@ section {
     border-bottom: 1px solid #e5e5e5;
   }
 
-  .notePost h1 {
+  .notePost h1,
+  .notePost h2 {
     padding: 0;
     flex-basis: 60%;
     flex-grow: 3;

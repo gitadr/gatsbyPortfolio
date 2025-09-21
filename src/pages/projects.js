@@ -4,6 +4,7 @@ import Navigation from "../components/navbar";
 import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 const Projects = () => {
   return (
@@ -21,3 +22,11 @@ const Projects = () => {
   );
 };
 export default Projects;
+
+export const Head = () => (
+  <Seo
+    title="Projects – Aaron Root"
+    description="Selected product design case studies and initiatives."
+    pathname="/projects"
+  />
+);

@@ -3,6 +3,8 @@ import CaseStudyLayout from "../components/caseStudyLayout";
 import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import mobileVisionDemo from "../images/caseStudies/caseStudy_mobileVision_Demo.gif";
+import Seo from "../components/seo";
+import LazyAnimatedImage from "../components/lazyAnimatedImage";
 
 const MobileVision = () => {
   return (
@@ -19,7 +21,7 @@ const MobileVision = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_Hero.jpg"
-            alt="Placeholder"
+            alt="Concept screens illustrating the IG mobile trading vision"
             className={styles.caseStudy_LargeImage}
           />
           <section>
@@ -96,7 +98,7 @@ const MobileVision = () => {
             <div className={styles.workImage}>
               <StaticImage
                 src="../images/caseStudies/caseStudy_mobileVision_NWTP.jpg"
-                alt="Placeholder"
+                alt="Comparison of IG web and mobile trading experiences"
               />
             </div>
           </section>
@@ -136,7 +138,7 @@ const MobileVision = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_research.jpg"
-            alt="Placeholder"
+            alt="Research synthesis wall capturing trader interviews and insights"
             className={styles.caseStudy_LargeImage}
           />
           <section>
@@ -176,7 +178,7 @@ const MobileVision = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_ideation.jpg"
-            alt="Placeholder"
+            alt="Design sprint sketches and storyboards exploring trading flows"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -199,7 +201,7 @@ const MobileVision = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_prototype.jpg"
-            alt="Placeholder"
+            alt="Framer prototype showing interactive IG trading screens"
             className={styles.caseStudy_MediumImage}
           />
           <section className={styles.mobileDesign}>
@@ -221,10 +223,11 @@ const MobileVision = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <img
+              <LazyAnimatedImage
                 src={mobileVisionDemo}
                 alt="Mobile vision demo animation from the design sprint"
-                loading="lazy"
+                width={400}
+                height={665}
               />
             </div>
           </section>
@@ -259,7 +262,7 @@ const MobileVision = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_userTesting.jpg"
-            alt="Placeholder"
+            alt="User testing sessions validating the mobile trading vision"
             className={styles.caseStudy_MediumImage}
           />
           <div className="borderKeyline" />
@@ -298,7 +301,7 @@ const MobileVision = () => {
             <div className={styles.workImage}>
               <StaticImage
                 src="../images/caseStudies/caseStudy_mobileVision_Swift.jpg"
-                alt="Placeholder"
+                alt="Swift Nights workshop bringing designers and engineers together"
               />
             </div>
           </section>
@@ -320,7 +323,7 @@ const MobileVision = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_mobileVision_after.jpg"
-            alt="Placeholder"
+            alt="Medium fidelity mockups of the reimagined IG mobile app"
             className={styles.caseStudy_LargeImage}
           />
           <section>
@@ -507,3 +510,12 @@ const MobileVision = () => {
 };
 
 export default MobileVision;
+
+export const Head = () => (
+  <Seo
+    title="Creating a vision for the future of mobile trading – Aaron Root"
+    description="Design research, sprints, and prototypes that reimagined IG's mobile trading experience."
+    pathname="/case_study_mobile_vision"
+    type="article"
+  />
+);

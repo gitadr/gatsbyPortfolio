@@ -3,6 +3,7 @@ import styles from "./about.module.css";
 import Navigation from "../components/navbar";
 import Footer from "../components/footer";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../components/seo";
 
 const About = () => {
   return (
@@ -114,11 +115,9 @@ const About = () => {
 export default About;
 
 export const Head = () => (
-  <>
-    <title>Curriculum Vitae – Aaron Root</title>
-    <meta
-      name="description"
-      content="Aaron Root's background, design philosophy, and professional history across design leadership roles."
-    />
-  </>
+  <Seo
+    title="Curriculum vitae – Aaron Root"
+    description="Aaron Root's background, design philosophy, and history across design leadership roles."
+    pathname="/about"
+  />
 );

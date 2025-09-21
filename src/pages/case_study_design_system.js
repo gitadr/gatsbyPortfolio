@@ -2,6 +2,7 @@ import React from "react";
 import CaseStudyLayout from "../components/caseStudyLayout";
 import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../components/seo";
 
 const DesignSystem = () => {
   return (
@@ -18,7 +19,7 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_Hero.jpg"
-            alt="Placeholder"
+            alt="Formation design system collage featuring IG trading products"
             className={styles.caseStudy_LargeImage}
           />
           <div className="borderKeyline" />
@@ -41,7 +42,7 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_OldVsNew.jpg"
-            alt="Placeholder"
+            alt="Side-by-side comparison of legacy and updated IG trading UI"
             className={styles.caseStudy_LargeImage}
           />
           <section>
@@ -90,7 +91,7 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_Planning.jpg"
-            alt="Placeholder"
+            alt="Workshop boards mapping the Formation design system plan"
             className={styles.caseStudy_MediumImage}
           />
           <div className="borderKeyline" />
@@ -114,7 +115,7 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_AuditOne.jpg"
-            alt="Placeholder"
+            alt="Spreadsheet documenting inconsistencies found during the design audit"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -141,7 +142,7 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_AuditTwo.jpg"
-            alt="Placeholder"
+            alt="Whiteboard sketches aligning IG product teams on shared patterns"
             className={styles.caseStudy_MediumImage}
           />
           <section className={styles.mobileDesign}>
@@ -158,7 +159,7 @@ const DesignSystem = () => {
             <div className={styles.workImage}>
               <StaticImage
                 src="../images/caseStudies/caseStudy_DesignSystem_consensusDiagram.jpg"
-                alt="Placeholder"
+                alt="Diagram showing stakeholder groups supporting Formation"
               />
             </div>
           </section>
@@ -176,7 +177,7 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_Intro.jpg"
-            alt="Placeholder"
+            alt="Formation design system home page highlighting key sections"
             className={styles.caseStudy_MediumImage}
           />
           <section>
@@ -233,7 +234,7 @@ const DesignSystem = () => {
             <div className={styles.workImage}>
               <StaticImage
                 src="../images/caseStudies/caseStudy_DesignSystem_React.jpg"
-                alt="Placeholder"
+                alt="Framer X interface rendering live React components"
               />
             </div>
           </section>
@@ -249,17 +250,17 @@ const DesignSystem = () => {
           </section>
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_Foundations.jpg"
-            alt="Placeholder"
+            alt="Formation documentation outlining typography and colour foundations"
             className={styles.caseStudy_MediumImage}
           />
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_Patterns.jpg"
-            alt="Placeholder"
+            alt="Formation guidance covering reusable interaction patterns"
             className={styles.caseStudy_MediumImage}
           />
           <StaticImage
             src="../images/caseStudies/caseStudy_DesignSystem_Components.jpg"
-            alt="Placeholder"
+            alt="Component library examples from the Formation design system"
             className={styles.caseStudy_MediumImage}
           />
           <div className="borderKeyline" />
@@ -305,3 +306,12 @@ const DesignSystem = () => {
 };
 
 export default DesignSystem;
+
+export const Head = () => (
+  <Seo
+    title="Building a design system architecture that scales – Aaron Root"
+    description="How Formation unified IG's global trading products through shared principles, patterns, and components."
+    pathname="/case_study_design_system"
+    type="article"
+  />
+);

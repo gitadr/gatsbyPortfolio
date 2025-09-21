@@ -4,6 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import styles from "./photos.module.css";
 import Navigation from "../components/navbar";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 
 const Photos = ({ data }) => {
   const imageCount = data.favPhotos.edges.length; // Count the number of images
@@ -63,10 +64,24 @@ export const pageQuery = graphql`
           base
           publicURL
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED)
+            gatsbyImageData(
+              layout: CONSTRAINED
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              breakpoints: [320, 640, 960, 1280, 1600]
+              quality: 80
+            )
           }
         }
       }
     }
   }
 `;
+
+export const Head = () => (
+  <Seo
+    title="Photography – Aaron Root"
+    description="Selected photography captured over the past 72 months."
+    pathname="/photos"
+  />
+);
