@@ -2,6 +2,8 @@ import React from "react";
 import CaseStudyLayout from "../components/caseStudyLayout";
 import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
+import augmentedShoppingDemo from "../images/caseStudies/caseStudy_augmented_shopping_Demo.gif";
+import augmentedShoppingPoc from "../images/caseStudies/caseStudy_augmentedShopping_POC.gif";
 
 const AugmentedShopping = () => {
   return (
@@ -245,9 +247,10 @@ const AugmentedShopping = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <StaticImage
-                src="../images/caseStudies/caseStudy_augmented_shopping_Demo.gif"
-                alt="Placeholder"
+              <img
+                src={augmentedShoppingDemo}
+                alt="Prototype demonstrating the augmented shopping scanner in action"
+                loading="lazy"
               />
             </div>
           </section>
@@ -293,9 +296,10 @@ const AugmentedShopping = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <StaticImage
-                src="../images/caseStudies/caseStudy_augmentedShopping_POC.gif"
-                alt="Placeholder"
+              <img
+                src={augmentedShoppingPoc}
+                alt="Augmented shopping proof of concept animation"
+                loading="lazy"
               />
             </div>
           </section>

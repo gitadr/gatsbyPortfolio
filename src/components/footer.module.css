@@ -1,16 +1,16 @@
 /* FOOTER: */
 
-footer {
+.footer {
   background-color: #000;
   color: #fff;
 }
 
-footer a {
+.footer a {
   color: #fff;
   text-decoration: underline;
 }
 
-footer .container {
+.footer .container {
   height: 200px;
 }
 

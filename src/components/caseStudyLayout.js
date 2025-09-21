@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./navbar";
-import Footer from "./footer";
 import Author from "./author";
+import Footer from "./footer";
 import styles from "../styles/caseStudy.module.css";
 
 const CaseStudyLayout = ({ children }) => {

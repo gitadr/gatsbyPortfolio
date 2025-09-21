@@ -2,6 +2,7 @@ import React from "react";
 import CaseStudyLayout from "../components/caseStudyLayout";
 import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
+import mobileVisionDemo from "../images/caseStudies/caseStudy_mobileVision_Demo.gif";
 
 const MobileVision = () => {
   return (
@@ -220,9 +221,10 @@ const MobileVision = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <StaticImage
-                src="../images/caseStudies/caseStudy_mobileVision_Demo.gif"
-                alt="Placeholder"
+              <img
+                src={mobileVisionDemo}
+                alt="Mobile vision demo animation from the design sprint"
+                loading="lazy"
               />
             </div>
           </section>

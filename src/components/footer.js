@@ -4,7 +4,7 @@ import Weather from "./weather";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <div className="container">
         <div className={styles.footerColophon}>
           <p className="caption">

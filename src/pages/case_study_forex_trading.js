@@ -2,6 +2,7 @@ import React from "react";
 import CaseStudyLayout from "../components/caseStudyLayout";
 import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
+import forexTradingMvp from "../images/caseStudies/caseStudy_forexTrading_MVP_light.gif";
 import { Link } from "gatsby";
 
 const ForexTrading = () => {
@@ -256,9 +257,10 @@ const ForexTrading = () => {
               </p>
             </div>
             <div className={styles.workImage}>
-              <StaticImage
-                src="../images/caseStudies/caseStudy_forexTrading_MVP_light.gif"
-                alt="Placeholder"
+              <img
+                src={forexTradingMvp}
+                alt="Animated minimum viable product walkthrough for the FX trading app"
+                loading="lazy"
               />
             </div>
           </section>
