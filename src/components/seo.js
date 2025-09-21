@@ -9,6 +9,7 @@ const Seo = ({
   type = "website",
   jsonLd,
   children,
+  noindex = false,
 }) => {
   const { site } = useStaticQuery(graphql`
     query SeoQuery {
@@ -61,6 +62,13 @@ const Seo = ({
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
+
+      {noindex && (
+        <>
+          <meta name="robots" content="noindex, nofollow" />
+          <meta name="googlebot" content="noindex, nofollow" />
+        </>
+      )}
 
       {jsonLd && (
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./books.module.css";
 import Navigation from "../components/navbar";
 import Footer from "../components/footer";
+import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Books = () => {
@@ -839,3 +840,11 @@ const Books = () => {
 };
 
 export default Books;
+
+export const Head = () => (
+  <Seo
+    title="Books – Aaron Root"
+    description="Aaron Root's reading list, favourite books, and titles queued up next."
+    pathname="/books"
+  />
+);

@@ -121,11 +121,22 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        excludes: [`/photos`, `/photos/**`],
+      },
+    },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        policy: [{ userAgent: "*", allow: "/" }],
+        policy: [
+          {
+            userAgent: "*",
+            allow: "/",
+            disallow: ["/photos"],
+          },
+        ],
       },
     },
     `gatsby-plugin-netlify`,

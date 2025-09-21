@@ -83,5 +83,6 @@ export const Head = () => (
     title="Photography – Aaron Root"
     description="Selected photography captured over the past 72 months."
     pathname="/photos"
+    noindex
   />
 );

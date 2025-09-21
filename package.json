@@ -4,8 +4,11 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --max-warnings=0",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "a11y": "npm run build && npm run a11y:check",
+    "a11y:check": "start-server-and-test \"gatsby serve --host 0.0.0.0 --port 9000\" http://127.0.0.1:9000 pa11y-ci"
   },
   "dependencies": {
     "@babel/core": "^7.26.0",
@@ -41,6 +44,14 @@
     "eslint": "^9.16.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-flowtype": "^8.0.3",
-    "eslint-webpack-plugin": "^4.2.0"
+    "eslint-webpack-plugin": "^4.2.0",
+    "@eslint/js": "^9.36.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "pa11y-ci": "^4.0.1",
+    "start-server-and-test": "^2.1.2",
+    "globals": "^16.4.0"
   }
 }
