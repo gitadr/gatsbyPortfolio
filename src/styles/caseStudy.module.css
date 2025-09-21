@@ -1,6 +1,7 @@
 .caseStudy {
   color: #000;
   background-color: #fff;
+  padding-top: 0;
 }
 
 .container {
@@ -11,10 +12,8 @@
 }
 
 .caseStudyHeader {
-  grid-column: 1 / -1;
-  height: 48px;
-  max-width: 1240px;
-  margin: 24px auto 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 .backLink {
@@ -110,16 +109,10 @@ section.mobileDesign h3 {
   .workImage {
     flex-basis: 48%;
   }
-  .caseStudyHeader {
-    margin: 112px auto 0 auto;
+  .caseStudy {
+    padding-top: 0;
   }
   section.mobileDesign {
     flex-direction: row;
-  }
-}
-
-@media only screen and (min-width: 1240px) {
-  .caseStudyHeader {
-    padding-left: 0px;
   }
 }

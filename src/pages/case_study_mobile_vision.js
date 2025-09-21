@@ -1,16 +1,11 @@
 import React from "react";
-import Navigation from "../components/navbar";
-import styles from "./caseStudy.module.css";
-import Author from "../components/author";
-import Footer from "../components/footer";
+import CaseStudyLayout from "../components/caseStudyLayout";
+import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 
 const MobileVision = () => {
   return (
-    <div className={styles.caseStudy}>
-      <div className={styles.container}>
-        <Navigation />
-        <article>
+    <CaseStudyLayout>
           <section>
             <h1>Creating a vision for the future of mobile trading</h1>
             <p className="intro">
@@ -505,11 +500,7 @@ const MobileVision = () => {
               </li>
             </ul>
           </section>
-          <Author />
-        </article>
-      </div>
-      <Footer />
-    </div>
+    </CaseStudyLayout>
   );
 };
 

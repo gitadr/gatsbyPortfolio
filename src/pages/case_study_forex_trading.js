@@ -1,17 +1,12 @@
 import React from "react";
-import Navigation from "../components/navbar";
-import styles from "./caseStudy.module.css";
-import Author from "../components/author";
-import Footer from "../components/footer";
+import CaseStudyLayout from "../components/caseStudyLayout";
+import styles from "../styles/caseStudy.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const ForexTrading = () => {
   return (
-    <div className={styles.caseStudy}>
-      <div className={styles.container}>
-        <Navigation />
-        <article>
+    <CaseStudyLayout>
           <section>
             <h1>Launching FX trading apps in a new market</h1>
             <p className="intro">
@@ -282,11 +277,7 @@ const ForexTrading = () => {
             className={styles.caseStudy_MediumImage}
           />
 
-          <Author />
-        </article>
-      </div>
-      <Footer />
-    </div>
+    </CaseStudyLayout>
   );
 };
 
