@@ -1,16 +1,14 @@
-const { TRUE } = require("sass");
-
 module.exports = {
   siteMetadata: {
     title: `Aaron Root`,
     titleTemplate: `Aaron Root — Product Design`,
     description: `Sydney-based Product Designer.`,
     url: `https://www.aaronroot.net`, // No trailing slash allowed!
+    siteUrl: `https://www.aaronroot.net`,
     image: `/avatar.jpg`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@aaroot`,
   },
   plugins: [
-    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -27,9 +25,13 @@ module.exports = {
       options: {
         name: `Aaron Root's Portfolio`,
         icon: `static/favicon.png`,
+        short_name: `aaronroot`,
+        start_url: `/`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
+        display: `minimal-ui`,
       },
     },
-    "gatsby-remark-images",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -58,7 +60,6 @@ module.exports = {
         name: `content`,
       },
     },
-    "gatsby-transformer-remark",
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -114,11 +115,19 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 820,
               linkImagesToOriginal: false,
-              wrapperStyle: "margin:48px, 0, 48px, 0;",
+              wrapperStyle: "margin: 48px 0;",
             },
           },
         ],
       },
     },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    `gatsby-plugin-netlify`,
   ],
 };

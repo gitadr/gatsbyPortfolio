@@ -3,7 +3,7 @@ import styles from "./articles.module.css";
 
 export default () => (
   <section className={styles.blogArticles}>
-    <div class="container">
+    <div className="container">
       <div className={styles.articleHero}>
         <article className={styles.hero}>
           <p className="articleDate">26 JANUARY 2019</p>

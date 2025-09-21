@@ -9,7 +9,7 @@ const ProjectOne = () => {
         <div className={styles.workText}>
           <h1>
             Designing for{" "}
-            <span className="white-space: nowrap;">high-risk</span> trading
+            <span style={{ whiteSpace: "nowrap" }}>high-risk</span> trading
             environments.
           </h1>
           <p>

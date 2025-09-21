@@ -27,10 +27,10 @@ class JournalIndex extends React.Component {
         <Project1 />
 
         <section className={styles.blogArticles}>
-          <div class="container">
+          <div className="container">
             <div className={styles.articleHero}>
               <article className={styles.hero}>
-                <p class="date">26 January 2020</p>
+                <p className="date">26 January 2020</p>
                 <h1>
                   <a
                     href="https://www.aaronroot.net/article_190219_SteveJobs/"
@@ -62,7 +62,7 @@ class JournalIndex extends React.Component {
                   return (
                     <li key={node.fields.slug}>
                       <article className={styles.list}>
-                        <p class="date">{node.frontmatter.date}</p>
+                        <p className="date">{node.frontmatter.date}</p>
                         <h2>
                           <Link
                             style={{ boxShadow: `none` }}

@@ -1,7 +1,7 @@
 import React from "react";
+import Navigation from "../components/navbar";
 import styles from "./caseStudy.module.css";
 import Author from "../components/author";
-import Navigation from "../components/navbar";
 import Footer from "../components/footer";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -60,7 +60,7 @@ const MobileVision = () => {
               </li>
             </ul>
           </section>
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>State of play</h2>
             <p>
@@ -265,7 +265,7 @@ const MobileVision = () => {
             alt="Placeholder"
             className={styles.caseStudy_MediumImage}
           />
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>Keep innovating</h2>
             <p>

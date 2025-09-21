@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./about.module.css";
 import Navigation from "../components/navbar";
-import Footer from "../components/footer";
 import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
+import Footer from "../components/footer";
 
 const Projects = () => {
   return (

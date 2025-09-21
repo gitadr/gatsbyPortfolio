@@ -55,8 +55,8 @@ const About = () => {
                 alt="Kosciuszko National Park"
               />
               <h4>Kosciuszko National Park, Australia.</h4>
-              <p class="caption">36°27'21"S 148°15'45"E</p>
-              <p class="caption">
+              <p className="caption">36°27'21"S 148°15'45"E</p>
+              <p className="caption">
                 Since 2018, i've been lucky enough to call Australia home. I
                 live and work on the traditional lands of the the Gadigal people
                 of the Eora nation. I’d like to take this opportunity to
@@ -68,11 +68,10 @@ const About = () => {
             <div></div>
           </section>
           <section>
-            <p class="caps">ROLES</p>
+            <p className="caps">ROLES</p>
             <div className={styles.notePost}>
               <h2>
-                Nearmap{" "}
-                <span className={styles.role}>– Director of Design</span>
+                Nearmap <span className={styles.role}>– VP of Design</span>
               </h2>
               <p className={styles.date}>May 2019 - Present</p>
             </div>
@@ -97,7 +96,7 @@ const About = () => {
             </div>
           </section>
           <section>
-            <p class="caps">EDUCATION</p>
+            <p className="caps">EDUCATION</p>
             <div className={styles.notePost}>
               <h2>
                 University of Essex{" "}
@@ -113,3 +112,13 @@ const About = () => {
   );
 };
 export default About;
+
+export const Head = () => (
+  <>
+    <title>Curriculum Vitae – Aaron Root</title>
+    <meta
+      name="description"
+      content="Aaron Root's background, design philosophy, and professional history across design leadership roles."
+    />
+  </>
+);

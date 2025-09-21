@@ -14,7 +14,7 @@ class ProjectIndex extends React.Component {
         <section className={styles.projects}>
           <div className={styles.container}>
             <Navigation />
-            <div class="sectionHeader">
+            <div className="sectionHeader">
               <h1>Projects</h1>
             </div>
 
@@ -22,7 +22,7 @@ class ProjectIndex extends React.Component {
               const title = node.frontmatter.title || node.fields.slug;
               return (
                 <div key={node.fields.slug}>
-                  <p class="caps">{node.frontmatter.date}</p>
+                  <p className="caps">{node.frontmatter.date}</p>
                   <h2>
                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                       {title}

@@ -7,20 +7,29 @@ const Navigation = () => {
   const location = useLocation();
   const currentPagePath = location.pathname;
 
+  const normalizePath = (pathname) => {
+    if (!pathname || pathname === "/") {
+      return "/";
+    }
+    return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+  };
+
+  const currentPath = normalizePath(currentPagePath);
+
   // Define the page icons mapping
   const pageIcons = {
     "/": "🌏",
-    "/about/": "🏔️",
-    "/journal/": "💭",
-    "/article_190219_SteveJobs/": "🏴‍☠️",
-    "/case_study_forex_trading/": "📈",
-    "/case_study_design_system/": "📈",
-    "/case_study_mobile_vision/": "📈",
-    "/case_study_augmented_shopping/": "🍏",
+    "/about": "🏔️",
+    "/journal": "💭",
+    "/article_190219_SteveJobs": "🏴‍☠️",
+    "/case_study_forex_trading": "📈",
+    "/case_study_design_system": "📈",
+    "/case_study_mobile_vision": "📈",
+    "/case_study_augmented_shopping": "🍏",
   };
 
   // Get the emoji icon for the current page
-  const currentIcon = pageIcons[currentPagePath] || "💭"; // Default emoji for unknown pages
+  const currentIcon = pageIcons[currentPath] || "💭"; // Default emoji for unknown pages
 
   return (
     <nav>
@@ -45,9 +54,9 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <Link to="mailto:mail@aaronroot.net" activeClassName="active">
+              <a href="mailto:mail@aaronroot.net">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

@@ -5,9 +5,9 @@ import Weather from "./weather";
 const Footer = () => {
   return (
     <footer>
-      <div class="container">
+      <div className="container">
         <div className={styles.footerColophon}>
-          <p class="caption">
+          <p className="caption">
             Developed using{" "}
             <a
               href="https://reactjs.org"
@@ -46,7 +46,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Netfliy
+              Netlify
             </a>
             . Typeset in{" "}
             <a

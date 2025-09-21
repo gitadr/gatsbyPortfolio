@@ -98,7 +98,7 @@ const DesignSystem = () => {
             alt="Placeholder"
             className={styles.caseStudy_MediumImage}
           />
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
 
           <section>
             <h2>The process</h2>
@@ -267,7 +267,7 @@ const DesignSystem = () => {
             alt="Placeholder"
             className={styles.caseStudy_MediumImage}
           />
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>Outcome & Learnings</h2>
             <p>

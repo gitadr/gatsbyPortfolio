@@ -142,7 +142,7 @@ const AugmentedShopping = () => {
               prioritised the problems.
             </p>
           </section>
-          <div class="borderKeyline" />
+          <div className="borderKeyline" />
           <section>
             <h2>Ideate & prototype</h2>
             <h3>Sketching sessions</h3>
