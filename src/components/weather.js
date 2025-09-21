@@ -14,8 +14,8 @@ const Weather = () => {
 
     const fetchData = async () => {
       try {
-        const response = await fetch(`/weather.json`, {
-          cache: "reload",
+        const response = await fetch(`/api/weather?location=sydney,au`, {
+          cache: "no-store",
         });
 
         if (!response.ok) {
