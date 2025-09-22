@@ -27,7 +27,7 @@ article.hero {
 article.hero img {
   margin: 0; /* Simplified */
   display: block;
-  width: 22.5rem; /* Changed 360px to rem */
+  width: 11.25rem; /* Half of original size */
 }
 
 .articlePreview {
@@ -39,6 +39,9 @@ article.hero img {
 .articlePreview .journalImage {
   display: none;
   width: 0;
+  max-width: 11.25rem;
+  aspect-ratio: 1 / 1;
+  flex: 0 0 11.25rem;
 }
 
 article.hero p {
@@ -79,6 +82,8 @@ article.list {
   .articlePreview .journalImage {
     display: inline-flex;
     width: 100%;
+    max-width: 11.25rem;
+    flex: 0 0 11.25rem;
     margin: 0 2rem 0 0; /* Converted 32px to rem */
   }
   .articlePreview {

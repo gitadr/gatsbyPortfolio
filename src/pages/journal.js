@@ -132,7 +132,7 @@ export const pageQuery = graphql`
         sourceInstanceName: { eq: "images" }
       }
       sort: { birthTime: DESC }
-      limit: 120
+      limit: 80
     ) {
       edges {
         node {
@@ -140,10 +140,10 @@ export const pageQuery = graphql`
           relativePath
           childImageSharp {
             gatsbyImageData(
-              width: 360
-              height: 360
-              placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
+              width: 240
+              height: 240
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP]
             )
           }
         }

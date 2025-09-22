@@ -67,9 +67,9 @@ export const pageQuery = graphql`
             gatsbyImageData(
               layout: CONSTRAINED
               placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
-              breakpoints: [320, 640, 960, 1280, 1600]
-              quality: 80
+              formats: [AUTO, WEBP]
+              breakpoints: [480, 768, 1024]
+              quality: 70
             )
           }
         }

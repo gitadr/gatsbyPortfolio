@@ -2,6 +2,8 @@
 title: "On Building Insanely Great Products"
 date: "2019-01-22"
 tags: ["Product Design"]
+heroImage: ./article_images/apple_1984Ad.jpg
+heroImageAlt: "Illustration from Apple's 1984 commercial"
 ---
 
 On January 22, 1984, 35 years ago today, the Raiders beat the Redskins in historic fashion. Marcus Allen led his team to a 38-9 victory, claiming the record for the most points scored in Super Bowl history. It was also the day that Apple introduced the Macintosh.
