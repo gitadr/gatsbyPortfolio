@@ -10,130 +10,73 @@
   text-decoration: underline;
 }
 
-.footer .container {
-  height: 200px;
+.footer p.caption {
+  margin: 0;
 }
 
-.footerTwitter {
-  grid-column: 1 / -1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style: none;
-  border-bottom: 0px solid #fff;
-  margin: 48px 0 32px 0;
-}
-
-.footerTwitter h2 a {
-  text-decoration: none;
-}
-
-.footerTwitter p {
-  padding-right: 0px;
-  margin-top: 8px;
-}
-
-.tweet {
-  margin: 8 0 0 0;
-}
-
-.footerInstagram {
-  grid-column: 1 / -1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 24px 0 32px 0;
-}
-
-img.instagramLogo {
-  align-self: flex-start;
-}
-
-.footerInstagram ul {
-  flex: 1;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 0 0px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
-
-.footerInstagram li {
-  justify-content: center;
+.footerInner {
+  row-gap: 24px;
   align-items: center;
-  margin: 0 0 2.4% 3.6%;
-  flex-basis: 29%;
-}
-.footerInstagram li:last-child {
-  display: none;
-}
-
-.footerInstagram li img {
-  width: 100%;
-}
-
-img.twitterLogo {
-  display: none;
-  margin-top: 8px;
 }
 
 .footerColophon {
   grid-column: 1 / -1;
+  align-self: center;
 }
 
 .footerCopyright {
   grid-column: 1 / -1;
+  align-self: center;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.footerKeyline {
-  grid-column: 1/-1;
-  height: 1px;
-  background: #fff;
+.footerCopyrightContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footerLocation {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.footerLocation span {
+  white-space: nowrap;
+}
+
+.footerLegal {
+  display: inline-flex;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
   .footer {
     padding: 0 20px;
   }
-  .footerTwitter {
-    grid-column: 1 / 7;
-    border-bottom: 1px solid #fff;
-    margin: 80px 0 32px 0;
-  }
-  .footerInstagram {
-    grid-column: 7 / 13;
-  }
-  .footerInstagram {
-    margin: 80px 0 32px 0;
+
+  .footerInner {
+    column-gap: 32px;
   }
 
   .footerColophon {
     grid-column: 1 / 7;
   }
+
   .footerCopyright {
     grid-column: 10 / 13;
+    justify-content: flex-end;
     text-align: right;
   }
-  .footerInstagram li {
-    flex-basis: 16%;
+
+  .footerCopyrightContent {
+    align-items: flex-end;
   }
-  .footerTwitter {
-    border: none;
-  }
-  img.twitterLogo {
-    display: inline-block;
-    margin-top: 8px;
-  }
-  .footerTwitter p {
-    padding: 0 48px 0 0;
-  }
-  .footerInstagram li:last-child {
-    display: block;
-  }
-  .footerCopyright span::before {
-    content: "\A";
-    white-space: pre;
+
+  .footerLocation {
+    justify-content: flex-end;
   }
 }

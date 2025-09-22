@@ -60,17 +60,16 @@ li {
 }
 
 .weather {
-  display: inline-block;
-  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 4px;
+  vertical-align: middle;
 }
 
 .weatherpic {
   width: 16px;
   height: 16px;
-  vertical-align: top;
-  margin-top: 4px;
-  padding: 0 4px;
-  display: inline-block;
+  display: block;
 }
 
 .active {

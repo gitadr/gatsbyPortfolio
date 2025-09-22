@@ -5,20 +5,12 @@ import Weather from "./weather";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className="container">
+      <div className={`container ${styles.footerInner}`}>
         <div className={styles.footerColophon}>
           <p className="caption">
-            Developed using{" "}
+            A small experiment in craft and code. Built with{" "}
             <a
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              React
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://www.gatsbyjs.org"
+              href="https://www.gatsbyjs.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,15 +24,7 @@ const Footer = () => {
             >
               VS Code
             </a>
-            . Version controlled by{" "}
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>{" "}
-            and deployed with{" "}
+            , and deployed through{" "}
             <a
               href="https://www.netlify.com"
               target="_blank"
@@ -56,7 +40,7 @@ const Footer = () => {
             >
               Inter
             </a>
-            , an open source typeface from{" "}
+            , an open-source typeface by{" "}
             <a
               href="https://twitter.com/rsms"
               target="_blank"
@@ -68,16 +52,18 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles.footerCopyright}>
-          <div>
-            <p className="caption">
-              Made in
+          <p className={`caption ${styles.footerCopyrightContent}`}>
+            <span className={styles.footerLocation}>
+              <span>Made in</span>
               <span className="weather">
                 <Weather />
               </span>
-              Bondi, Australia
-              <span> © Copyright {new Date().getFullYear()}</span>
-            </p>
-          </div>
+              <span>Bondi, Australia</span>
+            </span>
+            <span className={styles.footerLegal}>
+              © Copyright {new Date().getFullYear()}
+            </span>
+          </p>
         </div>
       </div>
     </footer>
