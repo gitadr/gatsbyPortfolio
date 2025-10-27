@@ -49,6 +49,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/content/quotes`,
+        name: `quotes`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/src/images`,
         name: `images`,
       },
@@ -99,6 +106,10 @@ module.exports = {
             name: "InterVariable",
             /* URL to the font CSS file with @font-face definition */
             file: "https://rsms.me/inter/inter.css",
+          },
+          {
+            name: "EB Garamond",
+            file: "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap",
           },
         ],
       },

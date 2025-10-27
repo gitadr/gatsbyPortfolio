@@ -1,0 +1,99 @@
+.quotePage {
+  color: #111;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+
+.displayQuote {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0 0 40px;
+  color: #111;
+  text-align: center;
+}
+
+.displayQuote::before,
+.displayQuote::after {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  font-size: 72px;
+  color: rgba(17, 17, 17, 0.15);
+}
+
+.displayQuote::before {
+  content: "\201C";
+  margin-right: 12px;
+}
+
+.displayQuote::after {
+  content: "\201D";
+  margin-left: 6px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #6d6c74;
+  text-align: center;
+}
+
+.meta a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.2);
+}
+
+.meta a:hover {
+  text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+
+.body {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #282828;
+}
+
+.body p:first-of-type {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .displayQuote {
+    font-size: 68px;
+    grid-column: 1 / -1;
+  }
+
+  .meta,
+  .body {
+    grid-column: 3 / 11;
+  }
+  .article {
+    padding: 100px 0 240px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

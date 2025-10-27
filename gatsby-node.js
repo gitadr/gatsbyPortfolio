@@ -1,6 +1,12 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
+const slugifyFileName = value =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
@@ -10,12 +16,23 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: `slug`,
       value: slug
     });
+  } else if (
+    node.internal.type === `File` &&
+    node.sourceInstanceName === `images` &&
+    node.relativeDirectory === `scraps`
+  ) {
+    const slugBase = slugifyFileName(node.name || `clipping`);
+    createNodeField({
+      node,
+      name: `slug`,
+      value: `/${slugBase}/`
+    });
   }
 };
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  return graphql(`
+  const result = await graphql(`
     {
       allMarkdownRemark {
         edges {
@@ -23,21 +40,63 @@ exports.createPages = ({ graphql, actions }) => {
             fields {
               slug
             }
+            fileAbsolutePath
+          }
+        }
+      }
+      clippings: allFile(
+        filter: {
+          sourceInstanceName: { eq: "images" }
+          relativeDirectory: { eq: "scraps" }
+          ext: { regex: "/(jpg)|(jpeg)|(png)/" }
+        }
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
           }
         }
       }
     }
-  `).then(result => {
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve(`./src/templates/noteTemplate.js`),
-        context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
-          slug: node.fields.slug
-        }
-      });
+  `);
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    const filePath = node.fileAbsolutePath || "";
+    const isQuote = filePath.includes(`${path.sep}quotes${path.sep}`);
+    const pagePath = isQuote
+      ? `/journal/quotes${node.fields.slug}`
+      : node.fields.slug;
+    const component = isQuote
+      ? path.resolve(`./src/templates/quoteTemplate.js`)
+      : path.resolve(`./src/templates/noteTemplate.js`);
+
+    createPage({
+      path: pagePath,
+      component,
+      context: {
+        slug: node.fields.slug
+      }
+    });
+  });
+
+  result.data.clippings.edges.forEach(({ node }) => {
+    if (!node.fields?.slug) {
+      return;
+    }
+
+    createPage({
+      path: `/journal/clippings${node.fields.slug}`,
+      component: path.resolve(`./src/templates/clippingTemplate.js`),
+      context: {
+        slug: node.fields.slug
+      }
     });
   });
 };
