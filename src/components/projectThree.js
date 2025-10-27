@@ -15,7 +15,7 @@ const ProjectThree = () => {
           <ul>
             <li>
               <a
-                href="https://www.design.studio/work/nearmap"
+                href="https://www.nearmap.com/"
                 className="button invert"
                 target="_blank"
                 rel="noopener noreferrer"
