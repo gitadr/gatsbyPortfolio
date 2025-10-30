@@ -21,7 +21,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     node.sourceInstanceName === `images` &&
     node.relativeDirectory === `clippings`
   ) {
-    const slugBase = slugifyFileName(node.name || `clipping`);
+    const fallbackSlug = `clipping-${node.internal?.contentDigest?.slice(0, 8) || node.id}`;
+    const rawSlugSource = node.name || `clipping`;
+    const slugBaseCandidate = slugifyFileName(rawSlugSource);
+    const slugBase = slugBaseCandidate || slugifyFileName(fallbackSlug);
+
     createNodeField({
       node,
       name: `slug`,
