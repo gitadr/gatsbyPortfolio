@@ -38,7 +38,7 @@ const ClippingsIndex = ({ data }) => {
                       <GatsbyImage
                         image={image}
                         alt={title}
-                        className={styles.scrapsImage}
+                        className={styles.clippingImage}
                         objectFit="cover"
                       />
                     </Link>
@@ -69,7 +69,7 @@ export const pageQuery = graphql`
     clippings: allFile(
       filter: {
         sourceInstanceName: { eq: "images" }
-        relativeDirectory: { eq: "scraps" }
+        relativeDirectory: { eq: "clippings" }
         ext: { regex: "/(jpg)|(jpeg)|(png)/" }
       }
       sort: { birthTime: DESC }

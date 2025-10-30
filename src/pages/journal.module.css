@@ -71,14 +71,14 @@ section {
   gap: 20px; /* Gap between grid items */
 }
 
-.scrapsImage {
+.clippingImage {
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Reset the height to auto */
   aspect-ratio: 1/1; /* Set the aspect ratio to 1:1 for a square shape */
   object-fit: cover; /* Ensures images maintain their aspect ratio */
 }
 
-.scrapsImage img {
+.clippingImage img {
   width: 100%;
   height: auto;
   object-fit: cover; /* Ensure object-fit is applied to the image */

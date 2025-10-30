@@ -11,7 +11,7 @@ class JournalIndex extends React.Component {
     const { data } = this.props;
     const articlesPosts = data.articles.edges;
     const notesPosts = data.notes.edges;
-    const scrapbookImages = data.images.edges;
+    const clippingImages = data.clippings.edges;
 
     return (
       <div>
@@ -53,7 +53,7 @@ class JournalIndex extends React.Component {
             <section>
               <p className="caps">CLIPPINGS</p>
               <div className={styles.imageContainer}>
-                {scrapbookImages.map(({ node }) => {
+                {clippingImages.map(({ node }) => {
                   const image = getImage(node.childImageSharp);
                   if (!image) {
                     return null;
@@ -62,8 +62,8 @@ class JournalIndex extends React.Component {
                     <GatsbyImage
                       key={node.id}
                       image={image}
-                      alt={`Scrapbook clipping ${node.relativePath}`}
-                      className={styles.scrapsImage}
+                      alt={`Clipping ${node.relativePath}`}
+                      className={styles.clippingImage}
                     />
                   );
                 })}
@@ -125,10 +125,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    images: allFile(
+    clippings: allFile(
       filter: {
         ext: { regex: "/(jpg)|(jpeg)|(png)/" }
-        relativeDirectory: { eq: "scraps" }
+        relativeDirectory: { eq: "clippings" }
         sourceInstanceName: { eq: "images" }
       }
       sort: { birthTime: DESC }

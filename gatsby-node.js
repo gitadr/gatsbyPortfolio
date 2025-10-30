@@ -19,7 +19,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   } else if (
     node.internal.type === `File` &&
     node.sourceInstanceName === `images` &&
-    node.relativeDirectory === `scraps`
+    node.relativeDirectory === `clippings`
   ) {
     const slugBase = slugifyFileName(node.name || `clipping`);
     createNodeField({
@@ -47,7 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
       clippings: allFile(
         filter: {
           sourceInstanceName: { eq: "images" }
-          relativeDirectory: { eq: "scraps" }
+          relativeDirectory: { eq: "clippings" }
           ext: { regex: "/(jpg)|(jpeg)|(png)/" }
         }
       ) {
