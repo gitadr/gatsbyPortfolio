@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import styles from "../journal.module.css";
 import Navigation from "../../components/navbar";
 import Footer from "../../components/footer";
 import Seo from "../../components/seo";
-import styles from "../journal.module.css";
 
 const formatTitle = name => {
   if (!name) return "Untitled clipping";
@@ -20,7 +20,7 @@ const ClippingsIndex = ({ data }) => {
       <section className={styles.journal}>
         <div className={styles.container}>
           <Navigation />
-          <section>
+          <section className={styles.section}>
             <p className="caps">CLIPPINGS</p>
             {clippings.length === 0 ? (
               <p>No clippings yet — check back soon.</p>

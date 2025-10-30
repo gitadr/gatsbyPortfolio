@@ -18,7 +18,7 @@ class JournalIndex extends React.Component {
         <section className={styles.journal}>
           <div className={styles.container}>
             <Navigation />
-            <section>
+            <section className={styles.section}>
               <p className="caps">ARTICLES</p>
               {articlesPosts.map(({ node }) => {
                 const title = node.frontmatter.title || node.fields.slug;
@@ -34,7 +34,7 @@ class JournalIndex extends React.Component {
                 );
               })}
             </section>
-            <section>
+            <section className={styles.section}>
               <p className="caps">NOTES</p>
               {notesPosts.map(({ node }) => {
                 const title = node.frontmatter.title || node.fields.slug;
@@ -50,7 +50,7 @@ class JournalIndex extends React.Component {
                 );
               })}
             </section>
-            <section>
+            <section className={styles.section}>
               <p className="caps">CLIPPINGS</p>
               <div className={styles.imageContainer}>
                 {clippingImages.map(({ node }) => {

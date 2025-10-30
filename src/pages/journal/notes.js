@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import styles from "../journal.module.css";
 import Navigation from "../../components/navbar";
 import Footer from "../../components/footer";
 import Seo from "../../components/seo";
-import styles from "../journal.module.css";
 
 const NotesIndex = ({ data }) => {
   const notes = data.notes.edges;
@@ -13,7 +13,7 @@ const NotesIndex = ({ data }) => {
       <section className={styles.journal}>
         <div className={styles.container}>
           <Navigation />
-          <section>
+          <section className={styles.section}>
             <p className="caps">NOTES</p>
             {notes.length === 0 ? (
               <p>No notes yet — check back soon.</p>

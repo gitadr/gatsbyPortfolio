@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import styles from "../journal.module.css";
 import Navigation from "../../components/navbar";
 import Footer from "../../components/footer";
 import Seo from "../../components/seo";
-import styles from "../journal.module.css";
 
 const QuoteIndex = ({ data }) => {
   const quotes = data.quotes.edges;
@@ -13,7 +13,7 @@ const QuoteIndex = ({ data }) => {
       <section className={styles.journal}>
         <div className={styles.container}>
           <Navigation />
-          <section>
+          <section className={styles.section}>
             <p className="caps">QUOTES</p>
             {quotes.length === 0 ? (
               <p>No quotes yet — check back soon.</p>

@@ -32,7 +32,7 @@ const Navigation = () => {
   const currentIcon = pageIcons[currentPath] || "💭"; // Default emoji for unknown pages
 
   return (
-    <nav>
+    <nav className={styles.nav}>
       <div className={styles.navWrapper}>
         <div className={styles.navLogo}>
           <Link to="/">

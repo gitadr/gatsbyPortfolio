@@ -16,11 +16,7 @@
   padding: 0 20px;
 }
 
-.journal section {
-  grid-column: 1 / -1;
-}
-
-section {
+.section {
   padding-bottom: 24px;
   grid-column: 1 / -1;
 }
@@ -112,7 +108,7 @@ section {
 }
 
 @media only screen and (min-width: 640px) {
-  section {
+  .section {
     padding-bottom: 48px;
   }
 }
