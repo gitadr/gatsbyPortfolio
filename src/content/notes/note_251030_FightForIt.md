@@ -4,13 +4,11 @@ date: "2025-10-30"
 tags: ["Product"]
 ---
 
-Great reminded that even the best ideas need to be help...
+Great reminded that even the best ideas need help...
 
 ### From Tony Fadell:
 
-"So, what was the most painful lesson I learned building the #iPod.
-
-Honestly? The most painful lesson was learning that vision isn’t enough… you must fight for it every single day.
+"So, what was the most painful lesson I learned building the iPod. Honestly? The most painful lesson was learning that vision isn’t enough… you must fight for it every single day.
 
 When I joined Apple, the iPod was just an idea. People inside the company weren’t 100% sold. “Why should Apple build a music player? We’re a computer company.” I went for it every step of the way- for the team, the resources, the roadmap, even for the name! Once we shipped the uphill battle didn’t stop. We had to push for Windows compatibility. Push for iTunes. Push to make it a part of a broader ecosystem.
 
