@@ -150,6 +150,22 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/*": [
+            "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload",
+            "X-Frame-Options: DENY",
+            "X-Content-Type-Options: nosniff",
+            "Referrer-Policy: same-origin",
+            "Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()",
+            "Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://rsms.me; img-src 'self' data: https://www.google-analytics.com; font-src 'self' data: https://fonts.gstatic.com https://rsms.me; connect-src 'self' https://api.openweathermap.org https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none';",
+          ],
+        },
+        mergeSecurityHeaders: false,
+        mergeCachingHeaders: true,
+      },
+    },
   ],
 };

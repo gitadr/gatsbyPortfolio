@@ -1,10 +1,19 @@
 const WEATHER_CACHE_TTL = 10 * 60 * 1000; // 10 minutes
+const DEFAULT_LOCATION = "sydney,au";
+const ALLOWED_LOCATIONS = new Set([DEFAULT_LOCATION]);
 
-let cachedResponse = null;
-let cacheTimestamp = 0;
+const cache = new Map();
 
 export default async function handler(req, res) {
-  const location = req.query.location || "sydney,au";
+  if (req.method !== "GET") {
+    res.status(405).json({ error: "Method not allowed" });
+    return;
+  }
+
+  const requestedLocation = (req.query.location || DEFAULT_LOCATION).toLowerCase();
+  const location = ALLOWED_LOCATIONS.has(requestedLocation)
+    ? requestedLocation
+    : DEFAULT_LOCATION;
   const apiKey = process.env.OPEN_WEATHER_API_KEY;
 
   if (!apiKey) {
@@ -13,8 +22,9 @@ export default async function handler(req, res) {
   }
 
   const now = Date.now();
-  if (cachedResponse && now - cacheTimestamp < WEATHER_CACHE_TTL) {
-    res.status(200).json(cachedResponse);
+  const cachedEntry = cache.get(location);
+  if (cachedEntry && now - cachedEntry.timestamp < WEATHER_CACHE_TTL) {
+    res.status(200).json(cachedEntry.payload);
     return;
   }
 
@@ -39,8 +49,7 @@ export default async function handler(req, res) {
       location: data.name,
     };
 
-    cachedResponse = result;
-    cacheTimestamp = now;
+    cache.set(location, { payload: result, timestamp: now });
 
     res.status(200).json(result);
   } catch (error) {
