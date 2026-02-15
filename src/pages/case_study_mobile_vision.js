@@ -13,7 +13,7 @@ const MobileVision = () => {
             <h1>Creating a vision for the future of mobile trading</h1>
             <p className="intro">
               A product team needs a clear roadmap to build a good app, but
-              building an exceptional app requires a shared purpose and ambition
+              building an exceptional app requires a shared purpose and ambition.
               In my role as the lead mobile UI designer, I worked to create a
               collaborative design vision that would inspire change and help
               reshape how people trade on mobile.
@@ -91,7 +91,7 @@ const MobileVision = () => {
               <p>
                 The mobile vision needed to integrate these features in a
                 cohesive way, while respecting the nuances of the native
-                operating systems. Creating a consistent but not uniformed
+                operating systems, creating a consistent but not uniform
                 experience.
               </p>
             </div>
@@ -111,7 +111,7 @@ const MobileVision = () => {
               traders, to get insight on their views of the apps. While I was
               initially keen to get their perspective on the apps' strengths and
               weaknesses, it also proved to be an opportunity to promote the
-              project and its objectives..
+              project and its objectives.
             </p>
 
             <p>

@@ -8,7 +8,13 @@ tags: ["Product Design", "Video"]
 I cut together a 1m20s reel to showcase the latest product design work—motion explorations, prototyping, and shipped experiences. Hosting it directly here keeps the playback sharp and avoids the compression you get from third-party players.
 
 <figure class="post-video">
-  <video controls preload="metadata" playsinline aria-label="2025 product design reel">
+  <video
+    controls
+    preload="metadata"
+    playsinline
+    aria-label="2025 product design reel"
+    poster="/videos/apple_design_video720-poster.jpg"
+  >
     <source src="/videos/apple_design_video720.mov" type="video/quicktime" />
     Your browser does not support the video tag.
     <a href="/videos/portfolio-reel-2025.mp4">Download the MP4.</a>

@@ -1,21 +1,22 @@
 import React from "react";
-import styles from "./about.module.css";
+import styles from "./projects.module.css";
 import Navigation from "../components/navbar";
 import Project1 from "../components/projectOne";
 import Project2 from "../components/projectTwo";
+import Project3 from "../components/projectThree";
 import Footer from "../components/footer";
 import Seo from "../components/seo";
 
 const Projects = () => {
   return (
     <div>
-      <section className={styles.about}>
+      <section className={styles.projects}>
         <div className={styles.container}>
           <Navigation />
         </div>
+        <Project3 />
         <Project2 />
         <Project1 />
-        <Project2 />
       </section>
       <Footer />
     </div>

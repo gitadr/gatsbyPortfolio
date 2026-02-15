@@ -7,7 +7,7 @@ import styles from "./quoteTemplate.module.css";
 
 const QuoteTemplate = ({ data }) => {
   const post = data.markdownRemark;
-  const { frontmatter, html } = post;
+  const { frontmatter } = post;
   const displayQuote = frontmatter.quote || frontmatter.title;
 
   return (
@@ -94,7 +94,7 @@ export const query = graphql`
         author
         source
         sourceUrl
-        date(formatString: "DD MMMM YYYY")
+        date
       }
     }
   }

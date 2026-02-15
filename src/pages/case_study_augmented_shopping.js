@@ -118,7 +118,7 @@ const AugmentedShopping = () => {
             <h3>Best-in-class apps</h3>
             <p>
               Once we had a better understanding of the failings of our scanner,
-              I started to review how other applications use a camera to aide
+              I started to review how other applications use a camera to aid
               customers. Although the use cases were quite different, there were
               a number of similarities in approach.
             </p>

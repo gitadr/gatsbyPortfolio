@@ -101,7 +101,7 @@ const ForexTrading = () => {
             <p>
               The Android app suffered from many of the same design problems as
               iOS. Additionally, the progress made with Material Design was
-              absent from the IG app..
+              absent from the IG app.
             </p>
             <p>
               Based in the Krakow office, the Android development team wanted to

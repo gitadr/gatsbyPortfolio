@@ -74,10 +74,8 @@ const MasonryItem = ({ children, aspectRatio }) => {
 };
 
 const Photos = ({ data }) => {
-  const photos = [...data.favPhotos.edges].sort((a, b) =>
-    b.node.base.localeCompare(a.node.base, "en", { numeric: true })
-  );
-  const imageCount = photos.length; // Count the number of images
+  const photos = data.favPhotos.edges;
+  const imageCount = photos.length;
 
   return (
     <div>
@@ -85,8 +83,7 @@ const Photos = ({ data }) => {
         <div className={styles.container}>
           <Navigation />
           <h1>Photos</h1>
-          <p className="intro">{`${imageCount} photos in 72 months`}</p>{" "}
-          {/* Display the image count */}
+          <p className="intro">{`${imageCount} recent photos`}</p>
         </div>
         <div className={styles.photosGrid}>
           {photos.map(({ node }) => {
@@ -125,6 +122,7 @@ export const pageQuery = graphql`
         sourceInstanceName: { eq: "images" }
       }
       sort: { name: DESC }
+      limit: 240
     ) {
       edges {
         node {
@@ -136,8 +134,8 @@ export const pageQuery = graphql`
               layout: CONSTRAINED
               placeholder: BLURRED
               formats: [AUTO, WEBP]
-              breakpoints: [480, 768, 1024]
-              quality: 70
+              breakpoints: [360, 640, 960]
+              quality: 60
             )
           }
         }
@@ -149,7 +147,7 @@ export const pageQuery = graphql`
 export const Head = () => (
   <Seo
     title="Photography – Aaron Root"
-    description="Selected photography captured over the past 72 months."
+    description="A curated set of recent photography from Aaron Root."
     pathname="/photos"
     noindex
   />

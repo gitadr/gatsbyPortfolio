@@ -28,7 +28,7 @@ const ClippingTemplate = ({ data }) => {
             <p className="caps">CLIPPING</p>
             <h1>{title}</h1>
             <div className={styles.meta}>
-              {file.birthTime && <span>{file.birthTime}</span>}
+              {file.birthTimeLabel && <span>{file.birthTimeLabel}</span>}
               <span>{file.relativePath}</span>
             </div>
           </header>
@@ -63,7 +63,7 @@ export const Head = ({ data }) => {
     "@type": "CreativeWork",
     headline: title,
     description,
-    datePublished: file.birthTime,
+    datePublished: file.birthTimeIso,
     url,
   };
 
@@ -92,7 +92,8 @@ export const query = graphql`
       id
       name
       relativePath
-      birthTime(formatString: "DD MMMM YYYY")
+      birthTimeLabel: birthTime(formatString: "DD MMMM YYYY")
+      birthTimeIso: birthTime(formatString: "YYYY-MM-DD")
       fields {
         slug
       }

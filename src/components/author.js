@@ -6,7 +6,7 @@ const Author = () => {
   return (
     <div className={styles.authorFooter}>
       <div className={styles.avatar}>
-        <StaticImage src="../images/avatar.jpg" alt="AaronRoot" />
+        <StaticImage src="../images/avatar.jpg" alt="Portrait of Aaron Root" />
       </div>
       <div className={styles.bio}>
         <p className="intro">

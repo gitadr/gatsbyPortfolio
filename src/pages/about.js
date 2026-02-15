@@ -58,8 +58,8 @@ const About = () => {
               <h4>Kosciuszko National Park, Australia.</h4>
               <p className="caption">36°27'21"S 148°15'45"E</p>
               <p className="caption">
-                Since 2018, i've been lucky enough to call Australia home. I
-                live and work on the traditional lands of the the Gadigal people
+                Since 2018, I've been lucky enough to call Australia home. I
+                live and work on the traditional lands of the Gadigal people
                 of the Eora nation. I’d like to take this opportunity to
                 acknowledge the traditional owners of country throughout
                 Australia and pay my respects to elders past, present and

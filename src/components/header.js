@@ -19,7 +19,7 @@ const Header = () => {
             </p>
             <a href="mailto:mail@aaronroot.net" className="button top">
               <span className="linkIcon" />
-              <span className="text">Get in Contact</span>
+              <span className="text">Get in touch</span>
             </a>
             <a
               href="https://www.linkedin.com/in/aaroot"

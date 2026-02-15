@@ -15,7 +15,7 @@ const ProjectOne = () => {
           <p>
             Trading is hard. Designing a trading platform isn't any easier. As
             Lead designer, I spent over three years helping IG design and build
-            a new generation of task orientated trading applications.
+            a new generation of task-oriented trading applications.
           </p>
           <ul>
             <li>

@@ -12,7 +12,7 @@ const Books = () => {
         <div className={styles.container}>
           <Navigation />
           <h1>Books</h1>
-          <p className="intro">46 read, 24 to go</p>
+          <p className="intro">A personal reading list.</p>
         </div>
         <div className={styles.bookGrid}>
           <div className={styles.vertical}>

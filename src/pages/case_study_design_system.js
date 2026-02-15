@@ -11,10 +11,11 @@ const DesignSystem = () => {
             <h1>Building a design system architecture that scales</h1>
             <p className="intro">
               IG offers a multitude of products, from native apps to web-based
-              trading platforms. As the company expanded to 17 glFormation, IG’s
+              trading platforms. As the company expanded to 17 global offices,
+              Formation, IG’s
               design system, was created to unify these platforms, foster a
               shared understanding of design principles, and enable teams to
-              work more efficiently..
+              work more efficiently.
             </p>
           </section>
           <StaticImage
@@ -167,11 +168,11 @@ const DesignSystem = () => {
             <h2>Formation</h2>
             <p>
               Once IG's brand elements, patterns and principles had been agreed,
-              they needed to documented. The first option was to build a custom
+              they needed to be documented. The first option was to build a custom
               framework and CMS. This would have made Formation the first
-              'product' designed and built using the new design system – a great
-              way to test and 'dogfood' our principles . Unfortunately, due to
-              time restrictions, Frontify's ready made solution was the obvious
+              'product' designed and built using the new design system - a great
+              way to test and 'dogfood' our principles. Unfortunately, due to
+              time restrictions, Frontify's ready-made solution was the obvious
               MVP.
             </p>
           </section>
@@ -213,8 +214,8 @@ const DesignSystem = () => {
             <p>
               A component can be a button, header, search box, icon or other
               piece of UI that can be wrapped in re-usable, well-tested and
-              consistent looking code. Smaller components are easier to design,
-              test and reuse, but in some cases it larger components can be
+              consistent-looking code. Smaller components are easier to design,
+              test and reuse, but in some cases larger components can be
               useful if they are repeated throughout a company's digital estate.
             </p>
           </section>
