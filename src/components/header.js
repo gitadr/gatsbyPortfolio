@@ -12,7 +12,7 @@ const Header = () => {
             <h1>Hello, world!</h1>
             <p className={styles.intro}>
               I'm Aaron Root, VP of Design at{" "}
-              <a href="http://www.nearmap.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.nearmap.com" target="_blank" rel="noopener noreferrer">
                 Nearmap
               </a>
               . I help teams create thoughtful and empowering products.

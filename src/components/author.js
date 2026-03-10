@@ -11,7 +11,7 @@ const Author = () => {
       <div className={styles.bio}>
         <p className="intro">
           Hi, I'm Aaron. VP of Design at{" "}
-          <a href="http://www.nearmap.com" target="_blank" rel="noreferrer">
+          <a href="https://www.nearmap.com" target="_blank" rel="noopener noreferrer">
             Nearmap
           </a>
           . I help teams create thoughtful and empowering products.
